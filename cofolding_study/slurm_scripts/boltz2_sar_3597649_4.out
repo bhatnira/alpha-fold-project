@@ -1,385 +1,0 @@
-==========================================
-Boltz-2 SAR Affinity Predictions
-Started: Sat Sep 12 02:44:06 AM EDT 2026
-Job ID: 3601328
-Array ID: 4
-Node: pax049
-GPU: 0
-==========================================
-Total YAML files: 180
-Processing YAML files 40 to 49
-
-[02:44:06] Processing: site21/site21_cpd29_binary
-Checking input data.
-All inputs are already processed.
-Processing 0 inputs with 0 threads.
-0it [00:00, ?it/s]0it [00:00, ?it/s]
-Using bfloat16 Automatic Mixed Precision (AMP)
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-HPU available: False, using: 0 HPUs
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
-Running structure prediction for 1 input.
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
-You are using a CUDA device ('NVIDIA A100 80GB PCIe') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
-Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]/opt/miniforge/lib/python3.12/site-packages/cuequivariance_ops_torch/triangle_attention.py:165: UserWarning: Non-SM100f kernel expects bias to be float32 so it's going to be cast to torch.float32. Check if you can change your code for maximum performance.
-  warnings.warn(
-Predicting DataLoader 0: 100%|██████████| 1/1 [04:44<00:00,  0.00it/s]Number of failed examples: 0
-Predicting DataLoader 0: 100%|██████████| 1/1 [04:44<00:00,  0.00it/s]
-
-Predicting property: affinity
-
-Checking input data for affinity.
-Running affinity prediction for 1 input.
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
-/opt/miniforge/lib/python3.12/multiprocessing/popen_fork.py:66: DeprecationWarning: This process (pid=888348) is multi-threaded, use of fork() may lead to deadlocks in the child.
-  self.pid = os.fork()
-Predicting: |          | 0/? [00:00<?, ?it/s]/opt/miniforge/lib/python3.12/site-packages/torch/utils/data/_utils/pin_memory.py:57: DeprecationWarning: The argument 'device' of Tensor.pin_memory() is deprecated. Please do not pass this argument. (Triggered internally at /pytorch/aten/src/ATen/native/Memory.cpp:46.)
-  return data.pin_memory(device)
-/opt/miniforge/lib/python3.12/site-packages/torch/utils/data/_utils/pin_memory.py:57: DeprecationWarning: The argument 'device' of Tensor.is_pinned() is deprecated. Please do not pass this argument. (Triggered internally at /pytorch/aten/src/ATen/native/Memory.cpp:31.)
-  return data.pin_memory(device)
-Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0: 100%|██████████| 1/1 [00:16<00:00,  0.06it/s]Number of failed examples: 0
-Predicting DataLoader 0: 100%|██████████| 1/1 [00:16<00:00,  0.06it/s]
-  Completed: 02:50:21
-
-[02:50:21] Processing: site21/site21_cpd29_ternary
-Checking input data.
-All inputs are already processed.
-Processing 0 inputs with 0 threads.
-0it [00:00, ?it/s]0it [00:00, ?it/s]
-Using bfloat16 Automatic Mixed Precision (AMP)
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-HPU available: False, using: 0 HPUs
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
-Running structure prediction for 1 input.
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
-You are using a CUDA device ('NVIDIA A100 80GB PCIe') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
-Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]/opt/miniforge/lib/python3.12/site-packages/cuequivariance_ops_torch/triangle_attention.py:165: UserWarning: Non-SM100f kernel expects bias to be float32 so it's going to be cast to torch.float32. Check if you can change your code for maximum performance.
-  warnings.warn(
-Predicting DataLoader 0: 100%|██████████| 1/1 [04:47<00:00,  0.00it/s]Number of failed examples: 0
-Predicting DataLoader 0: 100%|██████████| 1/1 [04:47<00:00,  0.00it/s]
-
-Predicting property: affinity
-
-Checking input data for affinity.
-Running affinity prediction for 1 input.
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
-/opt/miniforge/lib/python3.12/multiprocessing/popen_fork.py:66: DeprecationWarning: This process (pid=888709) is multi-threaded, use of fork() may lead to deadlocks in the child.
-  self.pid = os.fork()
-Predicting: |          | 0/? [00:00<?, ?it/s]/opt/miniforge/lib/python3.12/site-packages/torch/utils/data/_utils/pin_memory.py:57: DeprecationWarning: The argument 'device' of Tensor.pin_memory() is deprecated. Please do not pass this argument. (Triggered internally at /pytorch/aten/src/ATen/native/Memory.cpp:46.)
-  return data.pin_memory(device)
-/opt/miniforge/lib/python3.12/site-packages/torch/utils/data/_utils/pin_memory.py:57: DeprecationWarning: The argument 'device' of Tensor.is_pinned() is deprecated. Please do not pass this argument. (Triggered internally at /pytorch/aten/src/ATen/native/Memory.cpp:31.)
-  return data.pin_memory(device)
-Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0: 100%|██████████| 1/1 [00:15<00:00,  0.06it/s]Number of failed examples: 0
-Predicting DataLoader 0: 100%|██████████| 1/1 [00:15<00:00,  0.06it/s]
-  Completed: 02:56:37
-
-[02:56:37] Processing: site21/site21_cpd2_binary
-Checking input data.
-All inputs are already processed.
-Processing 0 inputs with 0 threads.
-0it [00:00, ?it/s]0it [00:00, ?it/s]
-Using bfloat16 Automatic Mixed Precision (AMP)
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-HPU available: False, using: 0 HPUs
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
-Running structure prediction for 1 input.
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
-You are using a CUDA device ('NVIDIA A100 80GB PCIe') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
-Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]/opt/miniforge/lib/python3.12/site-packages/cuequivariance_ops_torch/triangle_attention.py:165: UserWarning: Non-SM100f kernel expects bias to be float32 so it's going to be cast to torch.float32. Check if you can change your code for maximum performance.
-  warnings.warn(
-Predicting DataLoader 0: 100%|██████████| 1/1 [04:44<00:00,  0.00it/s]Number of failed examples: 0
-Predicting DataLoader 0: 100%|██████████| 1/1 [04:44<00:00,  0.00it/s]
-
-Predicting property: affinity
-
-Checking input data for affinity.
-Running affinity prediction for 1 input.
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
-/opt/miniforge/lib/python3.12/multiprocessing/popen_fork.py:66: DeprecationWarning: This process (pid=889230) is multi-threaded, use of fork() may lead to deadlocks in the child.
-  self.pid = os.fork()
-Predicting: |          | 0/? [00:00<?, ?it/s]/opt/miniforge/lib/python3.12/site-packages/torch/utils/data/_utils/pin_memory.py:57: DeprecationWarning: The argument 'device' of Tensor.pin_memory() is deprecated. Please do not pass this argument. (Triggered internally at /pytorch/aten/src/ATen/native/Memory.cpp:46.)
-  return data.pin_memory(device)
-/opt/miniforge/lib/python3.12/site-packages/torch/utils/data/_utils/pin_memory.py:57: DeprecationWarning: The argument 'device' of Tensor.is_pinned() is deprecated. Please do not pass this argument. (Triggered internally at /pytorch/aten/src/ATen/native/Memory.cpp:31.)
-  return data.pin_memory(device)
-Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0: 100%|██████████| 1/1 [00:15<00:00,  0.06it/s]Number of failed examples: 0
-Predicting DataLoader 0: 100%|██████████| 1/1 [00:15<00:00,  0.06it/s]
-  Completed: 03:02:52
-
-[03:02:52] Processing: site21/site21_cpd2_ternary
-Checking input data.
-All inputs are already processed.
-Processing 0 inputs with 0 threads.
-0it [00:00, ?it/s]0it [00:00, ?it/s]
-Using bfloat16 Automatic Mixed Precision (AMP)
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-HPU available: False, using: 0 HPUs
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
-Running structure prediction for 1 input.
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
-You are using a CUDA device ('NVIDIA A100 80GB PCIe') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
-Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]/opt/miniforge/lib/python3.12/site-packages/cuequivariance_ops_torch/triangle_attention.py:165: UserWarning: Non-SM100f kernel expects bias to be float32 so it's going to be cast to torch.float32. Check if you can change your code for maximum performance.
-  warnings.warn(
-Predicting DataLoader 0: 100%|██████████| 1/1 [04:47<00:00,  0.00it/s]Number of failed examples: 0
-Predicting DataLoader 0: 100%|██████████| 1/1 [04:47<00:00,  0.00it/s]
-
-Predicting property: affinity
-
-Checking input data for affinity.
-Running affinity prediction for 1 input.
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
-/opt/miniforge/lib/python3.12/multiprocessing/popen_fork.py:66: DeprecationWarning: This process (pid=889560) is multi-threaded, use of fork() may lead to deadlocks in the child.
-  self.pid = os.fork()
-Predicting: |          | 0/? [00:00<?, ?it/s]/opt/miniforge/lib/python3.12/site-packages/torch/utils/data/_utils/pin_memory.py:57: DeprecationWarning: The argument 'device' of Tensor.pin_memory() is deprecated. Please do not pass this argument. (Triggered internally at /pytorch/aten/src/ATen/native/Memory.cpp:46.)
-  return data.pin_memory(device)
-/opt/miniforge/lib/python3.12/site-packages/torch/utils/data/_utils/pin_memory.py:57: DeprecationWarning: The argument 'device' of Tensor.is_pinned() is deprecated. Please do not pass this argument. (Triggered internally at /pytorch/aten/src/ATen/native/Memory.cpp:31.)
-  return data.pin_memory(device)
-Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0: 100%|██████████| 1/1 [00:15<00:00,  0.06it/s]Number of failed examples: 0
-Predicting DataLoader 0: 100%|██████████| 1/1 [00:15<00:00,  0.06it/s]
-  Completed: 03:09:10
-
-[03:09:10] Processing: site21/site21_cpd30_binary
-Checking input data.
-All inputs are already processed.
-Processing 0 inputs with 0 threads.
-0it [00:00, ?it/s]0it [00:00, ?it/s]
-Using bfloat16 Automatic Mixed Precision (AMP)
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-HPU available: False, using: 0 HPUs
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
-Running structure prediction for 1 input.
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
-You are using a CUDA device ('NVIDIA A100 80GB PCIe') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
-Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]/opt/miniforge/lib/python3.12/site-packages/cuequivariance_ops_torch/triangle_attention.py:165: UserWarning: Non-SM100f kernel expects bias to be float32 so it's going to be cast to torch.float32. Check if you can change your code for maximum performance.
-  warnings.warn(
-Predicting DataLoader 0: 100%|██████████| 1/1 [05:09<00:00,  0.00it/s]Number of failed examples: 0
-Predicting DataLoader 0: 100%|██████████| 1/1 [05:09<00:00,  0.00it/s]
-
-Predicting property: affinity
-
-Checking input data for affinity.
-Running affinity prediction for 1 input.
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
-/opt/miniforge/lib/python3.12/multiprocessing/popen_fork.py:66: DeprecationWarning: This process (pid=890124) is multi-threaded, use of fork() may lead to deadlocks in the child.
-  self.pid = os.fork()
-Predicting: |          | 0/? [00:00<?, ?it/s]/opt/miniforge/lib/python3.12/site-packages/torch/utils/data/_utils/pin_memory.py:57: DeprecationWarning: The argument 'device' of Tensor.pin_memory() is deprecated. Please do not pass this argument. (Triggered internally at /pytorch/aten/src/ATen/native/Memory.cpp:46.)
-  return data.pin_memory(device)
-/opt/miniforge/lib/python3.12/site-packages/torch/utils/data/_utils/pin_memory.py:57: DeprecationWarning: The argument 'device' of Tensor.is_pinned() is deprecated. Please do not pass this argument. (Triggered internally at /pytorch/aten/src/ATen/native/Memory.cpp:31.)
-  return data.pin_memory(device)
-Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0: 100%|██████████| 1/1 [00:15<00:00,  0.06it/s]Number of failed examples: 0
-Predicting DataLoader 0: 100%|██████████| 1/1 [00:15<00:00,  0.06it/s]
-  Completed: 03:15:45
-
-[03:15:45] Processing: site21/site21_cpd30_ternary
-Checking input data.
-All inputs are already processed.
-Processing 0 inputs with 0 threads.
-0it [00:00, ?it/s]0it [00:00, ?it/s]
-Using bfloat16 Automatic Mixed Precision (AMP)
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-HPU available: False, using: 0 HPUs
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
-Running structure prediction for 1 input.
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
-You are using a CUDA device ('NVIDIA A100 80GB PCIe') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
-Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]/opt/miniforge/lib/python3.12/site-packages/cuequivariance_ops_torch/triangle_attention.py:165: UserWarning: Non-SM100f kernel expects bias to be float32 so it's going to be cast to torch.float32. Check if you can change your code for maximum performance.
-  warnings.warn(
-Predicting DataLoader 0: 100%|██████████| 1/1 [05:14<00:00,  0.00it/s]Number of failed examples: 0
-Predicting DataLoader 0: 100%|██████████| 1/1 [05:14<00:00,  0.00it/s]
-
-Predicting property: affinity
-
-Checking input data for affinity.
-Running affinity prediction for 1 input.
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
-/opt/miniforge/lib/python3.12/multiprocessing/popen_fork.py:66: DeprecationWarning: This process (pid=890803) is multi-threaded, use of fork() may lead to deadlocks in the child.
-  self.pid = os.fork()
-Predicting: |          | 0/? [00:00<?, ?it/s]/opt/miniforge/lib/python3.12/site-packages/torch/utils/data/_utils/pin_memory.py:57: DeprecationWarning: The argument 'device' of Tensor.pin_memory() is deprecated. Please do not pass this argument. (Triggered internally at /pytorch/aten/src/ATen/native/Memory.cpp:46.)
-  return data.pin_memory(device)
-/opt/miniforge/lib/python3.12/site-packages/torch/utils/data/_utils/pin_memory.py:57: DeprecationWarning: The argument 'device' of Tensor.is_pinned() is deprecated. Please do not pass this argument. (Triggered internally at /pytorch/aten/src/ATen/native/Memory.cpp:31.)
-  return data.pin_memory(device)
-Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0: 100%|██████████| 1/1 [00:16<00:00,  0.06it/s]Number of failed examples: 0
-Predicting DataLoader 0: 100%|██████████| 1/1 [00:16<00:00,  0.06it/s]
-  Completed: 03:22:23
-
-[03:22:23] Processing: site21/site21_cpd3_binary
-Checking input data.
-All inputs are already processed.
-Processing 0 inputs with 0 threads.
-0it [00:00, ?it/s]0it [00:00, ?it/s]
-Using bfloat16 Automatic Mixed Precision (AMP)
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-HPU available: False, using: 0 HPUs
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
-Running structure prediction for 1 input.
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
-You are using a CUDA device ('NVIDIA A100 80GB PCIe') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
-Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]/opt/miniforge/lib/python3.12/site-packages/cuequivariance_ops_torch/triangle_attention.py:165: UserWarning: Non-SM100f kernel expects bias to be float32 so it's going to be cast to torch.float32. Check if you can change your code for maximum performance.
-  warnings.warn(
-Predicting DataLoader 0: 100%|██████████| 1/1 [05:09<00:00,  0.00it/s]Number of failed examples: 0
-Predicting DataLoader 0: 100%|██████████| 1/1 [05:09<00:00,  0.00it/s]
-
-Predicting property: affinity
-
-Checking input data for affinity.
-Running affinity prediction for 1 input.
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
-/opt/miniforge/lib/python3.12/multiprocessing/popen_fork.py:66: DeprecationWarning: This process (pid=891146) is multi-threaded, use of fork() may lead to deadlocks in the child.
-  self.pid = os.fork()
-Predicting: |          | 0/? [00:00<?, ?it/s]/opt/miniforge/lib/python3.12/site-packages/torch/utils/data/_utils/pin_memory.py:57: DeprecationWarning: The argument 'device' of Tensor.pin_memory() is deprecated. Please do not pass this argument. (Triggered internally at /pytorch/aten/src/ATen/native/Memory.cpp:46.)
-  return data.pin_memory(device)
-/opt/miniforge/lib/python3.12/site-packages/torch/utils/data/_utils/pin_memory.py:57: DeprecationWarning: The argument 'device' of Tensor.is_pinned() is deprecated. Please do not pass this argument. (Triggered internally at /pytorch/aten/src/ATen/native/Memory.cpp:31.)
-  return data.pin_memory(device)
-Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0: 100%|██████████| 1/1 [00:16<00:00,  0.06it/s]Number of failed examples: 0
-Predicting DataLoader 0: 100%|██████████| 1/1 [00:16<00:00,  0.06it/s]
-  Completed: 03:28:56
-
-[03:28:56] Processing: site21/site21_cpd3_ternary
-Checking input data.
-All inputs are already processed.
-Processing 0 inputs with 0 threads.
-0it [00:00, ?it/s]0it [00:00, ?it/s]
-Using bfloat16 Automatic Mixed Precision (AMP)
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-HPU available: False, using: 0 HPUs
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
-Running structure prediction for 1 input.
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
-You are using a CUDA device ('NVIDIA A100 80GB PCIe') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
-Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]/opt/miniforge/lib/python3.12/site-packages/cuequivariance_ops_torch/triangle_attention.py:165: UserWarning: Non-SM100f kernel expects bias to be float32 so it's going to be cast to torch.float32. Check if you can change your code for maximum performance.
-  warnings.warn(
-Predicting DataLoader 0: 100%|██████████| 1/1 [05:14<00:00,  0.00it/s]Number of failed examples: 0
-Predicting DataLoader 0: 100%|██████████| 1/1 [05:14<00:00,  0.00it/s]
-
-Predicting property: affinity
-
-Checking input data for affinity.
-Running affinity prediction for 1 input.
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
-/opt/miniforge/lib/python3.12/multiprocessing/popen_fork.py:66: DeprecationWarning: This process (pid=891748) is multi-threaded, use of fork() may lead to deadlocks in the child.
-  self.pid = os.fork()
-Predicting: |          | 0/? [00:00<?, ?it/s]/opt/miniforge/lib/python3.12/site-packages/torch/utils/data/_utils/pin_memory.py:57: DeprecationWarning: The argument 'device' of Tensor.pin_memory() is deprecated. Please do not pass this argument. (Triggered internally at /pytorch/aten/src/ATen/native/Memory.cpp:46.)
-  return data.pin_memory(device)
-/opt/miniforge/lib/python3.12/site-packages/torch/utils/data/_utils/pin_memory.py:57: DeprecationWarning: The argument 'device' of Tensor.is_pinned() is deprecated. Please do not pass this argument. (Triggered internally at /pytorch/aten/src/ATen/native/Memory.cpp:31.)
-  return data.pin_memory(device)
-Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0: 100%|██████████| 1/1 [00:16<00:00,  0.06it/s]Number of failed examples: 0
-Predicting DataLoader 0: 100%|██████████| 1/1 [00:16<00:00,  0.06it/s]
-  Completed: 03:35:34
-
-[03:35:34] Processing: site21/site21_cpd4_binary
-Checking input data.
-All inputs are already processed.
-Processing 0 inputs with 0 threads.
-0it [00:00, ?it/s]0it [00:00, ?it/s]
-Using bfloat16 Automatic Mixed Precision (AMP)
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-HPU available: False, using: 0 HPUs
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
-Running structure prediction for 1 input.
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
-You are using a CUDA device ('NVIDIA A100 80GB PCIe') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
-Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]/opt/miniforge/lib/python3.12/site-packages/cuequivariance_ops_torch/triangle_attention.py:165: UserWarning: Non-SM100f kernel expects bias to be float32 so it's going to be cast to torch.float32. Check if you can change your code for maximum performance.
-  warnings.warn(
-Predicting DataLoader 0: 100%|██████████| 1/1 [05:12<00:00,  0.00it/s]Number of failed examples: 0
-Predicting DataLoader 0: 100%|██████████| 1/1 [05:12<00:00,  0.00it/s]
-
-Predicting property: affinity
-
-Checking input data for affinity.
-Running affinity prediction for 1 input.
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
-/opt/miniforge/lib/python3.12/multiprocessing/popen_fork.py:66: DeprecationWarning: This process (pid=892235) is multi-threaded, use of fork() may lead to deadlocks in the child.
-  self.pid = os.fork()
-Predicting: |          | 0/? [00:00<?, ?it/s]/opt/miniforge/lib/python3.12/site-packages/torch/utils/data/_utils/pin_memory.py:57: DeprecationWarning: The argument 'device' of Tensor.pin_memory() is deprecated. Please do not pass this argument. (Triggered internally at /pytorch/aten/src/ATen/native/Memory.cpp:46.)
-  return data.pin_memory(device)
-/opt/miniforge/lib/python3.12/site-packages/torch/utils/data/_utils/pin_memory.py:57: DeprecationWarning: The argument 'device' of Tensor.is_pinned() is deprecated. Please do not pass this argument. (Triggered internally at /pytorch/aten/src/ATen/native/Memory.cpp:31.)
-  return data.pin_memory(device)
-Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0: 100%|██████████| 1/1 [00:16<00:00,  0.06it/s]Number of failed examples: 0
-Predicting DataLoader 0: 100%|██████████| 1/1 [00:16<00:00,  0.06it/s]
-  Completed: 03:42:09
-
-[03:42:09] Processing: site21/site21_cpd4_ternary
-Checking input data.
-All inputs are already processed.
-Processing 0 inputs with 0 threads.
-0it [00:00, ?it/s]0it [00:00, ?it/s]
-Using bfloat16 Automatic Mixed Precision (AMP)
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-HPU available: False, using: 0 HPUs
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
-Running structure prediction for 1 input.
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
-You are using a CUDA device ('NVIDIA A100 80GB PCIe') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
-Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]/opt/miniforge/lib/python3.12/site-packages/cuequivariance_ops_torch/triangle_attention.py:165: UserWarning: Non-SM100f kernel expects bias to be float32 so it's going to be cast to torch.float32. Check if you can change your code for maximum performance.
-  warnings.warn(
-Predicting DataLoader 0: 100%|██████████| 1/1 [05:13<00:00,  0.00it/s]Number of failed examples: 0
-Predicting DataLoader 0: 100%|██████████| 1/1 [05:13<00:00,  0.00it/s]
-
-Predicting property: affinity
-
-Checking input data for affinity.
-Running affinity prediction for 1 input.
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-/opt/miniforge/lib/python3.12/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
-/opt/miniforge/lib/python3.12/multiprocessing/popen_fork.py:66: DeprecationWarning: This process (pid=892701) is multi-threaded, use of fork() may lead to deadlocks in the child.
-  self.pid = os.fork()
-Predicting: |          | 0/? [00:00<?, ?it/s]/opt/miniforge/lib/python3.12/site-packages/torch/utils/data/_utils/pin_memory.py:57: DeprecationWarning: The argument 'device' of Tensor.pin_memory() is deprecated. Please do not pass this argument. (Triggered internally at /pytorch/aten/src/ATen/native/Memory.cpp:46.)
-  return data.pin_memory(device)
-/opt/miniforge/lib/python3.12/site-packages/torch/utils/data/_utils/pin_memory.py:57: DeprecationWarning: The argument 'device' of Tensor.is_pinned() is deprecated. Please do not pass this argument. (Triggered internally at /pytorch/aten/src/ATen/native/Memory.cpp:31.)
-  return data.pin_memory(device)
-Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0: 100%|██████████| 1/1 [00:16<00:00,  0.06it/s]Number of failed examples: 0
-Predicting DataLoader 0: 100%|██████████| 1/1 [00:16<00:00,  0.06it/s]
-  Completed: 03:48:47
-
-==========================================
-Batch completed: Sat Sep 12 03:48:47 AM EDT 2026
-Results in: /cluster/home/nbhatt04/lean_pipeline/cofolding_study/results/boltz2
-==========================================

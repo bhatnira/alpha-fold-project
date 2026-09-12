@@ -45,4 +45,5 @@ __pycache__/
 
 # Misc
 *.zip
-.DS_Store
+.DS_Store*.out
+*.err
