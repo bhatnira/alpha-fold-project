@@ -1,0 +1,45 @@
+# Region annotations for alpha9alpha10 nAChR
+# Based on UniProt and structural annotations
+
+regions:
+  ligand_binding_pocket:
+    description: "Orthosteric ACh binding site"
+    residues_alpha9: ["W149", "Y188", "G151", "T150", "V152", "Y93", "W149"]
+    residues_alpha10: ["Y81", "L109", "P107", "T108", "Y75"]
+    
+  pam_binding_site:
+    description: "Candidate PAM site at alpha9/alpha10 ECD interface"
+    residues_alpha9: ["R176", "K175", "E120", "D224", "K217", "E57"]
+    residues_alpha10: ["E143", "D145", "E81"]
+    
+  ecd_tmd_interface:
+    description: "ECD-TMD coupling region"
+    residues_alpha9: ["C192", "C193", "P194", "L195"]
+    residues_alpha10: ["C132", "C133", "P134", "L135"]
+    
+  m2_helix:
+    description: "M2 pore-lining helix"
+    residues_alpha9: ["L251", "V255", "L258", "T262", "I265"]
+    residues_alpha10: ["L187", "V191", "L194", "T198", "I201"]
+    
+  gating_region:
+    description: "Channel gate"
+    residues_alpha9: ["L251", "V255"]
+    residues_alpha10: ["L187", "V191"]
+    
+  m1_m2_loop:
+    description: "M1-M2 intracellular loop"
+    residues_alpha9: ["K230", "D231", "E232"]
+    residues_alpha10: ["K166", "D167", "E168"]
+    
+  ecd_beta_sheets:
+    description: "ECD beta-sheet core"
+    residues_alpha9: ["D39", "N40", "T41", "V42", "L43"]
+    residues_alpha10: ["D29", "N30", "T31", "V32", "L33"]
+
+functional_annotations:
+  agonist_binding: "ligand_binding_pocket"
+  allosteric_modulation: "pam_binding_site"
+  gating: "gating_region"
+  pore: "m2_helix"
+  coupling: "ecd_tmd_interface"

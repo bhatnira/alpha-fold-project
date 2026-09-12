@@ -1,0 +1,1 @@
+["n_atoms", "n_protein_atoms", "n_ligand_atoms", "n_ca_atoms", "contact_count", "hbond_count", "hydrophobic_contacts", "polar_contacts", "min_distance", "mean_contact_distance", "n_residues_in_contact", "mean_bfactor", "std_bfactor", "max_bfactor"]

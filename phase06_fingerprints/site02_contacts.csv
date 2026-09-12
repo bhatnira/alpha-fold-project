@@ -1,0 +1,4 @@
+site,residue,subunit,residue_number,contact_frequency,n_models_contact,n_models_total,n_ligands_contact,ligands,ligand_freqs,af3_freq,boltz2_freq
+2,alpha9:110,alpha9,110,1.0,1,1,1,LASC_ANION,LASC_ANION:1.0,1.0,0.0
+2,alpha9:129,alpha9,129,1.0,1,1,1,LASC_ANION,LASC_ANION:1.0,1.0,0.0
+2,alpha9:132,alpha9,132,1.0,1,1,1,LASC_ANION,LASC_ANION:1.0,1.0,0.0

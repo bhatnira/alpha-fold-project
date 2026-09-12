@@ -1,0 +1,92 @@
+{
+  "method": "ensemble_docking_across_stoichiometries",
+  "description": "Docking robustness analysis using both 2to3 and 3to2 receptor models",
+  "n_compound_sites": 240,
+  "n_sites": 8,
+  "discrimination": {
+    "23": {
+      "active_mean": -6.564714285714286,
+      "inactive_mean": -6.787608695652175,
+      "delta": -0.22289440993788823,
+      "direction": "inactive_binds_stronger",
+      "n_active": 7,
+      "n_inactive": 23,
+      "separation_achieved": false
+    },
+    "5": {
+      "active_mean": -7.8435,
+      "inactive_mean": -8.228282608695652,
+      "delta": -0.3847826086956525,
+      "direction": "inactive_binds_stronger",
+      "n_active": 7,
+      "n_inactive": 23,
+      "separation_achieved": false
+    },
+    "21": {
+      "active_mean": -7.0055,
+      "inactive_mean": -7.511630434782609,
+      "delta": -0.5061304347826097,
+      "direction": "inactive_binds_stronger",
+      "n_active": 7,
+      "n_inactive": 23,
+      "separation_achieved": false
+    },
+    "34": {
+      "active_mean": -9.185999999999998,
+      "inactive_mean": -9.795108695652173,
+      "delta": -0.609108695652175,
+      "direction": "inactive_binds_stronger",
+      "n_active": 7,
+      "n_inactive": 23,
+      "separation_achieved": false
+    },
+    "35": {
+      "active_mean": -9.213285714285714,
+      "inactive_mean": -9.838152173913043,
+      "delta": -0.624866459627329,
+      "direction": "inactive_binds_stronger",
+      "n_active": 7,
+      "n_inactive": 23,
+      "separation_achieved": false
+    },
+    "18": {
+      "active_mean": -7.065857142857142,
+      "inactive_mean": -7.2633913043478255,
+      "delta": -0.19753416149068315,
+      "direction": "inactive_binds_stronger",
+      "n_active": 7,
+      "n_inactive": 23,
+      "separation_achieved": false
+    },
+    "25": {
+      "active_mean": -7.1254285714285714,
+      "inactive_mean": -7.6709130434782615,
+      "delta": -0.5454844720496901,
+      "direction": "inactive_binds_stronger",
+      "n_active": 7,
+      "n_inactive": 23,
+      "separation_achieved": false
+    },
+    "11": {
+      "active_mean": -7.946642857142857,
+      "inactive_mean": -8.279347826086957,
+      "delta": -0.33270496894409973,
+      "direction": "inactive_binds_stronger",
+      "n_active": 7,
+      "n_inactive": 23,
+      "separation_achieved": false
+    }
+  },
+  "sites_with_separation": [],
+  "sites_without_separation": [
+    "23",
+    "5",
+    "21",
+    "34",
+    "35",
+    "18",
+    "25",
+    "11"
+  ],
+  "note": "Since Vina CLI is unavailable, ensemble analysis uses existing docking data across both stoichiometries"
+}

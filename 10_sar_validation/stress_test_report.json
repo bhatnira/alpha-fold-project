@@ -1,0 +1,23 @@
+{
+  "strongest_compounds": [
+    {
+      "id": "12",
+      "activity_uM": 0.1981,
+      "potentiation": 150,
+      "type": "alkynyl"
+    },
+    {
+      "id": "25",
+      "activity_uM": 2.63,
+      "potentiation": 180,
+      "type": "bromo"
+    }
+  ],
+  "stress_test_result": "Site 23 naturally accommodates the strongest compounds",
+  "model_consistency": "The proposed binding mode explains why ID 12 is highly potent",
+  "key_features": [
+    "ID 12: Small alkynyl group fits confined pocket",
+    "ID 25: Bromo substitution provides favorable interactions",
+    "Extended chains (IDs 4-17) clash with pocket walls"
+  ]
+}

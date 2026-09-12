@@ -1,0 +1,40 @@
+{
+  "total_dockings": 240,
+  "ligands_docked": [
+    "ascorbate",
+    "acetate",
+    "O-ethyl_ascorbate"
+  ],
+  "by_ligand_stats": {
+    "ascorbate": {
+      "n": 80,
+      "mean": -4.8055375,
+      "min": -6.835,
+      "max": 23.239
+    },
+    "acetate": {
+      "n": 80,
+      "mean": -2.2165749999999997,
+      "min": -3.182,
+      "max": -0.767
+    },
+    "O-ethyl_ascorbate": {
+      "n": 80,
+      "mean": -4.5550875,
+      "min": -7.957,
+      "max": 59.705
+    }
+  },
+  "overall_energy_stats": {
+    "mean": -3.8590666666666698,
+    "min": -7.957,
+    "max": 59.705,
+    "n": 240
+  },
+  "active_vs_inactive": {},
+  "docking_protocol": "AutoDock Vina rigid docking",
+  "receptor_structures": [
+    "a9a10_2to3_apo_reference",
+    "a9a10_3to2_apo_reference"
+  ]
+}

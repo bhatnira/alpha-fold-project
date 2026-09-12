@@ -1,0 +1,49 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   144:
+HEADER 0  - Pocket Score                      : -0.1772
+HEADER 1  - Drug Score                        : 0.0294
+HEADER 2  - Number of alpha spheres           :    37
+HEADER 3  - Mean alpha-sphere radius          : 4.1145
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6367
+HEADER 5  - Mean B-factor of pocket residues  : 0.7549
+HEADER 6  - Hydrophobicity Score              : 54.2500
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.2500
+HEADER 9  - Pocket volume (Monte Carlo)       : 330.9724
+HEADER 10 - Pocket volume (convex hull)       : 21.9072
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 25.0000
+HEADER 13 - Number of apolar alpha sphere     :    26
+HEADER 14 - Proportion of apolar alpha sphere : 0.7027
+ATOM   3807   CB LEU A 473     -16.968 -21.302 -12.884  0.00  0.00           C 0
+ATOM   2390  CD1 LEU A 298     -18.843 -17.202  -7.034  0.00  0.00           C 0
+ATOM   3842  NH2 ARG A 477     -23.841 -19.949  -8.750  0.00  0.00           N 0
+ATOM   3810  CD2 LEU A 473     -18.682 -23.145 -13.207  0.00  0.00           C 0
+ATOM   3839   NE ARG A 477     -22.914 -18.402 -10.148  0.59  3.28           N 0
+ATOM   3837   CG ARG A 477     -21.429 -16.797 -11.308  0.00  0.00           C 0
+ATOM   3806    O LEU A 473     -18.851 -18.650 -12.977  0.52  2.14           O 0
+ATOM   3805    C LEU A 473     -17.710 -18.941 -13.323  0.00  0.00           C 0
+ATOM   3784   CB MET A 470     -11.432 -21.531 -12.144  0.00  0.00           C 0
+ATOM   3785   CG MET A 470     -11.202 -22.798 -11.314  0.00  0.00           C 0
+ATOM   3809  CD1 LEU A 473     -16.483 -23.657 -12.209  0.00  0.00           C 0
+ATOM   3781   CA MET A 470     -12.629 -21.631 -13.085  0.00  0.00           C 0
+ATOM   3783    O MET A 470     -13.839 -19.562 -13.171  0.88  2.14           O 0
+ATOM   2408   CB LYS A 301     -15.085 -18.473  -3.667  0.00  0.00           C 0
+ATOM   2413    N TYR A 302     -12.969 -17.414  -5.784  0.00  0.00           N 0
+ATOM   2387    O LEU A 298     -15.532 -15.841  -5.875  0.00  0.00           O 0
+ATOM   2406    C LYS A 301     -12.819 -18.216  -4.731  0.00  0.00           C 0
+ATOM   2407    O LYS A 301     -12.030 -19.160  -4.709  0.49  3.21           O 0
+ATOM   3786   SD MET A 470     -10.071 -22.599  -9.917  0.00  0.00           S 0
+ATOM   2420  CD2 TYR A 302     -11.842 -17.618 -10.233  0.00  0.00           C 0
+ATOM   2449   CB ALA A 305     -10.528 -21.636  -6.220  0.00  0.00           C 0
+ATOM   2414   CA TYR A 302     -12.162 -17.553  -6.998  0.00  0.00           C 0
+ATOM   2417   CB TYR A 302     -12.700 -16.608  -8.077  0.00  0.00           C 0
+ATOM   3818  CD1 ILE A 474     -14.830 -14.701 -10.018  0.00  0.00           C 0
+ATOM   3815   CB ILE A 474     -15.563 -16.287 -11.904  0.00  0.00           C 0
+ATOM   3811    N ILE A 474     -16.683 -18.105 -13.179  0.00  0.00           N 0
+ATOM   3812   CA ILE A 474     -16.849 -16.766 -12.611  0.00  0.00           C 0
+TER
+END

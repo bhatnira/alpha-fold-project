@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.0753
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.5615
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4608
+HEADER 5  - Mean B-factor of pocket residues  : 0.9096
+HEADER 6  - Hydrophobicity Score              : 24.2222
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.7778
+HEADER 9  - Pocket volume (Monte Carlo)       : 165.9175
+HEADER 10 - Pocket volume (convex hull)       : 8.9483
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM  16179    N GLY E 188     -42.768  20.421  -7.558  0.55  1.09           N 0
+ATOM  16170    C ARG E 187     -43.795  21.047  -7.018  0.00  0.00           C 0
+ATOM  16173   CG ARG E 187     -43.663  23.463  -5.116  0.00  0.00           C 0
+ATOM  16171    O ARG E 187     -44.614  21.670  -7.685  0.38  3.21           O 0
+ATOM  15163  OE1 GLU E  60     -38.873  25.022  -4.937  0.48  7.50           O 0
+ATOM  16172   CB ARG E 187     -43.121  22.063  -4.802  0.00  0.00           C 0
+ATOM  16180   CA GLY E 188     -42.472  20.370  -8.987  0.00  0.00           C 0
+ATOM  16191    O ALA E 190     -38.145  19.531  -8.710  0.35  8.57           O 0
+ATOM  15151    O LEU E  59     -41.624  19.071  -2.727  0.00  0.00           O 0
+ATOM  15157   CA GLU E  60     -39.516  20.897  -2.318  0.00  0.00           C 0
+ATOM  16202   CB SER E 192     -34.562  23.729  -7.011  0.00  0.00           C 0
+ATOM  16198    N SER E 192     -34.940  21.328  -7.403  0.00  0.00           N 0
+ATOM  16494  CE1 PHE E 228     -37.831  16.266  -5.256  0.00  0.00           C 0
+ATOM  16199   CA SER E 192     -34.259  22.524  -7.898  0.00  0.00           C 0
+ATOM  16165   CB PRO E 186     -42.792  16.412  -5.694  0.00  0.00           C 0
+ATOM  16182    O GLY E 188     -42.301  17.975  -8.722  0.74  1.07           O 0
+ATOM  16168    N ARG E 187     -43.484  19.656  -4.965  0.00  0.00           N 0
+ATOM  15165    N VAL E  61     -37.300  20.006  -2.742  0.61  1.09           N 0
+ATOM  15161   CG GLU E  60     -38.845  23.067  -3.537  0.00  0.00           C 0
+TER
+END

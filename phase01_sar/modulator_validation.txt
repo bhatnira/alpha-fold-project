@@ -1,0 +1,67 @@
+MODULATOR DATASET VALIDATION
+============================================================
+
+Total compounds:       30
+Active (EC50>0, pot>0): 7
+Inactive (EC50=0):     23
+Mapped to SAR ligand:  11
+
+SMILES mapping quality:
+  Mean Tanimoto similarity: 0.5772
+  Min: 0.4627  Max: 0.7115
+
+CORRELATION: pIC50 vs enrichment (active compounds with enrichment)
+  Spearman rho = 0.8750
+  N = 3
+  Interpretation: STRONG
+
+CORRELATION: %Potentiation vs enrichment (active compounds with enrichment)
+  Spearman rho = 0.1250
+  N = 3
+  Interpretation: WEAK
+
+ACTIVE vs INACTIVE DISCRIMINATION:
+  Active  enrichment: mean=1.46  max=3.66
+  Inactive enrichment: mean=1.17  max=3.66
+  Active  evidence:   mean=0.1551
+  Inactive evidence:  mean=0.1307
+
+TOP ACTIVE COMPOUNDS (by enrichment):
+  ID   EC50(uM)   pIC50    %Pot   Enrich  Site Evidence     Mapped    Sim
+   2    1316.00    2.88   300.0     3.66     2   0.3565      L-ASC 0.4898
+  25       2.63    5.58   180.0     3.66     2   0.3565      L-ASC 0.6786
+   1    1797.00    2.75   286.0     2.88     4   0.3725    O-ETHYL 0.4627
+   3    6077.00    2.22   293.0     0.00   N/A   0.0000   UNMAPPED 0.4143
+  12       0.20    6.70   150.0     0.00   N/A   0.0000   UNMAPPED 0.3146
+  18    1288.00    2.89   500.0     0.00   N/A   0.0000   UNMAPPED 0.4390
+  24    1202.00    2.92   190.0     0.00   N/A   0.0000   UNMAPPED 0.4085
+
+INACTIVE COMPOUNDS (23): 8 mapped, 15 unmapped
+  ID=  4  enrichment=3.66  site=2  mapped=L-ASC  sim=0.5000
+  ID= 19  enrichment=2.88  site=4  mapped=O-ETHYL  sim=0.5072
+  ID= 20  enrichment=2.88  site=4  mapped=O-ETHYL  sim=0.5000
+  ID= 22  enrichment=2.88  site=4  mapped=O-ETHYL  sim=0.4925
+  ID= 23  enrichment=3.66  site=14  mapped=D-ASC  sim=0.6957
+  ID= 26  enrichment=3.66  site=14  mapped=D-ASC  sim=0.6154
+  ID= 28  enrichment=3.66  site=14  mapped=D-ASC  sim=0.6957
+  ID= 29  enrichment=3.66  site=14  mapped=D-ASC  sim=0.7115
+
+SITES SHOWING MOLECULAR RECOGNITION (L-ASC enriches + stereo preference): 12
+  site 23  ev=0.6272  L-ASC=1.35  acet=0.30  L/D=1.12  L/acet=4.57
+  site  5  ev=0.5107  L-ASC=2.54  acet=0.00  L/D=1.33  L/acet=0.00
+  site  7  ev=0.4757  L-ASC=2.61  acet=0.00  L/D=1.88  L/acet=0.00
+  site 25  ev=0.4513  L-ASC=1.65  acet=0.47  L/D=1.17  L/acet=3.55
+  site 14  ev=0.3830  L-ASC=1.83  acet=0.00  L/D=0.50  L/acet=0.00
+  site 15  ev=0.3830  L-ASC=1.83  acet=0.00  L/D=0.50  L/acet=0.00
+  site 16  ev=0.3708  L-ASC=1.22  acet=0.00  L/D=0.50  L/acet=0.00
+  site  6  ev=0.3685  L-ASC=1.83  acet=0.00  L/D=0.00  L/acet=0.00
+  site 30  ev=0.3602  L-ASC=1.83  acet=0.00  L/D=0.00  L/acet=0.00
+  site  2  ev=0.3565  L-ASC=3.66  acet=0.00  L/D=0.00  L/acet=0.00
+  site  9  ev=0.3313  L-ASC=3.66  acet=0.00  L/D=0.00  L/acet=0.00
+  site 39  ev=0.3285  L-ASC=2.44  acet=0.00  L/D=1.00  L/acet=0.00
+
+VALIDATION CONCLUSION:
+  Best validated site: 23 (evidence=0.6272)
+  L-ASC enrichment: 1.35
+  Stereo selectivity (L/D): 1.12
+

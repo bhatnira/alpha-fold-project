@@ -1,0 +1,72 @@
+{
+  "total_prospective_compounds": 13,
+  "design_strategies": [
+    "Scaffold hopping from ascorbate core",
+    "R-group enumeration",
+    "Fragment-based growing",
+    "Pharmacophore-constrained generation"
+  ],
+  "ranking_criteria": {
+    "pharmacophore_fit": "Weight: 0.4",
+    "molecular_weight": "Weight: 0.2",
+    "logP": "Weight: 0.2",
+    "drug_likeness": "Weight: 0.2"
+  },
+  "top_compounds": [
+    {
+      "molecule_id": "MOL_0011",
+      "smiles": "O=C1O[C@H]([C@@H](O)CO)C(OC2CCNCC2)=C1O",
+      "pharmacophore_fit": "1.0",
+      "mw": "259.26",
+      "logp": "-1.2",
+      "hbd": "4",
+      "hba": "7",
+      "design_score": "0.824"
+    },
+    {
+      "molecule_id": "MOL_0005",
+      "smiles": "NOC1=C(O)C(=O)O[C@@H]1[C@@H](O)CO",
+      "pharmacophore_fit": "1.0",
+      "mw": "191.14",
+      "logp": "-2.08",
+      "hbd": "4",
+      "hba": "7",
+      "design_score": "0.799"
+    },
+    {
+      "molecule_id": "MOL_0012",
+      "smiles": "O=C1O[C@H]([C@@H](O)CO)C(OC2COCCN2)=C1O",
+      "pharmacophore_fit": "1.0",
+      "mw": "261.23",
+      "logp": "-2.0",
+      "hbd": "4",
+      "hba": "8",
+      "design_score": "0.776"
+    },
+    {
+      "molecule_id": "MOL_0009",
+      "smiles": "O=C1O[C@H]([C@@H](O)CO)C(Oc2ccccc2)=C1O",
+      "pharmacophore_fit": "0.667",
+      "mw": "252.22",
+      "logp": "0.11",
+      "hbd": "3",
+      "hba": "6",
+      "design_score": "0.726"
+    },
+    {
+      "molecule_id": "MOL_0003",
+      "smiles": "CCCOC1=C(O)C(=O)O[C@@H]1[C@@H](O)CO",
+      "pharmacophore_fit": "0.667",
+      "mw": "218.2",
+      "logp": "-0.54",
+      "hbd": "3",
+      "hba": "6",
+      "design_score": "0.714"
+    }
+  ],
+  "filtering": {
+    "lipinski": "All pass",
+    "pharmacophore": "Top 3 have perfect fit (1.0)",
+    "synthetic_accessibility": "All feasible"
+  }
+}

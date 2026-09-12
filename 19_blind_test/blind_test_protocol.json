@@ -1,0 +1,51 @@
+{
+  "protocol_version": "1.0",
+  "created": "2026-09-06T09:36:41.129036",
+  "objective": "Prospective experimental validation of computational predictions",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Select top-ranked compounds from screening",
+      "status": "COMPLETE",
+      "note": "Compounds ranked in phase31_prospective_screening"
+    },
+    {
+      "step": 2,
+      "action": "Freeze all computational predictions before experimental testing",
+      "status": "COMPLETE",
+      "note": "Predictions frozen in blind_predictions.json"
+    },
+    {
+      "step": 3,
+      "action": "Experimental electrophysiology testing",
+      "status": "PENDING",
+      "note": "Requires wet lab work"
+    },
+    {
+      "step": 4,
+      "action": "Compare predicted vs experimental activity",
+      "status": "PENDING",
+      "note": "Will be completed after experimental results"
+    },
+    {
+      "step": 5,
+      "action": "Report prospective validation success rate",
+      "status": "PENDING",
+      "note": "Final validation metric"
+    }
+  ],
+  "predictions_frozen_date": "2026-09-05",
+  "prediction_summary": {
+    "n_compounds_predicted": 3,
+    "predicted_active": [
+      "MOL_0011",
+      "MOL_0005",
+      "MOL_0012"
+    ],
+    "predicted_site": "Site 23",
+    "predicted_interface": "alpha9(+)/alpha10(-) ECD",
+    "predicted_stoichiometry": "2to3",
+    "predicted_state": "resting-like",
+    "predicted_ach_dependence": "ACh-dependent potentiation"
+  }
+}

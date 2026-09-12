@@ -1,0 +1,33 @@
+MODEL 1
+REMARK VINA RESULT:    -9.041      0.000      0.000
+REMARK INTER + INTRA:          -9.041
+REMARK INTER:                  -9.041
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+ROOT
+HETATM    1  C1  UNL     1      20.949 -14.939  16.663  1.00  0.00           C
+HETATM    2  C2  UNL     1      20.280 -13.595  16.406  1.00  0.00           C
+HETATM    3  O1  UNL     1      18.906 -13.807  16.048  1.00  0.00          OA
+HETATM    4  C3  UNL     1      18.155 -13.419  17.214  1.00  0.00           C
+HETATM    5  C4  UNL     1      16.736 -12.994  16.824  1.00  0.00           C
+HETATM    6  O2  UNL     1      16.006 -14.161  16.385  1.00  0.00          OA
+HETATM    7  C5  UNL     1      14.917 -14.336  17.173  1.00  0.00           C
+HETATM    8  O3  UNL     1      14.097 -15.236  17.104  1.00  0.00          OA
+HETATM    9  C6  UNL     1      14.850 -13.247  18.157  1.00  0.00           C
+HETATM   10  O4  UNL     1      13.846 -13.126  19.074  1.00  0.00          OA
+HETATM   11  C7  UNL     1      15.907 -12.460  17.943  1.00  0.00           C
+HETATM   12  O5  UNL     1      16.303 -11.298  18.543  1.00  0.00          OA
+HETATM   13  C8  UNL     1      15.480 -10.797  19.602  1.00  0.00           C
+HETATM   14  C9  UNL     1      16.123  -9.506  20.110  1.00  0.00           C
+HETATM   15  C10 UNL     1      15.417  -8.828  21.296  1.00  0.00           C
+HETATM   16  C11 UNL     1      13.935  -8.541  21.035  1.00  0.00           C
+HETATM   17  C12 UNL     1      13.322  -7.680  22.144  1.00  0.00           C
+HETATM   18  C13 UNL     1      13.972  -7.890  23.513  1.00  0.00           C
+HETATM   19  C14 UNL     1      14.532  -9.298  23.664  1.00  0.00           C
+HETATM   20  C15 UNL     1      15.603  -9.610  22.613  1.00  0.00           C
+HETATM   21  C16 UNL     1      19.015 -12.325  17.800  1.00  0.00           C
+HETATM   22  O6  UNL     1      20.347 -12.810  17.606  1.00  0.00          OA
+HETATM   23  C17 UNL     1      20.966 -12.841  15.274  1.00  0.00           C
+ENDROOT
+TORSDOF 0
+ENDMDL

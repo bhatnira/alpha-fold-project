@@ -1,0 +1,22 @@
+{
+  "name": "MOL_0002",
+  "sequences": [
+    {
+      "proteinChain": {
+        "sequence": "MISSING",
+        "count": 1
+      }
+    },
+    {
+      "ligandChain": {
+        "smiles": "CCOC1=C(O)C(=O)O[C@@H]1[C@@H](O)CO",
+        "count": 1
+      }
+    }
+  ],
+  "config": {
+    "recycling": 3,
+    "sampling_steps": 200,
+    "diffusion_samples": 1
+  }
+}

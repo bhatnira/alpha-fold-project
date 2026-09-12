@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    56:
+HEADER 0  - Pocket Score                      : -0.0749
+HEADER 1  - Drug Score                        : 0.0042
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8252
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6642
+HEADER 5  - Mean B-factor of pocket residues  : 0.7121
+HEADER 6  - Hydrophobicity Score              : 84.0000
+HEADER 7  - Polarity Score                    :     0
+HEADER 8  - Amino Acid based volume Score     : 4.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 175.5210
+HEADER 10 - Pocket volume (convex hull)       : 2.9950
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   7608   CG MET B 466      31.087   9.733  -0.497  0.00  0.00           C 0
+ATOM   7633   CB VAL B 469      31.124   9.793   5.915  0.00  0.00           C 0
+ATOM   7635  CG2 VAL B 469      32.630   9.523   6.006  0.00  0.00           C 0
+ATOM   7634  CG1 VAL B 469      30.900  11.228   6.406  0.00  0.00           C 0
+ATOM   7642   SD MET B 470      25.088  10.316   2.339  0.00  0.00           S 0
+ATOM   7641   CG MET B 470      26.213  10.245   3.758  0.00  0.00           C 0
+ATOM   7610   CE MET B 466      30.949  11.993  -2.078  0.00  0.00           C 0
+ATOM   7609   SD MET B 466      30.560  10.237  -2.148  0.00  0.00           S 0
+ATOM   6332  CD1 LEU B 309      26.998   8.452  -1.154  0.00  0.00           C 0
+ATOM   7607   CB MET B 466      30.165   8.688   0.132  0.00  0.00           C 0
+ATOM   7606    O MET B 466      28.898   8.301   3.214  0.00  0.00           O 0
+ATOM   7604   CA MET B 466      30.608   8.290   1.543  0.00  0.00           C 0
+ATOM   7601  CG2 ILE B 465      35.107   7.963   2.892  0.00  0.00           C 0
+TER
+END

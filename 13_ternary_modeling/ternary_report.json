@@ -1,0 +1,15 @@
+{
+  "current_state": "Only R+PAM models available",
+  "missing_states": [
+    "R+ACh",
+    "R+ACh+PAM"
+  ],
+  "predicted_effects": {
+    "ach_on_pam_pocket": "ACh binding at orthosteric site may alter ECD conformation at adjacent interfaces",
+    "pam_on_ach_site": "PAM binding at ECD interface may modulate ACh binding affinity",
+    "pocket_volume_change": "ECD inter-subunit pocket may expand/contract upon ACh binding",
+    "new_interactions": "ACh-induced conformational changes may create/destroy contact residues"
+  },
+  "structural_communication": "PAM site \u2192 ECD residues \u2192 inter-subunit interface \u2192 TMD coupling \u2192 M2 helix \u2192 pore",
+  "ternary_modeling_status": "Requires additional AF3/Boltz-2 runs with ACh + PAM"
+}

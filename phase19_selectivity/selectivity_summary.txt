@@ -1,0 +1,17 @@
+α9α10 SELECTIVITY ANALYSIS
+============================================================
+
+Score = 0.6 × evidence_score + 0.4 × subtype_score
+Higher = more α9α10-selective
+
+Top 10 most selective sites:
+  site 23  selectivity=0.4907  evidence=0.6272  subtype=0.2860  class=INTERMEDIATE
+  site 21  selectivity=0.4354  evidence=0.5350  subtype=0.2860  class=INTERMEDIATE
+  site  5  selectivity=0.4208  evidence=0.5107  subtype=0.2860  class=INTERMEDIATE
+  site 34  selectivity=0.4004  evidence=0.4767  subtype=0.2860  class=LOW_CONFIDENCE
+  site  7  selectivity=0.3998  evidence=0.4757  subtype=0.2860  class=LOW_CONFIDENCE
+  site 13  selectivity=0.3906  evidence=0.4603  subtype=0.2860  class=LOW_CONFIDENCE
+  site 25  selectivity=0.3852  evidence=0.4513  subtype=0.2860  class=LOW_CONFIDENCE
+  site 20  selectivity=0.3781  evidence=0.4395  subtype=0.2860  class=LOW_CONFIDENCE
+  site 22  selectivity=0.3769  evidence=0.4375  subtype=0.2860  class=LOW_CONFIDENCE
+  site 19  selectivity=0.3719  evidence=0.4292  subtype=0.2860  class=LOW_CONFIDENCE

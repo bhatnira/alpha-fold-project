@@ -1,0 +1,37 @@
+{
+  "phase": 10,
+  "title": "Site-Directed AF3 Modeling",
+  "total_predictions": 9,
+  "sites_tested": [
+    "site23"
+  ],
+  "status": "COMPLETE",
+  "details": {
+    "site23": {
+      "acetate_control": {
+        "n_models": 3,
+        "pdb_files": [
+          "/cluster/home/nbhatt04/lean_pipeline/08_site_directed_af3/yaml_inputs_v2/predictions/boltz_results_sd_site23_acetate_control/predictions/sd_site23_acetate_control/sd_site23_acetate_control_model_0.pdb",
+          "/cluster/home/nbhatt04/lean_pipeline/08_site_directed_af3/yaml_inputs_v2/predictions/boltz_results_sd_site23_acetate_control/predictions/sd_site23_acetate_control/sd_site23_acetate_control_model_1.pdb",
+          "/cluster/home/nbhatt04/lean_pipeline/08_site_directed_af3/yaml_inputs_v2/predictions/boltz_results_sd_site23_acetate_control/predictions/sd_site23_acetate_control/sd_site23_acetate_control_model_2.pdb"
+        ]
+      },
+      "ascorbate": {
+        "n_models": 3,
+        "pdb_files": [
+          "/cluster/home/nbhatt04/lean_pipeline/08_site_directed_af3/yaml_inputs_v2/predictions/boltz_results_sd_site23_ascorbate/predictions/sd_site23_ascorbate/sd_site23_ascorbate_model_0.pdb",
+          "/cluster/home/nbhatt04/lean_pipeline/08_site_directed_af3/yaml_inputs_v2/predictions/boltz_results_sd_site23_ascorbate/predictions/sd_site23_ascorbate/sd_site23_ascorbate_model_1.pdb",
+          "/cluster/home/nbhatt04/lean_pipeline/08_site_directed_af3/yaml_inputs_v2/predictions/boltz_results_sd_site23_ascorbate/predictions/sd_site23_ascorbate/sd_site23_ascorbate_model_2.pdb"
+        ]
+      },
+      "cpd12_potent": {
+        "n_models": 3,
+        "pdb_files": [
+          "/cluster/home/nbhatt04/lean_pipeline/08_site_directed_af3/yaml_inputs_v2/predictions/boltz_results_sd_site23_cpd12_potent/predictions/sd_site23_cpd12_potent/sd_site23_cpd12_potent_model_0.pdb",
+          "/cluster/home/nbhatt04/lean_pipeline/08_site_directed_af3/yaml_inputs_v2/predictions/boltz_results_sd_site23_cpd12_potent/predictions/sd_site23_cpd12_potent/sd_site23_cpd12_potent_model_1.pdb",
+          "/cluster/home/nbhatt04/lean_pipeline/08_site_directed_af3/yaml_inputs_v2/predictions/boltz_results_sd_site23_cpd12_potent/predictions/sd_site23_cpd12_potent/sd_site23_cpd12_potent_model_2.pdb"
+        ]
+      }
+    }
+  }
+}

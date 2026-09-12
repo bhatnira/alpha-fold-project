@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    52:
+HEADER 0  - Pocket Score                      : -0.0649
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8009
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6865
+HEADER 5  - Mean B-factor of pocket residues  : 0.0960
+HEADER 6  - Hydrophobicity Score              : 89.7500
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 6.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 243.0014
+HEADER 10 - Pocket volume (convex hull)       : 6.1768
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.8750
+ATOM   3969   CA TYR B  14      -1.292  15.706  82.244  0.00  0.00           C 0
+ATOM   3975  CD2 TYR B  14      -1.794  15.358  85.567  0.00  0.00           C 0
+ATOM   3956  CE3 TRP B  12       0.487  11.466  86.902  0.00  0.00           C 0
+ATOM   3963    O ILE B  13       0.954  14.522  81.024  0.43  9.64           O 0
+ATOM   3950   CB TRP B  12       2.668  13.753  85.841  0.00  0.00           C 0
+ATOM   3953  CD2 TRP B  12       1.884  11.411  86.775  0.00  0.00           C 0
+ATOM   3951   CG TRP B  12       2.901  12.361  86.324  0.00  0.00           C 0
+ATOM   3974  CD1 TYR B  14      -3.862  14.871  84.389  0.00  0.00           C 0
+ATOM   3977  CE2 TYR B  14      -2.208  14.554  86.639  0.00  0.00           C 0
+ATOM   3976  CE1 TYR B  14      -4.284  14.071  85.467  0.00  0.00           C 0
+ATOM   3978   CZ TYR B  14      -3.455  13.912  86.594  0.00  0.00           C 0
+ATOM   3958  CZ3 TRP B  12      -0.237  10.341  87.380  0.00  0.00           C 0
+ATOM   3979   OH TYR B  14      -3.869  13.134  87.646  0.00  0.00           O 0
+ATOM   3983    O PHE B  15      -4.202  14.240  79.326  0.41  4.29           O 0
+ATOM   3984   CB PHE B  15      -1.771  14.124  77.688  0.00  0.00           C 0
+ATOM   3980    N PHE B  15      -1.457  15.206  79.875  0.54  1.09           N 0
+ATOM   3973   CG TYR B  14      -2.611  15.522  84.439  0.00  0.00           C 0
+ATOM   3947   CA TRP B  12       3.528  14.246  84.669  0.00  0.00           C 0
+TER
+END

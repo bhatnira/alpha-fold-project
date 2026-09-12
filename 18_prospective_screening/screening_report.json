@@ -1,0 +1,41 @@
+{
+  "n_input": 5,
+  "n_pass_filter": 5,
+  "n_screened": 5,
+  "filters": {
+    "pharmacophore_fit_min": 0.5,
+    "mw_max": 500,
+    "logP_max": 5,
+    "hbd_max": 5,
+    "hba_max": 10,
+    "novelty_threshold": 0.3
+  },
+  "frozen_model_site": "Site 23",
+  "top_5": [
+    {
+      "id": "MOL_0005",
+      "score": 0.906744,
+      "predicted_activity": "ACTIVE"
+    },
+    {
+      "id": "MOL_0012",
+      "score": 0.875508,
+      "predicted_activity": "ACTIVE"
+    },
+    {
+      "id": "MOL_0011",
+      "score": 0.844296,
+      "predicted_activity": "ACTIVE"
+    },
+    {
+      "id": "MOL_0003",
+      "score": 0.7011200000000001,
+      "predicted_activity": "ACTIVE"
+    },
+    {
+      "id": "MOL_0009",
+      "score": 0.661512,
+      "predicted_activity": "ACTIVE"
+    }
+  ]
+}

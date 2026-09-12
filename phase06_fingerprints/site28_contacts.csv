@@ -1,0 +1,3 @@
+site,residue,subunit,residue_number,contact_frequency,n_models_contact,n_models_total,n_ligands_contact,ligands,ligand_freqs,af3_freq,boltz2_freq
+28,alpha10:187,alpha10,187,1.0,1,1,1,OETHYL_CORRECTED_2O,OETHYL_CORRECTED_2O:1.0,1.0,0.0
+28,alpha9:221,alpha9,221,1.0,1,1,1,OETHYL_CORRECTED_2O,OETHYL_CORRECTED_2O:1.0,1.0,0.0

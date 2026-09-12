@@ -1,0 +1,58 @@
+======================================================================
+FINAL MECHANISTIC REPORT
+Alpha9Alpha10 nAChR PAM Binding Site Discovery
+======================================================================
+
+EXECUTIVE SUMMARY
+----------------------------------------------------------------------
+objective: Discover, characterize, and validate a de novo PAM binding site on α9α10 nAChR
+methods: ['AlphaFold 3', 'Boltz-2', 'AutoDock Vina', 'SAR analysis', 'Falsification testing']
+key_finding: Site 23 (α9/α10 ECD interface) is the top candidate PAM binding site
+confidence: INTERMEDIATE (no HIGH_CONFIDENCE sites achieved)
+total_compounds: 30
+active_compounds: 7
+inactive_compounds: 23
+total_structures: 490
+af3_models: 400
+boltz2_models: 90
+
+BINDING SITE HYPOTHESIS
+----------------------------------------------------------------------
+site_id: 23
+site_score: 0.5066
+evidence_level: Level 4
+interface: α9(+)/α10(-) ECD inter-subunit
+pocket_type: vestibular inter-subunit
+stoichiometry: both
+state: resting-like
+constitutive: True
+ach_dependence: potentially ACh-dependent
+contact_residues: ['alpha9:176', 'alpha9:175', 'alpha10:143', 'alpha10:145', 'alpha9:120', 'alpha10:81', 'alpha9:224', 'alpha9:217', 'alpha9:57']
+
+MECHANISTIC MODEL
+----------------------------------------------------------------------
+binding_mode: PAM binds at α9(+)/α10(-) ECD inter-subunit vestibular pocket
+allosteric_coupling: PAM binding → local residue perturbation → ECD conformational change → ECD-TMD coupling modification → M2 helix rearrangement → channel gating modulation
+functional_effect: Positive allosteric modulation of ACh response
+state_preference: Resting-like (constitutive site)
+stoichiometry_effect: Present in both stoichiometries with similar geometry
+
+FALSIFICATION RESULTS
+----------------------------------------------------------------------
+F1_electrostatics: PASS (acetate does not reproduce ascorbate site)
+F2_stereochemistry: FAIL (D/L-ascorbate not distinguished)
+F3_protonation: PASS (anion vs neutral does not determine placement)
+F4_stoichiometry: PASS (balanced distribution)
+F5_receptor_state: PASS (no seed dependence)
+F6_model_hallucination: PASS (high pLDDT at contact residues)
+F7_membrane_partitioning: PASS (peripheral ECD cavity)
+F8_ligand_size: PASS (small anions vs large ryanodine)
+
+LIMITATIONS
+----------------------------------------------------------------------
+- No HIGH_CONFIDENCE sites achieved (all INTERMEDIATE or LOW)
+- Stereochemistry not distinguished by computational pipeline
+- No ACh-bound models tested
+- No experimental validation yet
+- Docking-activity correlation weak (r=0.437)
+- Site 23 is best candidate but not definitively validated

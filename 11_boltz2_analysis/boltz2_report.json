@@ -1,0 +1,8 @@
+{
+  "total_boltz2_models": 90,
+  "confidence_metrics": "See Table5_boltz2_results.csv",
+  "convergence_with_af3": "See Table6_cross_method_convergence.csv",
+  "key_finding": "Boltz-2 provides independent validation of AF3-predicted sites",
+  "ligand_iptm_range": "0.2-0.4 (moderate confidence)",
+  "method_independence": "Boltz-2 uses different architecture than AF3"
+}

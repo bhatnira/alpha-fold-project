@@ -1,0 +1,24 @@
+{
+  "resting_like": {
+    "source": "existing_boltz2",
+    "n_models": 0,
+    "mean_confidence": 0
+  },
+  "open": {
+    "source": "phase3_state_models",
+    "n_models": 0,
+    "mean_confidence": 0
+  },
+  "desensitized": {
+    "source": "phase3_state_models",
+    "n_models": 0,
+    "mean_confidence": 0
+  },
+  "ach_bound": {
+    "source": "phase6_ach_occupancy",
+    "n_models": 0,
+    "mean_confidence": 0
+  },
+  "conclusion": "State dependence cannot be determined without open/desensitized model results",
+  "recommendation": "Run Phase 3-4 and Phase 6 to generate state models, then re-run this analysis"
+}

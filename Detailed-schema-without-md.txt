@@ -1,0 +1,243 @@
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                         α9α10 nAChR PROJECT                                  │
+└────────────────────────────────────┬─────────────────────────────────────────┘
+                                     │
+                                     ▼
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ EXPERIMENTAL SAR + KNOWN LIGANDS                                              │
+│                                                                              │
+│ L-ascorbate │ ryanodine │ active │ weak │ inactive                           │
+│ acetate │ D-ascorbate │ O-ethyl ascorbate                                   │
+│                                                                              │
+│ ↓                                                                            │
+│ activity classification + chemical-space analysis + scaffold clustering      │
+│                                                                              │
+│ DELIVERABLE → curated SAR + discovery/validation split                       │
+└────────────────────────────────────┬─────────────────────────────────────────┘
+                                     │
+                                     ▼
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ α9α10 RECEPTOR ENSEMBLE                                                       │
+│                                                                              │
+│ (α9)3(α10)2                                                                  │
+│ (α9)2(α10)3                                                                  │
+│ multiple receptor conformations                                              │
+│                                                                              │
+│ ↓                                                                            │
+│ QC + structural ranking                                                      │
+│                                                                              │
+│ DELIVERABLE → compact receptor ensemble                                       │
+└────────────────────────────────────┬─────────────────────────────────────────┘
+                                     │
+                                     ▼
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ BLIND POCKET DISCOVERY                                                        │
+│                                                                              │
+│ SiteMap + fpocket + P2Rank + geometry                                        │
+│                       │                                                      │
+│                       ▼                                                      │
+│               pocket consensus                                               │
+│                       │                                                      │
+│                       ▼                                                      │
+│            Candidate A / B / C                                                │
+│                                                                              │
+│ DELIVERABLE → ligand-independent candidate pockets                            │
+└────────────────────────────────────┬─────────────────────────────────────────┘
+                                     │
+                                     ▼
+╔══════════════════════════════════════════════════════════════════════════════╗
+║ AI STRUCTURAL MODELING                                                       ║
+║                                                                              ║
+║                         ligand + α9α10                                       ║
+║                               │                                              ║
+║                  ┌────────────┴────────────┐                                 ║
+║                  ▼                         ▼                                 ║
+║                AF3                     Boltz-2                                ║
+║                  │                         │                                 ║
+║                  └────────────┬────────────┘                                 ║
+║                               ▼                                              ║
+║                     structural convergence                                   ║
+║                               │                                              ║
+║                               ▼                                              ║
+║                  pose/site consensus                                         ║
+║                                                                              ║
+║ Repeat only enough seeds/conformations to establish robustness               ║
+╚══════════════════════════════════════╤═══════════════════════════════════════╝
+                                       │
+                                       ▼
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ ENSEMBLE DOCKING                                                              │
+│                                                                              │
+│ receptor ensemble × ligand ensemble × candidate pockets                      │
+│                         │                                                    │
+│                         ▼                                                    │
+│ pose clustering + interaction fingerprints                                   │
+│                         │                                                    │
+│                         ▼                                                    │
+│ consensus site                                                               │
+└────────────────────────────────────┬─────────────────────────────────────────┘
+                                     │
+                                     ▼
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ SAR → STRUCTURE                                                               │
+│                                                                              │
+│ active compounds                                                             │
+│       ↓                                                                      │
+│ common interaction pattern                                                   │
+│       ↓                                                                      │
+│ essential / tolerated / unfavorable features                                 │
+│       ↓                                                                      │
+│ structural SAR model                                                         │
+│                                                                              │
+│ held-out compounds → prospective test                                        │
+│                                                                              │
+│ DELIVERABLE → SAR-explaining binding model                                    │
+└────────────────────────────────────┬─────────────────────────────────────────┘
+                                     │
+                                     ▼
+╔══════════════════════════════════════════════════════════════════════════════╗
+║ BOLTZ-2 AFFINITY                                                              ║
+║                                                                              ║
+║ active vs inactive                                                           ║
+║ site A vs B vs C                                                             ║
+║ α9α10 stoichiometry                                                          ║
+║ receptor conformations                                                       ║
+║                                                                              ║
+║                         ▼                                                    ║
+║             relative affinity ranking                                        ║
+║                         ▼                                                    ║
+║             compare with experimental SAR                                    ║
+╚══════════════════════════════════════╤═══════════════════════════════════════╝
+                                       │
+                                       ▼
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ SPECIFICITY / FALSIFICATION                                                   │
+│                                                                              │
+│ L-ascorbate  ───────────────► proposed recognition                            │
+│ acetate      ───────────────► charge-only control                            │
+│ D-ascorbate  ───────────────► stereochemical control                         │
+│ O-ethyl      ───────────────► chemical perturbation                          │
+│                                                                              │
+│ Compare:                                                                     │
+│ • pose                                                                        │
+│ • contacts                                                                    │
+│ • affinity                                                                    │
+│ • pocket occupancy                                                            │
+│ • interaction fingerprint                                                     │
+│                                                                              │
+│ DELIVERABLE → specific vs nonspecific recognition                             │
+└────────────────────────────────────┬─────────────────────────────────────────┘
+                                     │
+                                     ▼
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ ELECTROSTATIC + PHYSICOCHEMICAL ANALYSIS                                      │
+│                                                                              │
+│ ESP + charge + polarity + membrane accessibility                             │
+│                         │                                                    │
+│                         ▼                                                    │
+│ distinguish electrostatic attraction from specific recognition               │
+└────────────────────────────────────┬─────────────────────────────────────────┘
+                                     │
+                                     ▼
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ α9α10 vs α7 vs α4β2 STRUCTURAL COMPARISON                                    │
+│                                                                              │
+│ pocket shape │ residue composition │ charge │ hydrophobicity                 │
+│ accessibility │ interaction fingerprints                                     │
+│                         │                                                    │
+│                         ▼                                                    │
+│ α9α10-selective determinants                                                 │
+└────────────────────────────────────┬─────────────────────────────────────────┘
+                                     │
+                                     ▼
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ RYANODINE ORTHOGONAL TEST                                                     │
+│                                                                              │
+│ independently model ryanodine                                                │
+│                         │                                                    │
+│                         ▼                                                    │
+│ same pocket? OR distinct allosteric site?                                    │
+│                                                                              │
+│ DELIVERABLE → multi-site allosteric architecture                              │
+└────────────────────────────────────┬─────────────────────────────────────────┘
+                                     │
+                                     ▼
+╔══════════════════════════════════════════════════════════════════════════════╗
+║ INTEGRATED HIGH-CONFIDENCE SITE                                              ║
+║                                                                              ║
+║ pocket consensus                                                             ║
+║ + AF3                                                                         ║
+║ + Boltz-2                                                                     ║
+║ + docking                                                                     ║
+║ + SAR                                                                         ║
+║ + Boltz affinity                                                              ║
+║ + specificity controls                                                       ║
+║ + electrostatic analysis                                                     ║
+║ + α9α10 selectivity                                                          ║
+║ + ensemble robustness                                                        ║
+║                                                                              ║
+║                       ↓                                                      ║
+║                 VALIDATED COMPUTATIONAL SITE                                 ║
+╚══════════════════════════════════════╤═══════════════════════════════════════╝
+                                       │
+                                       ▼
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ STRUCTURE-GUIDED DRUG DESIGN                                                  │
+│                                                                              │
+│ validated SAR                                                                │
+│       ↓                                                                      │
+│ pharmacophore                                                                │
+│       ↓                                                                      │
+│ ┌─────────────┬─────────────┬──────────────┬─────────────┐                   │
+│ │ scaffold    │ R-group     │ bioisostere  │ de novo     │                   │
+│ │ hopping     │ enumeration │ replacement  │ generation  │                   │
+│ └─────────────┴─────────────┴──────────────┴─────────────┘                   │
+│       ↓                                                                      │
+│ candidate library                                                            │
+│       ↓                                                                      │
+│ Boltz-2 complex prediction                                                   │
+│       ↓                                                                      │
+│ Boltz-2 affinity                                                              │
+│       ↓                                                                      │
+│ interaction fingerprint                                                      │
+│       ↓                                                                      │
+│ docking consensus                                                            │
+│       ↓                                                                      │
+│ α9α10 vs α7 / α4β2 selectivity                                               │
+│       ↓                                                                      │
+│ ADMET + synthetic accessibility + novelty                                    │
+│       ↓                                                                      │
+│ uncertainty                                                                   │
+│       ↓                                                                      │
+│ TOP CANDIDATES                                                               │
+└────────────────────────────────────┬─────────────────────────────────────────┘
+                                     │
+                                     ▼
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ PROSPECTIVE EXPERIMENTAL VALIDATION                                           │
+│                                                                              │
+│ top 10–30 candidates                                                         │
+│       ↓                                                                      │
+│ synthesis / procurement                                                      │
+│       ↓                                                                      │
+│ α9α10 electrophysiology                                                      │
+│       ↓                                                                      │
+│ concentration-response                                                       │
+│       ↓                                                                      │
+│ potency + efficacy                                                           │
+│       ↓                                                                      │
+│ subtype selectivity                                                          │
+│       ↓                                                                      │
+│ key mutations                                                                 │
+│                                                                              │
+│ DELIVERABLE → experimentally validated novel PAMs                            │
+└────────────────────────────────────┬─────────────────────────────────────────┘
+                                     │
+                                     ▼
+                         ┌─────────────────────┐
+                         │ EXPERIMENTAL SAR     │
+                         │ UPDATE               │
+                         └──────────┬──────────┘
+                                    │
+                                    ▼
+                          NEXT DESIGN ROUND

@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   160:
+HEADER 0  - Pocket Score                      : -0.2065
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    27
+HEADER 3  - Mean alpha-sphere radius          : 4.0666
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5826
+HEADER 5  - Mean B-factor of pocket residues  : 0.2212
+HEADER 6  - Hydrophobicity Score              : -11.2000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 400.1323
+HEADER 10 - Pocket volume (convex hull)       : 17.0367
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.4444
+ATOM   6962   CE LYS B 388      50.352 -32.699 -65.260  0.00  0.00           C 0
+ATOM   6985   OG SER B 391      47.862 -38.492 -63.026  0.62  6.43           O 0
+ATOM   6961   CD LYS B 388      50.276 -32.957 -63.747  0.00  0.00           C 0
+ATOM   6960   CG LYS B 388      49.042 -33.794 -63.397  0.00  0.00           C 0
+ATOM   6993   NE ARG B 392      54.557 -38.100 -60.801  0.66  7.66           N 0
+ATOM   6963   NZ LYS B 388      51.502 -31.847 -65.640  0.00  0.00           N 0
+ATOM   6996  NH2 ARG B 392      56.645 -37.341 -61.346  0.00  0.00           N 0
+ATOM   6994   CZ ARG B 392      55.569 -37.261 -60.616  0.00  0.00           C 0
+ATOM   6995  NH1 ARG B 392      55.527 -36.329 -59.698  0.00  0.00           N 0
+ATOM   6992   CD ARG B 392      53.300 -38.121 -60.038  0.00  0.00           C 0
+ATOM   6959   CB LYS B 388      49.026 -34.167 -61.909  0.00  0.00           C 0
+ATOM   6969   CG ASP B 389      49.728 -35.339 -56.218  0.00  0.00           C 0
+ATOM   6934    O ALA B 385      47.675 -33.028 -58.557  0.65  1.07           O 0
+ATOM   6971  OD2 ASP B 389      49.803 -34.389 -55.417  0.64  9.64           O 0
+ATOM   6935   CB ALA B 385      48.877 -29.982 -58.014  0.00  0.00           C 0
+ATOM   6932   CA ALA B 385      48.103 -30.738 -59.094  0.00  0.00           C 0
+ATOM   6958    O LYS B 388      48.763 -37.142 -60.651  0.52  2.14           O 0
+ATOM   6991   CG ARG B 392      52.365 -39.230 -60.520  0.00  0.00           C 0
+ATOM   6970  OD1 ASP B 389      50.690 -36.076 -56.547  0.69  7.50           O 0
+ATOM   6957    C LYS B 388      48.274 -36.046 -60.409  0.00  0.00           C 0
+ATOM   6964    N ASP B 389      48.056 -35.642 -59.181  0.00  0.00           N 0
+TER
+END

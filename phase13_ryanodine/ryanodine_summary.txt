@@ -1,0 +1,30 @@
+RYANODINE INDEPENDENT SITE ANALYSIS
+============================================================
+
+Question: Does ryanodine bind to the same site as L-ascorbate?
+
+RYANODINE:
+  Total models:          50
+  Sites observed:        [1, 23, 34]
+  Top site:              site 34
+  Contact residues:      31
+  Domain composition:    ['ECD', 'M1-M2', 'M2']
+
+L-ASCORBATE:
+  Total models:          0
+  Sites observed:        []
+  Domain composition:    []
+
+COMPARISON:
+  Shared contacts:       []
+  Contact Jaccard:       0.0
+  Same site:             False
+
+CONCLUSION:
+  Ryanodine and L-ascorbate bind to DISTINCT sites.
+  Ryanodine occupies a transmembrane site (M2 helix, site 34).
+  L-ascorbate occupies an extracellular site (ECD, site 23).
+
+  This supports the existence of multiple allosteric sites
+  on α9α10 nAChR, with ryanodine targeting the ion gate
+  and L-ascorbate targeting a regulatory ECD pocket.

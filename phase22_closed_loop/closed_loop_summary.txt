@@ -1,0 +1,77 @@
+CLOSED-LOOP DESIGN TEMPLATE
+============================================================
+
+This template defines the iterative cycle for improving
+the computational model based on experimental results.
+
+Iteration: 0
+Status: awaiting_experimental_data
+
+STEPS:
+
+   1. Update SAR
+      Add experimental results to SAR dataset
+      Input:  experimental_results.csv
+      Output: updated_sar_dataset.csv
+
+   2. Update Pharmacophore
+      Refine pharmacophore based on new SAR
+      Input:  updated_sar_dataset.csv
+      Output: refined_pharmacophore.pml
+
+   3. Update Interaction Rules
+      Recalculate IFPs and SAR rules
+      Input:  updated_sar_dataset.csv + new complex structures
+      Output: updated_sar_rules.csv
+
+   4. Generate New Molecules
+      Generate next round of candidates
+      Input:  refined_pharmacophore.pml
+      Output: new_molecule_library.csv
+      Note:   Requires RDKit
+
+   5. Run Boltz-2
+      Predict structures and affinities for new candidates
+      Input:  new_molecule_library.csv
+      Output: boltz2_predictions.csv
+      Note:   Requires Boltz-2 API access
+
+   6. Run Docking
+      Dock new candidates into target sites
+      Input:  new_molecule_library.csv + receptor ensemble
+      Output: docking_results.csv
+      Note:   Requires AutoDock Vina
+
+   7. Check Selectivity
+      Evaluate α9α10 selectivity of new candidates
+      Input:  boltz2_predictions.csv + docking_results.csv
+      Output: selectivity_scores.csv
+
+   8. Rank Candidates
+      Multi-objective ranking of new candidates
+      Input:  all new data
+      Output: updated_ranking.csv
+
+   9. Experimental Testing
+      Test top 10-30 candidates experimentally
+      Input:  updated_ranking.csv
+      Output: experimental_results.csv
+      Note:   Requires wet lab access
+
+  10. Evaluate and Iterate
+      Assess hit rate, update model, decide next iteration
+      Input:  experimental_results.csv
+      Output: iteration_summary.json
+
+SUCCESS CRITERIA:
+
+  hit_rate: ≥20% of top-ranked compounds show α9α10 activity
+  enrichment: top compounds outperform random by ≥5x
+  ranking_correlation: Spearman ρ ≥ 0.6
+  selectivity: top compounds show ≥10x α9α10 vs α7
+
+STOP CRITERIA:
+
+  max_iterations: 3
+  convergence: Hit rate ≥50% or ranking ρ ≥ 0.8
+  resource_limit: Budget or time exhausted

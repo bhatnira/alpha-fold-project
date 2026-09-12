@@ -1,0 +1,230 @@
+{
+  "total_jobs": 34,
+  "compounds": [
+    "L_ASCORBATE_PARENT",
+    "CPD12_HIGHLY_POTENT",
+    "CPD25_POTENT",
+    "CPD1_MODERATE",
+    "CPD18_MODERATE",
+    "CPD3_WEAK",
+    "CPD8_INACTIVE",
+    "CPD9_INACTIVE"
+  ],
+  "stoichiometries": [
+    "2to3",
+    "3to2"
+  ],
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    1011
+  ],
+  "jobs": [
+    {
+      "compound": "ACH_ONLY",
+      "stoichiometry": "2to3",
+      "complex_type": "ach_only",
+      "input_file": "/cluster/home/nbhatt04/lean_pipeline/cofolding_study/af3_inputs/a9a10_2to3_ACH_ONLY_data.json"
+    },
+    {
+      "compound": "L_ASCORBATE_PARENT",
+      "stoichiometry": "2to3",
+      "complex_type": "binary",
+      "input_file": "/cluster/home/nbhatt04/lean_pipeline/cofolding_study/af3_inputs/a9a10_2to3_L_ASCORBATE_PARENT_binary_data.json"
+    },
+    {
+      "compound": "L_ASCORBATE_PARENT",
+      "stoichiometry": "2to3",
+      "complex_type": "ternary",
+      "input_file": "/cluster/home/nbhatt04/lean_pipeline/cofolding_study/af3_inputs/a9a10_2to3_L_ASCORBATE_PARENT_ternary_data.json"
+    },
+    {
+      "compound": "CPD12_HIGHLY_POTENT",
+      "stoichiometry": "2to3",
+      "complex_type": "binary",
+      "input_file": "/cluster/home/nbhatt04/lean_pipeline/cofolding_study/af3_inputs/a9a10_2to3_CPD12_HIGHLY_POTENT_binary_data.json"
+    },
+    {
+      "compound": "CPD12_HIGHLY_POTENT",
+      "stoichiometry": "2to3",
+      "complex_type": "ternary",
+      "input_file": "/cluster/home/nbhatt04/lean_pipeline/cofolding_study/af3_inputs/a9a10_2to3_CPD12_HIGHLY_POTENT_ternary_data.json"
+    },
+    {
+      "compound": "CPD25_POTENT",
+      "stoichiometry": "2to3",
+      "complex_type": "binary",
+      "input_file": "/cluster/home/nbhatt04/lean_pipeline/cofolding_study/af3_inputs/a9a10_2to3_CPD25_POTENT_binary_data.json"
+    },
+    {
+      "compound": "CPD25_POTENT",
+      "stoichiometry": "2to3",
+      "complex_type": "ternary",
+      "input_file": "/cluster/home/nbhatt04/lean_pipeline/cofolding_study/af3_inputs/a9a10_2to3_CPD25_POTENT_ternary_data.json"
+    },
+    {
+      "compound": "CPD1_MODERATE",
+      "stoichiometry": "2to3",
+      "complex_type": "binary",
+      "input_file": "/cluster/home/nbhatt04/lean_pipeline/cofolding_study/af3_inputs/a9a10_2to3_CPD1_MODERATE_binary_data.json"
+    },
+    {
+      "compound": "CPD1_MODERATE",
+      "stoichiometry": "2to3",
+      "complex_type": "ternary",
+      "input_file": "/cluster/home/nbhatt04/lean_pipeline/cofolding_study/af3_inputs/a9a10_2to3_CPD1_MODERATE_ternary_data.json"
+    },
+    {
+      "compound": "CPD18_MODERATE",
+      "stoichiometry": "2to3",
+      "complex_type": "binary",
+      "input_file": "/cluster/home/nbhatt04/lean_pipeline/cofolding_study/af3_inputs/a9a10_2to3_CPD18_MODERATE_binary_data.json"
+    },
+    {
+      "compound": "CPD18_MODERATE",
+      "stoichiometry": "2to3",
+      "complex_type": "ternary",
+      "input_file": "/cluster/home/nbhatt04/lean_pipeline/cofolding_study/af3_inputs/a9a10_2to3_CPD18_MODERATE_ternary_data.json"
+    },
+    {
+      "compound": "CPD3_WEAK",
+      "stoichiometry": "2to3",
+      "complex_type": "binary",
+      "input_file": "/cluster/home/nbhatt04/lean_pipeline/cofolding_study/af3_inputs/a9a10_2to3_CPD3_WEAK_binary_data.json"
+    },
+    {
+      "compound": "CPD3_WEAK",
+      "stoichiometry": "2to3",
+      "complex_type": "ternary",
+      "input_file": "/cluster/home/nbhatt04/lean_pipeline/cofolding_study/af3_inputs/a9a10_2to3_CPD3_WEAK_ternary_data.json"
+    },
+    {
+      "compound": "CPD8_INACTIVE",
+      "stoichiometry": "2to3",
+      "complex_type": "binary",
+      "input_file": "/cluster/home/nbhatt04/lean_pipeline/cofolding_study/af3_inputs/a9a10_2to3_CPD8_INACTIVE_binary_data.json"
+    },
+    {
+      "compound": "CPD8_INACTIVE",
+      "stoichiometry": "2to3",
+      "complex_type": "ternary",
+      "input_file": "/cluster/home/nbhatt04/lean_pipeline/cofolding_study/af3_inputs/a9a10_2to3_CPD8_INACTIVE_ternary_data.json"
+    },
+    {
+      "compound": "CPD9_INACTIVE",
+      "stoichiometry": "2to3",
+      "complex_type": "binary",
+      "input_file": "/cluster/home/nbhatt04/lean_pipeline/cofolding_study/af3_inputs/a9a10_2to3_CPD9_INACTIVE_binary_data.json"
+    },
+    {
+      "compound": "CPD9_INACTIVE",
+      "stoichiometry": "2to3",
+      "complex_type": "ternary",
+      "input_file": "/cluster/home/nbhatt04/lean_pipeline/cofolding_study/af3_inputs/a9a10_2to3_CPD9_INACTIVE_ternary_data.json"
+    },
+    {
+      "compound": "ACH_ONLY",
+      "stoichiometry": "3to2",
+      "complex_type": "ach_only",
+      "input_file": "/cluster/home/nbhatt04/lean_pipeline/cofolding_study/af3_inputs/a9a10_3to2_ACH_ONLY_data.json"
+    },
+    {
+      "compound": "L_ASCORBATE_PARENT",
+      "stoichiometry": "3to2",
+      "complex_type": "binary",
+      "input_file": "/cluster/home/nbhatt04/lean_pipeline/cofolding_study/af3_inputs/a9a10_3to2_L_ASCORBATE_PARENT_binary_data.json"
+    },
+    {
+      "compound": "L_ASCORBATE_PARENT",
+      "stoichiometry": "3to2",
+      "complex_type": "ternary",
+      "input_file": "/cluster/home/nbhatt04/lean_pipeline/cofolding_study/af3_inputs/a9a10_3to2_L_ASCORBATE_PARENT_ternary_data.json"
+    },
+    {
+      "compound": "CPD12_HIGHLY_POTENT",
+      "stoichiometry": "3to2",
+      "complex_type": "binary",
+      "input_file": "/cluster/home/nbhatt04/lean_pipeline/cofolding_study/af3_inputs/a9a10_3to2_CPD12_HIGHLY_POTENT_binary_data.json"
+    },
+    {
+      "compound": "CPD12_HIGHLY_POTENT",
+      "stoichiometry": "3to2",
+      "complex_type": "ternary",
+      "input_file": "/cluster/home/nbhatt04/lean_pipeline/cofolding_study/af3_inputs/a9a10_3to2_CPD12_HIGHLY_POTENT_ternary_data.json"
+    },
+    {
+      "compound": "CPD25_POTENT",
+      "stoichiometry": "3to2",
+      "complex_type": "binary",
+      "input_file": "/cluster/home/nbhatt04/lean_pipeline/cofolding_study/af3_inputs/a9a10_3to2_CPD25_POTENT_binary_data.json"
+    },
+    {
+      "compound": "CPD25_POTENT",
+      "stoichiometry": "3to2",
+      "complex_type": "ternary",
+      "input_file": "/cluster/home/nbhatt04/lean_pipeline/cofolding_study/af3_inputs/a9a10_3to2_CPD25_POTENT_ternary_data.json"
+    },
+    {
+      "compound": "CPD1_MODERATE",
+      "stoichiometry": "3to2",
+      "complex_type": "binary",
+      "input_file": "/cluster/home/nbhatt04/lean_pipeline/cofolding_study/af3_inputs/a9a10_3to2_CPD1_MODERATE_binary_data.json"
+    },
+    {
+      "compound": "CPD1_MODERATE",
+      "stoichiometry": "3to2",
+      "complex_type": "ternary",
+      "input_file": "/cluster/home/nbhatt04/lean_pipeline/cofolding_study/af3_inputs/a9a10_3to2_CPD1_MODERATE_ternary_data.json"
+    },
+    {
+      "compound": "CPD18_MODERATE",
+      "stoichiometry": "3to2",
+      "complex_type": "binary",
+      "input_file": "/cluster/home/nbhatt04/lean_pipeline/cofolding_study/af3_inputs/a9a10_3to2_CPD18_MODERATE_binary_data.json"
+    },
+    {
+      "compound": "CPD18_MODERATE",
+      "stoichiometry": "3to2",
+      "complex_type": "ternary",
+      "input_file": "/cluster/home/nbhatt04/lean_pipeline/cofolding_study/af3_inputs/a9a10_3to2_CPD18_MODERATE_ternary_data.json"
+    },
+    {
+      "compound": "CPD3_WEAK",
+      "stoichiometry": "3to2",
+      "complex_type": "binary",
+      "input_file": "/cluster/home/nbhatt04/lean_pipeline/cofolding_study/af3_inputs/a9a10_3to2_CPD3_WEAK_binary_data.json"
+    },
+    {
+      "compound": "CPD3_WEAK",
+      "stoichiometry": "3to2",
+      "complex_type": "ternary",
+      "input_file": "/cluster/home/nbhatt04/lean_pipeline/cofolding_study/af3_inputs/a9a10_3to2_CPD3_WEAK_ternary_data.json"
+    },
+    {
+      "compound": "CPD8_INACTIVE",
+      "stoichiometry": "3to2",
+      "complex_type": "binary",
+      "input_file": "/cluster/home/nbhatt04/lean_pipeline/cofolding_study/af3_inputs/a9a10_3to2_CPD8_INACTIVE_binary_data.json"
+    },
+    {
+      "compound": "CPD8_INACTIVE",
+      "stoichiometry": "3to2",
+      "complex_type": "ternary",
+      "input_file": "/cluster/home/nbhatt04/lean_pipeline/cofolding_study/af3_inputs/a9a10_3to2_CPD8_INACTIVE_ternary_data.json"
+    },
+    {
+      "compound": "CPD9_INACTIVE",
+      "stoichiometry": "3to2",
+      "complex_type": "binary",
+      "input_file": "/cluster/home/nbhatt04/lean_pipeline/cofolding_study/af3_inputs/a9a10_3to2_CPD9_INACTIVE_binary_data.json"
+    },
+    {
+      "compound": "CPD9_INACTIVE",
+      "stoichiometry": "3to2",
+      "complex_type": "ternary",
+      "input_file": "/cluster/home/nbhatt04/lean_pipeline/cofolding_study/af3_inputs/a9a10_3to2_CPD9_INACTIVE_ternary_data.json"
+    }
+  ]
+}

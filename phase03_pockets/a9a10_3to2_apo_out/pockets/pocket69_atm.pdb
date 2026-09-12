@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    69:
+HEADER 0  - Pocket Score                      : -0.0953
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8788
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5860
+HEADER 5  - Mean B-factor of pocket residues  : 0.8496
+HEADER 6  - Hydrophobicity Score              : 21.6667
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 146.5659
+HEADER 10 - Pocket volume (convex hull)       : 1.9813
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1333
+ATOM  11850    O LEU D  37     -40.912  46.778  12.312  0.65  7.50           O 0
+ATOM  11875   CB ASN D  40     -46.260  45.579  14.455  0.00  0.00           C 0
+ATOM  11871    N ASN D  40     -43.991  45.551  15.375  0.44  1.09           N 0
+ATOM  11842    O ASP D  36     -41.816  49.832  13.995  0.77  7.50           O 0
+ATOM  12285    O TYR D  90     -42.075  47.723   7.348  0.45  9.64           O 0
+ATOM  11874    O ASN D  40     -45.437  43.322  12.917  0.80  6.43           O 0
+ATOM  12288  CD1 TYR D  90     -46.018  45.028   6.405  0.00  0.00           C 0
+ATOM  11880   CA TYR D  41     -42.784  42.829  12.430  0.00  0.00           C 0
+ATOM  11883   CB TYR D  41     -41.407  43.373  12.041  0.00  0.00           C 0
+ATOM  11886  CD2 TYR D  41     -41.183  43.067   9.539  0.00  0.00           C 0
+ATOM  11879    N TYR D  41     -43.327  43.633  13.520  0.00  0.00           N 0
+ATOM  12286   CB TYR D  90     -43.506  44.997   6.705  0.00  0.00           C 0
+ATOM    258  NE2 GLN A  32     -46.267  42.108  10.631  0.69  1.09           N 0
+ATOM    257  OE1 GLN A  32     -47.865  42.807   9.321  0.43  4.29           O 0
+ATOM  11873    C ASN D  40     -44.612  43.807  13.691  0.00  0.00           C 0
+TER
+END

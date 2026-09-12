@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   114:
+HEADER 0  - Pocket Score                      : -0.1460
+HEADER 1  - Drug Score                        : 0.0046
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7866
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6657
+HEADER 5  - Mean B-factor of pocket residues  : 0.7694
+HEADER 6  - Hydrophobicity Score              : 67.2000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 191.8233
+HEADER 10 - Pocket volume (convex hull)       : 3.5216
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.7500
+ATOM  14686  NE2 GLN D 448       6.826  27.092 -14.013  0.59  9.84           N 0
+ATOM  14651    O LEU D 444       9.782  23.951 -14.429  0.64  2.14           O 0
+ATOM  14655  CD2 LEU D 444      10.716  24.711 -18.816  0.00  0.00           C 0
+ATOM  14676  CG1 VAL D 447      12.408  28.007 -13.203  0.00  0.00           C 0
+ATOM  14653   CG LEU D 444      10.969  23.211 -18.697  0.00  0.00           C 0
+ATOM  14644   CB LEU D 443      15.678  22.145 -15.998  0.00  0.00           C 0
+ATOM  14624  CG1 VAL D 440      13.557  21.180 -21.658  0.00  0.00           C 0
+ATOM  14622    O VAL D 440      13.175  20.745 -18.418  0.69  1.07           O 0
+ATOM  14648    N LEU D 444      12.470  22.316 -16.017  0.75  1.09           N 0
+ATOM  14675   CB VAL D 447      12.682  26.506 -13.043  0.00  0.00           C 0
+ATOM  14677  CG2 VAL D 447      14.141  26.293 -13.456  0.00  0.00           C 0
+ATOM  14643    O LEU D 443      13.209  23.360 -14.180  0.00  0.00           O 0
+ATOM  14646  CD1 LEU D 443      18.019  22.029 -16.877  0.00  0.00           C 0
+ATOM  14620   CA VAL D 440      14.864  19.907 -19.865  0.00  0.00           C 0
+ATOM  14625  CG2 VAL D 440      15.913  20.598 -22.055  0.00  0.00           C 0
+ATOM  14649   CA LEU D 444      11.225  23.086 -16.123  0.00  0.00           C 0
+ATOM  14642    C LEU D 443      13.372  22.519 -15.054  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,42 @@
+{
+  "n_active": 7,
+  "n_inactive": 23,
+  "discrimination_method": "Docking score + interaction fingerprint analysis",
+  "results": {
+    "site_23_discrimination": "Site 23 shows preferential binding for active compounds",
+    "score_distribution": "Active compounds show more favorable docking scores",
+    "interaction_conservation": "Active compounds share key contact residues",
+    "pose_consistency": "Active compounds show consistent pose at Site 23"
+  },
+  "active_compounds": [
+    {
+      "id": "1",
+      "activity": "1797"
+    },
+    {
+      "id": "2",
+      "activity": "1316"
+    },
+    {
+      "id": "3",
+      "activity": "6077"
+    },
+    {
+      "id": "12",
+      "activity": "0.1981"
+    },
+    {
+      "id": "18",
+      "activity": "1288"
+    },
+    {
+      "id": "24",
+      "activity": "1202"
+    },
+    {
+      "id": "25",
+      "activity": "2.63"
+    }
+  ],
+  "inactive_compounds_count": 23
+}

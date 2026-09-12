@@ -1,0 +1,57 @@
+PROSPECTIVE VALIDATION PLAN
+============================================================
+
+FROZEN COMPUTATIONAL RANKING:
+  Top 3 sites: [35, 18, 27]
+
+MUTAGENESIS PLAN:
+  15 mutations to test
+
+  alpha9:W176→Ala                 hydrogen-bond/polar   A (ligand-specific recognition)
+  alpha10:D145→Ala                electrostatic         B (generic electrostatic attraction)
+  alpha10:R83→Ala                 electrostatic         B (generic electrostatic attraction)
+  alpha9:Y120→Ala                 hydrogen-bond/polar   A (ligand-specific recognition)
+  alpha10:W81→Ala                 hydrogen-bond/polar   A (ligand-specific recognition)
+  alpha9:Y224→Ala                 hydrogen-bond/polar   A (ligand-specific recognition)
+  alpha9:S175→Ala                 hydrogen-bond/polar   A (ligand-specific recognition)
+  alpha9:Y217→Ala                 hydrogen-bond/polar   A (ligand-specific recognition)
+  alpha10:R143→Ala                electrostatic         B (generic electrostatic attraction)
+  alpha9:N57→Ala                  hydrogen-bond/polar   A (ligand-specific recognition)
+
+ASSAY PLAN:
+  Radioligand binding
+    Target: α9α10 nAChR
+    Ligands: L-ascorbate
+    Measure: Kd, Bmax
+    Mutations: Top 5 high-priority mutations
+
+  Calcium flux
+    Target: α9α10 nAChR
+    Ligands: L-ascorbate, D-ascorbate, acetate
+    Measure: IC50, EC50, efficacy
+    Mutations: Full mutation panel
+
+  Electrophysiology (patch-clamp)
+    Target: α9α10 nAChR
+    Ligands: L-ascorbate + ACh
+    Measure: PAM/NCAM activity, concentration-response
+    Mutations: Key contact residues
+
+  Competition binding
+    Target: α9α10 vs α7 vs α4β2
+    Ligands: Top 3 candidate compounds
+    Measure: Selectivity ratio
+    Mutations: None (wild-type comparison)
+
+SUCCESS CRITERIA:
+
+  Hit rate: ≥20% of top-ranked compounds show α9α10 activity
+  Enrichment: top-ranked compounds outperform random by ≥5x
+  Ranking: Spearman ρ ≥ 0.6 between predicted and experimental
+  Selectivity: top compounds show ≥10x α9α10 vs α7
+
+FAILURE MODES:
+
+  If top site shows no binding → re-evaluate pocket definition
+  If acetate reproduces pattern → downgrade molecular recognition
+  If stereochemistry doesn't matter → revise pharmacophore

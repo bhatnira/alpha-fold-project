@@ -1,0 +1,159 @@
+{
+  "timestamp": "2026-09-04 11:28:22",
+  "total": 25,
+  "passed": 25,
+  "failed": 0,
+  "total_time_s": 0.6,
+  "tests": [
+    {
+      "name": "Phase I \u2014 SAR dataset",
+      "status": "PASS",
+      "time_s": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Phase II \u2014 Receptor ensemble",
+      "status": "PASS",
+      "time_s": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Phase III \u2014 fpocket",
+      "status": "PASS",
+      "time_s": 0.23,
+      "error": ""
+    },
+    {
+      "name": "Phase IV \u2014 Convergence",
+      "status": "PASS",
+      "time_s": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Phase V \u2014 Docking",
+      "status": "PASS",
+      "time_s": 0.18,
+      "error": ""
+    },
+    {
+      "name": "Phase VI \u2014 Fingerprints",
+      "status": "PASS",
+      "time_s": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Phase VII \u2014 SAR model",
+      "status": "PASS",
+      "time_s": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Phase VIII \u2014 Boltz-2 affinity",
+      "status": "PASS",
+      "time_s": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Phase IX \u2014 Specificity",
+      "status": "PASS",
+      "time_s": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Phase X \u2014 Electrostatics",
+      "status": "PASS",
+      "time_s": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Phase XI \u2014 Robustness",
+      "status": "PASS",
+      "time_s": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Phase XII \u2014 Subtype comparison",
+      "status": "PASS",
+      "time_s": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Phase XIII \u2014 Ryanodine",
+      "status": "PASS",
+      "time_s": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Phase XIV \u2014 Evidence",
+      "status": "PASS",
+      "time_s": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Phase XV \u2014 Pharmacophore",
+      "status": "PASS",
+      "time_s": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Phase XVI \u2014 Molecule generation",
+      "status": "PASS",
+      "time_s": 0.07,
+      "error": ""
+    },
+    {
+      "name": "Phase XVII \u2014 Cascading filter",
+      "status": "PASS",
+      "time_s": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Phase XVIII \u2014 Boltz-2 design",
+      "status": "PASS",
+      "time_s": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Phase XIX \u2014 Selectivity",
+      "status": "PASS",
+      "time_s": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Phase XX \u2014 Ranking",
+      "status": "PASS",
+      "time_s": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Phase XXI \u2014 Validation",
+      "status": "PASS",
+      "time_s": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Phase XXII \u2014 Closed-loop",
+      "status": "PASS",
+      "time_s": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Cross-phase data flow",
+      "status": "PASS",
+      "time_s": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Site ID consistency",
+      "status": "PASS",
+      "time_s": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Output completeness",
+      "status": "PASS",
+      "time_s": 0.04,
+      "error": ""
+    }
+  ]
+}

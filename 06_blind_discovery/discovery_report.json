@@ -1,0 +1,76 @@
+{
+  "method": "Blind AF3 protein-ligand co-folding",
+  "total_af3_models": 400,
+  "total_boltz2_models": 90,
+  "ligand_types_tested": [
+    "LASC_ANION",
+    "LASC_NEUTRAL",
+    "DASC_ANION",
+    "ACETATE_ANION",
+    "OETHYL_USER_SUPPLIED",
+    "OETHYL_CORRECTED_3O",
+    "RYANODINE",
+    "DERIVATIVE_EXPERIMENTAL"
+  ],
+  "stoichiometries_tested": [
+    "a9a10_2to3",
+    "a9a10_3to2"
+  ],
+  "seeds": 5,
+  "samples_per_seed": 5,
+  "candidate_sites_generated": 136,
+  "cross_method_site_clusters": 20,
+  "convergence_entries": 127,
+  "strong_convergence": 8,
+  "top_site_clusters": [
+    {
+      "site_id": "2",
+      "n_models": 0
+    },
+    {
+      "site_id": "11",
+      "n_models": 0
+    },
+    {
+      "site_id": "15",
+      "n_models": 0
+    },
+    {
+      "site_id": "10",
+      "n_models": 0
+    },
+    {
+      "site_id": "8",
+      "n_models": 0
+    },
+    {
+      "site_id": "1",
+      "n_models": 0
+    },
+    {
+      "site_id": "3",
+      "n_models": 0
+    },
+    {
+      "site_id": "9",
+      "n_models": 0
+    },
+    {
+      "site_id": "7",
+      "n_models": 0
+    },
+    {
+      "site_id": "13",
+      "n_models": 0
+    }
+  ],
+  "discovery_protocol": [
+    "1. Prepare ligand ensembles (8 ligand types)",
+    "2. Run AF3 co-folding with apo receptor (5 seeds x 5 samples)",
+    "3. Run Boltz-2 co-folding (3 seeds x 6 ligands x 2 stoichiometries)",
+    "4. Extract ligand locations from all models",
+    "5. Cluster ligand locations spatially",
+    "6. Identify recurring pockets",
+    "7. Score by recurrence across seeds, ligands, stoichiometries"
+  ]
+}

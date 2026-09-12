@@ -1,0 +1,23 @@
+BOLTZ-2 GUIDED DESIGN SUMMARY
+============================================================
+
+Candidates for Boltz-2: 13
+Submission files created: 13
+
+Design criterion:
+  HIGH AFFINITY + CORRECT POCKET + CORRECT INTERACTIONS + SAR CONSISTENCY
+
+Top 10 candidates by design score:
+  MOL_0011         score=0.824  pharma=1.000  mw=259  logp=-1.20
+  MOL_0005         score=0.799  pharma=1.000  mw=191  logp=-2.08
+  MOL_0012         score=0.776  pharma=1.000  mw=261  logp=-2.00
+  MOL_0009         score=0.726  pharma=0.667  mw=252  logp=0.11
+  MOL_0003         score=0.714  pharma=0.667  mw=218  logp=-0.54
+  MOL_0010         score=0.703  pharma=0.667  mw=253  logp=-0.49
+  MOL_0007         score=0.701  pharma=0.667  mw=211  logp=-0.80
+  MOL_0002         score=0.696  pharma=0.667  mw=204  logp=-0.93
+  MOL_0008         score=0.693  pharma=0.667  mw=255  logp=-0.64
+  MOL_0006         score=0.692  pharma=0.667  mw=194  logp=-1.06
+
+Next: Submit boltz2_submissions/*.json to Boltz-2 API
+Then: Analyze results for pocket occupancy, pose quality, affinity

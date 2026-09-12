@@ -1,0 +1,75 @@
+{
+  "priority_1_mutagenesis": {
+    "target_residues": [
+      {
+        "residue": "alpha9:176",
+        "mutation": "A",
+        "expected": "Disrupt PAM binding"
+      },
+      {
+        "residue": "alpha9:175",
+        "mutation": "A",
+        "expected": "Reduce PAM potency"
+      },
+      {
+        "residue": "alpha10:143",
+        "mutation": "A",
+        "expected": "Disrupt charge interaction"
+      },
+      {
+        "residue": "alpha10:145",
+        "mutation": "A",
+        "expected": "Disrupt charge interaction"
+      },
+      {
+        "residue": "alpha9:120",
+        "mutation": "A",
+        "expected": "Reduce H-bond"
+      },
+      {
+        "residue": "alpha10:81",
+        "mutation": "A",
+        "expected": "Reduce H-bond"
+      },
+      {
+        "residue": "alpha9:224",
+        "mutation": "A",
+        "expected": "Reduce hydrophobic"
+      },
+      {
+        "residue": "alpha9:217",
+        "mutation": "A",
+        "expected": "Reduce hydrophobic"
+      },
+      {
+        "residue": "alpha9:57",
+        "mutation": "A",
+        "expected": "Reduce polar contact"
+      }
+    ],
+    "controls": [
+      "WT receptor",
+      "Inactive analog (acetate)"
+    ]
+  },
+  "priority_2_electrophysiology": {
+    "measurements": [
+      "PAM potentiation concentration-response curves",
+      "Maximal potentiation",
+      "EC50 shift",
+      "ACh response modulation",
+      "PAM-alone response (if any)",
+      "WT vs mutant comparison"
+    ]
+  },
+  "priority_3_sar_validation": {
+    "compounds_to_test": [
+      "Prospective compounds MOL_0005, MOL_0011, MOL_0012"
+    ],
+    "metrics": [
+      "Active/inactive",
+      "Potency rank",
+      "% potentiation"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    50:
+HEADER 0  - Pocket Score                      : -0.0635
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.6547
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3896
+HEADER 5  - Mean B-factor of pocket residues  : 0.7548
+HEADER 6  - Hydrophobicity Score              : 35.6667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 6.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 185.4511
+HEADER 10 - Pocket volume (convex hull)       : 1.7994
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2353
+ATOM   9291    O TRP C 202     -10.013 -14.397  22.748  0.00  0.00           O 0
+ATOM   9572  NH2 ARG C 235     -10.814 -19.417  21.134  0.65  4.37           N 0
+ATOM   9261   CD GLU C 198     -14.185 -19.659  22.914  0.00  0.00           C 0
+ATOM   9260   CG GLU C 198     -15.035 -18.406  23.198  0.00  0.00           C 0
+ATOM   9309   NE ARG C 203      -7.918 -20.740  26.102  0.21  2.19           N 0
+ATOM   9316    O VAL C 204      -9.707 -17.028  28.783  0.00  0.00           O 0
+ATOM   9262  OE1 GLU C 198     -13.849 -20.372  23.891  0.00  0.00           O 0
+ATOM   9312  NH2 ARG C 203      -8.107 -22.807  27.022  0.00  0.00           N 0
+ATOM   9307   CG ARG C 203      -8.188 -18.429  25.296  0.00  0.00           C 0
+ATOM   9243  CD1 PHE C 196     -15.259 -15.001  26.586  0.00  0.00           C 0
+ATOM   9245  CE1 PHE C 196     -14.230 -14.671  25.685  0.00  0.00           C 0
+ATOM   9303   CA ARG C 203      -8.470 -16.100  24.355  0.00  0.00           C 0
+ATOM   9313    N VAL C 204      -9.505 -15.342  26.427  0.85  4.37           N 0
+TER
+END

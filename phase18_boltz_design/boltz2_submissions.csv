@@ -1,0 +1,14 @@
+molecule_id,smiles,submission_file,status
+MOL_0000,O=C1O[C@H]([C@@H](O)CO)C(O)=C1O,/cluster/home/nbhatt04/lean_pipeline/phase18_boltz_design/boltz2_submissions/MOL_0000.json,pending
+MOL_0001,COC1=C(O)C(=O)O[C@@H]1[C@@H](O)CO,/cluster/home/nbhatt04/lean_pipeline/phase18_boltz_design/boltz2_submissions/MOL_0001.json,pending
+MOL_0002,CCOC1=C(O)C(=O)O[C@@H]1[C@@H](O)CO,/cluster/home/nbhatt04/lean_pipeline/phase18_boltz_design/boltz2_submissions/MOL_0002.json,pending
+MOL_0003,CCCOC1=C(O)C(=O)O[C@@H]1[C@@H](O)CO,/cluster/home/nbhatt04/lean_pipeline/phase18_boltz_design/boltz2_submissions/MOL_0003.json,pending
+MOL_0004,O=C1O[C@H]([C@@H](O)CO)C(OO)=C1O,/cluster/home/nbhatt04/lean_pipeline/phase18_boltz_design/boltz2_submissions/MOL_0004.json,pending
+MOL_0005,NOC1=C(O)C(=O)O[C@@H]1[C@@H](O)CO,/cluster/home/nbhatt04/lean_pipeline/phase18_boltz_design/boltz2_submissions/MOL_0005.json,pending
+MOL_0006,O=C1O[C@H]([C@@H](O)CO)C(OF)=C1O,/cluster/home/nbhatt04/lean_pipeline/phase18_boltz_design/boltz2_submissions/MOL_0006.json,pending
+MOL_0007,O=C1O[C@H]([C@@H](O)CO)C(OCl)=C1O,/cluster/home/nbhatt04/lean_pipeline/phase18_boltz_design/boltz2_submissions/MOL_0007.json,pending
+MOL_0008,O=C1O[C@H]([C@@H](O)CO)C(OBr)=C1O,/cluster/home/nbhatt04/lean_pipeline/phase18_boltz_design/boltz2_submissions/MOL_0008.json,pending
+MOL_0009,O=C1O[C@H]([C@@H](O)CO)C(Oc2ccccc2)=C1O,/cluster/home/nbhatt04/lean_pipeline/phase18_boltz_design/boltz2_submissions/MOL_0009.json,pending
+MOL_0010,O=C1O[C@H]([C@@H](O)CO)C(Oc2ccncc2)=C1O,/cluster/home/nbhatt04/lean_pipeline/phase18_boltz_design/boltz2_submissions/MOL_0010.json,pending
+MOL_0011,O=C1O[C@H]([C@@H](O)CO)C(OC2CCNCC2)=C1O,/cluster/home/nbhatt04/lean_pipeline/phase18_boltz_design/boltz2_submissions/MOL_0011.json,pending
+MOL_0012,O=C1O[C@H]([C@@H](O)CO)C(OC2COCCN2)=C1O,/cluster/home/nbhatt04/lean_pipeline/phase18_boltz_design/boltz2_submissions/MOL_0012.json,pending

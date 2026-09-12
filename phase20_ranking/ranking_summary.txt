@@ -1,0 +1,61 @@
+MULTI-OBJECTIVE RANKING
+============================================================
+
+Objectives:
+  evidence (0.25) × selectivity (0.20) × robustness (0.15)
+  × stereo_disc (0.15) × charge_disc (0.15) × convergence (0.10)
+
+Total sites ranked: 46
+
+TOP 10 CANDIDATE SITES:
+
+  Rank  1  site 35  score=0.6828  class=LOW_CONFIDENCE
+           evidence=0.397  selectivity=0.352  robustness=0.755
+           stereo=1.000  charge=1.000  convergence=1.000
+
+  Rank  2  site 18  score=0.6300  class=LOW_CONFIDENCE
+           evidence=0.413  selectivity=0.362  robustness=0.802
+           stereo=1.000  charge=0.692  convergence=0.800
+
+  Rank  3  site 27  score=0.5957  class=LOW_CONFIDENCE
+           evidence=0.383  selectivity=0.344  robustness=0.875
+           stereo=1.000  charge=1.000  convergence=0.000
+
+  Rank  4  site 20  score=0.5949  class=LOW_CONFIDENCE
+           evidence=0.440  selectivity=0.378  robustness=0.729
+           stereo=1.000  charge=1.000  convergence=0.000
+
+  Rank  5  site 30  score=0.5874  class=LOW_CONFIDENCE
+           evidence=0.360  selectivity=0.331  robustness=0.875
+           stereo=1.000  charge=1.000  convergence=0.000
+
+  Rank  6  site 40  score=0.5836  class=LOW_CONFIDENCE
+           evidence=0.393  selectivity=0.350  robustness=0.768
+           stereo=1.000  charge=1.000  convergence=0.000
+
+  Rank  7  site 17  score=0.5811  class=LOW_CONFIDENCE
+           evidence=0.424  selectivity=0.369  robustness=0.675
+           stereo=1.000  charge=1.000  convergence=0.000
+
+  Rank  8  site  1  score=0.5790  class=LOW_CONFIDENCE
+           evidence=0.388  selectivity=0.347  robustness=0.750
+           stereo=1.000  charge=1.000  convergence=0.000
+
+  Rank  9  site 24  score=0.5769  class=LOW_CONFIDENCE
+           evidence=0.383  selectivity=0.344  robustness=0.750
+           stereo=1.000  charge=1.000  convergence=0.000
+
+  Rank 10  site 10  score=0.5727  class=LOW_CONFIDENCE
+           evidence=0.371  selectivity=0.337  robustness=0.750
+           stereo=1.000  charge=1.000  convergence=0.000
+
+RECOMMENDATION:
+
+  For experimental validation, prioritize sites that are:
+  1. Ranked in top 5 by multi-objective score
+  2. Classified as HIGH_CONFIDENCE or INTERMEDIATE
+  3. Show strong stereochemical and charge discrimination
+  4. Have high convergence across AF3 and Boltz-2
+
+  The top-ranked site should be the primary target for
+  mutagenesis and binding assays.

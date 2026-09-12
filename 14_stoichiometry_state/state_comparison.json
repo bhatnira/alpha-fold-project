@@ -1,0 +1,13 @@
+{
+  "states_compared": [
+    "resting_like",
+    "open",
+    "desensitized",
+    "ach_bound",
+    "conclusion",
+    "recommendation"
+  ],
+  "methodology": "Compare Boltz-2 confidence scores across receptor conformational states",
+  "status": "PARTIALLY_COMPLETE",
+  "gap": "Need open/desensitized state models from Phase 3-4 for full comparison"
+}

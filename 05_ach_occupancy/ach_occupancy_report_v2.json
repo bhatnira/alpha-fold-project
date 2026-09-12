@@ -1,0 +1,75 @@
+{
+  "phase": 6,
+  "title": "ACh Occupancy Modeling",
+  "total_predictions": 16,
+  "conditions_modeled": [
+    "R+ACh (2to3)",
+    "R+ACh (3to2)",
+    "R+ACh+PAM (2to3, ascorbate)",
+    "R+ACh+PAM (2to3, cpd12_best)",
+    "R+ACh+PAM (2to3, cpd25_strong)",
+    "R+ACh+PAM (3to2, ascorbate)",
+    "R+ACh+PAM (3to2, cpd12_best)",
+    "R+ACh+PAM (3to2, cpd25_strong)"
+  ],
+  "n_conditions": 8,
+  "status": "COMPLETE",
+  "details": {
+    "R+ACh (2to3)": {
+      "n_models": 2,
+      "pdb_files": [
+        "/cluster/home/nbhatt04/lean_pipeline/05_ach_occupancy/yaml_inputs_v2/predictions/boltz_results_ach_only_2to3/predictions/ach_only_2to3/ach_only_2to3_model_0.pdb",
+        "/cluster/home/nbhatt04/lean_pipeline/05_ach_occupancy/yaml_inputs_v2/predictions/boltz_results_ach_only_2to3/predictions/ach_only_2to3/ach_only_2to3_model_1.pdb"
+      ]
+    },
+    "R+ACh (3to2)": {
+      "n_models": 2,
+      "pdb_files": [
+        "/cluster/home/nbhatt04/lean_pipeline/05_ach_occupancy/yaml_inputs_v2/predictions/boltz_results_ach_only_3to2/predictions/ach_only_3to2/ach_only_3to2_model_0.pdb",
+        "/cluster/home/nbhatt04/lean_pipeline/05_ach_occupancy/yaml_inputs_v2/predictions/boltz_results_ach_only_3to2/predictions/ach_only_3to2/ach_only_3to2_model_1.pdb"
+      ]
+    },
+    "R+ACh+PAM (2to3, ascorbate)": {
+      "n_models": 2,
+      "pdb_files": [
+        "/cluster/home/nbhatt04/lean_pipeline/05_ach_occupancy/yaml_inputs_v2/predictions/boltz_results_ternary_2to3_ascorbate/predictions/ternary_2to3_ascorbate/ternary_2to3_ascorbate_model_0.pdb",
+        "/cluster/home/nbhatt04/lean_pipeline/05_ach_occupancy/yaml_inputs_v2/predictions/boltz_results_ternary_2to3_ascorbate/predictions/ternary_2to3_ascorbate/ternary_2to3_ascorbate_model_1.pdb"
+      ]
+    },
+    "R+ACh+PAM (2to3, cpd12_best)": {
+      "n_models": 2,
+      "pdb_files": [
+        "/cluster/home/nbhatt04/lean_pipeline/05_ach_occupancy/yaml_inputs_v2/predictions/boltz_results_ternary_2to3_cpd12_best/predictions/ternary_2to3_cpd12_best/ternary_2to3_cpd12_best_model_0.pdb",
+        "/cluster/home/nbhatt04/lean_pipeline/05_ach_occupancy/yaml_inputs_v2/predictions/boltz_results_ternary_2to3_cpd12_best/predictions/ternary_2to3_cpd12_best/ternary_2to3_cpd12_best_model_1.pdb"
+      ]
+    },
+    "R+ACh+PAM (2to3, cpd25_strong)": {
+      "n_models": 2,
+      "pdb_files": [
+        "/cluster/home/nbhatt04/lean_pipeline/05_ach_occupancy/yaml_inputs_v2/predictions/boltz_results_ternary_2to3_cpd25_strong/predictions/ternary_2to3_cpd25_strong/ternary_2to3_cpd25_strong_model_0.pdb",
+        "/cluster/home/nbhatt04/lean_pipeline/05_ach_occupancy/yaml_inputs_v2/predictions/boltz_results_ternary_2to3_cpd25_strong/predictions/ternary_2to3_cpd25_strong/ternary_2to3_cpd25_strong_model_1.pdb"
+      ]
+    },
+    "R+ACh+PAM (3to2, ascorbate)": {
+      "n_models": 2,
+      "pdb_files": [
+        "/cluster/home/nbhatt04/lean_pipeline/05_ach_occupancy/yaml_inputs_v2/predictions/boltz_results_ternary_3to2_ascorbate/predictions/ternary_3to2_ascorbate/ternary_3to2_ascorbate_model_0.pdb",
+        "/cluster/home/nbhatt04/lean_pipeline/05_ach_occupancy/yaml_inputs_v2/predictions/boltz_results_ternary_3to2_ascorbate/predictions/ternary_3to2_ascorbate/ternary_3to2_ascorbate_model_1.pdb"
+      ]
+    },
+    "R+ACh+PAM (3to2, cpd12_best)": {
+      "n_models": 2,
+      "pdb_files": [
+        "/cluster/home/nbhatt04/lean_pipeline/05_ach_occupancy/yaml_inputs_v2/predictions/boltz_results_ternary_3to2_cpd12_best/predictions/ternary_3to2_cpd12_best/ternary_3to2_cpd12_best_model_0.pdb",
+        "/cluster/home/nbhatt04/lean_pipeline/05_ach_occupancy/yaml_inputs_v2/predictions/boltz_results_ternary_3to2_cpd12_best/predictions/ternary_3to2_cpd12_best/ternary_3to2_cpd12_best_model_1.pdb"
+      ]
+    },
+    "R+ACh+PAM (3to2, cpd25_strong)": {
+      "n_models": 2,
+      "pdb_files": [
+        "/cluster/home/nbhatt04/lean_pipeline/05_ach_occupancy/yaml_inputs_v2/predictions/boltz_results_ternary_3to2_cpd25_strong/predictions/ternary_3to2_cpd25_strong/ternary_3to2_cpd25_strong_model_0.pdb",
+        "/cluster/home/nbhatt04/lean_pipeline/05_ach_occupancy/yaml_inputs_v2/predictions/boltz_results_ternary_3to2_cpd25_strong/predictions/ternary_3to2_cpd25_strong/ternary_3to2_cpd25_strong_model_1.pdb"
+      ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "proposed_pathway": {
+    "step_1": "PAM binds at alpha9(+)/alpha10(-) ECD interface (Site 23)",
+    "step_2": "Local residue perturbation (alpha9:176, alpha9:175, alpha10:143)",
+    "step_3": "ECD conformational change at inter-subunit interface",
+    "step_4": "ECD-TMD coupling modification",
+    "step_5": "M2 helix rearrangement",
+    "step_6": "Channel gate modulation",
+    "step_7": "Positive allosteric modulation of ACh response"
+  },
+  "residue_network": {
+    "alpha9": [
+      "176",
+      "175",
+      "120",
+      "224",
+      "217",
+      "57"
+    ],
+    "alpha10": [
+      "143",
+      "145",
+      "81",
+      "83"
+    ]
+  },
+  "contact_types": {
+    "hydrogen_bonds": [
+      "alpha9:176-ligand",
+      "alpha9:175-ligand",
+      "alpha10:81-ligand"
+    ],
+    "charge_interactions": [
+      "alpha10:143-ligand",
+      "alpha10:145-ligand"
+    ],
+    "hydrophobic": [
+      "alpha9:224-ligand",
+      "alpha9:217-ligand"
+    ],
+    "polar": [
+      "alpha9:57-ligand"
+    ]
+  },
+  "coupling_mechanism": "PAM binding stabilizes ECD conformation that favors open state",
+  "confidence": "Plausible computational hypothesis - requires experimental validation"
+}

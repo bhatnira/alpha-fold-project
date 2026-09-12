@@ -1,0 +1,56 @@
+{
+  "tests": [
+    {
+      "test": "Site 23 residue coverage",
+      "criterion": "Leading site must contain >= 3 of 9 key Site 23 residues",
+      "result": true,
+      "score": "9/9",
+      "verdict": "PASS"
+    },
+    {
+      "test": "Cross-stoichiometry recurrence",
+      "criterion": "Leading site must appear in both 2to3 and 3to2",
+      "result": true,
+      "score": "2 stoichiometries",
+      "verdict": "PASS"
+    },
+    {
+      "test": "Cross-ligand recurrence",
+      "criterion": "Leading site must accommodate >= 3 different ligand types",
+      "result": true,
+      "score": "5 ligand types",
+      "verdict": "PASS"
+    },
+    {
+      "test": "Active compound recurrence",
+      "criterion": "Leading site must accommodate the DERIVATIVE_EXPERIMENTAL ligand",
+      "result": true,
+      "score": "Yes",
+      "verdict": "PASS"
+    },
+    {
+      "test": "Interface plausibility",
+      "criterion": "Leading site must be at a biologically plausible interface",
+      "result": true,
+      "score": "multi-subunit",
+      "verdict": "PASS"
+    },
+    {
+      "test": "Alternative site competition",
+      "criterion": "Leading site must outscore second-best by > 0.1",
+      "result": true,
+      "score": "Margin: 0.156",
+      "verdict": "PASS"
+    },
+    {
+      "test": "Minimum model recurrence",
+      "criterion": "Leading site must have >= 5 AF3 models",
+      "result": true,
+      "score": "8 models",
+      "verdict": "PASS"
+    }
+  ],
+  "n_pass": 7,
+  "n_total": 7,
+  "overall": "PASS"
+}

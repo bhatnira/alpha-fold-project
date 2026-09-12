@@ -1,0 +1,3 @@
+a10_pharma_conservation,a10_unique_residues,a9_pharma_conservation,a9_unique_residues,gene,n_ECD_residues,n_TM_residues,note,pdb,subtype
+1.0,,0.714,α9:217;α9:224,CHRNA7,167,300,Pentameric homomer (α7)5; different from (α9)2(α10)3,3SQ6,α7
+1.0,,0.714,α9:217;α9:224,CHRNA4 + CHRNB2,167,300,Heteromeric (α4)3(β2)2; different pharmacology from α9α10,6KUU,α4β2

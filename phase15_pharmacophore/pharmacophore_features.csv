@@ -1,0 +1,6 @@
+name,type,description,residues,distance_A,essential,stereochem_sensitive
+HBD1,H-bond donor,Hydroxyl group on ascorbate ring O1,"['alpha9:176', 'alpha9:175']",3.2,True,True
+HBA1,H-bond acceptor,Carbonyl oxygen of ascorbate lactone,"['alpha9:120', 'alpha10:81']",2.8,True,True
+HYD1,hydrophobic,C4-C5 region of ascorbate ring,"['alpha9:224', 'alpha9:217']",4.0,False,False
+NEG1,negative charge,Carboxylate of ascorbate (anionic form),"['alpha10:143', 'alpha10:145']",3.5,True,False
+POL1,polar,Hydroxymethyl group of ascorbate,"['alpha9:57', 'alpha9:55']",3.0,False,True

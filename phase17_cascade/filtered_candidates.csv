@@ -1,0 +1,14 @@
+ qed,aromatic_rings,formal_charge,hba,hbd,heavy_atoms,logp,molecule_id,mw,passes_lipinski,rotatable_bonds,smiles,source,tpsa
+0.385,1,0,6,4,12,-1.41,MOL_0000,176.12,True,2,O=C1O[C@H]([C@@H](O)CO)C(O)=C1O,scaffold_hop,107.22
+0.478,1,0,6,3,13,-1.32,MOL_0001,190.15,True,3,COC1=C(O)C(=O)O[C@@H]1[C@@H](O)CO,rgroup,96.22
+0.512,1,0,6,3,14,-0.93,MOL_0002,204.18,True,4,CCOC1=C(O)C(=O)O[C@@H]1[C@@H](O)CO,rgroup,96.22
+0.536,1,0,6,3,15,-0.54,MOL_0003,218.2,True,5,CCCOC1=C(O)C(=O)O[C@@H]1[C@@H](O)CO,rgroup,96.22
+0.245,1,0,7,4,13,-1.48,MOL_0004,192.12,True,3,O=C1O[C@H]([C@@H](O)CO)C(OO)=C1O,rgroup,116.45
+0.298,1,0,7,4,13,-2.08,MOL_0005,191.14,True,3,NOC1=C(O)C(=O)O[C@@H]1[C@@H](O)CO,rgroup,122.24
+0.495,1,0,6,3,13,-1.06,MOL_0006,194.11,True,3,O=C1O[C@H]([C@@H](O)CO)C(OF)=C1O,rgroup,96.22
+0.528,1,0,6,3,13,-0.8,MOL_0007,210.57,True,3,O=C1O[C@H]([C@@H](O)CO)C(OCl)=C1O,rgroup,96.22
+0.58,1,0,6,3,13,-0.64,MOL_0008,255.02,True,3,O=C1O[C@H]([C@@H](O)CO)C(OBr)=C1O,rgroup,96.22
+0.658,2,0,6,3,18,0.11,MOL_0009,252.22,True,4,O=C1O[C@H]([C@@H](O)CO)C(Oc2ccccc2)=C1O,fragment,96.22
+0.621,2,0,7,3,18,-0.49,MOL_0010,253.21,True,4,O=C1O[C@H]([C@@H](O)CO)C(Oc2ccncc2)=C1O,fragment,109.11
+0.47,2,0,7,4,18,-1.2,MOL_0011,259.26,True,4,O=C1O[C@H]([C@@H](O)CO)C(OC2CCNCC2)=C1O,fragment,108.25
+0.429,2,0,8,4,18,-2.0,MOL_0012,261.23,True,4,O=C1O[C@H]([C@@H](O)CO)C(OC2COCCN2)=C1O,fragment,117.48

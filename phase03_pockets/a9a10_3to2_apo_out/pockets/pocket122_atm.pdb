@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   122:
+HEADER 0  - Pocket Score                      : -0.1557
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.7670
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4972
+HEADER 5  - Mean B-factor of pocket residues  : 0.7206
+HEADER 6  - Hydrophobicity Score              : -0.5000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 366.0889
+HEADER 10 - Pocket volume (convex hull)       : 40.8742
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.4167
+ATOM  13353  CG2 THR D 227     -27.857  23.866 -13.013  0.00  0.00           C 0
+ATOM  13214   CD ARG D 210     -30.253  26.510 -19.157  0.00  0.00           C 0
+ATOM  13370  OG1 THR D 229     -24.761  24.247 -15.679  0.65  9.64           O 0
+ATOM  13217  NH1 ARG D 210     -30.481  24.503 -21.201  0.00  0.00           N 0
+ATOM  13351   CB THR D 227     -28.981  24.890 -13.072  0.00  0.00           C 0
+ATOM  13352  OG1 THR D 227     -30.155  24.232 -12.664  0.61  6.43           O 0
+ATOM  13211    O ARG D 210     -30.799  28.105 -14.601  0.55  1.07           O 0
+ATOM  13212   CB ARG D 210     -29.358  27.869 -17.251  0.00  0.00           C 0
+ATOM  13238   CZ ARG D 212     -35.055  21.227 -13.836  0.00  0.00           C 0
+ATOM  13239  NH1 ARG D 212     -34.811  20.212 -14.631  0.00  0.00           N 0
+ATOM  12914  OG1 THR D 171     -29.525  22.252 -10.226  0.00  0.00           O 0
+ATOM  13240  NH2 ARG D 212     -35.155  21.000 -12.562  0.43  4.37           N 0
+ATOM  13234   CB ARG D 212     -34.891  25.392 -15.266  0.00  0.00           C 0
+ATOM  13213   CG ARG D 210     -30.495  27.727 -18.268  0.00  0.00           C 0
+ATOM  13215   NE ARG D 210     -31.286  26.406 -20.204  0.53  1.09           N 0
+ATOM  13235   CG ARG D 212     -35.778  24.290 -15.869  0.00  0.00           C 0
+ATOM  13222    O ARG D 211     -33.995  28.731 -16.955  0.56  5.36           O 0
+ATOM  13218  NH2 ARG D 210     -32.306  25.505 -22.027  0.00  0.00           N 0
+ATOM  13216   CZ ARG D 210     -31.353  25.472 -21.140  0.00  0.00           C 0
+ATOM  13237   NE ARG D 212     -35.203  22.461 -14.295  0.00  0.00           N 0
+ATOM  13236   CD ARG D 212     -35.151  22.898 -15.700  0.00  0.00           C 0
+TER
+END

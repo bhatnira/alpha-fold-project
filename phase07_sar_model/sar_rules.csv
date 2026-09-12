@@ -1,0 +1,300 @@
+active_freq,d_asc_freq,description,inactive_freq,l_asc_freq,residue,rule_type
+4.635,,Contact alpha10:175 is more frequent in active compounds,2.818,,alpha10:175,REQUIRED
+4.461,,Contact alpha10:105 is more frequent in active compounds,2.064,,alpha10:105,REQUIRED
+4.224,,Contact alpha9:176 is more frequent in active compounds,2.112,,alpha9:176,REQUIRED
+3.905,,Contact alpha10:103 is more frequent in active compounds,1.786,,alpha10:103,REQUIRED
+3.877,,Contact alpha10:216 is more frequent in active compounds,1.689,,alpha10:216,REQUIRED
+3.871,,Contact alpha9:146 is more frequent in active compounds,1.935,,alpha9:146,REQUIRED
+3.806,,Contact alpha9:84 is more frequent in active compounds,1.903,,alpha9:84,REQUIRED
+3.728,,Contact alpha9:224 is more frequent in active compounds,1.697,,alpha9:224,REQUIRED
+3.713,,Contact alpha9:82 is more frequent in active compounds,1.857,,alpha9:82,REQUIRED
+3.675,,Contact alpha10:223 is more frequent in active compounds,1.838,,alpha10:223,REQUIRED
+3.534,,Contact alpha10:143 is more frequent in active compounds,1.267,,alpha10:143,REQUIRED
+3.508,,Contact alpha10:83 is more frequent in active compounds,1.754,,alpha10:83,REQUIRED
+3.504,,Contact alpha9:120 is more frequent in active compounds,1.752,,alpha9:120,REQUIRED
+3.436,,Contact alpha10:145 is more frequent in active compounds,1.718,,alpha10:145,REQUIRED
+3.368,,Contact alpha9:288 is more frequent in active compounds,1.034,,alpha9:288,REQUIRED
+3.326,,Contact alpha10:81 is more frequent in active compounds,1.663,,alpha10:81,REQUIRED
+3.19,,Contact alpha10:119 is more frequent in active compounds,1.345,,alpha10:119,REQUIRED
+3.167,,Contact alpha10:46 is more frequent in active compounds,0.667,,alpha10:46,REQUIRED
+3.0,,Contact alpha10:287 is more frequent in active compounds,0,,alpha10:287,REQUIRED
+2.762,,Contact alpha10:56 is more frequent in active compounds,1.381,,alpha10:56,REQUIRED
+2.667,,Contact alpha10:72 is more frequent in active compounds,0.333,,alpha10:72,REQUIRED
+2.659,,Contact alpha9:277 is more frequent in active compounds,1.709,,alpha9:277,REQUIRED
+2.638,,Contact alpha9:186 is more frequent in active compounds,0.319,,alpha9:186,REQUIRED
+2.59,,Contact alpha10:276 is more frequent in active compounds,1.64,,alpha10:276,REQUIRED
+2.518,,Contact alpha9:177 is more frequent in active compounds,1.259,,alpha9:177,REQUIRED
+2.5,,Contact alpha10:181 is more frequent in active compounds,0.667,,alpha10:181,REQUIRED
+2.45,,Contact alpha9:175 is more frequent in active compounds,1.225,,alpha9:175,REQUIRED
+2.444,,Contact alpha9:118 is more frequent in active compounds,1.222,,alpha9:118,REQUIRED
+2.381,,Contact alpha10:85 is more frequent in active compounds,0.857,,alpha10:85,REQUIRED
+2.381,,Contact alpha10:104 is more frequent in active compounds,1.19,,alpha10:104,REQUIRED
+2.361,,Contact alpha10:174 is more frequent in active compounds,1.181,,alpha10:174,REQUIRED
+2.344,,Contact alpha9:217 is more frequent in active compounds,1.172,,alpha9:217,REQUIRED
+2.333,,Contact alpha10:51 is more frequent in active compounds,0.5,,alpha10:51,REQUIRED
+2.333,,Contact alpha10:291 is more frequent in active compounds,0,,alpha10:291,REQUIRED
+2.238,,Contact alpha10:58 is more frequent in active compounds,0.619,,alpha10:58,REQUIRED
+2.128,,Contact alpha9:219 is more frequent in active compounds,1.064,,alpha9:219,REQUIRED
+2.065,,Contact alpha9:106 is more frequent in active compounds,0.032,,alpha9:106,REQUIRED
+2.044,,Contact alpha10:273 is more frequent in active compounds,1.056,,alpha10:273,REQUIRED
+2.003,,Contact alpha10:218 is more frequent in active compounds,1.002,,alpha10:218,REQUIRED
+2.0,,Contact alpha10:167 is more frequent in active compounds,0,,alpha10:167,REQUIRED
+2.0,,Contact alpha10:137 is more frequent in active compounds,0.5,,alpha10:137,REQUIRED
+2.0,,Contact alpha10:84 is more frequent in active compounds,1.0,,alpha10:84,REQUIRED
+2.0,,Contact alpha10:116 is more frequent in active compounds,1.0,,alpha10:116,REQUIRED
+2.0,,Contact alpha9:69 is more frequent in active compounds,0,,alpha9:69,REQUIRED
+2.0,,Contact alpha9:70 is more frequent in active compounds,0,,alpha9:70,REQUIRED
+2.0,,Contact alpha9:202 is more frequent in active compounds,0,,alpha9:202,REQUIRED
+2.0,,Contact alpha10:40 is more frequent in active compounds,1.0,,alpha10:40,REQUIRED
+2.0,,Contact alpha10:41 is more frequent in active compounds,1.0,,alpha10:41,REQUIRED
+2.0,,Contact alpha10:90 is more frequent in active compounds,1.0,,alpha10:90,REQUIRED
+2.0,,Contact alpha9:128 is more frequent in active compounds,1.0,,alpha9:128,REQUIRED
+1.996,,Contact alpha9:196 is more frequent in active compounds,0.498,,alpha9:196,REQUIRED
+1.975,,Contact alpha9:274 is more frequent in active compounds,0.988,,alpha9:274,REQUIRED
+1.942,,Contact alpha9:57 is more frequent in active compounds,0.971,,alpha9:57,REQUIRED
+1.898,,Contact alpha10:177 is more frequent in active compounds,0.616,,alpha10:177,REQUIRED
+1.833,,Contact alpha9:104 is more frequent in active compounds,0,,alpha9:104,REQUIRED
+1.818,,Contact alpha10:144 is more frequent in active compounds,0.909,,alpha10:144,REQUIRED
+1.818,,Contact alpha10:172 is more frequent in active compounds,0.909,,alpha10:172,REQUIRED
+1.809,,Contact alpha10:102 is more frequent in active compounds,0.905,,alpha10:102,REQUIRED
+1.8,,Contact alpha9:270 is more frequent in active compounds,0.9,,alpha9:270,REQUIRED
+1.796,,Contact alpha9:83 is more frequent in active compounds,0.898,,alpha9:83,REQUIRED
+1.791,,Contact alpha10:82 is more frequent in active compounds,0.896,,alpha10:82,REQUIRED
+1.762,,Contact alpha10:141 is more frequent in active compounds,0.714,,alpha10:141,REQUIRED
+1.75,,Contact alpha10:269 is more frequent in active compounds,0.875,,alpha10:269,REQUIRED
+1.749,,Contact alpha9:19 is more frequent in active compounds,0.875,,alpha9:19,REQUIRED
+1.714,,Contact alpha10:87 is more frequent in active compounds,0.857,,alpha10:87,REQUIRED
+1.706,,Contact alpha9:222 is more frequent in active compounds,0.353,,alpha9:222,REQUIRED
+1.691,,Contact alpha10:101 is more frequent in active compounds,0.845,,alpha10:101,REQUIRED
+1.668,,Contact alpha10:280 is more frequent in active compounds,0.793,,alpha10:280,REQUIRED
+1.667,,Contact alpha9:119 is more frequent in active compounds,0.833,,alpha9:119,REQUIRED
+1.618,,Contact alpha10:219 is more frequent in active compounds,0.809,,alpha10:219,REQUIRED
+1.596,,Contact alpha10:284 is more frequent in active compounds,0.138,,alpha10:284,REQUIRED
+1.591,,Contact alpha10:129 is more frequent in active compounds,1.046,,alpha10:129,REQUIRED
+1.578,,Contact alpha9:281 is more frequent in active compounds,0.828,,alpha9:281,REQUIRED
+1.571,,Contact alpha10:187 is more frequent in active compounds,0.286,,alpha10:187,REQUIRED
+1.564,,Contact alpha10:135 is more frequent in active compounds,0.449,,alpha10:135,REQUIRED
+1.502,,Contact alpha9:178 is more frequent in active compounds,0.751,,alpha9:178,REQUIRED
+1.5,,Contact alpha10:110 is more frequent in active compounds,0,,alpha10:110,REQUIRED
+1.5,,Contact alpha9:68 is more frequent in active compounds,0.5,,alpha9:68,REQUIRED
+1.5,,Contact alpha9:105 is more frequent in active compounds,0,,alpha9:105,REQUIRED
+1.5,,Contact alpha9:23 is more frequent in active compounds,0.667,,alpha9:23,REQUIRED
+1.496,,Contact alpha9:220 is more frequent in active compounds,0.581,,alpha9:220,REQUIRED
+1.456,,Contact alpha9:182 is more frequent in active compounds,0.728,,alpha9:182,REQUIRED
+1.452,,Contact alpha10:30 is more frequent in active compounds,0.726,,alpha10:30,REQUIRED
+1.432,,Contact alpha9:221 is more frequent in active compounds,0.049,,alpha9:221,REQUIRED
+1.429,,Contact alpha10:185 is more frequent in active compounds,0.714,,alpha10:185,REQUIRED
+1.429,,Contact alpha10:86 is more frequent in active compounds,0.714,,alpha10:86,REQUIRED
+1.402,,Contact alpha10:283 is more frequent in active compounds,0.069,,alpha10:283,REQUIRED
+1.357,,Contact alpha9:47 is more frequent in active compounds,0.679,,alpha9:47,REQUIRED
+1.333,,Contact alpha10:45 is more frequent in active compounds,0.5,,alpha10:45,REQUIRED
+1.333,,Contact alpha9:29 is more frequent in active compounds,0.667,,alpha9:29,REQUIRED
+1.333,,Contact alpha9:32 is more frequent in active compounds,0.667,,alpha9:32,REQUIRED
+1.333,,Contact alpha9:122 is more frequent in active compounds,0.667,,alpha9:122,REQUIRED
+1.333,,Contact alpha9:173 is more frequent in active compounds,0.667,,alpha9:173,REQUIRED
+1.333,,Contact alpha9:117 is more frequent in active compounds,0.667,,alpha9:117,REQUIRED
+1.333,,Contact alpha10:286 is more frequent in active compounds,0,,alpha10:286,REQUIRED
+1.283,,Contact alpha9:63 is more frequent in active compounds,0.642,,alpha9:63,REQUIRED
+1.275,,Contact alpha9:266 is more frequent in active compounds,0.637,,alpha9:266,REQUIRED
+1.274,,Contact alpha10:176 is more frequent in active compounds,0.637,,alpha10:176,REQUIRED
+1.273,,Contact alpha10:148 is more frequent in active compounds,0.636,,alpha10:148,REQUIRED
+1.273,,Contact alpha10:146 is more frequent in active compounds,0.636,,alpha10:146,REQUIRED
+1.25,,Contact alpha10:265 is more frequent in active compounds,0.625,,alpha10:265,REQUIRED
+1.238,,Contact alpha10:54 is more frequent in active compounds,0.619,,alpha10:54,REQUIRED
+1.203,,Contact alpha9:184 is more frequent in active compounds,0.101,,alpha9:184,REQUIRED
+1.194,,Contact alpha9:284 is more frequent in active compounds,0.069,,alpha9:284,REQUIRED
+1.167,,Contact alpha10:31 is more frequent in active compounds,0.333,,alpha10:31,REQUIRED
+1.143,,Contact alpha9:52 is more frequent in active compounds,0.571,,alpha9:52,REQUIRED
+1.091,,Contact alpha10:128 is more frequent in active compounds,0.545,,alpha10:128,REQUIRED
+1.072,,Contact alpha9:55 is more frequent in active compounds,0.536,,alpha9:55,REQUIRED
+1.0,,Contact alpha9:110 is more frequent in active compounds,0,,alpha9:110,REQUIRED
+1.0,,Contact alpha9:129 is more frequent in active compounds,0,,alpha9:129,REQUIRED
+1.0,,Contact alpha9:132 is more frequent in active compounds,0,,alpha9:132,REQUIRED
+1.0,,Contact alpha9:161 is more frequent in active compounds,0,,alpha9:161,REQUIRED
+1.0,,Contact alpha9:164 is more frequent in active compounds,0,,alpha9:164,REQUIRED
+1.0,,Contact alpha9:166 is more frequent in active compounds,0,,alpha9:166,REQUIRED
+1.0,,Contact alpha9:477 is more frequent in active compounds,0,,alpha9:477,REQUIRED
+1.0,,Contact alpha10:154 is more frequent in active compounds,0,,alpha10:154,REQUIRED
+1.0,,Contact alpha10:155 is more frequent in active compounds,0,,alpha10:155,REQUIRED
+1.0,,Contact alpha10:156 is more frequent in active compounds,0,,alpha10:156,REQUIRED
+1.0,,Contact alpha10:157 is more frequent in active compounds,0,,alpha10:157,REQUIRED
+1.0,,Contact alpha10:165 is more frequent in active compounds,0,,alpha10:165,REQUIRED
+1.0,,Contact alpha10:166 is more frequent in active compounds,0,,alpha10:166,REQUIRED
+1.0,,Contact alpha10:171 is more frequent in active compounds,0,,alpha10:171,REQUIRED
+1.0,,Contact alpha10:212 is more frequent in active compounds,0,,alpha10:212,REQUIRED
+1.0,,Contact alpha9:42 is more frequent in active compounds,0,,alpha9:42,REQUIRED
+1.0,,Contact alpha9:43 is more frequent in active compounds,0,,alpha9:43,REQUIRED
+1.0,,Contact alpha10:406 is more frequent in active compounds,0,,alpha10:406,REQUIRED
+1.0,,Contact alpha10:409 is more frequent in active compounds,0,,alpha10:409,REQUIRED
+1.0,,Contact alpha10:239 is more frequent in active compounds,0,,alpha10:239,REQUIRED
+1.0,,Contact alpha10:242 is more frequent in active compounds,0,,alpha10:242,REQUIRED
+1.0,,Contact alpha10:243 is more frequent in active compounds,0,,alpha10:243,REQUIRED
+1.0,,Contact alpha10:288 is more frequent in active compounds,0,,alpha10:288,REQUIRED
+1.0,,Contact alpha9:212 is more frequent in active compounds,0,,alpha9:212,REQUIRED
+1.0,,Contact alpha9:214 is more frequent in active compounds,0,,alpha9:214,REQUIRED
+1.0,,Contact alpha9:223 is more frequent in active compounds,0,,alpha9:223,REQUIRED
+1.0,,Contact alpha9:187 is more frequent in active compounds,0,,alpha9:187,REQUIRED
+1.0,,Contact alpha10:289 is more frequent in active compounds,0,,alpha10:289,REQUIRED
+1.0,,Contact alpha9:72 is more frequent in active compounds,0,,alpha9:72,REQUIRED
+1.0,,Contact alpha9:239 is more frequent in active compounds,0,,alpha9:239,REQUIRED
+1.0,,Contact alpha9:240 is more frequent in active compounds,0,,alpha9:240,REQUIRED
+1.0,,Contact alpha9:289 is more frequent in active compounds,0,,alpha9:289,REQUIRED
+1.0,,Contact alpha10:73 is more frequent in active compounds,0,,alpha10:73,REQUIRED
+1.0,,Contact alpha10:74 is more frequent in active compounds,0,,alpha10:74,REQUIRED
+1.0,,Contact alpha10:153 is more frequent in active compounds,0,,alpha10:153,REQUIRED
+1.0,,Contact alpha9:67 is more frequent in active compounds,0,,alpha9:67,REQUIRED
+1.0,,Contact alpha9:200 is more frequent in active compounds,0,,alpha9:200,REQUIRED
+1.0,,Contact alpha9:201 is more frequent in active compounds,0,,alpha9:201,REQUIRED
+1.0,,Contact alpha9:203 is more frequent in active compounds,0,,alpha9:203,REQUIRED
+1.0,,Contact alpha9:149 is more frequent in active compounds,0.5,,alpha9:149,REQUIRED
+1.0,,Contact alpha9:151 is more frequent in active compounds,0.5,,alpha9:151,REQUIRED
+0.95,,Contact alpha10:266 is more frequent in active compounds,0.475,,alpha10:266,REQUIRED
+0.925,,Contact alpha9:267 is more frequent in active compounds,0.463,,alpha9:267,REQUIRED
+0.898,,Contact alpha10:221 is more frequent in active compounds,0.366,,alpha10:221,REQUIRED
+0.866,,Contact alpha10:195 is more frequent in active compounds,0.433,,alpha10:195,REQUIRED
+0.866,,Contact alpha10:62 is more frequent in active compounds,0.433,,alpha10:62,REQUIRED
+0.865,,Contact alpha10:214 is more frequent in active compounds,0.182,,alpha10:214,REQUIRED
+0.857,,Contact alpha10:53 is more frequent in active compounds,0.429,,alpha10:53,REQUIRED
+0.833,,Contact alpha9:102 is more frequent in active compounds,0,,alpha9:102,REQUIRED
+0.762,,Contact alpha10:52 is more frequent in active compounds,0.131,,alpha10:52,REQUIRED
+0.75,,Contact alpha9:435 is more frequent in active compounds,0,,alpha9:435,REQUIRED
+0.75,,Contact alpha9:438 is more frequent in active compounds,0,,alpha9:438,REQUIRED
+0.728,,Contact alpha9:285 is more frequent in active compounds,0.103,,alpha9:285,REQUIRED
+0.727,,Contact alpha10:130 is more frequent in active compounds,0.364,,alpha10:130,REQUIRED
+0.727,,Contact alpha10:147 is more frequent in active compounds,0.364,,alpha10:147,REQUIRED
+0.727,,Contact alpha10:150 is more frequent in active compounds,0.364,,alpha10:150,REQUIRED
+0.667,,Contact alpha10:238 is more frequent in active compounds,0,,alpha10:238,REQUIRED
+0.667,,Contact alpha9:287 is more frequent in active compounds,0,,alpha9:287,REQUIRED
+0.667,,Contact alpha10:35 is more frequent in active compounds,0.333,,alpha10:35,REQUIRED
+0.667,,Contact alpha9:85 is more frequent in active compounds,0.333,,alpha9:85,REQUIRED
+0.667,,Contact alpha9:31 is more frequent in active compounds,0,,alpha9:31,REQUIRED
+0.58,,Contact alpha9:54 is more frequent in active compounds,0.29,,alpha9:54,REQUIRED
+0.571,,Contact alpha10:139 is more frequent in active compounds,0.286,,alpha10:139,REQUIRED
+0.551,,Contact alpha9:215 is more frequent in active compounds,0.275,,alpha9:215,REQUIRED
+0.5,,Contact alpha9:476 is more frequent in active compounds,0,,alpha9:476,REQUIRED
+0.5,,Contact alpha9:197 is more frequent in active compounds,0,,alpha9:197,REQUIRED
+0.5,,Contact alpha9:198 is more frequent in active compounds,0,,alpha9:198,REQUIRED
+0.5,,Contact alpha10:120 is more frequent in active compounds,0,,alpha10:120,REQUIRED
+0.5,,Contact alpha10:225 is more frequent in active compounds,0,,alpha10:225,REQUIRED
+0.5,,Contact alpha10:34 is more frequent in active compounds,0,,alpha10:34,REQUIRED
+0.5,,Contact alpha9:44 is more frequent in active compounds,0,,alpha9:44,REQUIRED
+0.5,,Contact alpha9:37 is more frequent in active compounds,0,,alpha9:37,REQUIRED
+0.5,,Contact alpha9:38 is more frequent in active compounds,0,,alpha9:38,REQUIRED
+0.5,,Contact alpha9:41 is more frequent in active compounds,0,,alpha9:41,REQUIRED
+0.5,,Contact alpha9:91 is more frequent in active compounds,0,,alpha9:91,REQUIRED
+0.5,,Contact alpha9:93 is more frequent in active compounds,0,,alpha9:93,REQUIRED
+0.435,,Contact alpha9:88 is more frequent in active compounds,0.217,,alpha9:88,REQUIRED
+0.429,,Contact alpha9:46 is more frequent in active compounds,0.214,,alpha9:46,REQUIRED
+0.416,,Contact alpha9:193 is more frequent in active compounds,0.208,,alpha9:193,REQUIRED
+0.364,,Contact alpha10:59 is more frequent in active compounds,0.182,,alpha10:59,REQUIRED
+0.35,,Contact alpha10:270 is more frequent in active compounds,0.175,,alpha10:270,REQUIRED
+0.333,,Contact alpha10:220 is more frequent in active compounds,0.167,,alpha10:220,REQUIRED
+0.333,,Contact alpha10:44 is more frequent in active compounds,0.167,,alpha10:44,REQUIRED
+0.333,,Contact alpha9:130 is more frequent in active compounds,0.167,,alpha9:130,REQUIRED
+0.333,,Contact alpha9:145 is more frequent in active compounds,0.167,,alpha9:145,REQUIRED
+0.333,,Contact alpha9:103 is more frequent in active compounds,0,,alpha9:103,REQUIRED
+0.333,,Contact alpha10:142 is more frequent in active compounds,0,,alpha10:142,REQUIRED
+0.333,,Contact alpha10:201 is more frequent in active compounds,0,,alpha10:201,REQUIRED
+0.333,,Contact alpha9:290 is more frequent in active compounds,0,,alpha9:290,REQUIRED
+0.333,,Contact alpha9:292 is more frequent in active compounds,0,,alpha9:292,REQUIRED
+0.333,,Contact alpha9:73 is more frequent in active compounds,0,,alpha9:73,REQUIRED
+0.325,,Contact alpha9:273 is more frequent in active compounds,0.163,,alpha9:273,REQUIRED
+0.3,,Contact alpha9:271 is more frequent in active compounds,0.15,,alpha9:271,REQUIRED
+0.287,,Contact alpha9:136 is more frequent in active compounds,0.143,,alpha9:136,REQUIRED
+0.287,,Contact alpha9:15 is more frequent in active compounds,0.143,,alpha9:15,REQUIRED
+0.286,,Contact alpha9:53 is more frequent in active compounds,0.143,,alpha9:53,REQUIRED
+0.275,,Contact alpha10:272 is more frequent in active compounds,0.138,,alpha10:272,REQUIRED
+0.269,,Contact alpha9:179 is more frequent in active compounds,0.135,,alpha9:179,REQUIRED
+0.262,,Contact alpha10:180 is more frequent in active compounds,0.048,,alpha10:180,REQUIRED
+0.255,,Contact alpha10:60 is more frequent in active compounds,0.127,,alpha10:60,REQUIRED
+0.25,,Contact alpha10:413 is more frequent in active compounds,0,,alpha10:413,REQUIRED
+0.25,,Contact alpha10:405 is more frequent in active compounds,0,,alpha10:405,REQUIRED
+0.25,,Contact alpha9:431 is more frequent in active compounds,0,,alpha9:431,REQUIRED
+0.232,,Contact alpha9:59 is more frequent in active compounds,0.116,,alpha9:59,REQUIRED
+0.222,,Contact alpha9:195 is more frequent in active compounds,0.111,,alpha9:195,REQUIRED
+0.219,,Contact alpha9:226 is more frequent in active compounds,0.11,,alpha9:226,REQUIRED
+0.219,,Contact alpha10:3 is more frequent in active compounds,0.11,,alpha10:3,REQUIRED
+0.214,,Contact alpha10:100 is more frequent in active compounds,0.107,,alpha10:100,REQUIRED
+0.192,,Contact alpha10:2 is more frequent in active compounds,0.096,,alpha10:2,REQUIRED
+0.182,,Contact alpha10:114 is more frequent in active compounds,0.091,,alpha10:114,REQUIRED
+0.182,,Contact alpha9:125 is more frequent in active compounds,0.091,,alpha9:125,REQUIRED
+0.167,,Contact alpha10:106 is more frequent in active compounds,0.083,,alpha10:106,REQUIRED
+0.167,,Contact alpha9:101 is more frequent in active compounds,0,,alpha9:101,REQUIRED
+0.165,,Contact alpha10:217 is more frequent in active compounds,0.082,,alpha10:217,REQUIRED
+0.164,,Contact alpha10:6 is more frequent in active compounds,0.082,,alpha10:6,REQUIRED
+0.143,,Contact alpha9:49 is more frequent in active compounds,0.071,,alpha9:49,REQUIRED
+0.137,,Contact alpha10:4 is more frequent in active compounds,0.069,,alpha10:4,REQUIRED
+0.137,,Contact alpha10:7 is more frequent in active compounds,0.069,,alpha10:7,REQUIRED
+0.137,,Contact alpha10:17 is more frequent in active compounds,0.069,,alpha10:17,REQUIRED
+0.129,,Contact alpha9:61 is more frequent in active compounds,0.065,,alpha9:61,REQUIRED
+0.129,,Contact alpha9:147 is more frequent in active compounds,0.065,,alpha9:147,REQUIRED
+0.11,,Contact alpha10:1 is more frequent in active compounds,0.055,,alpha10:1,REQUIRED
+0.11,,Contact alpha10:15 is more frequent in active compounds,0.055,,alpha10:15,REQUIRED
+0.11,,Contact alpha10:16 is more frequent in active compounds,0.055,,alpha10:16,REQUIRED
+0.11,,Contact alpha10:14 is more frequent in active compounds,0.055,,alpha10:14,REQUIRED
+0.1,,Contact alpha10:215 is more frequent in active compounds,0.05,,alpha10:215,REQUIRED
+0.095,,Contact alpha10:55 is more frequent in active compounds,0.048,,alpha10:55,REQUIRED
+0.082,,Contact alpha9:225 is more frequent in active compounds,0.041,,alpha9:225,REQUIRED
+0.082,,Contact alpha10:18 is more frequent in active compounds,0.041,,alpha10:18,REQUIRED
+0.071,,Contact alpha10:27 is more frequent in active compounds,0.036,,alpha10:27,REQUIRED
+0.071,,Contact alpha9:45 is more frequent in active compounds,0.036,,alpha9:45,REQUIRED
+0.071,,Contact alpha9:181 is more frequent in active compounds,0.036,,alpha9:181,REQUIRED
+0.058,,Contact alpha9:56 is more frequent in active compounds,0.029,,alpha9:56,REQUIRED
+0.058,,Contact alpha9:86 is more frequent in active compounds,0.029,,alpha9:86,REQUIRED
+0.058,,Contact alpha9:142 is more frequent in active compounds,0.029,,alpha9:142,REQUIRED
+0.055,,Contact alpha10:13 is more frequent in active compounds,0.027,,alpha10:13,REQUIRED
+0.055,,Contact alpha10:19 is more frequent in active compounds,0.027,,alpha10:19,REQUIRED
+0.05,,Contact alpha9:269 is more frequent in active compounds,0.025,,alpha9:269,REQUIRED
+0.029,,Contact alpha9:87 is more frequent in active compounds,0.015,,alpha9:87,REQUIRED
+0.027,,Contact alpha9:172 is more frequent in active compounds,0.014,,alpha9:172,REQUIRED
+0.027,,Contact alpha10:5 is more frequent in active compounds,0.014,,alpha10:5,REQUIRED
+0.027,,Contact alpha10:11 is more frequent in active compounds,0.014,,alpha10:11,REQUIRED
+0.027,,Contact alpha9:218 is more frequent in active compounds,0.014,,alpha9:218,REQUIRED
+0.027,,Contact alpha10:20 is more frequent in active compounds,0.014,,alpha10:20,REQUIRED
+0.027,,Contact alpha10:9 is more frequent in active compounds,0.014,,alpha10:9,REQUIRED
+0.027,,Contact alpha10:10 is more frequent in active compounds,0.014,,alpha10:10,REQUIRED
+0.025,,Contact alpha9:265 is more frequent in active compounds,0.013,,alpha9:265,REQUIRED
+,0.619,Contact alpha10:58 shows L-specific binding,,1.619,alpha10:58,STEREOSENSITIVE
+,0.667,Contact alpha10:46 shows L-specific binding,,1.583,alpha10:46,STEREOSENSITIVE
+,0.333,Contact alpha10:72 shows L-specific binding,,1.333,alpha10:72,STEREOSENSITIVE
+,0.319,Contact alpha9:186 shows L-specific binding,,1.319,alpha9:186,STEREOSENSITIVE
+,0.5,Contact alpha10:51 shows L-specific binding,,1.167,alpha10:51,STEREOSENSITIVE
+,0.032,Contact alpha9:106 shows L-specific binding,,1.032,alpha9:106,STEREOSENSITIVE
+,0,Contact alpha9:110 shows L-specific binding,,1.0,alpha9:110,STEREOSENSITIVE
+,0,Contact alpha9:129 shows L-specific binding,,1.0,alpha9:129,STEREOSENSITIVE
+,0,Contact alpha9:132 shows L-specific binding,,1.0,alpha9:132,STEREOSENSITIVE
+,0,Contact alpha10:291 shows L-specific binding,,1.0,alpha10:291,STEREOSENSITIVE
+,0,Contact alpha9:69 shows L-specific binding,,1.0,alpha9:69,STEREOSENSITIVE
+,0,Contact alpha9:70 shows L-specific binding,,1.0,alpha9:70,STEREOSENSITIVE
+,0,Contact alpha9:202 shows L-specific binding,,1.0,alpha9:202,STEREOSENSITIVE
+,0,Contact alpha10:287 shows L-specific binding,,1.0,alpha10:287,STEREOSENSITIVE
+,0,Contact alpha9:104 shows L-specific binding,,0.917,alpha9:104,STEREOSENSITIVE
+,0,Contact alpha9:105 shows L-specific binding,,0.75,alpha9:105,STEREOSENSITIVE
+,0.101,Contact alpha9:184 shows L-specific binding,,0.601,alpha9:184,STEREOSENSITIVE
+,0.069,Contact alpha9:284 shows L-specific binding,,0.562,alpha9:284,STEREOSENSITIVE
+,0.138,Contact alpha10:284 shows L-specific binding,,0.562,alpha10:284,STEREOSENSITIVE
+,0,Contact alpha9:212 shows L-specific binding,,0.5,alpha9:212,STEREOSENSITIVE
+,0,Contact alpha9:214 shows L-specific binding,,0.5,alpha9:214,STEREOSENSITIVE
+,0,Contact alpha9:223 shows L-specific binding,,0.5,alpha9:223,STEREOSENSITIVE
+,0,Contact alpha9:187 shows L-specific binding,,0.5,alpha9:187,STEREOSENSITIVE
+,0,Contact alpha10:286 shows L-specific binding,,0.5,alpha10:286,STEREOSENSITIVE
+,0,Contact alpha10:289 shows L-specific binding,,0.5,alpha10:289,STEREOSENSITIVE
+,0,Contact alpha9:72 shows L-specific binding,,0.5,alpha9:72,STEREOSENSITIVE
+,0,Contact alpha9:239 shows L-specific binding,,0.5,alpha9:239,STEREOSENSITIVE
+,0,Contact alpha9:240 shows L-specific binding,,0.5,alpha9:240,STEREOSENSITIVE
+,0,Contact alpha9:289 shows L-specific binding,,0.5,alpha9:289,STEREOSENSITIVE
+,0,Contact alpha10:73 shows L-specific binding,,0.5,alpha10:73,STEREOSENSITIVE
+,0,Contact alpha10:74 shows L-specific binding,,0.5,alpha10:74,STEREOSENSITIVE
+,0,Contact alpha10:153 shows L-specific binding,,0.5,alpha10:153,STEREOSENSITIVE
+,0,Contact alpha9:67 shows L-specific binding,,0.5,alpha9:67,STEREOSENSITIVE
+,0,Contact alpha9:200 shows L-specific binding,,0.5,alpha9:200,STEREOSENSITIVE
+,0,Contact alpha9:201 shows L-specific binding,,0.5,alpha9:201,STEREOSENSITIVE
+,0,Contact alpha9:203 shows L-specific binding,,0.5,alpha9:203,STEREOSENSITIVE
+,0.069,Contact alpha10:283 shows L-specific binding,,0.5,alpha10:283,STEREOSENSITIVE
+,0,Contact alpha9:102 shows L-specific binding,,0.417,alpha9:102,STEREOSENSITIVE
+,0.131,Contact alpha10:52 shows L-specific binding,,0.381,alpha10:52,STEREOSENSITIVE
+,0,Contact alpha9:31 shows L-specific binding,,0.333,alpha9:31,STEREOSENSITIVE
+,0.103,Contact alpha9:285 shows L-specific binding,,0.312,alpha9:285,STEREOSENSITIVE
+,0,Contact alpha9:103 shows L-specific binding,,0.167,alpha9:103,STEREOSENSITIVE
+,0.048,Contact alpha10:180 shows L-specific binding,,0.131,alpha10:180,STEREOSENSITIVE
+,0,Contact alpha9:101 shows L-specific binding,,0.083,alpha9:101,STEREOSENSITIVE

@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    43:
+HEADER 0  - Pocket Score                      : -0.0618
+HEADER 1  - Drug Score                        : 0.0056
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7999
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6691
+HEADER 5  - Mean B-factor of pocket residues  : 0.7220
+HEADER 6  - Hydrophobicity Score              : 67.2000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 198.9493
+HEADER 10 - Pocket volume (convex hull)       : 3.5830
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.7500
+ATOM  18532  CG1 VAL E 447      20.563  -3.817  25.976  0.00  0.00           C 0
+ATOM  18507    O LEU E 444      20.340  -1.773  21.427  0.00  0.00           O 0
+ATOM  18542  NE2 GLN E 448      19.646   1.245  24.375  0.63  9.84           N 0
+ATOM  18511  CD2 LEU E 444      24.848  -1.522  21.227  0.00  0.00           C 0
+ATOM  18531   CB VAL E 447      20.213  -4.386  24.599  0.00  0.00           C 0
+ATOM  18533  CG2 VAL E 447      20.979  -5.706  24.474  0.00  0.00           C 0
+ATOM  18476   CA VAL E 440      25.976  -6.210  16.903  0.00  0.00           C 0
+ATOM  18481  CG2 VAL E 440      28.458  -6.596  17.158  0.00  0.00           C 0
+ATOM  18480  CG1 VAL E 440      27.590  -4.328  17.533  0.00  0.00           C 0
+ATOM  18502  CD1 LEU E 443      24.375  -9.497  20.070  0.00  0.00           C 0
+ATOM  18499    O LEU E 443      20.857  -5.233  21.355  0.00  0.00           O 0
+ATOM  18504    N LEU E 444      22.195  -4.311  19.820  0.00  0.00           N 0
+ATOM  18505   CA LEU E 444      22.129  -2.955  20.375  0.00  0.00           C 0
+ATOM  18498    C LEU E 443      21.565  -5.349  20.362  0.00  0.00           C 0
+ATOM  18500   CB LEU E 443      23.008  -7.394  20.085  0.00  0.00           C 0
+ATOM  18509   CG LEU E 444      24.515  -2.104  19.856  0.00  0.00           C 0
+ATOM  18478    O VAL E 440      24.342  -4.761  17.849  0.00  0.00           O 0
+TER
+END

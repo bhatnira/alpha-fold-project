@@ -1,0 +1,26 @@
+COMPUTATIONAL ROBUSTNESS MATRIX
+============================================================
+
+Robustness = persistence across seeds, methods, stoichiometries, conformations
+No MD required — uses replication instead of dynamics
+
+Overall robustness: 0.482 – 0.875 (median 0.718)
+
+Top 10 most robust sites:
+  site 27  robustness=0.875  models=  2  seeds= 2  stoich=2  core=11
+  site 30  robustness=0.875  models=  2  seeds= 2  stoich=1  core=19
+  site 31  robustness=0.844  models=  3  seeds= 3  stoich=2  core=6
+  site 38  robustness=0.844  models= 16  seeds=12  stoich=2  core=5
+  site 18  robustness=0.802  models= 12  seeds=10  stoich=2  core=6
+  site 26  robustness=0.781  models= 20  seeds=13  stoich=2  core=10
+  site 40  robustness=0.768  models=  4  seeds= 4  stoich=2  core=4
+  site 35  robustness=0.755  models= 29  seeds=19  stoich=2  core=4
+  site  1  robustness=0.750  models=  1  seeds= 1  stoich=1  core=4
+  site  2  robustness=0.750  models=  1  seeds= 1  stoich=1  core=3
+
+Component scores (site, seed, method, stoich, residue):
+  site 27  seed=1.000  method=0.500  stoich=1.000  residue=1.000
+  site 30  seed=1.000  method=1.000  stoich=0.500  residue=1.000
+  site 31  seed=1.000  method=1.000  stoich=1.000  residue=0.375
+  site 38  seed=0.750  method=1.000  stoich=1.000  residue=0.625
+  site 18  seed=0.833  method=1.000  stoich=1.000  residue=0.375

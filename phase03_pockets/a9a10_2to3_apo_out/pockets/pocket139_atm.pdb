@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   139:
+HEADER 0  - Pocket Score                      : -0.1852
+HEADER 1  - Drug Score                        : 0.0056
+HEADER 2  - Number of alpha spheres           :    29
+HEADER 3  - Mean alpha-sphere radius          : 4.0375
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5310
+HEADER 5  - Mean B-factor of pocket residues  : 0.4608
+HEADER 6  - Hydrophobicity Score              : 26.6667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.2222
+HEADER 9  - Pocket volume (Monte Carlo)       : 271.2823
+HEADER 10 - Pocket volume (convex hull)       : 17.2628
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 21.0000
+HEADER 13 - Number of apolar alpha sphere     :    22
+HEADER 14 - Proportion of apolar alpha sphere : 0.7586
+ATOM  14064   CD PRO D 369      47.738 -26.861 -63.802  0.00  0.00           C 0
+ATOM   7207   CB ALA B 419      51.482 -24.906 -58.631  0.00  0.00           C 0
+ATOM  14053   CA SER D 368      45.139 -26.443 -62.446  0.00  0.00           C 0
+ATOM   7184   OG SER B 416      50.748 -30.674 -59.846  0.43  5.36           O 0
+ATOM   7244  CG2 VAL B 423      47.920 -23.174 -54.322  0.00  0.00           C 0
+ATOM   7242   CB VAL B 423      48.061 -23.747 -52.908  0.00  0.00           C 0
+ATOM   7213   CG GLN B 420      49.557 -29.080 -55.762  0.00  0.00           C 0
+ATOM   7209   CA GLN B 420      50.646 -27.023 -54.687  0.00  0.00           C 0
+ATOM   7180   CA SER B 416      52.341 -28.899 -60.278  0.00  0.00           C 0
+ATOM  14042    O SER D 366      45.419 -22.939 -60.718  0.63  6.43           O 0
+ATOM  14255  CD2 LEU D 396      47.806 -27.617 -51.364  0.00  0.00           C 0
+ATOM   7243  CG1 VAL B 423      46.657 -23.777 -52.297  0.00  0.00           C 0
+ATOM   7182    O SER B 416      52.097 -28.309 -57.962  0.00  0.00           O 0
+ATOM  14056   CB SER D 368      44.424 -27.574 -61.703  0.00  0.00           C 0
+ATOM   7216  NE2 GLN B 420      48.524 -31.202 -56.420  0.66  8.75           N 0
+ATOM  14038  CD2 LEU D 365      44.047 -23.031 -55.670  0.00  0.00           C 0
+ATOM  14044   OG SER D 366      48.150 -21.933 -60.199  0.00  0.00           O 0
+ATOM   7205    C ALA B 419      51.465 -25.179 -56.103  0.00  0.00           C 0
+ATOM   7206    O ALA B 419      51.036 -24.329 -55.319  0.00  0.00           O 0
+ATOM   7208    N GLN B 420      51.321 -26.480 -55.869  0.00  0.00           N 0
+TER
+END

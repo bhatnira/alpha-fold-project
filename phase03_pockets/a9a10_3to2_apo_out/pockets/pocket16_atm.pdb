@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : 0.0167
+HEADER 1  - Drug Score                        : 0.0070
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.6648
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4848
+HEADER 5  - Mean B-factor of pocket residues  : 0.7984
+HEADER 6  - Hydrophobicity Score              : 74.2857
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 93.9815
+HEADER 10 - Pocket volume (convex hull)       : 1.4251
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 20.0000
+HEADER 13 - Number of apolar alpha sphere     :    21
+HEADER 14 - Proportion of apolar alpha sphere : 0.8750
+ATOM  13719   CB LEU D 276       4.482  -7.786 -10.597  0.00  0.00           C 0
+ATOM  13715    N LEU D 276       3.720  -7.371 -12.879  0.00  0.00           N 0
+ATOM   2239   CB ALA A 278       0.543 -11.146  -8.736  0.00  0.00           C 0
+ATOM  13716   CA LEU D 276       3.446  -7.063 -11.475  0.00  0.00           C 0
+ATOM  13689    O VAL D 272       5.666  -9.482 -13.511  0.00  0.00           O 0
+ATOM  13714  CD2 LEU D 275       1.426 -10.606 -16.000  0.00  0.00           C 0
+ATOM   2043  CG2 ILE A 251      -0.830 -13.292 -12.240  0.00  0.00           C 0
+ATOM   2044  CD1 ILE A 251      -1.555 -10.241 -12.279  0.00  0.00           C 0
+ATOM  13712   CG LEU D 275       1.583  -9.125 -15.664  0.00  0.00           C 0
+ATOM  13691  CG1 VAL D 272       5.891 -12.648 -13.047  0.00  0.00           C 0
+ATOM   2212   CA ILE A 275       2.144 -15.148  -9.672  0.00  0.00           C 0
+ATOM   2216  CG1 ILE A 275       2.425 -15.902 -12.080  0.00  0.00           C 0
+ATOM   2210  CG2 THR A 274       6.297 -12.228  -9.635  0.00  0.00           C 0
+ATOM   2042  CG1 ILE A 251      -1.432 -11.180 -13.481  0.00  0.00           C 0
+ATOM   2068  CD1 LEU A 254       1.938 -13.965 -16.852  0.00  0.00           C 0
+ATOM   2207    O THR A 274       3.501 -13.216  -8.213  0.00  0.00           O 0
+ATOM  13721  CD1 LEU D 276       2.934  -8.419  -8.687  0.00  0.00           C 0
+TER
+END

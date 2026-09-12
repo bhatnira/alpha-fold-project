@@ -1,0 +1,13 @@
+==========================================
+Boltz-2 SAR Affinity Predictions
+Started: Sat Sep  5 02:51:31 PM EDT 2026
+Job ID: 3294517
+Array ID: 5
+Node: pax051
+GPU: 0
+==========================================
+Total YAML files: 180
+Processing YAML files 50 to 59
+
+[14:51:31] Processing: site21/site21_cpd5_binary
+Downloading the Boltz-2 affinity weights to /cluster/home/nbhatt04/.boltz/boltz2_aff.ckpt. You may change the cache directory with the --cache flag.

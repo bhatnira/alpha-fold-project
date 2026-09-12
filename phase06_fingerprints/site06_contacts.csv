@@ -1,0 +1,7 @@
+site,residue,subunit,residue_number,contact_frequency,n_models_contact,n_models_total,n_ligands_contact,ligands,ligand_freqs,af3_freq,boltz2_freq
+6,alpha9:186,alpha9,186,1.0,2,2,2,LASC_ANION;OETHYL_CORRECTED_3O,LASC_ANION:0.5;OETHYL_CORRECTED_3O:0.5,1.0,0.0
+6,alpha9:184,alpha9,184,0.5,1,2,1,LASC_ANION,LASC_ANION:0.5,0.5,0.0
+6,alpha9:212,alpha9,212,0.5,1,2,1,LASC_ANION,LASC_ANION:0.5,0.5,0.0
+6,alpha9:214,alpha9,214,0.5,1,2,1,LASC_ANION,LASC_ANION:0.5,0.5,0.0
+6,alpha9:223,alpha9,223,0.5,1,2,1,LASC_ANION,LASC_ANION:0.5,0.5,0.0
+6,alpha9:187,alpha9,187,0.5,1,2,1,OETHYL_CORRECTED_3O,OETHYL_CORRECTED_3O:0.5,0.5,0.0

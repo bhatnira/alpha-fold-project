@@ -1,0 +1,85 @@
+==========================================
+Boltz-2 SAR Affinity Predictions
+Started: Sat Sep  5 02:10:08 PM EDT 2026
+Job ID: 3294076
+Array ID: 17
+Node: pax106
+GPU: 0
+==========================================
+Total YAML files: 180
+Processing YAML files 170 to 179
+
+[14:10:08] Processing: site5/site5_cpd5_binary
+Usage: boltz predict [OPTIONS] DATA
+Try 'boltz predict --help' for help.
+
+Error: No such option: --affinity Did you mean --affinity_checkpoint?
+  Completed: 14:10:16
+
+[14:10:16] Processing: site5/site5_cpd5_ternary
+Usage: boltz predict [OPTIONS] DATA
+Try 'boltz predict --help' for help.
+
+Error: No such option: --affinity Did you mean --affinity_checkpoint?
+  Completed: 14:10:22
+
+[14:10:22] Processing: site5/site5_cpd6_binary
+Usage: boltz predict [OPTIONS] DATA
+Try 'boltz predict --help' for help.
+
+Error: No such option: --affinity Did you mean --affinity_checkpoint?
+  Completed: 14:10:28
+
+[14:10:28] Processing: site5/site5_cpd6_ternary
+Usage: boltz predict [OPTIONS] DATA
+Try 'boltz predict --help' for help.
+
+Error: No such option: --affinity Did you mean --affinity_checkpoint?
+  Completed: 14:10:34
+
+[14:10:34] Processing: site5/site5_cpd7_binary
+Usage: boltz predict [OPTIONS] DATA
+Try 'boltz predict --help' for help.
+
+Error: No such option: --affinity Did you mean --affinity_checkpoint?
+  Completed: 14:10:39
+
+[14:10:39] Processing: site5/site5_cpd7_ternary
+Usage: boltz predict [OPTIONS] DATA
+Try 'boltz predict --help' for help.
+
+Error: No such option: --affinity Did you mean --affinity_checkpoint?
+  Completed: 14:10:45
+
+[14:10:45] Processing: site5/site5_cpd8_binary
+Usage: boltz predict [OPTIONS] DATA
+Try 'boltz predict --help' for help.
+
+Error: No such option: --affinity Did you mean --affinity_checkpoint?
+  Completed: 14:10:51
+
+[14:10:51] Processing: site5/site5_cpd8_ternary
+Usage: boltz predict [OPTIONS] DATA
+Try 'boltz predict --help' for help.
+
+Error: No such option: --affinity Did you mean --affinity_checkpoint?
+  Completed: 14:10:57
+
+[14:10:57] Processing: site5/site5_cpd9_binary
+Usage: boltz predict [OPTIONS] DATA
+Try 'boltz predict --help' for help.
+
+Error: No such option: --affinity Did you mean --affinity_checkpoint?
+  Completed: 14:11:03
+
+[14:11:03] Processing: site5/site5_cpd9_ternary
+Usage: boltz predict [OPTIONS] DATA
+Try 'boltz predict --help' for help.
+
+Error: No such option: --affinity Did you mean --affinity_checkpoint?
+  Completed: 14:11:09
+
+==========================================
+Batch completed: Sat Sep  5 02:11:09 PM EDT 2026
+Results in: /cluster/home/nbhatt04/lean_pipeline/cofolding_study/results/boltz2
+==========================================

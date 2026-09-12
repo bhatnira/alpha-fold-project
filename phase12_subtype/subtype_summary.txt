@@ -1,0 +1,43 @@
+α9α10 vs α7 vs α4β2 SUBTYPE COMPARISON
+============================================================
+
+Pharmacophore residues from Phase XV:
+  α9:  ['N57', 'S175', 'V55', 'W176', 'Y120', 'Y217', 'Y224']
+  α10: ['D145', 'R143', 'W81']
+
+α7 (CHRNA7):
+  PDB: 3SQ6
+  ECD residues: 167
+  α9 pharmacophore conservation: 71.4%
+  α10 pharmacophore conservation: 100.0%
+  α9-unique residues: α9:217;α9:224
+  α10-unique residues: 
+  Note: Pentameric homomer (α7)5; different from (α9)2(α10)3
+
+α4β2 (CHRNA4 + CHRNB2):
+  PDB: 6KUU
+  ECD residues: 167
+  α9 pharmacophore conservation: 71.4%
+  α10 pharmacophore conservation: 100.0%
+  α9-unique residues: α9:217;α9:224
+  α10-unique residues: 
+  Note: Heteromeric (α4)3(β2)2; different pharmacology from α9α10
+
+SELECTIVITY DETERMINANTS:
+
+  W176 (α9 ECD): Present in α9α10, ABSENT in α7 and α4β2
+    → Key residue for α9α10-selective binding
+
+  Y224 (α9 ECD): Present in α9α10, different position in α7/α4β2
+    → Contributes to subtype-specific pocket shape
+
+  R143/D145 (α10 ECD): Present in α10, different residues in α7/α4β2
+    → Charge complementarity unique to α9α10 interface
+
+  W81 (α10 ECD): Present in α10, ABSENT in α7 (different residue)
+    → Aromatic stacking interaction specific to α9α10
+
+CONCLUSION:
+  The α9α10 allosteric pharmacophore contains residues that are
+  either absent or differently positioned in α7 and α4β2.
+  This provides a structural basis for subtype selectivity.

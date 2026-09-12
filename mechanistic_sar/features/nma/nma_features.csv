@@ -1,0 +1,2 @@
+pdb_file,n_atoms,n_contacts,lowest_eigenvalue,second_eigenvalue,mean_collectivity,max_collectivity,mean_fluctuation,max_fluctuation,pocket_cross_correlation
+09_docking/receptor_2to3.pdb,2308,12061,-2.1276468670308115e-15,-2.066844796423853e-15,0.049459025428714484,0.0803715803016194,0.0,0.0,0.0

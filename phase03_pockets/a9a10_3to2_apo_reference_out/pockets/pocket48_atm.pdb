@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    48:
+HEADER 0  - Pocket Score                      : -0.0676
+HEADER 1  - Drug Score                        : 0.0016
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.9565
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5688
+HEADER 5  - Mean B-factor of pocket residues  : 0.8857
+HEADER 6  - Hydrophobicity Score              : 18.7143
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 215.5692
+HEADER 10 - Pocket volume (convex hull)       : 4.5540
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4211
+ATOM   5223  OD1 ASN B 166      11.937  28.761   2.660  0.66  3.21           O 0
+ATOM   5545   CG HIS B 206      11.868  32.266   7.952  0.00  0.00           C 0
+ATOM   5544   CB HIS B 206      10.788  33.307   7.941  0.00  0.00           C 0
+ATOM   5547  CD2 HIS B 206      11.715  30.914   7.827  0.00  0.00           C 0
+ATOM   5549  NE2 HIS B 206      12.973  30.345   7.975  0.00  0.00           N 0
+ATOM   5548  CE1 HIS B 206      13.851  31.338   8.184  0.00  0.00           C 0
+ATOM   5546  ND1 HIS B 206      13.216  32.519   8.181  0.44  3.28           N 0
+ATOM   5758   CD LYS B 234      13.927  27.969   5.655  0.00  0.00           C 0
+ATOM   5221   CB ASN B 166      10.131  29.333   1.172  0.00  0.00           C 0
+ATOM   5743  CD2 LEU B 232       6.415  35.425   3.636  0.00  0.00           C 0
+ATOM   5740   CB LEU B 232       7.222  34.218   5.726  0.00  0.00           C 0
+ATOM   5742  CD1 LEU B 232       7.964  36.553   5.196  0.00  0.00           C 0
+ATOM   5222   CG ASN B 166      11.587  29.129   1.558  0.00  0.00           C 0
+ATOM   5228    O GLN B 167       5.740  30.743   2.873  0.00  0.00           O 0
+ATOM   5239   CG GLN B 168       5.397  33.486   0.723  0.00  0.00           C 0
+ATOM   5242  NE2 GLN B 168       7.050  35.023  -0.192  0.00  0.00           N 0
+ATOM   5747    O LEU B 233       8.203  29.029   4.200  0.82  1.07           O 0
+ATOM   5738    C LEU B 232       6.648  31.848   6.397  0.00  0.00           C 0
+TER
+END

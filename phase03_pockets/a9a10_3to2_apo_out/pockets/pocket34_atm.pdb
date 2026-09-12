@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    34:
+HEADER 0  - Pocket Score                      : -0.0495
+HEADER 1  - Drug Score                        : 0.0011
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8227
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6909
+HEADER 5  - Mean B-factor of pocket residues  : 0.7426
+HEADER 6  - Hydrophobicity Score              : 54.7500
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 152.3578
+HEADER 10 - Pocket volume (convex hull)       : 1.8159
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.7333
+ATOM  18481  CG2 VAL E 440      28.458  -6.596  17.158  0.00  0.00           C 0
+ATOM  18480  CG1 VAL E 440      27.590  -4.328  17.533  0.00  0.00           C 0
+ATOM  18459   CG MET E 437      29.755  -4.677  10.812  0.00  0.00           C 0
+ATOM  18479   CB VAL E 440      27.380  -5.603  16.712  0.00  0.00           C 0
+ATOM  18455   CA MET E 437      27.993  -5.973  12.126  0.00  0.00           C 0
+ATOM  18453   OG SER E 436      31.472  -8.460  12.475  0.62  5.36           O 0
+ATOM  18451    O SER E 436      28.052  -7.852  14.198  0.00  0.00           O 0
+ATOM  18454    N MET E 437      28.663  -7.275  12.116  0.00  0.00           N 0
+ATOM  18450    C SER E 436      28.650  -8.117  13.159  0.00  0.00           C 0
+ATOM  18457    O MET E 437      25.904  -5.464  13.152  0.00  0.00           O 0
+ATOM  18458   CB MET E 437      28.316  -5.183  10.852  0.00  0.00           C 0
+ATOM  18487   CG MET E 441      24.551  -2.495  13.452  0.00  0.00           C 0
+ATOM  18461   CE MET E 437      29.964  -2.033   9.994  0.00  0.00           C 0
+TER
+END

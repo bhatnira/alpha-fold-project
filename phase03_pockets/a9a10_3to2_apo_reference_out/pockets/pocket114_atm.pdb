@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   114:
+HEADER 0  - Pocket Score                      : -0.1453
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0095
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5580
+HEADER 5  - Mean B-factor of pocket residues  : 0.1739
+HEADER 6  - Hydrophobicity Score              : -21.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 305.2568
+HEADER 10 - Pocket volume (convex hull)       : 14.9061
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.5333
+ATOM   6799   CB ASP B 368      53.023 -15.471 -38.704  0.00  0.00           C 0
+ATOM   6810  CD2 HIS B 369      58.527 -18.034 -40.143  0.00  0.00           C 0
+ATOM   6836   NZ LYS B 372      56.199 -12.272 -43.070  0.00  0.00           N 0
+ATOM   6769   CG ARG B 365      57.367 -15.350 -34.610  0.00  0.00           C 0
+ATOM   6834   CD LYS B 372      55.220 -14.433 -43.871  0.00  0.00           C 0
+ATOM   6803    N HIS B 369      54.323 -18.090 -40.029  0.00  0.00           N 0
+ATOM   6802  OD2 ASP B 368      52.466 -13.623 -37.338  0.62  5.36           O 0
+ATOM   6767    O ARG B 365      55.377 -17.976 -37.533  0.74  2.14           O 0
+ATOM   6797    C ASP B 368      53.308 -17.308 -40.386  0.00  0.00           C 0
+ATOM   6768   CB ARG B 365      57.003 -16.802 -34.936  0.00  0.00           C 0
+ATOM   6812  NE2 HIS B 369      59.564 -17.679 -40.997  0.00  0.00           N 0
+ATOM   6811  CE1 HIS B 369      59.318 -18.266 -42.175  0.00  0.00           C 0
+ATOM   6765   CA ARG B 365      55.556 -16.936 -35.423  0.00  0.00           C 0
+ATOM   6771   NE ARG B 365      59.287 -13.874 -34.057  0.41  5.47           N 0
+ATOM   6770   CD ARG B 365      58.861 -15.266 -34.276  0.00  0.00           C 0
+ATOM   6773  NH1 ARG B 365      61.492 -14.327 -33.596  0.00  0.00           N 0
+ATOM   6772   CZ ARG B 365      60.513 -13.473 -33.743  0.00  0.00           C 0
+TER
+END

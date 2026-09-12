@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   141:
+HEADER 0  - Pocket Score                      : -0.1858
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.2090
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6331
+HEADER 5  - Mean B-factor of pocket residues  : 0.4597
+HEADER 6  - Hydrophobicity Score              : -29.8333
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 204.0629
+HEADER 10 - Pocket volume (convex hull)       : 3.1777
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2500
+ATOM   1099  ND2 ASN A 132     -37.553  11.829  21.655  0.00  0.00           N 0
+ATOM   1077  OE2 GLU A 129     -30.658  10.546  23.076  0.00  0.00           O 0
+ATOM   1098  OD1 ASN A 132     -38.126   9.712  21.684  0.85  3.21           O 0
+ATOM   1081    O PRO A 130     -35.212   7.394  20.742  0.52  3.21           O 0
+ATOM   1073   CB GLU A 129     -31.072   7.837  22.623  0.00  0.00           C 0
+ATOM   1084   CD PRO A 130     -34.107   5.471  23.427  0.00  0.00           C 0
+ATOM   1074   CG GLU A 129     -30.409   8.312  23.924  0.00  0.00           C 0
+ATOM   8753   CB SER C 131     -31.299   6.621  29.825  0.00  0.00           C 0
+ATOM   1076  OE1 GLU A 129     -30.024  10.284  25.184  0.48  4.29           O 0
+ATOM   1075   CD GLU A 129     -30.351   9.837  24.062  0.00  0.00           C 0
+ATOM   8754   OG SER C 131     -30.488   7.781  29.802  0.00  3.21           O 0
+ATOM    959  NH2 ARG A 114     -38.604   7.479  24.830  0.00  0.00           N 0
+ATOM    916   CB ASP A 110     -40.431  10.948  24.275  0.00  0.00           C 0
+ATOM   1083   CG PRO A 130     -35.613   5.318  23.297  0.00  0.00           C 0
+TER
+END

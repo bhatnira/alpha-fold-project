@@ -1,0 +1,35 @@
+{
+  "current_models": "APO (no ACh bound)",
+  "ach_binding_sites": {
+    "alpha9_alpha10_interface": {
+      "principal_face": "alpha9 (W149, Y188, G151, T150, V152)",
+      "complementary_face": "alpha10 (Y81, L109, P107, T108)",
+      "interface_type": "alpha9(+)/alpha10(-)"
+    }
+  },
+  "occupancy_states_modeled": [
+    "R (receptor alone) - current APO models",
+    "R + PAM - AF3/Boltz-2 models with ligand",
+    "R + ACh - NOT YET MODELED",
+    "R + ACh + PAM - NOT YET MODELED"
+  ],
+  "notes": [
+    "No ACh-bound models have been generated",
+    "All AF3/Boltz-2 models use apo receptor as template",
+    "ACh occupancy is an explicit variable that needs to be tested",
+    "Current analysis assumes ACh-free conditions"
+  ],
+  "orthosteric_residues_alpha9": [
+    "W149",
+    "Y188",
+    "G151",
+    "T150",
+    "V152"
+  ],
+  "orthosteric_residues_alpha10": [
+    "Y81",
+    "L109",
+    "P107",
+    "T108"
+  ]
+}

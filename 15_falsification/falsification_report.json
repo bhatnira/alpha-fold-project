@@ -1,0 +1,48 @@
+{
+  "falsification_tests": [
+    {
+      "test": "F1: Electrostatics",
+      "result": "PASS",
+      "finding": "Acetate does NOT reproduce ascorbate site"
+    },
+    {
+      "test": "F2: Stereochemistry",
+      "result": "FAIL",
+      "finding": "D/L-ascorbate NOT distinguished by pipeline"
+    },
+    {
+      "test": "F3: Protonation",
+      "result": "PASS",
+      "finding": "Anion vs neutral does not determine placement"
+    },
+    {
+      "test": "F4: Stoichiometry",
+      "result": "PASS",
+      "finding": "Site 23 shows balanced distribution"
+    },
+    {
+      "test": "F5: Receptor state",
+      "result": "PASS",
+      "finding": "Site 23 shows no seed dependence"
+    },
+    {
+      "test": "F6: Model hallucination",
+      "result": "PASS",
+      "finding": "Contact residues have high pLDDT (>70)"
+    },
+    {
+      "test": "F7: Membrane partitioning",
+      "result": "PASS",
+      "finding": "Peripheral ECD cavity, not lipid-facing"
+    },
+    {
+      "test": "F8: Ligand size",
+      "result": "PASS",
+      "finding": "Small anions vs large ryanodine distinguished"
+    }
+  ],
+  "overall_falsification": "7/8 tests PASS, 1 FAIL (stereochemistry)",
+  "implication": "Model partially validated but stereochemistry weakness needs addressing",
+  "leading_hypothesis": "Site 23 (alpha9/alpha10 ECD interface)",
+  "hypothesis_status": "Survives falsification except stereochemistry"
+}

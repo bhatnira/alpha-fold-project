@@ -1,0 +1,23 @@
+BOLTZ-2 AFFINITY ANALYSIS
+============================================================
+
+Method: enrichment × confidence as proxy for relative affinity
+Note: Actual Boltz-2 affinity scores require separate computation
+
+Total ligand × site pairs: 94
+
+Top 10 predicted affinity pairs:
+  site  1  RYANODINE     affinity=7.1484  enrichment=9.66
+  site 17  ACETATE       affinity=5.5942  enrichment=7.21
+  site 32  ACETATE       affinity=5.5509  enrichment=7.21
+  site 33  ACETATE       affinity=5.5509  enrichment=7.21
+  site 45  ACETATE       affinity=5.5509  enrichment=7.21
+  site 36  ACETATE       affinity=5.3347  enrichment=7.21
+  site 41  ACETATE       affinity=5.3347  enrichment=7.21
+  site 44  ACETATE       affinity=5.3275  enrichment=7.21
+  site 42  ACETATE       affinity=5.3202  enrichment=7.21
+  site 29  ACETATE       affinity=5.3058  enrichment=7.21
+
+SAR preservation:
+  Stereochemical order (L>D):  34/46 sites
+  Specificity (L>acetate):     38/46 sites

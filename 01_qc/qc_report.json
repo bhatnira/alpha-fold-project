@@ -1,0 +1,49 @@
+{
+  "total_compounds": 30,
+  "active_compounds": 7,
+  "inactive_compounds": 23,
+  "duplicate_smiles": 0,
+  "duplicate_ids": 0,
+  "active_ids": [
+    "1",
+    "2",
+    "3",
+    "12",
+    "18",
+    "24",
+    "25"
+  ],
+  "inactive_ids": [
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30"
+  ],
+  "note": "Dataset contains 30 compounds (7 active, 23 inactive). Master prompt specified 28 (7+21).",
+  "raw_csv": "/cluster/home/nbhatt04/lean_pipeline/modulator-dataset-a9a10.csv",
+  "normalized_csv": "/cluster/home/nbhatt04/lean_pipeline/01_qc/normalized_dataset.csv",
+  "software_versions": {
+    "python": "3.9.21",
+    "pipeline": "lean_pipeline_v1.0",
+    "note": "No RDKit/numpy available; basic QC only"
+  }
+}

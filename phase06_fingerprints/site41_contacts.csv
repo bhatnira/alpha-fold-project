@@ -1,0 +1,4 @@
+site,residue,subunit,residue_number,contact_frequency,n_models_contact,n_models_total,n_ligands_contact,ligands,ligand_freqs,af3_freq,boltz2_freq
+41,alpha10:412,alpha10,412,1.0,1,1,1,ACETATE_ANION,ACETATE_ANION:1.0,0.0,1.0
+41,alpha10:416,alpha10,416,1.0,1,1,1,ACETATE_ANION,ACETATE_ANION:1.0,0.0,1.0
+41,alpha9:442,alpha9,442,1.0,1,1,1,ACETATE_ANION,ACETATE_ANION:1.0,0.0,1.0

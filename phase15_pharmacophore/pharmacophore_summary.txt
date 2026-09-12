@@ -1,0 +1,55 @@
+α9α10 ALLOSTERIC PHARMACOPHORE
+============================================================
+
+Derived from: SAR analysis + interaction fingerprints + pocket geometry
+
+FEATURES:
+
+  HBD1      H-bond donor          ESSENTIAL  stereo-sensitive
+           Hydroxyl group on ascorbate ring O1
+           Residues: alpha9:176, alpha9:175
+           Max distance: 3.2 Å
+
+  HBA1      H-bond acceptor       ESSENTIAL  stereo-sensitive
+           Carbonyl oxygen of ascorbate lactone
+           Residues: alpha9:120, alpha10:81
+           Max distance: 2.8 Å
+
+  HYD1      hydrophobic           optional   stereo-insensitive
+           C4-C5 region of ascorbate ring
+           Residues: alpha9:224, alpha9:217
+           Max distance: 4.0 Å
+
+  NEG1      negative charge       ESSENTIAL  stereo-insensitive
+           Carboxylate of ascorbate (anionic form)
+           Residues: alpha10:143, alpha10:145
+           Max distance: 3.5 Å
+
+  POL1      polar                 optional   stereo-sensitive
+           Hydroxymethyl group of ascorbate
+           Residues: alpha9:57, alpha9:55
+           Max distance: 3.0 Å
+
+FORBIDDEN REGIONS:
+
+  FORBIDDEN1    Steric clash with M2 helix (T273, T274)
+               Residues: alpha10:273, alpha9:274
+               Max volume: 50 ų
+
+DESIGN RULES:
+
+1. Must contain H-bond donor near W176/S175 (HBD1)
+2. Must contain H-bond acceptor near Y120/W81 (HBA1)
+3. Must contain negative charge near R143/D145 (NEG1)
+4. Hydrophobic region near Y224/Y217 improves affinity (HYD1)
+5. Polar group near N57/V55 improves selectivity (POL1)
+6. Must avoid steric clash with M2 helix (FORBIDDEN1)
+7. L-stereochemistry preferred (D-ascorbate shows 3x weaker binding)
+
+SELECTIVITY DETERMINANTS:
+
+  α9α10-specific residues in pharmacophore:
+    W176 (α9 ECD) — not present in α7 or α4β2
+    Y224 (α9 ECD) — unique aromatic position
+    R143 (α10 ECD) — charge complementarity
+    D145 (α10 ECD) — stereospecific H-bond

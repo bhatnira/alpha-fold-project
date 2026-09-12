@@ -1,0 +1,26 @@
+{
+  "stoichiometries_compared": [
+    "a9a10_2to3 (alpha9_2 alpha10_3)",
+    "a9a10_3to2 (alpha9_3 alpha10_2)"
+  ],
+  "states_compared": [
+    "resting_like (APO)",
+    "ligand_bound",
+    "modulator_bound"
+  ],
+  "ach_conditions_compared": [
+    "ACh-free (current)",
+    "ACh-bound (not yet modeled)"
+  ],
+  "results": {
+    "site_23_stoichiometry": "Present in both stoichiometries (balanced)",
+    "site_23_state": "Present in resting-like state",
+    "site_23_ach": "ACh dependence uncertain (ECD site)"
+  },
+  "key_findings": [
+    "Site 23 exists in both stoichiometries",
+    "Stoichiometry does not determine site existence",
+    "State dependence: all current models are resting-like",
+    "ACh dependence: ECD sites may be ACh-dependent"
+  ]
+}

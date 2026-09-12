@@ -1,0 +1,31 @@
+{
+  "total_compounds": 30,
+  "informative_mmps": [
+    {
+      "pair": "12 vs 7",
+      "change": "alkynyl vs vinyl",
+      "effect": "10000x potency increase"
+    },
+    {
+      "pair": "25 vs 1",
+      "change": "bromo vs OH",
+      "effect": "500x potency increase"
+    },
+    {
+      "pair": "3 vs 1",
+      "change": "methyl vs H at C4",
+      "effect": "3x potency decrease"
+    },
+    {
+      "pair": "18 vs 19",
+      "change": "benzyl vs vinyl at C5",
+      "effect": "Activity maintained vs lost"
+    }
+  ],
+  "mmp_sar_rules": [
+    "Small substituents at C5 maintain activity",
+    "Extended chains at C5 eliminate activity",
+    "Bromo at C4 increases potency",
+    "Alkynyl at C5 dramatically increases potency"
+  ]
+}

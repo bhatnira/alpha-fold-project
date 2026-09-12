@@ -1,0 +1,11 @@
+rank,site_id,ligand,ligand_class,enrichment,fisher_p,mean_confidence,n_contacts,recurrent_contacts,site_evidence_level,stereo_test,acetate_test
+1,1,RYANODINE,modulator,9.66,0.1035,0.74,4,alpha9:129;alpha10:129;alpha10:126;alpha10:128,Level 1,False,not tested
+2,17,ACETATE,control,7.21,0.0000,0.776,7,alpha9:106;alpha9:47;alpha9:105;alpha9:104;alpha9:178;alpha9:182;alpha9:52,Level 2,True,not tested
+3,29,ACETATE,control,7.21,0.1387,0.736,4,alpha9:236;alpha10:293;alpha9:204;alpha9:237,Level 1,False,not tested
+4,32,ACETATE,control,7.21,0.1387,0.77,1,alpha10:273,Level 2,False,not tested
+5,33,ACETATE,control,7.21,0.1387,0.77,1,alpha10:280,Level 2,False,not tested
+6,36,ACETATE,control,7.21,0.1387,0.74,7,alpha10:250;alpha9:276;alpha10:281;alpha9:277;alpha9:307;alpha10:277;alpha9:280,Level 1,False,not tested
+7,41,ACETATE,control,7.21,0.1387,0.74,3,alpha10:416;alpha10:412;alpha9:442,Level 1,False,not tested
+8,42,ACETATE,control,7.21,0.1387,0.738,1,alpha9:362,Level 1,False,not tested
+9,43,ACETATE,control,7.21,0.0190,0.73,12,alpha9:309;alpha9:463;alpha9:466;alpha9:252;alpha9:467;alpha9:310;alpha9:255;alpha9:306;alpha9:470;alpha9:312,Level 1,False,not tested
+10,44,ACETATE,control,7.21,0.1387,0.739,2,alpha9:473;alpha9:305,Level 1,False,not tested

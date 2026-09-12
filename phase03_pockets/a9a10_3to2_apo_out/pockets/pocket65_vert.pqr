@@ -1,0 +1,67 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket    65:
+HEADER 0  - Pocket Score                      : -0.0925
+HEADER 1  - Drug Score                        : 0.0064
+HEADER 2  - Number of V. Vertices             :    45
+HEADER 3  - Mean alpha-sphere radius          : 4.1549
+HEADER 4  - Mean alpha-sphere SA              : 0.6981
+HEADER 5  - Mean B-factor                     : 0.6301
+HEADER 6  - Hydrophobicity Score              : 34.6667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Volume Score                      : 3.3333
+HEADER 9  - Real volume (approximation)       : 482.5731
+HEADER 10 - Charge Score                      :     0
+HEADER 11 - Local hydrophobic density Score   : 13.0476
+HEADER 12 - Number of apolar alpha sphere     :    21
+HEADER 13 - Proportion of apolar alpha sphere : 0.4667
+ATOM      1    C STP    65      56.492 -35.739 -33.339    0.00     3.83
+ATOM      2    O STP    65      55.803 -32.861 -37.887    0.00     4.42
+ATOM      3    C STP    65      57.763 -35.120 -32.946    0.00     3.84
+ATOM      4    C STP    65      57.969 -35.724 -32.740    0.00     3.49
+ATOM      5    C STP    65      56.631 -36.030 -33.141    0.00     3.68
+ATOM      6    C STP    65      56.665 -36.132 -33.106    0.00     3.62
+ATOM      7    O STP    65      55.920 -32.941 -37.658    0.00     4.47
+ATOM      8    O STP    65      55.959 -33.181 -37.595    0.00     4.35
+ATOM      9    C STP    65      55.976 -33.233 -37.597    0.00     4.31
+ATOM     10    O STP    65      55.971 -33.222 -37.568    0.00     4.33
+ATOM     11    C STP    65      53.387 -32.703 -40.975    0.00     4.38
+ATOM     12    O STP    65      53.083 -32.858 -40.957    0.00     4.22
+ATOM     13    O STP    65      53.331 -33.457 -42.658    0.00     4.43
+ATOM     14    O STP    65      55.440 -33.695 -35.881    0.00     4.25
+ATOM     15    O STP    65      54.976 -33.634 -36.146    0.00     3.85
+ATOM     16    C STP    65      60.802 -35.355 -32.580    0.00     4.14
+ATOM     17    C STP    65      60.074 -35.800 -32.514    0.00     3.64
+ATOM     18    O STP    65      52.845 -33.027 -40.810    0.00     3.98
+ATOM     19    C STP    65      55.394 -32.267 -39.082    0.00     4.47
+ATOM     20    O STP    65      55.517 -32.103 -39.062    0.00     4.55
+ATOM     21    C STP    65      55.473 -32.366 -38.828    0.00     4.45
+ATOM     22    O STP    65      55.354 -32.654 -38.514    0.00     4.28
+ATOM     23    C STP    65      54.720 -32.636 -39.317    0.00     4.09
+ATOM     24    O STP    65      55.221 -32.735 -38.345    0.00     4.13
+ATOM     25    C STP    65      53.327 -32.659 -41.103    0.00     4.47
+ATOM     26    C STP    65      53.289 -32.655 -41.185    0.00     4.51
+ATOM     27    C STP    65      53.239 -32.683 -41.134    0.00     4.46
+ATOM     28    C STP    65      53.775 -32.469 -40.737    0.00     4.41
+ATOM     29    C STP    65      54.110 -32.235 -40.700    0.00     4.53
+ATOM     30    C STP    65      52.951 -32.736 -41.148    0.00     4.35
+ATOM     31    O STP    65      56.061 -33.588 -36.001    0.00     4.67
+ATOM     32    O STP    65      56.214 -33.250 -36.810    0.00     4.66
+ATOM     33    O STP    65      56.193 -33.459 -36.930    0.00     4.49
+ATOM     34    O STP    65      55.850 -35.368 -36.765    0.00     3.51
+ATOM     35    O STP    65      55.863 -35.318 -36.808    0.00     3.51
+ATOM     36    O STP    65      54.437 -33.517 -35.907    0.00     3.41
+ATOM     37    C STP    65      56.431 -36.246 -33.716    0.00     3.42
+ATOM     38    C STP    65      60.789 -35.563 -32.382    0.00     3.94
+ATOM     39    O STP    65      55.311 -33.422 -34.049    0.00     4.49
+ATOM     40    O STP    65      54.517 -33.303 -34.112    0.00     3.88
+ATOM     41    C STP    65      55.336 -33.866 -33.442    0.00     4.31
+ATOM     42    O STP    65      55.137 -33.511 -34.379    0.00     4.28
+ATOM     43    O STP    65      55.246 -33.445 -34.112    0.00     4.43
+ATOM     44    O STP    65      54.791 -33.441 -34.289    0.00     4.04
+ATOM     45    O STP    65      54.760 -33.421 -34.234    0.00     4.04
+TER
+END

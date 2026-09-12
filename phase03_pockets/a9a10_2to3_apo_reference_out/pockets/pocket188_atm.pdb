@@ -1,0 +1,63 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   188:
+HEADER 0  - Pocket Score                      : -0.3519
+HEADER 1  - Drug Score                        : 0.0140
+HEADER 2  - Number of alpha spheres           :    61
+HEADER 3  - Mean alpha-sphere radius          : 3.9827
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5583
+HEADER 5  - Mean B-factor of pocket residues  : 0.1773
+HEADER 6  - Hydrophobicity Score              : 18.5000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 661.9572
+HEADER 10 - Pocket volume (convex hull)       : 143.4846
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 29.6250
+HEADER 13 - Number of apolar alpha sphere     :    32
+HEADER 14 - Proportion of apolar alpha sphere : 0.5246
+ATOM   6780   CG GLU B 366      64.654 -19.599 -27.583  0.00  0.00           C 0
+ATOM   6779   CB GLU B 366      63.511 -18.725 -28.093  0.00  0.00           C 0
+ATOM   6819  CD1 LEU B 370      61.795 -19.315 -32.771  0.00  0.00           C 0
+ATOM   6781   CD GLU B 366      64.227 -21.067 -27.452  0.00  0.00           C 0
+ATOM   6805    C HIS B 369      65.167 -14.825 -33.116  0.00  0.00           C 0
+ATOM   6806    O HIS B 369      65.643 -14.461 -34.190  0.00  0.00           O 0
+ATOM   6809  ND1 HIS B 369      68.755 -15.069 -32.379  0.00  0.00           N 0
+ATOM   6843  CG2 VAL B 373      67.601 -15.602 -36.656  0.00  0.00           C 0
+ATOM   6820  CD2 LEU B 370      62.961 -19.245 -34.949  0.00  0.00           C 0
+ATOM   6813    N LEU B 370      64.106 -15.623 -33.064  0.79  1.09           N 0
+ATOM   6814   CA LEU B 370      63.400 -16.110 -34.251  0.00  0.00           C 0
+ATOM   6807   CB HIS B 369      66.567 -15.336 -31.047  0.00  0.00           C 0
+ATOM   6842  CG1 VAL B 373      66.837 -16.468 -38.834  0.00  0.00           C 0
+ATOM   6841   CB VAL B 373      66.440 -15.564 -37.663  0.00  0.00           C 0
+ATOM   6778    O GLU B 366      63.308 -16.686 -30.605  0.70  1.07           O 0
+ATOM   6776   CA GLU B 366      63.943 -17.287 -28.376  0.00  0.00           C 0
+ATOM   6782  OE1 GLU B 366      65.118 -21.939 -27.488  0.00  8.57           O 0
+ATOM   6818   CG LEU B 370      62.788 -18.524 -33.613  0.00  0.00           C 0
+ATOM  10563   OG SER C 368      70.161 -22.031 -32.425  0.00  0.00           O 0
+ATOM   6808   CG HIS B 369      68.041 -15.085 -31.210  0.00  0.00           C 0
+ATOM  10552   CA PRO C 367      70.591 -25.452 -28.976  0.00  0.00           C 0
+ATOM  10558    N SER C 368      70.256 -24.541 -31.190  0.49  2.19           N 0
+ATOM   6811  CE1 HIS B 369      70.031 -14.758 -32.093  0.00  0.00           C 0
+ATOM   6810  CD2 HIS B 369      68.923 -14.758 -30.200  0.00  0.00           C 0
+ATOM   6812  NE2 HIS B 369      70.169 -14.552 -30.774  0.62  4.37           N 0
+ATOM   6768   CB ARG B 365      65.472 -14.846 -24.929  0.00  0.00           C 0
+ATOM   6775    N GLU B 366      63.972 -16.491 -27.141  0.00  0.00           N 0
+ATOM   6766    C ARG B 365      64.376 -15.227 -27.141  0.00  0.00           C 0
+ATOM  10562   CB SER C 368      69.833 -23.173 -33.189  0.00  0.00           C 0
+ATOM  10548    O SER C 366      68.507 -26.730 -30.295  0.64  1.07           O 0
+ATOM  10540    O LEU C 365      67.192 -26.760 -27.387  0.08  5.36           O 0
+ATOM  10561    O SER C 368      72.601 -23.425 -32.141  0.59  4.29           O 0
+ATOM  10576   CG GLN C 370      76.338 -20.664 -31.580  0.00  0.00           C 0
+ATOM  10579  NE2 GLN C 370      77.064 -19.270 -29.699  0.00  0.00           N 0
+ATOM   6767    O ARG B 365      64.784 -14.665 -28.147  0.67  3.21           O 0
+ATOM   6853  CE2 TYR B 374      62.207 -18.596 -38.355  0.00  0.00           C 0
+ATOM   6855   OH TYR B 374      62.715 -20.644 -39.495  0.70  5.36           O 0
+ATOM  10541   CB LEU C 365      64.644 -25.830 -28.545  0.00  0.00           C 0
+ATOM  10555   CB PRO C 367      71.846 -25.288 -28.120  0.00  0.00           C 0
+ATOM  10543  CD1 LEU C 365      62.623 -24.359 -28.944  0.00  0.00           C 0
+ATOM  10544  CD2 LEU C 365      63.432 -25.833 -30.755  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,45 @@
+ELECTROSTATIC ANALYSIS
+============================================================
+
+Method: Coulombic potential from pdb2pqr charges
+Grid: 30 Å cube, 2 Å spacing, centered on receptor
+
+a9a10_3to2_apo_reference_site23:
+  A:176       charge=-0.000  potential=-515.66 kcal/mol
+  A:175       charge=+0.000  potential=-515.66 kcal/mol
+  A:120       charge=-0.000  potential=-515.66 kcal/mol
+  A:224       charge=-0.000  potential=-515.66 kcal/mol
+  A:217       charge=-0.000  potential=-515.66 kcal/mol
+  A:57        charge=-0.000  potential=-515.66 kcal/mol
+  A:55        charge=-0.000  potential=-515.66 kcal/mol
+
+a9a10_3to2_apo_reference_site34:
+  A:270       charge=-0.000  potential=-136.77 kcal/mol
+  A:274       charge=-0.000  potential=-169.87 kcal/mol
+  A:277       charge=-0.000  potential=-214.96 kcal/mol
+  A:266       charge=-2.000  potential=-156.13 kcal/mol
+  A:267       charge=-1.000  potential=-156.13 kcal/mol
+
+a9a10_2to3_apo_reference_site34:
+  A:270       charge=-0.000  potential=-107.17 kcal/mol
+  A:274       charge=-0.000  potential=-128.60 kcal/mol
+  A:277       charge=-0.000  potential=-163.27 kcal/mol
+  A:266       charge=-3.000  potential=-96.38 kcal/mol
+  A:267       charge=+1.000  potential=-96.38 kcal/mol
+
+a9a10_2to3_apo_reference_site23:
+  A:176       charge=-0.000  potential=-368.61 kcal/mol
+  A:175       charge=+0.000  potential=-368.61 kcal/mol
+  A:120       charge=-0.000  potential=-381.56 kcal/mol
+  A:224       charge=-0.000  potential=-368.61 kcal/mol
+  A:217       charge=-0.000  potential=-381.56 kcal/mol
+  A:57        charge=-0.000  potential=-368.61 kcal/mol
+  A:55        charge=-0.000  potential=-368.61 kcal/mol
+
+INTERPRETATION:
+
+  Negative potential at binding site → favorable for cation binding
+  Positive potential at binding site → favorable for anion binding
+  L-ascorbate (anion) → prefers positive potential regions
+  If acetate shows same pattern → charge-driven
+  If L-ascorbate shows different pattern → molecular recognition

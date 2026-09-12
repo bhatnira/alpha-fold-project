@@ -1,0 +1,5 @@
+site,residue,subunit,residue_number,contact_frequency,n_models_contact,n_models_total,n_ligands_contact,ligands,ligand_freqs,af3_freq,boltz2_freq
+1,alpha10:126,alpha10,126,1.0,1,1,1,RYANODINE,RYANODINE:1.0,1.0,0.0
+1,alpha10:128,alpha10,128,1.0,1,1,1,RYANODINE,RYANODINE:1.0,1.0,0.0
+1,alpha10:129,alpha10,129,1.0,1,1,1,RYANODINE,RYANODINE:1.0,1.0,0.0
+1,alpha9:129,alpha9,129,1.0,1,1,1,RYANODINE,RYANODINE:1.0,1.0,0.0

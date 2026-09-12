@@ -1,0 +1,52 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   153:
+HEADER 0  - Pocket Score                      : -0.2006
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    38
+HEADER 3  - Mean alpha-sphere radius          : 3.9246
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5121
+HEADER 5  - Mean B-factor of pocket residues  : 0.8934
+HEADER 6  - Hydrophobicity Score              : 19.5455
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 4.7273
+HEADER 9  - Pocket volume (Monte Carlo)       : 466.0041
+HEADER 10 - Pocket volume (convex hull)       : 15.9005
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.4211
+ATOM   8142   CB ASN C  56     -21.279  -0.231  51.096  0.00  0.00           C 0
+ATOM   8158  OG1 THR C  58     -22.070  -4.379  47.181  0.58  4.29           O 0
+ATOM   8411  OG1 THR C  87     -28.332  -0.511  50.949  0.65  8.57           O 0
+ATOM   8141    O ASN C  56     -23.097   0.506  48.794  0.52  6.43           O 0
+ATOM   8387   CB GLU C  85     -25.940  -3.612  44.515  0.00  0.00           C 0
+ATOM   8829   CB ALA C 141     -31.719  -2.961  48.250  0.00  0.00           C 0
+ATOM   8395    O TRP C  86     -28.662   0.083  47.177  0.68  1.07           O 0
+ATOM   8798   CD ARG C 137     -34.625  -5.772  46.356  0.00  0.00           C 0
+ATOM   8390  OE1 GLU C  85     -27.241  -6.822  43.111  0.55  6.43           O 0
+ATOM   8801  NH1 ARG C 137     -33.264  -7.428  48.294  0.00  0.00           N 0
+ATOM   8392    N TRP C  86     -26.447  -0.424  45.729  0.00  0.00           N 0
+ATOM   8394    C TRP C  86     -27.628   0.560  47.640  0.00  0.00           C 0
+ATOM   8393   CA TRP C  86     -26.302   0.444  46.896  0.00  0.00           C 0
+ATOM   8389   CD GLU C  85     -26.559  -6.033  43.809  0.00  0.00           C 0
+ATOM   8388   CG GLU C  85     -26.500  -4.540  43.418  0.00  0.00           C 0
+ATOM   8386    O GLU C  85     -24.373  -1.267  45.777  0.00  0.00           O 0
+ATOM   8841   CB ARG C 143     -30.280  -3.777  41.678  0.00  0.00           C 0
+ATOM   8843   CD ARG C 143     -29.812  -6.081  40.724  0.00  0.00           C 0
+ATOM   8385    C GLU C  85     -25.502  -1.228  45.280  0.00  0.00           C 0
+ATOM   8391  OE2 GLU C  85     -25.895  -6.463  44.774  0.00  0.00           O 0
+ATOM   9190  NH2 ARG C 187     -25.890 -10.448  44.216  0.00  0.00           N 0
+ATOM   8780    O VAL C 135     -33.654  -1.530  42.446  0.00  0.00           O 0
+ATOM   8782  CG1 VAL C 135     -35.561  -4.212  41.144  0.00  0.00           C 0
+ATOM   8846  NH1 ARG C 143     -31.663  -8.303  40.585  0.63  7.66           N 0
+ATOM   8845   CZ ARG C 143     -31.809  -7.272  39.803  0.00  0.00           C 0
+ATOM   8833    O VAL C 142     -29.056  -1.068  44.130  0.77  1.07           O 0
+ATOM   8828    O ALA C 141     -33.154  -1.432  46.021  0.00  0.00           O 0
+ATOM   8837    N ARG C 143     -30.680  -1.564  42.667  0.00  0.00           N 0
+ATOM   8832    C VAL C 142     -30.222  -0.956  43.748  0.00  0.00           C 0
+ATOM   8827    C ALA C 141     -32.103  -1.095  46.560  0.00  0.00           C 0
+TER
+END

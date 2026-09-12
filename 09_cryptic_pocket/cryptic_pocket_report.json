@@ -1,0 +1,57 @@
+{
+  "analysis_type": "cryptic_pocket",
+  "states_analyzed": [
+    "apo"
+  ],
+  "n_candidate_sites": 4,
+  "results": {
+    "site23": {
+      "site": "site23",
+      "interface": "alpha9(+)/alpha10(-) ECD",
+      "residues": [
+        "alpha9:176",
+        "alpha9:175",
+        "alpha10:143",
+        "alpha10:145",
+        "alpha9:120"
+      ],
+      "state_pockets": {},
+      "classification": "APO_ONLY"
+    },
+    "site25": {
+      "site": "site25",
+      "interface": "alpha9(+)/alpha9(-) ECD",
+      "residues": [
+        "alpha9:176",
+        "alpha9:175",
+        "alpha9:120"
+      ],
+      "state_pockets": {},
+      "classification": "APO_ONLY"
+    },
+    "site34": {
+      "site": "site34",
+      "interface": "M1-M2/M2 TM",
+      "residues": [
+        "alpha9:TMD",
+        "alpha10:TMD"
+      ],
+      "state_pockets": {},
+      "classification": "APO_ONLY"
+    },
+    "site21": {
+      "site": "site21",
+      "interface": "alpha10 ECD",
+      "residues": [
+        "alpha10:81",
+        "alpha10:109"
+      ],
+      "state_pockets": {},
+      "classification": "APO_ONLY"
+    }
+  },
+  "classification_summary": {
+    "APO_ONLY": 4
+  },
+  "note": "Currently only APO state has fpocket results. Open/desensitized/ACh-bound states need Phase 3-4 and Phase 6 results."
+}

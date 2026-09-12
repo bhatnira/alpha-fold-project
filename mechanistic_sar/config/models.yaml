@@ -1,0 +1,46 @@
+# Model configuration
+models:
+  chemical_baseline:
+    type: "RandomForest"
+    n_estimators: 100
+    random_state: 42
+    
+  binding_baseline:
+    type: "RandomForest"
+    n_estimators: 100
+    random_state: 42
+    
+  structural_model:
+    type: "GradientBoosting"
+    n_estimators: 100
+    random_state: 42
+    
+  nma_model:
+    type: "RandomForest"
+    n_estimators: 100
+    random_state: 42
+    
+  allosteric_model:
+    type: "GradientBoosting"
+    n_estimators: 100
+    random_state: 42
+    
+  integrated_model:
+    type: "GradientBoosting"
+    n_estimators: 200
+    random_state: 42
+
+splits:
+  random:
+    n_folds: 5
+    test_size: 0.2
+    random_state: 42
+  scaffold:
+    n_folds: 5
+    random_state: 42
+  leave_one_scaffold_out:
+    min_compounds_per_scaffold: 3
+
+scoring:
+  continuous: ["pearson_r", "spearman_rho", "rmse", "mae", "r2"]
+  binary: ["auroc", "auprc", "balanced_accuracy", "mcc", "f1"]

@@ -1,0 +1,41 @@
+{
+  "total_yamls": 346,
+  "groups": {
+    "state_models": 4,
+    "ach_states": 2,
+    "binary": 80,
+    "ternary": 80,
+    "full_panel": 180
+  },
+  "stoichiometries": [
+    "2to3",
+    "3to2"
+  ],
+  "states": [
+    "resting",
+    "open",
+    "desensitized"
+  ],
+  "candidate_sites": [
+    23,
+    21,
+    5,
+    34,
+    7
+  ],
+  "representative_compounds": [
+    "L_ASCORBATE",
+    "CPD12_POTENT",
+    "CPD25_STRONG",
+    "CPD1_MODERATE",
+    "CPD18_MODERATE",
+    "CPD3_WEAK",
+    "CPD8_INACTIVE",
+    "CPD9_INACTIVE"
+  ],
+  "seeds": [
+    42,
+    123,
+    456
+  ]
+}

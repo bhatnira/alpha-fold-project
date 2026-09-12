@@ -1,0 +1,37 @@
+{
+  "frozen_predictions": {
+    "date": "2026-09-05T16:49:45.444077",
+    "model_version": "v1.0",
+    "predictions": [
+      {
+        "compound": "MOL_0011",
+        "predicted": "ACTIVE",
+        "predicted_site": "Site 23",
+        "predicted_interface": "alpha9(+)/alpha10(-)",
+        "predicted_potency": "moderate"
+      },
+      {
+        "compound": "MOL_0005",
+        "predicted": "ACTIVE",
+        "predicted_site": "Site 23",
+        "predicted_interface": "alpha9(+)/alpha10(-)",
+        "predicted_potency": "moderate"
+      },
+      {
+        "compound": "MOL_0012",
+        "predicted": "ACTIVE",
+        "predicted_site": "Site 23",
+        "predicted_interface": "alpha9(+)/alpha10(-)",
+        "predicted_potency": "moderate"
+      }
+    ]
+  },
+  "blind_test_protocol": [
+    "1. Freeze predictions before experimental results",
+    "2. Record predicted active/inactive",
+    "3. Record predicted potency rank",
+    "4. Record predicted binding site",
+    "5. Compare with experiment when available"
+  ],
+  "status": "PREDICTIONS FROZEN - awaiting experimental validation"
+}

@@ -1,0 +1,181 @@
+{
+  "computational_ranking_frozen": true,
+  "top_sites": [
+    {
+      "site_id": 35,
+      "rank": "1",
+      "evidence_score": "0.6828",
+      "classification": "LOW_CONFIDENCE",
+      "n_mutations_to_test": 0,
+      "key_residues": []
+    },
+    {
+      "site_id": 18,
+      "rank": "2",
+      "evidence_score": "0.63",
+      "classification": "LOW_CONFIDENCE",
+      "n_mutations_to_test": 0,
+      "key_residues": []
+    },
+    {
+      "site_id": 27,
+      "rank": "3",
+      "evidence_score": "0.5957",
+      "classification": "LOW_CONFIDENCE",
+      "n_mutations_to_test": 0,
+      "key_residues": []
+    }
+  ],
+  "mutation_plan": [
+    {
+      "site": "23",
+      "mutation": "alpha9:W176\u2192Ala",
+      "anchor_type": "hydrogen-bond/polar",
+      "hypothesis": "A (ligand-specific recognition)",
+      "predicted_effect": "loss or large reduction predicted: the hydrogen-bond network carries the recognition",
+      "priority": "high"
+    },
+    {
+      "site": "23",
+      "mutation": "alpha10:D145\u2192Ala",
+      "anchor_type": "electrostatic",
+      "hypothesis": "B (generic electrostatic attraction)",
+      "predicted_effect": "little or no change predicted: under specific recognition the charge is not the primary anchor",
+      "priority": "high"
+    },
+    {
+      "site": "23",
+      "mutation": "alpha10:R83\u2192Ala",
+      "anchor_type": "electrostatic",
+      "hypothesis": "B (generic electrostatic attraction)",
+      "predicted_effect": "little or no change predicted: under specific recognition the charge is not the primary anchor",
+      "priority": "high"
+    },
+    {
+      "site": "23",
+      "mutation": "alpha9:Y120\u2192Ala",
+      "anchor_type": "hydrogen-bond/polar",
+      "hypothesis": "A (ligand-specific recognition)",
+      "predicted_effect": "loss or large reduction predicted: the hydrogen-bond network carries the recognition",
+      "priority": "high"
+    },
+    {
+      "site": "23",
+      "mutation": "alpha10:W81\u2192Ala",
+      "anchor_type": "hydrogen-bond/polar",
+      "hypothesis": "A (ligand-specific recognition)",
+      "predicted_effect": "loss or large reduction predicted: the hydrogen-bond network carries the recognition",
+      "priority": "high"
+    },
+    {
+      "site": "23",
+      "mutation": "alpha9:Y224\u2192Ala",
+      "anchor_type": "hydrogen-bond/polar",
+      "hypothesis": "A (ligand-specific recognition)",
+      "predicted_effect": "loss or large reduction predicted: the hydrogen-bond network carries the recognition",
+      "priority": "high"
+    },
+    {
+      "site": "23",
+      "mutation": "alpha9:S175\u2192Ala",
+      "anchor_type": "hydrogen-bond/polar",
+      "hypothesis": "A (ligand-specific recognition)",
+      "predicted_effect": "loss or large reduction predicted: the hydrogen-bond network carries the recognition",
+      "priority": "high"
+    },
+    {
+      "site": "23",
+      "mutation": "alpha9:Y217\u2192Ala",
+      "anchor_type": "hydrogen-bond/polar",
+      "hypothesis": "A (ligand-specific recognition)",
+      "predicted_effect": "loss or large reduction predicted: the hydrogen-bond network carries the recognition",
+      "priority": "high"
+    },
+    {
+      "site": "23",
+      "mutation": "alpha10:R143\u2192Ala",
+      "anchor_type": "electrostatic",
+      "hypothesis": "B (generic electrostatic attraction)",
+      "predicted_effect": "little or no change predicted: under specific recognition the charge is not the primary anchor",
+      "priority": "high"
+    },
+    {
+      "site": "5",
+      "mutation": "alpha9:N57\u2192Ala",
+      "anchor_type": "hydrogen-bond/polar",
+      "hypothesis": "A (ligand-specific recognition)",
+      "predicted_effect": "loss or large reduction predicted: the hydrogen-bond network carries the recognition",
+      "priority": "high"
+    },
+    {
+      "site": "34",
+      "mutation": "alpha10:T273\u2192Ala",
+      "anchor_type": "hydrogen-bond/polar",
+      "hypothesis": "A (ligand-specific recognition)",
+      "predicted_effect": "loss or large reduction predicted: the hydrogen-bond network carries the recognition",
+      "priority": "high"
+    },
+    {
+      "site": "34",
+      "mutation": "alpha9:T274\u2192Ala",
+      "anchor_type": "hydrogen-bond/polar",
+      "hypothesis": "A (ligand-specific recognition)",
+      "predicted_effect": "loss or large reduction predicted: the hydrogen-bond network carries the recognition",
+      "priority": "high"
+    },
+    {
+      "site": "34",
+      "mutation": "alpha9:S270\u2192Ala",
+      "anchor_type": "hydrogen-bond/polar",
+      "hypothesis": "A (ligand-specific recognition)",
+      "predicted_effect": "loss or large reduction predicted: the hydrogen-bond network carries the recognition",
+      "priority": "high"
+    },
+    {
+      "site": "34",
+      "mutation": "alpha10:S269\u2192Ala",
+      "anchor_type": "hydrogen-bond/polar",
+      "hypothesis": "A (ligand-specific recognition)",
+      "predicted_effect": "loss or large reduction predicted: the hydrogen-bond network carries the recognition",
+      "priority": "high"
+    },
+    {
+      "site": "21",
+      "mutation": "alpha10:R105\u2192Ala",
+      "anchor_type": "electrostatic",
+      "hypothesis": "B (generic electrostatic attraction)",
+      "predicted_effect": "little or no change predicted: under specific recognition the charge is not the primary anchor",
+      "priority": "high"
+    }
+  ],
+  "assay_plan": [
+    {
+      "assay": "Radioligand binding",
+      "target": "\u03b19\u03b110 nAChR",
+      "ligand": "L-ascorbate",
+      "measure": "Kd, Bmax",
+      "mutations": "Top 5 high-priority mutations"
+    },
+    {
+      "assay": "Calcium flux",
+      "target": "\u03b19\u03b110 nAChR",
+      "ligand": "L-ascorbate, D-ascorbate, acetate",
+      "measure": "IC50, EC50, efficacy",
+      "mutations": "Full mutation panel"
+    },
+    {
+      "assay": "Electrophysiology (patch-clamp)",
+      "target": "\u03b19\u03b110 nAChR",
+      "ligand": "L-ascorbate + ACh",
+      "measure": "PAM/NCAM activity, concentration-response",
+      "mutations": "Key contact residues"
+    },
+    {
+      "assay": "Competition binding",
+      "target": "\u03b19\u03b110 vs \u03b17 vs \u03b14\u03b22",
+      "ligand": "Top 3 candidate compounds",
+      "measure": "Selectivity ratio",
+      "mutations": "None (wild-type comparison)"
+    }
+  ]
+}

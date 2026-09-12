@@ -1,0 +1,18 @@
+{
+  "states": {
+    "ligand_bound": 870,
+    "resting_like": 10
+  },
+  "classification_method": "Based on ligand occupancy in structure name",
+  "resting_like_description": "APO structures - no ligand bound",
+  "ligand_bound_description": "LASC, ACETATE, OETHYL structures",
+  "modulator_bound_description": "RYANODINE structures",
+  "state_assignment_notes": [
+    "All current models are generated from APO receptor",
+    "AF3 models represent various ligand placement predictions",
+    "No explicit open/desensitized states modeled",
+    "Resting-like state assumed for all receptor conformations"
+  ],
+  "pore_analysis": "Not available - no explicit gate diameter calculations",
+  "m2_analysis": "Not available - no explicit M2 helix orientation analysis"
+}

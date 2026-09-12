@@ -1,0 +1,48 @@
+α9α10 SAR DATASET SUMMARY
+============================================================
+
+Total sites:          46
+Total SAR records:    94
+Discovery records:    75
+Held-out records:     19
+
+Per-ligand breakdown:
+  ACETATE        23 records  23 sites    67 models
+  D-ASC          17 records  17 sites    66 models
+  L-ASC          22 records  22 sites   132 models
+  O-ETHYL        29 records  29 sites   168 models
+  RYANODINE       3 records   3 sites    50 models
+
+Per-stoichiometry breakdown:
+  2to3     58 records   220 models
+  3to2     36 records   263 models
+
+Enrichment range:     0.12 – 9.66
+Median enrichment:    1.83
+
+Top 5 enriched ligand×site pairs:
+  site  1  RYANODINE     enrich=9.66  models=  1  contacts=4
+  site 17  ACETATE       enrich=7.21  models=  9  contacts=7
+  site 29  ACETATE       enrich=7.21  models=  1  contacts=4
+  site 32  ACETATE       enrich=7.21  models=  1  contacts=1
+  site 33  ACETATE       enrich=7.21  models=  1  contacts=1
+
+Sites with sufficient support: 16 / 46
+  site  1  composite=0.5066  level=Level 4  class=Class 1 - conserved allosteric region
+  site  2  composite=0.4355  level=Level 2  class=Class 3 - no overlap with the reference regions tested
+  site  3  composite=0.4173  level=Level 4  class=Class 3 - no overlap with the reference regions tested
+  site  4  composite=0.3838  level=Level 4  class=Class 3 - no overlap with the reference regions tested
+  site  5  composite=0.3710  level=Level 2  class=Class 3 - no overlap with the reference regions tested
+  site  6  composite=0.3473  level=Level 4  class=Class 3 - no overlap with the reference regions tested
+  site  7  composite=0.3421  level=Level 2  class=Class 1 - conserved allosteric region
+  site  8  composite=0.3377  level=Level 2  class=Class 3 - no overlap with the reference regions tested
+  site  9  composite=0.3307  level=Level 4  class=Class 2 - analogous, sequence-divergent
+  site 10  composite=0.3235  level=Level 4  class=Class 3 - no overlap with the reference regions tested
+  site 11  composite=0.3174  level=Level 4  class=Class 1 - conserved allosteric region
+  site 12  composite=0.3047  level=Level 4  class=Class 3 - no overlap with the reference regions tested
+  site 13  composite=0.2972  level=Level 4  class=Class 2 - analogous, sequence-divergent
+  site 14  composite=0.2895  level=Level 2  class=Class 3 - no overlap with the reference regions tested
+  site 22  composite=0.2673  level=Level 2  class=Class 3 - no overlap with the reference regions tested
+  site 25  composite=0.2593  level=Level 2  class=Class 3 - no overlap with the reference regions tested
+
+Held-out sites (16): [1, 4, 6, 11, 12, 15, 24, 28, 29, 36, 39, 41, 42, 43, 44, 46]

@@ -1,0 +1,2 @@
+pdb_file,n_atoms,n_protein_atoms,n_ligand_atoms,n_ca_atoms,contact_count,hbond_count,hydrophobic_contacts,polar_contacts,min_distance,mean_contact_distance,n_residues_in_contact,mean_bfactor,std_bfactor,max_bfactor
+09_docking/receptor_2to3.pdb,18194,18194,0,2308,0,0,0,0,999.0,999.0,0,0.0,0.0,0.0

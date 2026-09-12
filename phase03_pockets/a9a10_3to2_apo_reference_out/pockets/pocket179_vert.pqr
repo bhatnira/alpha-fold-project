@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket   179:
+HEADER 0  - Pocket Score                      : -0.2565
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of V. Vertices             :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.1954
+HEADER 4  - Mean alpha-sphere SA              : 0.5588
+HEADER 5  - Mean B-factor                     : 0.7610
+HEADER 6  - Hydrophobicity Score              : -13.5000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Volume Score                      : 3.5000
+HEADER 9  - Real volume (approximation)       : 423.1450
+HEADER 10 - Charge Score                      :    -1
+HEADER 11 - Local hydrophobic density Score   : 0.0000
+HEADER 12 - Number of apolar alpha sphere     :     0
+HEADER 13 - Proportion of apolar alpha sphere : 0.0000
+ATOM      1    O STP   179     -27.224  36.916  17.916    0.00     5.42
+ATOM      2    O STP   179     -26.769  37.072  15.889    0.00     4.54
+ATOM      3    O STP   179     -27.042  36.252  16.293    0.00     4.59
+ATOM      4    O STP   179     -23.633  40.467  16.554    0.00     4.49
+ATOM      5    O STP   179     -23.576  40.549  16.643    0.00     4.42
+ATOM      6    O STP   179     -22.840  40.619  16.776    0.00     3.88
+ATOM      7    O STP   179     -23.868  40.619  17.856    0.00     4.03
+ATOM      8    O STP   179     -24.271  40.481  18.191    0.00     4.01
+ATOM      9    O STP   179     -24.150  40.180  19.189    0.00     3.52
+ATOM     10    O STP   179     -23.581  40.851  17.688    0.00     3.97
+ATOM     11    O STP   179     -25.211  39.777  17.153    0.00     4.57
+ATOM     12    O STP   179     -25.227  38.252  15.372    0.00     4.53
+ATOM     13    O STP   179     -26.020  37.725  14.574    0.00     3.90
+ATOM     14    O STP   179     -26.705  40.580  17.461    0.00     3.76
+ATOM     15    O STP   179     -26.655  40.750  17.426    0.00     3.71
+ATOM     16    O STP   179     -26.506  40.615  17.423    0.00     3.80
+TER
+END

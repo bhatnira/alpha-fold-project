@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 0.0270
+HEADER 1  - Drug Score                        : 0.0031
+HEADER 2  - Number of alpha spheres           :    26
+HEADER 3  - Mean alpha-sphere radius          : 3.5758
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3928
+HEADER 5  - Mean B-factor of pocket residues  : 0.7305
+HEADER 6  - Hydrophobicity Score              : 16.1667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 144.2995
+HEADER 10 - Pocket volume (convex hull)       : 5.4355
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.4615
+ATOM  16969  OD1 ASN E 242       3.241  -7.140  15.011  0.56  2.14           O 0
+ATOM  10088  CG2 VAL C 296       3.286  -9.947  21.012  0.00  0.00           C 0
+ATOM  10087  CG1 VAL C 296       2.300 -11.165  19.094  0.00  0.00           C 0
+ATOM  16961   CB CYS E 241       5.859  -8.200  18.083  0.00  0.00           C 0
+ATOM  16970  ND2 ASN E 242       2.334  -5.251  15.668  0.67  7.66           N 0
+ATOM  16934   CA ALA E 238       3.751  -4.371  19.707  0.00  0.00           C 0
+ATOM  10095   CD PRO C 297      -1.048  -9.725  18.613  0.00  0.00           C 0
+ATOM  10015  CG1 VAL C 286      -2.356  -9.286  13.031  0.00  0.00           C 0
+ATOM  10013    O VAL C 286      -2.806  -6.184  12.928  0.00  0.00           O 0
+ATOM  10018   CA ALA C 287      -0.363  -4.894  12.808  0.00  0.00           C 0
+ATOM  10094   CG PRO C 297      -1.869 -10.047  17.365  0.00  0.00           C 0
+ATOM  16937   CB ALA E 238       2.479  -3.520  19.725  0.00  0.00           C 0
+ATOM  10083   CA VAL C 296       0.771 -10.242  20.888  0.00  0.00           C 0
+ATOM  10062    O SER C 293       1.164  -5.187  22.495  0.26  2.14           O 0
+ATOM  10077    O ASN C 295      -1.184  -8.620  21.983  0.41  2.14           O 0
+ATOM  10050    O PRO C 291      -2.096  -3.706  19.414  0.34  5.36           O 0
+ATOM   9993  NE2 GLN C 283       3.379  -9.340  13.457  0.44  2.19           N 0
+ATOM  10043   CB MET C 290      -3.589  -5.855  16.280  0.00  0.00           C 0
+TER
+END

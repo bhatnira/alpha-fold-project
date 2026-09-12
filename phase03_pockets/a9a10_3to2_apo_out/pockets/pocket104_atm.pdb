@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   104:
+HEADER 0  - Pocket Score                      : -0.1329
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    26
+HEADER 3  - Mean alpha-sphere radius          : 4.0099
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5376
+HEADER 5  - Mean B-factor of pocket residues  : 0.7939
+HEADER 6  - Hydrophobicity Score              : 29.2857
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 263.9693
+HEADER 10 - Pocket volume (convex hull)       : 11.4375
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1538
+ATOM   1680    O VAL A 205     -33.847   0.909  -9.829  0.61  6.43           O 0
+ATOM   1672   CB GLU A 204     -29.121  -0.569 -11.124  0.00  0.00           C 0
+ATOM   1628  OE1 GLU A 199     -30.751   6.025 -15.179  0.00  0.00           O 0
+ATOM   1677    N VAL A 205     -31.058   1.209  -8.901  0.74  1.09           N 0
+ATOM   1673   CG GLU A 204     -28.187  -0.311 -12.316  0.00  0.00           C 0
+ATOM   1626   CG GLU A 199     -29.943   7.059 -13.175  0.00  0.00           C 0
+ATOM   1610  CE1 PHE A 197     -31.060   6.063  -8.693  0.00  0.00           C 0
+ATOM   1926  NH2 ARG A 236     -27.208   3.101 -13.768  0.00  0.00           N 0
+ATOM   1674   CD GLU A 204     -28.273  -1.396 -13.408  0.00  0.00           C 0
+ATOM   1675  OE1 GLU A 204     -27.657  -1.200 -14.478  0.04  5.36           O 0
+ATOM   1608  CD1 PHE A 197     -32.221   6.814  -8.939  0.00  0.00           C 0
+ATOM   1692  CE1 HIS A 206     -32.630  -4.045 -12.078  0.00  0.00           C 0
+ATOM   1693  NE2 HIS A 206     -31.582  -3.695 -11.316  0.00  0.00           N 0
+ATOM   1657    O TRP A 203     -27.455   2.612  -9.004  0.54  1.07           O 0
+ATOM   1676  OE2 GLU A 204     -28.925  -2.445 -13.194  0.73  2.14           O 0
+ATOM   1627   CD GLU A 199     -29.746   6.473 -14.587  0.00  0.00           C 0
+ATOM   1669   CA GLU A 204     -29.008   0.485 -10.016  0.00  0.00           C 0
+TER
+END

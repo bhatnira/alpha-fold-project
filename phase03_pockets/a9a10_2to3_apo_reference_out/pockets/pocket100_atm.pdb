@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   100:
+HEADER 0  - Pocket Score                      : -0.1259
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8851
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6152
+HEADER 5  - Mean B-factor of pocket residues  : 0.6262
+HEADER 6  - Hydrophobicity Score              : 40.7143
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 190.3489
+HEADER 10 - Pocket volume (convex hull)       : 5.6869
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3125
+ATOM   2569  ND2 ASN A 322      25.511 -26.747  -7.513  0.49  1.09           N 0
+ATOM   2604   SG CYS A 326      29.231 -30.434 -12.123  0.00  0.00           S 0
+ATOM   2568  OD1 ASN A 322      26.500 -26.177  -9.368  0.77  3.21           O 0
+ATOM  11032  NH2 ARG C 428      29.455 -30.074  -5.647  0.00  0.00           N 0
+ATOM   2565    O ASN A 322      25.793 -27.440 -12.057  0.00  0.00           O 0
+ATOM   2567   CG ASN A 322      25.463 -26.413  -8.779  0.00  0.00           C 0
+ATOM   2575  CG1 ILE A 323      22.604 -31.004 -11.517  0.00  0.00           C 0
+ATOM   2571   CA ILE A 323      24.020 -29.404 -12.905  0.00  0.00           C 0
+ATOM   3590  CZ3 TRP A 448      25.975 -34.765 -13.524  0.00  0.00           C 0
+ATOM   2570    N ILE A 323      23.712 -28.245 -12.051  0.00  0.00           N 0
+ATOM   2542    O MET A 319      21.197 -28.169 -10.256  0.58  1.07           O 0
+ATOM   2577  CD1 ILE A 323      21.263 -31.736 -11.383  0.00  0.00           C 0
+ATOM   2546   CE MET A 319      19.851 -30.738  -5.264  0.00  0.00           C 0
+ATOM   9748  NE2 HIS C 259      23.063 -27.423  -5.704  0.00  0.00           N 0
+ATOM   2564    C ASN A 322      24.620 -27.332 -11.708  0.00  0.00           C 0
+TER
+END

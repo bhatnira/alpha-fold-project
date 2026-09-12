@@ -1,0 +1,9 @@
+{
+  "status": "PREDICTIONS_FROZEN",
+  "n_compounds": 0,
+  "predicted_active": [],
+  "frozen_date": "2026-09-05",
+  "awaiting": "Experimental electrophysiology validation",
+  "protocol": "/cluster/home/nbhatt04/lean_pipeline/19_blind_test/blind_test_protocol.json",
+  "comparison_template": "/cluster/home/nbhatt04/lean_pipeline/19_blind_test/experimental_comparison_template.csv"
+}

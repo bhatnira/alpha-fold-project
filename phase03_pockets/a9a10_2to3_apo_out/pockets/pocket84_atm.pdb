@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    84:
+HEADER 0  - Pocket Score                      : -0.1055
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.9258
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5788
+HEADER 5  - Mean B-factor of pocket residues  : 0.5734
+HEADER 6  - Hydrophobicity Score              : -1.2222
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.2222
+HEADER 9  - Pocket volume (Monte Carlo)       : 243.4826
+HEADER 10 - Pocket volume (convex hull)       : 8.8747
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   5647    N SER B 221     -11.614  44.193  23.210  0.00  0.00           N 0
+ATOM  12684  NH2 ARG D 187     -16.379  46.515  17.628  0.00  0.00           N 0
+ATOM   5651   CB SER B 221     -11.967  46.574  23.640  0.00  0.00           C 0
+ATOM   5634    O GLY B 218      -9.894  42.416  17.739  0.00  0.00           O 0
+ATOM  11669  OE1 GLU D  60     -13.000  42.338  14.862  0.47  8.57           O 0
+ATOM  11670  OE2 GLU D  60     -14.915  42.259  15.906  0.00  0.00           O 0
+ATOM  12682   CZ ARG D 187     -16.271  45.552  16.779  0.00  0.00           C 0
+ATOM   5648   CA SER B 221     -10.962  45.421  23.684  0.00  0.00           C 0
+ATOM  12681   NE ARG D 187     -15.991  45.787  15.508  0.67  3.28           N 0
+ATOM  12340  NH1 ARG D 143     -16.614  43.309  23.922  0.53  8.75           N 0
+ATOM  11866  NH1 ARG D  83     -14.730  42.162  19.820  0.54  4.37           N 0
+ATOM   5652   OG SER B 221     -13.165  46.218  24.304  0.08  5.36           O 0
+ATOM   5644    O CYS B 220      -9.707  43.189  22.620  0.52  2.14           O 0
+ATOM   5643    C CYS B 220     -10.929  43.168  22.713  0.00  0.00           C 0
+ATOM  11884  OE1 GLU D  85     -18.843  43.974  19.190  0.62  2.14           O 0
+ATOM   5638    O CYS B 219     -13.229  41.733  19.907  0.45  2.14           O 0
+ATOM  12683  NH1 ARG D 187     -16.484  44.358  17.226  0.00  0.00           N 0
+TER
+END

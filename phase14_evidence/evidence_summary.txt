@@ -1,0 +1,35 @@
+INTEGRATED SITE CONFIDENCE SCORES
+============================================================
+
+Classification summary:
+  HIGH_CONFIDENCE         0 sites  []
+  INTERMEDIATE            3 sites  [5, 21, 23]
+  LOW_CONFIDENCE         35 sites  [1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 28, 30, 31, 34, 35, 36, 37, 38, 39, 40, 43]
+  REJECTED                8 sites  [29, 32, 33, 41, 42, 44, 45, 46]
+
+Top 10 sites by evidence score:
+  site 23  evidence=0.6272  class=INTERMEDIATE          composite=0.5066
+  site 21  evidence=0.5350  class=INTERMEDIATE          composite=0.3838
+  site  5  evidence=0.5107  class=INTERMEDIATE          composite=0.4355
+  site 34  evidence=0.4767  class=LOW_CONFIDENCE        composite=0.4173
+  site  7  evidence=0.4757  class=LOW_CONFIDENCE        composite=0.3710
+  site 13  evidence=0.4603  class=LOW_CONFIDENCE        composite=0.2895
+  site 25  evidence=0.4513  class=LOW_CONFIDENCE        composite=0.3307
+  site 20  evidence=0.4395  class=LOW_CONFIDENCE        composite=0.2278
+  site 22  evidence=0.4375  class=LOW_CONFIDENCE        composite=0.2972
+  site 19  evidence=0.4292  class=LOW_CONFIDENCE        composite=0.3421
+
+Detailed evidence for top site (site 23):
+  pocket_consensus                score=0.000  weight=1.5  (Geometric cavity detection across apo receptors)
+  af3_convergence                 score=0.144  weight=1.2  (AF3 complex prediction convergence)
+  boltz2_convergence              score=1.000  weight=1.2  (Boltz-2 complex prediction convergence)
+  docking_consensus               score=1.000  weight=1.0  (Ensemble docking recurrence)
+  sar_explanation                 score=0.902  weight=2.0  (Explains experimental SAR trends)
+  boltz2_affinity                 score=0.270  weight=1.0  (Boltz-2 affinity ranking matches activity)
+  acetate_discrimination          score=1.000  weight=1.5  (Acetate does NOT reproduce L-ascorbate pattern)
+  stereochemical_discrimination   score=0.000  weight=1.5  (L vs D ascorbate shows architecture-specific contacts)
+  chemical_perturbation           score=0.666  weight=1.0  (O-ethyl ascorbate alters interaction pattern)
+  electrostatic_analysis          score=0.500  weight=0.8  (Electrostatics alone cannot explain localization)
+  ensemble_robustness             score=1.000  weight=1.0  (Site persists across seeds, states, stoichiometries)
+  residue_consensus               score=1.000  weight=1.0  (Core residues recur across methods)
+  subtype_comparison              score=0.800  weight=1.2  (Site is α9α10-selective vs α7/α4β2)

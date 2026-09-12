@@ -1,0 +1,7 @@
+FLEXIBLE DOCKING SUMMARY
+============================================================
+Total dockings: 0
+Successful: 0
+Failed: 0
+
+Results by site:

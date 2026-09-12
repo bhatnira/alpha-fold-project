@@ -1,0 +1,57 @@
+# Feature configuration
+chemical_features:
+  morgan_radius: 2
+  morgan_bits: 2048
+  descriptor_types: ["rdkit", "morgan", "physchem"]
+  
+binding_features:
+  - docking_score
+  - boltz2_affinity
+  - boltz2_probability
+  - confidence_score
+  - iptm
+  - ptm
+  - contact_count
+  - hbond_count
+  - hydrophobic_contacts
+  - pi_interactions
+  - salt_bridges
+  - buried_surface_area
+  
+structural_features:
+  - backbone_rmsd
+  - ca_rmsd
+  - pocket_rmsd
+  - residue_displacement
+  - sidechain_displacement
+  - contact_changes
+  - gained_contacts
+  - lost_contacts
+  
+nma_features:
+  - lowest_eigenvalue
+  - mode_collectivity
+  - residue_fluctuations
+  - mode_overlap
+  - cross_correlation
+  
+network_features:
+  - pocket_gate_distance
+  - pocket_gate_centrality
+  - community_changes
+  - path_changes
+  - network_efficiency
+  - betweenness_centrality
+  - communicability
+  
+state_features:
+  - open_state_score
+  - closed_state_score
+  - desensitized_score
+  - state_preference
+  
+consensus_features:
+  - pose_consensus
+  - structural_consensus
+  - allosteric_consensus
+  - prediction_disagreement

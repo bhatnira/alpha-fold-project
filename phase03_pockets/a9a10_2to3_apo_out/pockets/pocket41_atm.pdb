@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    41:
+HEADER 0  - Pocket Score                      : -0.0490
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8674
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5449
+HEADER 5  - Mean B-factor of pocket residues  : 0.1056
+HEADER 6  - Hydrophobicity Score              : 20.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 6.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 229.4642
+HEADER 10 - Pocket volume (convex hull)       : 5.0566
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM   3090  NH2 ARG A 386      64.278 -38.908 -26.404  0.00  9.84           N 0
+ATOM   3087   NE ARG A 386      65.281 -40.918 -26.828  0.59  2.19           N 0
+ATOM   3056    O LEU A 382      62.504 -44.939 -28.775  0.60  3.21           O 0
+ATOM   3060  CD2 LEU A 382      60.779 -43.237 -32.011  0.00  0.00           C 0
+ATOM   3057   CB LEU A 382      59.704 -44.684 -30.234  0.00  0.00           C 0
+ATOM   3062   CA LYS A 383      62.006 -46.368 -26.446  0.00  0.00           C 0
+ATOM   3088   CZ ARG A 386      64.811 -40.017 -25.975  0.00  0.00           C 0
+ATOM   3066   CG LYS A 383      60.329 -45.810 -24.593  0.00  0.00           C 0
+ATOM   3089  NH1 ARG A 386      64.868 -40.201 -24.682  0.00  0.00           N 0
+ATOM   3086   CD ARG A 386      65.934 -42.189 -26.475  0.00  0.00           C 0
+ATOM   3064    O LYS A 383      64.366 -46.637 -26.210  0.39  6.43           O 0
+ATOM   3055    C LEU A 382      61.534 -45.700 -28.767  0.00  0.00           C 0
+ATOM   3061    N LYS A 383      61.190 -46.394 -27.673  0.00  0.00           N 0
+TER
+END

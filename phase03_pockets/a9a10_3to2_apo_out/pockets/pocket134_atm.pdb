@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   134:
+HEADER 0  - Pocket Score                      : -0.1699
+HEADER 1  - Drug Score                        : 0.0151
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.8990
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5525
+HEADER 5  - Mean B-factor of pocket residues  : 0.6275
+HEADER 6  - Hydrophobicity Score              : 88.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 6.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 249.8363
+HEADER 10 - Pocket volume (convex hull)       : 10.8875
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 20.0000
+HEADER 13 - Number of apolar alpha sphere     :    21
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   3707  CZ3 TRP A 461      -3.834 -27.768 -24.351  0.00  0.00           C 0
+ATOM   3734  CD1 PHE A 464      -5.463 -24.541 -21.341  0.00  0.00           C 0
+ATOM   3733   CG PHE A 464      -4.387 -24.284 -20.473  0.00  0.00           C 0
+ATOM   3735  CD2 PHE A 464      -3.723 -23.045 -20.540  0.00  0.00           C 0
+ATOM   3737  CE2 PHE A 464      -4.124 -22.071 -21.465  0.00  0.00           C 0
+ATOM   3708  CH2 TRP A 461      -2.928 -27.852 -25.414  0.00  0.00           C 0
+ATOM   3738   CZ PHE A 464      -5.200 -22.334 -22.329  0.00  0.00           C 0
+ATOM   3736  CE1 PHE A 464      -5.870 -23.568 -22.268  0.00  0.00           C 0
+ATOM   3693   SD MET A 460       2.058 -26.573 -21.639  0.00  0.00           S 0
+ATOM   3692   CG MET A 460       1.186 -26.645 -20.049  0.00  0.00           C 0
+ATOM   2089  CD2 LEU A 257       1.622 -21.300 -21.490  0.00  0.00           C 0
+ATOM   3705  CE3 TRP A 461      -3.666 -28.554 -23.200  0.00  0.00           C 0
+ATOM   3694   CE MET A 460       0.997 -27.667 -22.610  0.00  0.00           C 0
+ATOM   2114  CD2 TYR A 260       4.197 -25.481 -23.486  0.00  0.00           C 0
+ATOM   2116  CE2 TYR A 260       4.315 -25.771 -24.853  0.00  0.00           C 0
+ATOM   3706  CZ2 TRP A 461      -1.837 -28.719 -25.342  0.00  0.00           C 0
+ATOM  14038  CD1 LEU D 318       3.775 -20.741 -27.040  0.00  0.00           C 0
+TER
+END

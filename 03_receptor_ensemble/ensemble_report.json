@@ -1,0 +1,29 @@
+{
+  "total_structures": 880,
+  "by_source": {
+    "deliverable": 445,
+    "publication": 425,
+    "af3": 10
+  },
+  "by_stoichiometry": {
+    "2to3": 413,
+    "3to2": 453,
+    "unknown": 14
+  },
+  "af3_selected_ensemble": 425,
+  "stoichiometries": [
+    "a9a10_2to3 (alpha9_2 alpha10_3)",
+    "a9a10_3to2 (alpha9_3 alpha10_2)"
+  ],
+  "conformational_states": [
+    "resting_like (APO)",
+    "ligand_bound",
+    "modulator_bound"
+  ],
+  "seeds": [
+    "seed-1 through seed-5",
+    "5 samples each"
+  ],
+  "af3_output_dir": "/cluster/scratch/nbhatt04/allostery/af3_outputs/",
+  "boltz2_output_dir": "/cluster/scratch/nbhatt04/allostery/boltz2/outputs/"
+}

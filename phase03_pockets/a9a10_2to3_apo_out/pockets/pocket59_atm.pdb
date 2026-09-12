@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    59:
+HEADER 0  - Pocket Score                      : -0.0776
+HEADER 1  - Drug Score                        : 0.0012
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.8880
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6167
+HEADER 5  - Mean B-factor of pocket residues  : 0.2724
+HEADER 6  - Hydrophobicity Score              : -27.6667
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 268.5108
+HEADER 10 - Pocket volume (convex hull)       : 6.4875
+HEADER 11 - Charge Score                      :     4
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.6000
+ATOM   3183    N LYS A 398      74.995 -40.253 -44.172  0.00  0.00           N 0
+ATOM   3217   CD LYS A 401      75.691 -35.573 -46.703  0.00  0.00           C 0
+ATOM   3188   CG LYS A 398      77.913 -40.825 -46.027  0.00  0.00           C 0
+ATOM   3184   CA LYS A 398      75.454 -40.399 -45.560  0.00  0.00           C 0
+ATOM   3178    O ASN A 397      73.880 -38.358 -44.560  0.00  0.00           O 0
+ATOM   3288   CB PRO A 411      77.702 -33.965 -42.343  0.00  0.00           C 0
+ATOM   3182  ND2 ASN A 397      74.928 -36.980 -39.528  0.39  7.66           N 0
+ATOM   3153    O LYS A 394      76.966 -41.452 -41.615  0.43  3.21           O 0
+ATOM   3155   CG LYS A 394      79.827 -41.339 -38.302  0.00  0.00           C 0
+ATOM   3219   NZ LYS A 401      77.513 -34.021 -46.108  0.70  6.56           N 0
+ATOM   3190   CE LYS A 398      80.337 -41.338 -46.570  0.00  0.00           C 0
+ATOM   3290   CD PRO A 411      79.099 -32.345 -43.426  0.00  0.00           C 0
+ATOM   3289   CG PRO A 411      79.017 -33.217 -42.168  0.00  0.00           C 0
+ATOM   3270    O LYS A 409      79.520 -32.372 -46.796  0.00  0.00           O 0
+ATOM   3218   CE LYS A 401      76.116 -34.395 -45.838  0.00  0.00           C 0
+ATOM   3179   CB ASN A 397      74.774 -38.445 -41.455  0.00  0.00           C 0
+ATOM   3151   CA LYS A 394      77.549 -41.811 -39.336  0.00  0.00           C 0
+ATOM   3177    C ASN A 397      74.233 -39.246 -43.787  0.00  0.00           C 0
+TER
+END

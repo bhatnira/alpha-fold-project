@@ -1,0 +1,671 @@
+INTERACTION FINGERPRINT SUMMARY
+============================================================
+
+Site 0:
+  Contact residues: 0
+  Core (≥50%):      0
+  Peripheral (20-50%): 0
+  ECD:              0
+  TM:               0
+  Top residue:       (0.000)
+
+Site 1:
+  Contact residues: 4
+  Core (≥50%):      4
+  Peripheral (20-50%): 0
+  ECD:              4
+  TM:               0
+  Top residue:      alpha10:126 (1.000)
+  Core residues:
+    alpha10:126      freq=1.000  ligands=1
+    alpha10:128      freq=1.000  ligands=1
+    alpha10:129      freq=1.000  ligands=1
+    alpha9:129       freq=1.000  ligands=1
+
+Site 2:
+  Contact residues: 3
+  Core (≥50%):      3
+  Peripheral (20-50%): 0
+  ECD:              3
+  TM:               0
+  Top residue:      alpha9:110 (1.000)
+  Core residues:
+    alpha9:110       freq=1.000  ligands=1
+    alpha9:129       freq=1.000  ligands=1
+    alpha9:132       freq=1.000  ligands=1
+
+Site 3:
+  Contact residues: 15
+  Core (≥50%):      9
+  Peripheral (20-50%): 1
+  ECD:              15
+  TM:               0
+  Top residue:      alpha9:118 (1.000)
+  Core residues:
+    alpha9:118       freq=1.000  ligands=4
+    alpha9:128       freq=1.000  ligands=4
+    alpha9:83        freq=0.833  ligands=4
+    alpha9:119       freq=0.833  ligands=3
+    alpha9:122       freq=0.667  ligands=3
+    alpha9:173       freq=0.667  ligands=3
+    alpha9:117       freq=0.667  ligands=4
+    alpha9:149       freq=0.500  ligands=2
+    alpha9:151       freq=0.500  ligands=2
+
+Site 4:
+  Contact residues: 5
+  Core (≥50%):      5
+  Peripheral (20-50%): 0
+  ECD:              3
+  TM:               2
+  Top residue:      alpha9:161 (1.000)
+  Core residues:
+    alpha9:161       freq=1.000  ligands=2
+    alpha9:164       freq=1.000  ligands=2
+    alpha9:166       freq=1.000  ligands=2
+    alpha9:477       freq=1.000  ligands=2
+    alpha9:476       freq=0.500  ligands=1
+
+Site 5:
+  Contact residues: 11
+  Core (≥50%):      2
+  Peripheral (20-50%): 3
+  ECD:              11
+  TM:               0
+  Top residue:      alpha9:57 (0.971)
+  Core residues:
+    alpha9:57        freq=0.971  ligands=5
+    alpha9:55        freq=0.536  ligands=4
+
+Site 6:
+  Contact residues: 6
+  Core (≥50%):      6
+  Peripheral (20-50%): 0
+  ECD:              3
+  TM:               3
+  Top residue:      alpha9:186 (1.000)
+  Core residues:
+    alpha9:186       freq=1.000  ligands=2
+    alpha9:184       freq=0.500  ligands=1
+    alpha9:212       freq=0.500  ligands=1
+    alpha9:214       freq=0.500  ligands=1
+    alpha9:223       freq=0.500  ligands=1
+    alpha9:187       freq=0.500  ligands=1
+
+Site 7:
+  Contact residues: 9
+  Core (≥50%):      3
+  Peripheral (20-50%): 1
+  ECD:              9
+  TM:               0
+  Top residue:      alpha10:56 (0.952)
+  Core residues:
+    alpha10:56       freq=0.952  ligands=4
+    alpha10:185      freq=0.714  ligands=4
+    alpha10:54       freq=0.619  ligands=4
+
+Site 8:
+  Contact residues: 9
+  Core (≥50%):      5
+  Peripheral (20-50%): 3
+  ECD:              9
+  TM:               0
+  Top residue:      alpha10:85 (0.857)
+  Core residues:
+    alpha10:85       freq=0.857  ligands=4
+    alpha10:86       freq=0.714  ligands=5
+    alpha10:87       freq=0.714  ligands=5
+    alpha10:141      freq=0.714  ligands=5
+    alpha10:58       freq=0.571  ligands=3
+
+Site 9:
+  Contact residues: 1
+  Core (≥50%):      1
+  Peripheral (20-50%): 0
+  ECD:              1
+  TM:               0
+  Top residue:      alpha10:58 (1.000)
+  Core residues:
+    alpha10:58       freq=1.000  ligands=1
+
+Site 10:
+  Contact residues: 7
+  Core (≥50%):      7
+  Peripheral (20-50%): 0
+  ECD:              7
+  TM:               0
+  Top residue:      alpha10:154 (1.000)
+  Core residues:
+    alpha10:154      freq=1.000  ligands=1
+    alpha10:155      freq=1.000  ligands=1
+    alpha10:156      freq=1.000  ligands=1
+    alpha10:157      freq=1.000  ligands=1
+    alpha10:165      freq=1.000  ligands=1
+    alpha10:166      freq=1.000  ligands=1
+    alpha10:167      freq=1.000  ligands=1
+
+Site 11:
+  Contact residues: 1
+  Core (≥50%):      1
+  Peripheral (20-50%): 0
+  ECD:              1
+  TM:               0
+  Top residue:      alpha10:167 (1.000)
+  Core residues:
+    alpha10:167      freq=1.000  ligands=1
+
+Site 12:
+  Contact residues: 1
+  Core (≥50%):      1
+  Peripheral (20-50%): 0
+  ECD:              1
+  TM:               0
+  Top residue:      alpha10:110 (1.000)
+  Core residues:
+    alpha10:110      freq=1.000  ligands=1
+
+Site 13:
+  Contact residues: 20
+  Core (≥50%):      12
+  Peripheral (20-50%): 4
+  ECD:              20
+  TM:               0
+  Top residue:      alpha10:84 (1.000)
+  Core residues:
+    alpha10:84       freq=1.000  ligands=4
+    alpha10:116      freq=1.000  ligands=4
+    alpha10:117      freq=0.909  ligands=4
+    alpha10:127      freq=0.909  ligands=3
+    alpha10:144      freq=0.909  ligands=4
+    alpha10:172      freq=0.909  ligands=3
+    alpha10:82       freq=0.818  ligands=3
+    alpha10:118      freq=0.818  ligands=3
+    alpha10:148      freq=0.636  ligands=3
+    alpha10:146      freq=0.636  ligands=3
+
+Site 14:
+  Contact residues: 13
+  Core (≥50%):      13
+  Peripheral (20-50%): 0
+  ECD:              13
+  TM:               0
+  Top residue:      alpha10:117 (1.000)
+  Core residues:
+    alpha10:117      freq=1.000  ligands=2
+    alpha10:118      freq=1.000  ligands=2
+    alpha10:121      freq=1.000  ligands=2
+    alpha10:123      freq=1.000  ligands=2
+    alpha10:125      freq=1.000  ligands=2
+    alpha10:126      freq=1.000  ligands=2
+    alpha10:127      freq=1.000  ligands=2
+    alpha10:175      freq=1.000  ligands=2
+    alpha9:131       freq=1.000  ligands=2
+    alpha9:133       freq=1.000  ligands=2
+
+Site 15:
+  Contact residues: 9
+  Core (≥50%):      9
+  Peripheral (20-50%): 0
+  ECD:              9
+  TM:               0
+  Top residue:      alpha10:123 (1.000)
+  Core residues:
+    alpha10:123      freq=1.000  ligands=2
+    alpha10:125      freq=1.000  ligands=2
+    alpha10:151      freq=1.000  ligands=2
+    alpha10:75       freq=0.500  ligands=1
+    alpha10:122      freq=0.500  ligands=1
+    alpha9:68        freq=0.500  ligands=1
+    alpha10:124      freq=0.500  ligands=1
+    alpha10:129      freq=0.500  ligands=1
+    alpha10:149      freq=0.500  ligands=1
+
+Site 16:
+  Contact residues: 9
+  Core (≥50%):      7
+  Peripheral (20-50%): 2
+  ECD:              9
+  TM:               0
+  Top residue:      alpha10:40 (1.000)
+  Core residues:
+    alpha10:40       freq=1.000  ligands=3
+    alpha10:41       freq=1.000  ligands=3
+    alpha10:90       freq=1.000  ligands=3
+    alpha9:19        freq=0.667  ligands=2
+    alpha9:23        freq=0.667  ligands=2
+    alpha9:29        freq=0.667  ligands=2
+    alpha9:32        freq=0.667  ligands=2
+
+Site 17:
+  Contact residues: 10
+  Core (≥50%):      7
+  Peripheral (20-50%): 1
+  ECD:              10
+  TM:               0
+  Top residue:      alpha9:47 (1.000)
+  Core residues:
+    alpha9:47        freq=1.000  ligands=1
+    alpha9:106       freq=1.000  ligands=1
+    alpha9:104       freq=0.889  ligands=1
+    alpha9:105       freq=0.889  ligands=1
+    alpha9:178       freq=0.889  ligands=1
+    alpha9:52        freq=0.778  ligands=1
+    alpha9:182       freq=0.778  ligands=1
+
+Site 18:
+  Contact residues: 16
+  Core (≥50%):      6
+  Peripheral (20-50%): 4
+  ECD:              15
+  TM:               1
+  Top residue:      alpha9:106 (1.000)
+  Core residues:
+    alpha9:106       freq=1.000  ligands=3
+    alpha10:46       freq=0.917  ligands=2
+    alpha9:104       freq=0.917  ligands=3
+    alpha9:105       freq=0.750  ligands=2
+    alpha10:51       freq=0.667  ligands=2
+    alpha10:181      freq=0.583  ligands=3
+
+Site 19:
+  Contact residues: 21
+  Core (≥50%):      9
+  Peripheral (20-50%): 6
+  ECD:              17
+  TM:               4
+  Top residue:      alpha10:103 (1.000)
+  Core residues:
+    alpha10:103      freq=1.000  ligands=5
+    alpha10:105      freq=1.000  ligands=5
+    alpha10:181      freq=0.667  ligands=4
+    alpha10:46       freq=0.667  ligands=3
+    alpha10:102      freq=0.583  ligands=4
+    alpha10:104      freq=0.583  ligands=3
+    alpha10:177      freq=0.583  ligands=3
+    alpha10:45       freq=0.500  ligands=3
+    alpha10:51       freq=0.500  ligands=3
+
+Site 20:
+  Contact residues: 12
+  Core (≥50%):      5
+  Peripheral (20-50%): 7
+  ECD:              8
+  TM:               4
+  Top residue:      alpha10:137 (1.000)
+  Core residues:
+    alpha10:137      freq=1.000  ligands=2
+    alpha10:143      freq=1.000  ligands=2
+    alpha9:222       freq=1.000  ligands=2
+    alpha10:85       freq=0.667  ligands=1
+    alpha10:135      freq=0.667  ligands=1
+
+Site 21:
+  Contact residues: 23
+  Core (≥50%):      7
+  Peripheral (20-50%): 5
+  ECD:              21
+  TM:               2
+  Top residue:      alpha10:105 (1.000)
+  Core residues:
+    alpha10:105      freq=1.000  ligands=6
+    alpha10:103      freq=0.786  ligands=5
+    alpha9:182       freq=0.714  ligands=6
+    alpha9:47        freq=0.679  ligands=3
+    alpha10:104      freq=0.607  ligands=3
+    alpha9:52        freq=0.571  ligands=4
+    alpha9:178       freq=0.571  ligands=3
+
+Site 22:
+  Contact residues: 22
+  Core (≥50%):      9
+  Peripheral (20-50%): 4
+  ECD:              16
+  TM:               6
+  Top residue:      alpha9:84 (1.000)
+  Core residues:
+    alpha9:84        freq=1.000  ligands=4
+    alpha9:146       freq=1.000  ligands=4
+    alpha9:176       freq=1.000  ligands=4
+    alpha9:82        freq=0.889  ligands=4
+    alpha9:120       freq=0.889  ligands=4
+    alpha9:177       freq=0.889  ligands=4
+    alpha9:224       freq=0.889  ligands=4
+    alpha9:219       freq=0.667  ligands=3
+    alpha9:217       freq=0.556  ligands=4
+
+Site 23:
+  Contact residues: 46
+  Core (≥50%):      9
+  Peripheral (20-50%): 4
+  ECD:              36
+  TM:               10
+  Top residue:      alpha9:176 (0.945)
+  Core residues:
+    alpha9:176       freq=0.945  ligands=8
+    alpha10:145      freq=0.918  ligands=8
+    alpha10:83       freq=0.904  ligands=8
+    alpha9:120       freq=0.863  ligands=7
+    alpha10:81       freq=0.863  ligands=7
+    alpha9:224       freq=0.808  ligands=8
+    alpha9:175       freq=0.781  ligands=7
+    alpha9:217       freq=0.616  ligands=7
+    alpha10:143      freq=0.548  ligands=7
+
+Site 24:
+  Contact residues: 10
+  Core (≥50%):      10
+  Peripheral (20-50%): 0
+  ECD:              6
+  TM:               4
+  Top residue:      alpha10:171 (1.000)
+  Core residues:
+    alpha10:171      freq=1.000  ligands=2
+    alpha10:212      freq=1.000  ligands=2
+    alpha9:196       freq=1.000  ligands=2
+    alpha9:197       freq=0.500  ligands=1
+    alpha9:198       freq=0.500  ligands=1
+    alpha10:119      freq=0.500  ligands=1
+    alpha10:120      freq=0.500  ligands=1
+    alpha10:214      freq=0.500  ligands=1
+    alpha10:216      freq=0.500  ligands=1
+    alpha10:225      freq=0.500  ligands=1
+
+Site 25:
+  Contact residues: 25
+  Core (≥50%):      8
+  Peripheral (20-50%): 5
+  ECD:              18
+  TM:               7
+  Top residue:      alpha10:175 (0.968)
+  Core residues:
+    alpha10:175      freq=0.968  ligands=7
+    alpha9:82        freq=0.968  ligands=7
+    alpha9:146       freq=0.935  ligands=7
+    alpha9:84        freq=0.903  ligands=6
+    alpha10:223      freq=0.871  ligands=7
+    alpha10:216      freq=0.839  ligands=6
+    alpha10:119      freq=0.645  ligands=5
+    alpha10:174      freq=0.581  ligands=6
+
+Site 26:
+  Contact residues: 21
+  Core (≥50%):      10
+  Peripheral (20-50%): 4
+  ECD:              14
+  TM:               7
+  Top residue:      alpha10:83 (0.850)
+  Core residues:
+    alpha10:83       freq=0.850  ligands=7
+    alpha10:175      freq=0.850  ligands=5
+    alpha10:216      freq=0.850  ligands=7
+    alpha10:81       freq=0.800  ligands=6
+    alpha10:145      freq=0.800  ligands=6
+    alpha10:223      freq=0.800  ligands=6
+    alpha10:119      freq=0.700  ligands=5
+    alpha10:174      freq=0.600  ligands=5
+    alpha10:218      freq=0.550  ligands=5
+    alpha10:219      freq=0.500  ligands=4
+
+Site 27:
+  Contact residues: 11
+  Core (≥50%):      11
+  Peripheral (20-50%): 0
+  ECD:              11
+  TM:               0
+  Top residue:      alpha9:42 (1.000)
+  Core residues:
+    alpha9:42        freq=1.000  ligands=2
+    alpha9:43        freq=1.000  ligands=2
+    alpha10:34       freq=0.500  ligands=1
+    alpha10:110      freq=0.500  ligands=1
+    alpha9:44        freq=0.500  ligands=1
+    alpha10:31       freq=0.500  ligands=1
+    alpha9:37        freq=0.500  ligands=1
+    alpha9:38        freq=0.500  ligands=1
+    alpha9:41        freq=0.500  ligands=1
+    alpha9:91        freq=0.500  ligands=1
+
+Site 28:
+  Contact residues: 2
+  Core (≥50%):      2
+  Peripheral (20-50%): 0
+  ECD:              1
+  TM:               1
+  Top residue:      alpha10:187 (1.000)
+  Core residues:
+    alpha10:187      freq=1.000  ligands=1
+    alpha9:221       freq=1.000  ligands=1
+
+Site 29:
+  Contact residues: 4
+  Core (≥50%):      4
+  Peripheral (20-50%): 0
+  ECD:              0
+  TM:               4
+  Top residue:      alpha10:293 (1.000)
+  Core residues:
+    alpha10:293      freq=1.000  ligands=1
+    alpha9:204       freq=1.000  ligands=1
+    alpha9:236       freq=1.000  ligands=1
+    alpha9:237       freq=1.000  ligands=1
+
+Site 30:
+  Contact residues: 19
+  Core (≥50%):      19
+  Peripheral (20-50%): 0
+  ECD:              9
+  TM:               10
+  Top residue:      alpha10:72 (1.000)
+  Core residues:
+    alpha10:72       freq=1.000  ligands=2
+    alpha10:291      freq=1.000  ligands=2
+    alpha9:69        freq=1.000  ligands=2
+    alpha9:70        freq=1.000  ligands=2
+    alpha9:202       freq=1.000  ligands=2
+    alpha10:286      freq=0.500  ligands=1
+    alpha10:289      freq=0.500  ligands=1
+    alpha9:72        freq=0.500  ligands=1
+    alpha9:239       freq=0.500  ligands=1
+    alpha9:240       freq=0.500  ligands=1
+
+Site 31:
+  Contact residues: 16
+  Core (≥50%):      6
+  Peripheral (20-50%): 10
+  ECD:              2
+  TM:               14
+  Top residue:      alpha10:239 (1.000)
+  Core residues:
+    alpha10:239      freq=1.000  ligands=2
+    alpha10:242      freq=1.000  ligands=2
+    alpha10:243      freq=1.000  ligands=2
+    alpha10:288      freq=1.000  ligands=2
+    alpha10:238      freq=0.667  ligands=1
+    alpha9:287       freq=0.667  ligands=2
+
+Site 32:
+  Contact residues: 1
+  Core (≥50%):      1
+  Peripheral (20-50%): 0
+  ECD:              0
+  TM:               1
+  Top residue:      alpha10:273 (1.000)
+  Core residues:
+    alpha10:273      freq=1.000  ligands=1
+
+Site 33:
+  Contact residues: 1
+  Core (≥50%):      1
+  Peripheral (20-50%): 0
+  ECD:              0
+  TM:               1
+  Top residue:      alpha10:280 (1.000)
+  Core residues:
+    alpha10:280      freq=1.000  ligands=1
+
+Site 34:
+  Contact residues: 16
+  Core (≥50%):      8
+  Peripheral (20-50%): 2
+  ECD:              0
+  TM:               16
+  Top residue:      alpha10:273 (0.988)
+  Core residues:
+    alpha10:273      freq=0.988  ligands=8
+    alpha9:274       freq=0.988  ligands=8
+    alpha10:276      freq=0.950  ligands=8
+    alpha9:277       freq=0.950  ligands=8
+    alpha9:270       freq=0.900  ligands=6
+    alpha10:269      freq=0.875  ligands=6
+    alpha9:266       freq=0.637  ligands=3
+    alpha10:265      freq=0.625  ligands=3
+
+Site 35:
+  Contact residues: 11
+  Core (≥50%):      4
+  Peripheral (20-50%): 0
+  ECD:              0
+  TM:               11
+  Top residue:      alpha9:281 (0.828)
+  Core residues:
+    alpha9:281       freq=0.828  ligands=5
+    alpha10:280      freq=0.793  ligands=5
+    alpha9:277       freq=0.759  ligands=5
+    alpha10:276      freq=0.690  ligands=5
+
+Site 36:
+  Contact residues: 7
+  Core (≥50%):      7
+  Peripheral (20-50%): 0
+  ECD:              0
+  TM:               7
+  Top residue:      alpha10:250 (1.000)
+  Core residues:
+    alpha10:250      freq=1.000  ligands=1
+    alpha10:277      freq=1.000  ligands=1
+    alpha10:281      freq=1.000  ligands=1
+    alpha9:276       freq=1.000  ligands=1
+    alpha9:277       freq=1.000  ligands=1
+    alpha9:280       freq=1.000  ligands=1
+    alpha9:307       freq=1.000  ligands=1
+
+Site 37:
+  Contact residues: 1
+  Core (≥50%):      1
+  Peripheral (20-50%): 0
+  ECD:              0
+  TM:               1
+  Top residue:      alpha10:287 (1.000)
+  Core residues:
+    alpha10:287      freq=1.000  ligands=1
+
+Site 38:
+  Contact residues: 8
+  Core (≥50%):      5
+  Peripheral (20-50%): 3
+  ECD:              0
+  TM:               8
+  Top residue:      alpha10:287 (1.000)
+  Core residues:
+    alpha10:287      freq=1.000  ligands=5
+    alpha9:288       freq=1.000  ligands=5
+    alpha9:284       freq=0.562  ligands=2
+    alpha10:284      freq=0.562  ligands=3
+    alpha10:283      freq=0.500  ligands=2
+
+Site 39:
+  Contact residues: 2
+  Core (≥50%):      1
+  Peripheral (20-50%): 1
+  ECD:              1
+  TM:               1
+  Top residue:      alpha9:288 (1.000)
+  Core residues:
+    alpha9:288       freq=1.000  ligands=2
+
+Site 40:
+  Contact residues: 7
+  Core (≥50%):      4
+  Peripheral (20-50%): 3
+  ECD:              0
+  TM:               7
+  Top residue:      alpha10:406 (1.000)
+  Core residues:
+    alpha10:406      freq=1.000  ligands=1
+    alpha10:409      freq=1.000  ligands=1
+    alpha9:435       freq=0.750  ligands=1
+    alpha9:438       freq=0.750  ligands=1
+
+Site 41:
+  Contact residues: 3
+  Core (≥50%):      3
+  Peripheral (20-50%): 0
+  ECD:              0
+  TM:               3
+  Top residue:      alpha10:412 (1.000)
+  Core residues:
+    alpha10:412      freq=1.000  ligands=1
+    alpha10:416      freq=1.000  ligands=1
+    alpha9:442       freq=1.000  ligands=1
+
+Site 42:
+  Contact residues: 1
+  Core (≥50%):      1
+  Peripheral (20-50%): 0
+  ECD:              0
+  TM:               1
+  Top residue:      alpha9:362 (1.000)
+  Core residues:
+    alpha9:362       freq=1.000  ligands=1
+
+Site 43:
+  Contact residues: 12
+  Core (≥50%):      12
+  Peripheral (20-50%): 0
+  ECD:              0
+  TM:               12
+  Top residue:      alpha9:309 (1.000)
+  Core residues:
+    alpha9:309       freq=1.000  ligands=1
+    alpha9:463       freq=1.000  ligands=1
+    alpha9:466       freq=1.000  ligands=1
+    alpha9:252       freq=0.500  ligands=1
+    alpha9:255       freq=0.500  ligands=1
+    alpha9:306       freq=0.500  ligands=1
+    alpha9:310       freq=0.500  ligands=1
+    alpha9:467       freq=0.500  ligands=1
+    alpha9:470       freq=0.500  ligands=1
+    alpha9:312       freq=0.500  ligands=1
+
+Site 44:
+  Contact residues: 2
+  Core (≥50%):      2
+  Peripheral (20-50%): 0
+  ECD:              0
+  TM:               2
+  Top residue:      alpha9:305 (1.000)
+  Core residues:
+    alpha9:305       freq=1.000  ligands=1
+    alpha9:473       freq=1.000  ligands=1
+
+Site 45:
+  Contact residues: 1
+  Core (≥50%):      1
+  Peripheral (20-50%): 0
+  ECD:              0
+  TM:               1
+  Top residue:      alpha10:449 (1.000)
+  Core residues:
+    alpha10:449      freq=1.000  ligands=1
+
+Site 46:
+  Contact residues: 2
+  Core (≥50%):      2
+  Peripheral (20-50%): 0
+  ECD:              2
+  TM:               0
+  Top residue:      alpha9:10 (1.000)
+  Core residues:
+    alpha9:10        freq=1.000  ligands=1
+    alpha9:14        freq=1.000  ligands=1
+

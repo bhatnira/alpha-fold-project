@@ -1,0 +1,20 @@
+{
+  "method": "Site-directed AF3 co-folding",
+  "total_models": 175,
+  "sites_tested": 0,
+  "purpose": "Test whether independently discovered candidate sites support stable ligand placement",
+  "protocol": [
+    "1. Define candidate site boundaries",
+    "2. Place ligand at candidate site center",
+    "3. Run AF3 co-folding with ligand constrained to site",
+    "4. Multiple seeds for reproducibility",
+    "5. Evaluate pose stability, interactions, confidence"
+  ],
+  "results_summary": "See Table4_af3_results.csv for detailed per-model results",
+  "key_metrics": [
+    "Ligand confidence (protein-ligand PAE)",
+    "Contact residue consistency",
+    "Pose reproducibility across seeds",
+    "Interaction pattern conservation"
+  ]
+}

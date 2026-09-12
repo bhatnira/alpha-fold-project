@@ -1,0 +1,15 @@
+ROOT
+HETATM    1  C1  UNL     1      -2.310  -0.422   0.521  1.00  0.00           C
+HETATM    2  O1  UNL     1      -2.873  -1.103  -0.597  1.00  0.00          OA
+HETATM    3  C2  UNL     1      -0.998   0.278   0.139  1.00  0.00           C
+HETATM    4  O2  UNL     1      -0.484   0.901   1.329  1.00  0.00          OA
+HETATM    5  C3  UNL     1       0.776   1.389   1.357  1.00  0.00           C
+HETATM    6  O3  UNL     1       1.072   2.324   2.098  1.00  0.00          OA
+HETATM    7  C4  UNL     1       1.841   0.649   0.555  1.00  0.00           C
+HETATM    8  O4  UNL     1       2.922   1.545   0.256  1.00  0.00          OA
+HETATM    9  C5  UNL     1       1.314   0.038  -0.734  1.00  0.00           C
+HETATM   10  O5  UNL     1       2.253  -0.923  -1.251  1.00  0.00          OA
+HETATM   11  C6  UNL     1      -0.004  -0.691  -0.495  1.00  0.00           C
+HETATM   12  O6  UNL     1      -0.460  -1.193  -1.758  1.00  0.00          OA
+ENDROOT
+TORSDOF 0

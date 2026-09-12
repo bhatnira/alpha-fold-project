@@ -1,0 +1,111 @@
+{
+  "model_version": "1.0",
+  "freeze_date": "2026-09-05",
+  "leading_candidate": {
+    "cluster_id": 25,
+    "interface": "multi_subunit",
+    "interface_type": "multi-subunit",
+    "stoichiometries": {
+      "a9a10_2to3": 7,
+      "a9a10_3to2": 1
+    },
+    "top_residues": [
+      "D:TRP81",
+      "D:ARG83",
+      "D:ASP195",
+      "D:ASP145",
+      "C:TYR119",
+      "C:TYR223",
+      "C:TRP175",
+      "C:TYR216",
+      "C:SER174",
+      "C:LEU214"
+    ],
+    "site23_residues": [
+      "TRP175",
+      "SER174",
+      "TYR119",
+      "TYR223",
+      "TYR216",
+      "ASP145",
+      "ARG83",
+      "TRP81",
+      "ARG143"
+    ],
+    "composite_score": 0.8055555555555556
+  },
+  "falsification": {
+    "tests": [
+      {
+        "test": "Site 23 residue coverage",
+        "criterion": "Leading site must contain >= 3 of 9 key Site 23 residues",
+        "result": true,
+        "score": "9/9",
+        "verdict": "PASS"
+      },
+      {
+        "test": "Cross-stoichiometry recurrence",
+        "criterion": "Leading site must appear in both 2to3 and 3to2",
+        "result": true,
+        "score": "2 stoichiometries",
+        "verdict": "PASS"
+      },
+      {
+        "test": "Cross-ligand recurrence",
+        "criterion": "Leading site must accommodate >= 3 different ligand types",
+        "result": true,
+        "score": "5 ligand types",
+        "verdict": "PASS"
+      },
+      {
+        "test": "Active compound recurrence",
+        "criterion": "Leading site must accommodate the DERIVATIVE_EXPERIMENTAL ligand",
+        "result": true,
+        "score": "Yes",
+        "verdict": "PASS"
+      },
+      {
+        "test": "Interface plausibility",
+        "criterion": "Leading site must be at a biologically plausible interface",
+        "result": true,
+        "score": "multi-subunit",
+        "verdict": "PASS"
+      },
+      {
+        "test": "Alternative site competition",
+        "criterion": "Leading site must outscore second-best by > 0.1",
+        "result": true,
+        "score": "Margin: 0.156",
+        "verdict": "PASS"
+      },
+      {
+        "test": "Minimum model recurrence",
+        "criterion": "Leading site must have >= 5 AF3 models",
+        "result": true,
+        "score": "8 models",
+        "verdict": "PASS"
+      }
+    ],
+    "n_pass": 7,
+    "n_total": 7,
+    "overall": "PASS"
+  },
+  "frozen_parameters": {
+    "receptor_models": "AF3 predicted models (2to3 and 3to2)",
+    "states": "Apo/ligand-bound (no open/desensitized states available)",
+    "candidate_sites": [
+      25,
+      15,
+      42
+    ],
+    "docking_grids": "To be defined based on frozen site centroids",
+    "scoring_rules": "Multi-method convergence + SAR consistency"
+  },
+  "caveats": [
+    "Only apo/ligand-bound states modeled (no open/desensitized states)",
+    "ACh ternary complexes not yet modeled",
+    "Boltz-2 affinity predictions pending",
+    "Flexible docking not yet performed",
+    "Dataset has 30 compounds (not 28 as in master prompt)"
+  ]
+}

@@ -1,0 +1,8 @@
+Identifier,Smiles,Activity_uM,Potentiation_pct
+1,C1([C@@H]([C@H](O)CO)OC(=O)C=1O)O,1797,286
+2,C(O)C(C1OC(=O)C(O)=C1O)O,1316,300
+3,CC1(O[C@H]([C@H]2OC(=O)C(O)=C2O)CO1)C,6077,293
+12,C(#C)COC1[C@@H]([C@@H]2OC(C)(C)OC2)OC(=O)C=1O,0.1981,150
+18,C1C=CC(COC2[C@@H]([C@H](O)CO)OC(=O)C=2O)=CC=1,1288,500
+24,CCCOC1C(=O)O[C@H]([C@H](O)CO)C=1O,1202,190
+25,C(Br)[C@H]([C@H]1OC(=O)C(O)=C1O)O,2.63,180

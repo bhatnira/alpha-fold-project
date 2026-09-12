@@ -1,0 +1,23 @@
+# Paths configuration for mechanistic SAR analysis
+project_root: /cluster/home/nbhatt04/lean_pipeline
+mechanistic_dir: /cluster/home/nbhatt04/lean_pipeline/mechanistic_sar
+
+# Source data locations
+docking_csv: /cluster/home/nbhatt04/lean_pipeline/09_docking/full_docking_results.csv
+boltz2_sar_csv: /cluster/home/nbhatt04/lean_pipeline/phase08_boltz_affinity/boltz2_full_sar_results.csv
+boltz2_confidence_csv: /cluster/home/nbhatt04/lean_pipeline/11_boltz2_analysis/boltz2_all_confidences.csv
+convergence_csv: /cluster/home/nbhatt04/lean_pipeline/14_stoichiometry_state/updated_convergence_matrix.csv
+
+# Structure directories
+boltz2_structures: /cluster/home/nbhatt04/lean_pipeline/phase08_boltz_affinity/boltz2_outputs
+cofolding_structures: /cluster/home/nbhatt04/lean_pipeline/cofolding_study/results/boltz2
+sd_af3_structures: /cluster/home/nbhatt04/lean_pipeline/08_site_directed_af3/yaml_inputs_v2/predictions
+ach_structures: /cluster/home/nbhatt04/lean_pipeline/05_ach_occupancy/yaml_inputs_v2/predictions
+
+# Reference structures
+receptor_2to3: /cluster/home/nbhatt04/lean_pipeline/09_docking/receptor_2to3.pdb
+receptor_3to2: /cluster/home/nbhatt04/lean_pipeline/09_docking/receptor_3to2.pdb
+
+# Output directories
+results_dir: /cluster/home/nbhatt04/lean_pipeline/mechanistic_sar/results
+figures_dir: /cluster/home/nbhatt04/lean_pipeline/mechanistic_sar/results/figures

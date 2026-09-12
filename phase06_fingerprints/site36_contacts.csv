@@ -1,0 +1,8 @@
+site,residue,subunit,residue_number,contact_frequency,n_models_contact,n_models_total,n_ligands_contact,ligands,ligand_freqs,af3_freq,boltz2_freq
+36,alpha10:250,alpha10,250,1.0,1,1,1,ACETATE_ANION,ACETATE_ANION:1.0,0.0,1.0
+36,alpha10:277,alpha10,277,1.0,1,1,1,ACETATE_ANION,ACETATE_ANION:1.0,0.0,1.0
+36,alpha10:281,alpha10,281,1.0,1,1,1,ACETATE_ANION,ACETATE_ANION:1.0,0.0,1.0
+36,alpha9:276,alpha9,276,1.0,1,1,1,ACETATE_ANION,ACETATE_ANION:1.0,0.0,1.0
+36,alpha9:277,alpha9,277,1.0,1,1,1,ACETATE_ANION,ACETATE_ANION:1.0,0.0,1.0
+36,alpha9:280,alpha9,280,1.0,1,1,1,ACETATE_ANION,ACETATE_ANION:1.0,0.0,1.0
+36,alpha9:307,alpha9,307,1.0,1,1,1,ACETATE_ANION,ACETATE_ANION:1.0,0.0,1.0

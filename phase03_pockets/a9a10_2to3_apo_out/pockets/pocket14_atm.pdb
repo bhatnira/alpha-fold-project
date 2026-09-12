@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : 0.0398
+HEADER 1  - Drug Score                        : 0.0036
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.6501
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4660
+HEADER 5  - Mean B-factor of pocket residues  : 0.7865
+HEADER 6  - Hydrophobicity Score              : 74.5000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 97.4453
+HEADER 10 - Pocket volume (convex hull)       : 1.3674
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 19.0000
+HEADER 13 - Number of apolar alpha sphere     :    20
+HEADER 14 - Proportion of apolar alpha sphere : 0.8000
+ATOM  16859   CB ALA E 277       3.449  -3.304 -13.904  0.00  0.00           C 0
+ATOM  16831  CG2 THR E 273       8.960  -5.365 -14.281  0.00  0.00           C 0
+ATOM  13329  CG1 VAL D 272       9.735  -3.412 -17.073  0.00  0.00           C 0
+ATOM  13357   CB LEU D 276       8.083  -0.755 -12.338  0.00  0.00           C 0
+ATOM  13359  CD1 LEU D 276       5.886  -1.784 -11.587  0.00  0.00           C 0
+ATOM  13354   CA LEU D 276       7.530   0.633 -12.709  0.00  0.00           C 0
+ATOM  13353    N LEU D 276       8.262   1.138 -13.869  0.00  0.00           N 0
+ATOM  13352  CD2 LEU D 275       6.923   1.377 -18.746  0.00  0.00           C 0
+ATOM  16667  CG2 ILE E 250       3.220  -2.293 -17.923  0.00  0.00           C 0
+ATOM  16689  CD1 LEU E 253       7.451  -0.740 -21.399  0.00  0.00           C 0
+ATOM  16828    O THR E 273       5.743  -6.068 -14.467  0.00  0.00           O 0
+ATOM  16833   CA VAL E 274       4.786  -6.161 -17.077  0.00  0.00           C 0
+ATOM  16668  CD1 ILE E 250       2.913   0.241 -16.116  0.00  0.00           C 0
+ATOM  13327    O VAL D 272      10.053  -0.719 -15.334  0.56  1.07           O 0
+ATOM  13350   CG LEU D 275       7.117   2.201 -17.477  0.00  0.00           C 0
+ATOM  16838  CG2 VAL E 274       5.729  -5.338 -19.277  0.00  0.00           C 0
+ATOM  16666  CG1 ILE E 250       3.402   0.192 -17.565  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,51 @@
+{
+  "potency_ranking": [
+    {
+      "rank": 1,
+      "id": "12",
+      "activity_uM": 0.1981,
+      "potentiation_pct": 150.0
+    },
+    {
+      "rank": 2,
+      "id": "25",
+      "activity_uM": 2.63,
+      "potentiation_pct": 180.0
+    },
+    {
+      "rank": 3,
+      "id": "24",
+      "activity_uM": 1202.0,
+      "potentiation_pct": 190.0
+    },
+    {
+      "rank": 4,
+      "id": "18",
+      "activity_uM": 1288.0,
+      "potentiation_pct": 500.0
+    },
+    {
+      "rank": 5,
+      "id": "2",
+      "activity_uM": 1316.0,
+      "potentiation_pct": 300.0
+    },
+    {
+      "rank": 6,
+      "id": "1",
+      "activity_uM": 1797.0,
+      "potentiation_pct": 286.0
+    },
+    {
+      "rank": 7,
+      "id": "3",
+      "activity_uM": 6077.0,
+      "potentiation_pct": 293.0
+    }
+  ],
+  "strongest_active": "12",
+  "second_strongest": "25",
+  "weakest_active": "3",
+  "closest_active_inactive_pairs": [],
+  "sar_hypothesis": "\n    SAR ANCHORS:\n    1. Strongest active: ID 12 (0.1981 uM, 150% pot) - alkynyl derivative\n    2. Second strongest: ID 25 (2.63 uM, 180% pot) - bromo-substituted\n    3. Moderate actives: IDs 1,2,18,24 (1200-1800 uM)\n    4. Weakest active: ID 3 (6077 uM, 293% pot)\n    \n    SAR OBSERVATIONS:\n    - Small modifications to ascorbate core dramatically affect activity\n    - Alkynyl group (ID 12) gives 10,000x potency improvement\n    - Bromo substitution (ID 25) gives 500x improvement\n    - Extended chains (IDs 4-11,13-17) eliminate activity\n    - Ring modifications (IDs 26-30) eliminate activity\n    - Stereochemistry at C4/C5 appears important but not definitive\n    \n    SAR HYPOTHESIS (purely experimental, no structural modeling):\n    The active site requires:\n    (a) intact lactone ring with free hydroxyl\n    (b) specific stereochemistry at ring carbons\n    (c) small substituents that fit a confined pocket\n    (d) negative charge or polar group at specific position\n    "
+}

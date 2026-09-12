@@ -1,0 +1,31 @@
+{
+  "frozen_date": "2026-09-05T16:49:45.431625",
+  "frozen_by": "master_pipeline.py",
+  "receptor_models": {
+    "a9a10_2to3_apo": "/cluster/scratch/nbhatt04/allostery/af3_outputs/a9a10_2to3_APO/",
+    "a9a10_3to2_apo": "/cluster/scratch/nbhatt04/allostery/af3_outputs/a9a10_3to2_APO/"
+  },
+  "stoichiometries": [
+    "a9a10_2to3",
+    "a9a10_3to2"
+  ],
+  "states": [
+    "resting_like (APO)"
+  ],
+  "candidate_sites": {
+    "primary": "Site 23 (alpha9/alpha10 ECD interface)",
+    "secondary": "Sites 5, 21, 34 (lower confidence)"
+  },
+  "docking_grids": "AutoDock Vina grids centered on candidate sites",
+  "flexible_residues": "Predefined set for each candidate site",
+  "scoring_rules": "Composite score combining pocket consensus, AF3, Boltz-2, docking, SAR",
+  "ranking_criteria": "Multi-method convergence + SAR consistency",
+  "sar_interpretation": "Active if non-zero activity and potentiation",
+  "do_not_modify": [
+    "Receptor structures",
+    "Candidate site definitions",
+    "Docking grid coordinates",
+    "Flexible residue selection",
+    "Scoring equations"
+  ]
+}

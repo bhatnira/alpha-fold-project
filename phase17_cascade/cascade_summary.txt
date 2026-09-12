@@ -1,0 +1,13 @@
+CASCADING FILTER SUMMARY
+============================================================
+
+Funnel stages:
+
+  chemical_validity         13 →     13  (0.0% removed)
+  pharmacophore             13 →     13  (0.0% removed)
+  druglikeness              13 →     13  (0.0% removed)
+  diversity                 13 →     13  (0.0% removed)
+
+Final candidates: 13
+
+Next: Phase XVIII (Boltz-2 guided design)

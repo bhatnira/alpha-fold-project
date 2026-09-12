@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    88:
+HEADER 0  - Pocket Score                      : -0.1181
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.7643
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3812
+HEADER 5  - Mean B-factor of pocket residues  : 0.2875
+HEADER 6  - Hydrophobicity Score              : 0.2857
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 191.4278
+HEADER 10 - Pocket volume (convex hull)       : 4.4993
+HEADER 11 - Charge Score                      :    -3
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.4737
+ATOM   7163  OE1 GLU B 413      47.658 -63.243 -41.883  0.00  0.00           O 0
+ATOM  14526   CG GLU D 385      44.767 -64.153 -36.471  0.00  0.00           C 0
+ATOM  14560  CD1 LEU D 389      48.954 -59.637 -38.396  0.00  0.00           C 0
+ATOM  14528  OE1 GLU D 385      42.707 -63.098 -37.045  0.00  0.00           O 0
+ATOM  14536   CD PRO D 386      49.507 -63.233 -36.905  0.00  0.00           C 0
+ATOM  14558   CB LEU D 389      47.755 -58.911 -36.293  0.00  0.00           C 0
+ATOM  14596  OE2 GLU D 393      41.632 -58.097 -35.163  0.00  0.00           O 0
+ATOM  14527   CD GLU D 385      43.513 -63.330 -36.131  0.00  0.00           C 0
+ATOM  14529  OE2 GLU D 385      43.370 -62.935 -34.943  0.60  1.07           O 0
+ATOM  14561  CD2 LEU D 389      47.274 -57.817 -38.508  0.00  0.00           C 0
+ATOM   7161   CG GLU B 413      47.455 -61.387 -43.368  0.00  0.00           C 0
+ATOM  14595  OE1 GLU D 393      41.539 -57.427 -37.283  0.53  9.64           O 0
+ATOM  14594   CD GLU D 393      41.896 -57.298 -36.095  0.00  0.00           C 0
+ATOM   7184   OG SER B 416      44.965 -56.881 -43.064  0.60  9.64           O 0
+ATOM  14562    N CYS D 390      46.471 -58.636 -33.392  0.00  0.00           N 0
+TER
+END

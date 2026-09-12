@@ -1,0 +1,13 @@
+{
+  "method": "Flexible docking with receptor flexibility",
+  "flexible_residues": "Predefined residue set for each candidate site",
+  "protocol": [
+    "1. Define flexible residues for each candidate site",
+    "2. Run docking with side-chain flexibility",
+    "3. Compare with rigid docking results",
+    "4. Evaluate improvement in pose consistency"
+  ],
+  "results": "See phase05_docking/flexible_docking_summary.txt",
+  "comparison": "Flexible vs rigid docking comparison available",
+  "flexible_summary": "FLEXIBLE DOCKING SUMMARY\n============================================================\nTotal dockings: 0\nSuccessful: 0\nFailed: 0\n\nResults by site:\n"
+}

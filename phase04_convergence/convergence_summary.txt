@@ -1,0 +1,29 @@
+AF3 + BOLTZ-2 CONVERGENCE MAP
+============================================================
+
+Total model records:     490
+AF3 records:             400
+Boltz2 records:          90
+Unique site×ligand:      127
+
+Convergence classification:
+  MODERATE           7 pairs  sites=[22, 23, 26]
+  SINGLE_METHOD    112 pairs  sites=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]
+  STRONG             8 pairs  sites=[18, 21, 22, 25, 34, 35]
+
+Strong convergence sites:
+  site 35  ACETATE_ANION  jaccard=1.000  shared=4
+  site 18  ACETATE_ANION  jaccard=0.800  shared=8
+  site 25  LASC_NEUTRAL  jaccard=0.733  shared=11
+  site 34  DASC_ANION    jaccard=0.714  shared=5
+  site 25  LASC_ANION    jaccard=0.625  shared=10
+  site 22  DASC_ANION    jaccard=0.615  shared=8
+  site 21  ACETATE_ANION  jaccard=0.600  shared=6
+  site 25  DASC_ANION    jaccard=0.600  shared=9
+
+Sites with only AF3 (no Boltz-2): 98
+  site  0  LASC_NEUTRAL  n_af3=2
+  site  0  DASC_ANION    n_af3=2
+  site  0  LASC_ANION    n_af3=2
+  site  0  ACETATE_ANION  n_af3=1
+  site  1  RYANODINE     n_af3=1

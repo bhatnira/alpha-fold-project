@@ -1,0 +1,69 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket   163:
+HEADER 0  - Pocket Score                      : -0.2089
+HEADER 1  - Drug Score                        : 0.0032
+HEADER 2  - Number of V. Vertices             :    47
+HEADER 3  - Mean alpha-sphere radius          : 3.9971
+HEADER 4  - Mean alpha-sphere SA              : 0.5085
+HEADER 5  - Mean B-factor                     : 0.8386
+HEADER 6  - Hydrophobicity Score              : 6.0833
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Volume Score                      : 3.6667
+HEADER 9  - Real volume (approximation)       : 500.4980
+HEADER 10 - Charge Score                      :    -1
+HEADER 11 - Local hydrophobic density Score   : 16.0000
+HEADER 12 - Number of apolar alpha sphere     :    17
+HEADER 13 - Proportion of apolar alpha sphere : 0.3617
+ATOM      1    O STP   163     -59.846  17.226  14.759    0.00     3.53
+ATOM      2    O STP   163     -57.510  15.237  13.703    0.00     4.34
+ATOM      3    O STP   163     -57.757  16.028  14.075    0.00     4.33
+ATOM      4    O STP   163     -57.755  16.030  14.077    0.00     4.32
+ATOM      5    O STP   163     -57.274  14.788  13.521    0.00     4.36
+ATOM      6    O STP   163     -59.570  16.927  15.177    0.00     3.54
+ATOM      7    O STP   163     -60.448  18.502  12.200    0.00     4.64
+ATOM      8    O STP   163     -59.050  19.390  11.478    0.00     3.96
+ATOM      9    C STP   163     -57.894  15.214  14.445    0.00     3.94
+ATOM     10    C STP   163     -57.525  14.286  14.292    0.00     3.83
+ATOM     11    C STP   163     -58.036  16.067  14.605    0.00     4.11
+ATOM     12    O STP   163     -58.303  16.166  14.888    0.00     3.96
+ATOM     13    C STP   163     -58.283  15.762  15.120    0.00     3.84
+ATOM     14    O STP   163     -58.373  15.806  15.209    0.00     3.80
+ATOM     15    C STP   163     -57.764  16.192  14.598    0.00     3.99
+ATOM     16    C STP   163     -58.362  15.512  15.691    0.00     3.52
+ATOM     17    C STP   163     -58.397  15.518  15.743    0.00     3.50
+ATOM     18    O STP   163     -56.843  14.639  13.563    0.00     4.16
+ATOM     19    O STP   163     -60.636  19.953  11.767    0.00     4.51
+ATOM     20    O STP   163     -59.273  20.382  11.631    0.00     3.67
+ATOM     21    C STP   163     -56.504  14.675  13.682    0.00     3.94
+ATOM     22    C STP   163     -56.203  14.871  13.879    0.00     3.68
+ATOM     23    O STP   163     -56.049  13.428  10.039    0.00     3.81
+ATOM     24    C STP   163     -56.058  13.432   9.824    0.00     3.81
+ATOM     25    O STP   163     -56.700  13.292  10.265    0.00     4.04
+ATOM     26    C STP   163     -56.721  13.294  10.056    0.00     4.04
+ATOM     27    O STP   163     -57.395  13.369  11.210    0.00     4.33
+ATOM     28    O STP   163     -58.011  13.435  11.204    0.00     4.54
+ATOM     29    C STP   163     -58.618  13.498  10.543    0.00     4.69
+ATOM     30    O STP   163     -56.585  13.948  12.228    0.00     4.02
+ATOM     31    O STP   163     -56.780  14.448  12.954    0.00     4.14
+ATOM     32    O STP   163     -57.302  14.740  13.308    0.00     4.37
+ATOM     33    C STP   163     -58.981  13.926  10.523    0.00     4.60
+ATOM     34    C STP   163     -59.540  14.878  10.405    0.00     4.42
+ATOM     35    C STP   163     -55.918  14.157  12.218    0.00     3.77
+ATOM     36    C STP   163     -56.095  14.293  12.468    0.00     3.82
+ATOM     37    O STP   163     -57.540  15.170  13.439    0.00     4.33
+ATOM     38    O STP   163     -57.960  16.285  13.633    0.00     4.29
+ATOM     39    O STP   163     -57.572  17.410  13.233    0.00     3.65
+ATOM     40    O STP   163     -60.279  17.349  11.109    0.00     4.59
+ATOM     41    C STP   163     -58.006  17.917  12.830    0.00     3.62
+ATOM     42    O STP   163     -58.799  19.170  11.572    0.00     3.88
+ATOM     43    O STP   163     -60.514  20.966  12.631    0.00     3.77
+ATOM     44    O STP   163     -61.373  22.461  13.051    0.00     3.55
+ATOM     45    O STP   163     -55.042  14.338  11.690    0.00     3.42
+ATOM     46    O STP   163     -55.197  13.974  10.909    0.00     3.42
+ATOM     47    O STP   163     -55.069  14.243  11.632    0.00     3.46
+TER
+END

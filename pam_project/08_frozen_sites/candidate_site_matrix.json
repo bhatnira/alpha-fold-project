@@ -1,0 +1,442 @@
+[
+  {
+    "rank": 9,
+    "cluster_id": 25,
+    "n_models": 8,
+    "interface": "multi_subunit",
+    "interface_type": "multi-subunit",
+    "stoichiometries": {
+      "a9a10_2to3": 7,
+      "a9a10_3to2": 1
+    },
+    "ligand_types": {
+      "DASC_ANION": 2,
+      "LASC_ANION": 2,
+      "OETHYL_CORRECTED_2O": 2,
+      "OETHYL_CORRECTED_3O": 1,
+      "DERIVATIVE_EXPERIMENTAL": 1
+    },
+    "top_residues": [
+      "D:TRP81",
+      "D:ARG83",
+      "D:ASP195",
+      "D:ASP145",
+      "C:TYR119",
+      "C:TYR223",
+      "C:TRP175",
+      "C:TYR216",
+      "C:SER174",
+      "C:LEU214"
+    ],
+    "site23_residues_found": [
+      "TRP175",
+      "SER174",
+      "TYR119",
+      "TYR223",
+      "TYR216",
+      "ASP145",
+      "ARG83",
+      "TRP81",
+      "ARG143"
+    ],
+    "site23_score": 1.0,
+    "recurrence_score": 0.2222222222222222,
+    "stoich_bonus": 1.0,
+    "ligand_bonus": 1.0,
+    "composite_score": 0.8055555555555556,
+    "classification": "HIGH_CANDIDATE",
+    "centroid": [
+      27.345800595238096,
+      14.713986607142857,
+      -28.161605654761903
+    ],
+    "final_rank": 1
+  },
+  {
+    "rank": 1,
+    "cluster_id": 15,
+    "n_models": 36,
+    "interface": "multi_subunit",
+    "interface_type": "multi-subunit",
+    "stoichiometries": {
+      "a9a10_2to3": 16,
+      "a9a10_3to2": 20
+    },
+    "ligand_types": {
+      "ACETATE_ANION": 1,
+      "DERIVATIVE_EXPERIMENTAL": 17,
+      "LASC_ANION": 3,
+      "LASC_NEUTRAL": 1,
+      "OETHYL_CORRECTED_2O": 5,
+      "OETHYL_CORRECTED_3O": 6,
+      "DASC_ANION": 2,
+      "RYANODINE": 1
+    },
+    "top_residues": [
+      "E:VAL280",
+      "D:VAL280",
+      "B:VAL281",
+      "B:GLU288",
+      "A:VAL281",
+      "A:GLU288",
+      "D:GLU287",
+      "E:GLU287",
+      "E:LEU284",
+      "D:LEU284"
+    ],
+    "site23_residues_found": [],
+    "site23_score": 0.0,
+    "recurrence_score": 1.0,
+    "stoich_bonus": 1.0,
+    "ligand_bonus": 1.0,
+    "composite_score": 0.65,
+    "classification": "MEDIUM_CANDIDATE",
+    "centroid": [
+      2.9939971560846557,
+      -1.1703405423280424,
+      -0.02383536155202838
+    ],
+    "final_rank": 2
+  },
+  {
+    "rank": 5,
+    "cluster_id": 42,
+    "n_models": 10,
+    "interface": "multi_subunit",
+    "interface_type": "multi-subunit",
+    "stoichiometries": {
+      "a9a10_2to3": 6,
+      "a9a10_3to2": 4
+    },
+    "ligand_types": {
+      "DERIVATIVE_EXPERIMENTAL": 4,
+      "OETHYL_CORRECTED_2O": 2,
+      "OETHYL_CORRECTED_3O": 2,
+      "ACETATE_ANION": 1,
+      "LASC_ANION": 1
+    },
+    "top_residues": [
+      "D:VAL280",
+      "E:VAL280",
+      "A:VAL281",
+      "D:LEU284",
+      "B:VAL281",
+      "C:VAL280",
+      "E:LEU284",
+      "B:LEU277",
+      "D:LEU276",
+      "E:LEU276"
+    ],
+    "site23_residues_found": [],
+    "site23_score": 0.0,
+    "recurrence_score": 0.2777777777777778,
+    "stoich_bonus": 1.0,
+    "ligand_bonus": 1.0,
+    "composite_score": 0.46944444444444444,
+    "classification": "MEDIUM_CANDIDATE",
+    "centroid": [
+      -3.7981992063492065,
+      3.877665476190476,
+      0.4790448412698409
+    ],
+    "final_rank": 3
+  },
+  {
+    "rank": 6,
+    "cluster_id": 43,
+    "n_models": 10,
+    "interface": "multi_subunit",
+    "interface_type": "multi-subunit",
+    "stoichiometries": {
+      "a9a10_2to3": 2,
+      "a9a10_3to2": 8
+    },
+    "ligand_types": {
+      "DERIVATIVE_EXPERIMENTAL": 2,
+      "RYANODINE": 3,
+      "ACETATE_ANION": 1,
+      "DASC_ANION": 1,
+      "LASC_ANION": 1,
+      "OETHYL_CORRECTED_3O": 2
+    },
+    "top_residues": [
+      "D:THR273",
+      "A:THR274",
+      "B:THR274",
+      "E:THR273",
+      "D:SER269",
+      "A:SER270",
+      "B:SER270",
+      "E:SER269",
+      "C:THR274",
+      "A:LEU277"
+    ],
+    "site23_residues_found": [],
+    "site23_score": 0.0,
+    "recurrence_score": 0.2777777777777778,
+    "stoich_bonus": 1.0,
+    "ligand_bonus": 1.0,
+    "composite_score": 0.46944444444444444,
+    "classification": "MEDIUM_CANDIDATE",
+    "centroid": [
+      3.934184444444444,
+      17.320231190476193,
+      -8.509629920634922
+    ],
+    "final_rank": 4
+  },
+  {
+    "rank": 8,
+    "cluster_id": 29,
+    "n_models": 9,
+    "interface": "multi_subunit",
+    "interface_type": "multi-subunit",
+    "stoichiometries": {
+      "a9a10_2to3": 7,
+      "a9a10_3to2": 2
+    },
+    "ligand_types": {
+      "DASC_ANION": 1,
+      "DERIVATIVE_EXPERIMENTAL": 1,
+      "LASC_ANION": 1,
+      "OETHYL_CORRECTED_3O": 1,
+      "RYANODINE": 5
+    },
+    "top_residues": [
+      "B:SER270",
+      "A:SER270",
+      "D:SER269",
+      "E:SER269",
+      "B:THR274",
+      "D:THR273",
+      "A:THR274",
+      "E:THR273",
+      "C:SER269",
+      "C:THR273"
+    ],
+    "site23_residues_found": [],
+    "site23_score": 0.0,
+    "recurrence_score": 0.25,
+    "stoich_bonus": 1.0,
+    "ligand_bonus": 1.0,
+    "composite_score": 0.4625,
+    "classification": "MEDIUM_CANDIDATE",
+    "centroid": [
+      -11.082056613756613,
+      10.528859435626101,
+      17.808354850088183
+    ],
+    "final_rank": 5
+  },
+  {
+    "rank": 4,
+    "cluster_id": 11,
+    "n_models": 10,
+    "interface": "multi_subunit",
+    "interface_type": "multi-subunit",
+    "stoichiometries": {
+      "a9a10_2to3": 5,
+      "a9a10_3to2": 5
+    },
+    "ligand_types": {
+      "ACETATE_ANION": 1,
+      "DERIVATIVE_EXPERIMENTAL": 3,
+      "RYANODINE": 5,
+      "OETHYL_CORRECTED_3O": 1
+    },
+    "top_residues": [
+      "E:THR273",
+      "D:THR273",
+      "B:THR274",
+      "A:THR274",
+      "E:SER269",
+      "D:SER269",
+      "B:SER270",
+      "A:SER270",
+      "A:LEU271",
+      "C:THR273"
+    ],
+    "site23_residues_found": [],
+    "site23_score": 0.0,
+    "recurrence_score": 0.2777777777777778,
+    "stoich_bonus": 1.0,
+    "ligand_bonus": 0.8,
+    "composite_score": 0.4394444444444444,
+    "classification": "MEDIUM_CANDIDATE",
+    "centroid": [
+      12.417470317460317,
+      -3.9152479365079373,
+      13.757703571428573
+    ],
+    "final_rank": 6
+  },
+  {
+    "rank": 3,
+    "cluster_id": 8,
+    "n_models": 10,
+    "interface": "A_C",
+    "interface_type": "alpha9(+)/alpha10(-)",
+    "stoichiometries": {
+      "a9a10_2to3": 9,
+      "a9a10_3to2": 1
+    },
+    "ligand_types": {
+      "ACETATE_ANION": 2,
+      "DASC_ANION": 2,
+      "LASC_ANION": 2,
+      "LASC_NEUTRAL": 3,
+      "OETHYL_CORRECTED_2O": 1
+    },
+    "top_residues": [
+      "A:ASN57",
+      "A:PHE186",
+      "A:VAL55",
+      "A:ASP184",
+      "A:LEU56",
+      "A:GLN182",
+      "C:ARG105",
+      "C:ALA103",
+      "A:THR52",
+      "A:ASP53"
+    ],
+    "site23_residues_found": [],
+    "site23_score": 0.0,
+    "recurrence_score": 0.2777777777777778,
+    "stoich_bonus": 1.0,
+    "ligand_bonus": 1.0,
+    "composite_score": 0.36944444444444446,
+    "classification": "LOW_CANDIDATE",
+    "centroid": [
+      -48.27960238095237,
+      33.07312976190477,
+      1.5514476190476187
+    ],
+    "final_rank": 7
+  },
+  {
+    "rank": 10,
+    "cluster_id": 28,
+    "n_models": 8,
+    "interface": "A_C",
+    "interface_type": "alpha9(+)/alpha10(-)",
+    "stoichiometries": {
+      "a9a10_2to3": 3,
+      "a9a10_3to2": 5
+    },
+    "ligand_types": {
+      "DASC_ANION": 2,
+      "LASC_ANION": 2,
+      "OETHYL_CORRECTED_3O": 2,
+      "LASC_NEUTRAL": 1,
+      "OETHYL_CORRECTED_2O": 1
+    },
+    "top_residues": [
+      "A:ASN57",
+      "A:PHE186",
+      "A:ASP184",
+      "C:ASP102",
+      "C:ALA103",
+      "C:LEU101",
+      "A:GLN182",
+      "C:GLY100",
+      "C:ARG105",
+      "C:ILE104"
+    ],
+    "site23_residues_found": [],
+    "site23_score": 0.0,
+    "recurrence_score": 0.2222222222222222,
+    "stoich_bonus": 1.0,
+    "ligand_bonus": 1.0,
+    "composite_score": 0.3555555555555555,
+    "classification": "LOW_CANDIDATE",
+    "centroid": [
+      -39.91461755952381,
+      43.6328005952381,
+      7.532699404761905
+    ],
+    "final_rank": 8
+  },
+  {
+    "rank": 2,
+    "cluster_id": 0,
+    "n_models": 10,
+    "interface": "A_C",
+    "interface_type": "alpha9(+)/alpha10(-)",
+    "stoichiometries": {
+      "a9a10_2to3": 6,
+      "a9a10_3to2": 4
+    },
+    "ligand_types": {
+      "ACETATE_ANION": 4,
+      "DASC_ANION": 2,
+      "LASC_ANION": 2,
+      "OETHYL_CORRECTED_2O": 2
+    },
+    "top_residues": [
+      "A:GLN182",
+      "A:ASP53",
+      "A:THR52",
+      "A:ARG47",
+      "C:THR87",
+      "C:TRP86",
+      "C:GLU85",
+      "C:THR58",
+      "C:ASN56",
+      "C:ALA141"
+    ],
+    "site23_residues_found": [],
+    "site23_score": 0.0,
+    "recurrence_score": 0.2777777777777778,
+    "stoich_bonus": 1.0,
+    "ligand_bonus": 0.8,
+    "composite_score": 0.33944444444444444,
+    "classification": "LOW_CANDIDATE",
+    "centroid": [
+      -26.11315357142857,
+      50.83527976190477,
+      -8.853061904761905
+    ],
+    "final_rank": 9
+  },
+  {
+    "rank": 7,
+    "cluster_id": 2,
+    "n_models": 9,
+    "interface": "multi_subunit",
+    "interface_type": "multi-subunit",
+    "stoichiometries": {
+      "a9a10_2to3": 4,
+      "a9a10_3to2": 5
+    },
+    "ligand_types": {
+      "ACETATE_ANION": 5,
+      "LASC_ANION": 1,
+      "RYANODINE": 3
+    },
+    "top_residues": [
+      "E:THR273",
+      "A:LEU277",
+      "E:LEU276",
+      "D:LEU276",
+      "B:LEU277",
+      "A:THR274",
+      "D:THR273",
+      "B:THR274",
+      "A:SER270",
+      "E:SER269"
+    ],
+    "site23_residues_found": [],
+    "site23_score": 0.0,
+    "recurrence_score": 0.25,
+    "stoich_bonus": 1.0,
+    "ligand_bonus": 0.6,
+    "composite_score": 0.3025,
+    "classification": "LOW_CANDIDATE",
+    "centroid": [
+      -12.871591005291005,
+      -10.864338624338625,
+      1.6312402116402116
+    ],
+    "final_rank": 10
+  }
+]

@@ -1,0 +1,11 @@
+rank,site_id,site_composite_score,ligand,ligand_name,ligand_activity_class,enrichment,fisher_p,mean_confidence,n_contacts,recurrent_contacts,site_evidence_level
+1,23,0.5066,L-ASC,L-ascorbate,active,1.353,0.0331,0.743,10,alpha9:176;alpha10:145;alpha9:120;alpha10:81;alpha10:83;alpha9:224;alpha9:175;alpha9:217;alpha10:143;alpha9:219,Level 4
+2,23,0.5066,O-ETHYL,O-ethyl ascorbate,active,1.182,0.1369,0.76,12,alpha9:176;alpha10:83;alpha10:145;alpha10:81;alpha9:120;alpha9:175;alpha9:224;alpha9:177;alpha10:143;alpha10:195,Level 4
+3,23,0.5066,D-ASC,D-ascorbate,weak,1.203,0.2793,0.741,12,alpha9:176;alpha10:81;alpha9:120;alpha10:145;alpha9:175;alpha9:224;alpha10:83;alpha9:217;alpha9:219;alpha10:143,Level 4
+4,23,0.5066,ACETATE,acetate,control,0.296,0.9992,0.757,17,alpha10:145;alpha9:224;alpha10:83;alpha10:143;alpha9:176;alpha10:135;alpha9:177;alpha9:221;alpha9:220;alpha9:219,Level 4
+5,23,0.5066,RYANODINE,ryanodine,modulator,0.132,0.9998,0.77,12,alpha9:225;alpha10:83;alpha9:215;alpha9:176;alpha9:224;alpha9:172;alpha10:81;alpha9:217;alpha10:145;alpha9:175,Level 4
+6,5,0.4355,L-ASC,L-ascorbate,active,2.545,0.0000,0.766,4,alpha9:57;alpha9:55;alpha9:54;alpha9:186,Level 2
+7,5,0.4355,D-ASC,D-ascorbate,weak,1.909,0.0021,0.768,4,alpha9:57;alpha9:55;alpha9:186;alpha9:54,Level 2
+8,5,0.4355,O-ETHYL,O-ethyl ascorbate,active,0.125,1.0000,0.767,6,alpha9:57;alpha9:186;alpha9:59;alpha9:88;alpha9:54;alpha9:55,Level 2
+9,34,0.4173,RYANODINE,ryanodine,modulator,5.796,0.0000,0.782,10,alpha9:270;alpha10:276;alpha10:269;alpha10:265;alpha9:274;alpha10:273;alpha9:266;alpha9:277;alpha10:266;alpha9:267,Level 4
+10,34,0.4173,L-ASC,L-ascorbate,active,0.183,1.0000,0.758,6,alpha10:276;alpha9:274;alpha9:277;alpha10:273;alpha10:269;alpha9:270,Level 4

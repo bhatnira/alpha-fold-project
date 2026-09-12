@@ -1,0 +1,60 @@
+{
+  "total_compounds": 30,
+  "n_active": 7,
+  "n_inactive": 23,
+  "checks": {
+    "duplicate_ids": false,
+    "duplicate_smiles": false,
+    "empty_smiles": false,
+    "missing_activity": false,
+    "missing_potentiation": false,
+    "inconsistent_labels": [],
+    "compounds_with_stereochemistry": 27,
+    "compounds_with_charges": 0
+  },
+  "activity_distribution": {
+    "active_compounds": [
+      {
+        "id": 12,
+        "activity_uM": 0.1981,
+        "potentiation_pct": 150.0
+      },
+      {
+        "id": 25,
+        "activity_uM": 2.63,
+        "potentiation_pct": 180.0
+      },
+      {
+        "id": 24,
+        "activity_uM": 1202.0,
+        "potentiation_pct": 190.0
+      },
+      {
+        "id": 18,
+        "activity_uM": 1288.0,
+        "potentiation_pct": 500.0
+      },
+      {
+        "id": 2,
+        "activity_uM": 1316.0,
+        "potentiation_pct": 300.0
+      },
+      {
+        "id": 1,
+        "activity_uM": 1797.0,
+        "potentiation_pct": 286.0
+      },
+      {
+        "id": 3,
+        "activity_uM": 6077.0,
+        "potentiation_pct": 293.0
+      }
+    ],
+    "potency_range": {
+      "min_uM": 0.1981,
+      "max_uM": 6077.0,
+      "range_fold": 30676.426047450783
+    },
+    "n_inactive": 23
+  }
+}

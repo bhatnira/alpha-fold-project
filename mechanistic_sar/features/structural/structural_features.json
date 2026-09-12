@@ -1,0 +1,19 @@
+{
+  "receptor_2to3": {
+    "pdb_file": "09_docking/receptor_2to3.pdb",
+    "n_atoms": 18194,
+    "n_protein_atoms": 18194,
+    "n_ligand_atoms": 0,
+    "n_ca_atoms": 2308,
+    "contact_count": 0,
+    "hbond_count": 0,
+    "hydrophobic_contacts": 0,
+    "polar_contacts": 0,
+    "min_distance": 999.0,
+    "mean_contact_distance": 999.0,
+    "n_residues_in_contact": 0,
+    "mean_bfactor": 0.0,
+    "std_bfactor": 0.0,
+    "max_bfactor": 0.0
+  }
+}

@@ -1,0 +1,16 @@
+site_id,site_score,evidence_level,n_models,n_af3,n_boltz2,interface,pocket_type,domains,stoichiometry,state,ach_dependence,stereo_test,acetate_test,sufficient_support
+23,0.5066,Level 4,73,26,47,alpha9(+)/alpha10(-) ECD,vestibular_inter_subunit,ECD;ECD|other;other|ECD,both,resting_like,uncertain,2 cell(s) with both ligands,1 cell(s) with both,True
+5,0.4355,Level 2,69,69,0,alpha9(+)/alpha10(-) ECD,vestibular_inter_subunit,ECD,both,resting_like,uncertain,2 cell(s) with both ligands,"acetate expected 9.6 models from its global share, observed 0",True
+34,0.4173,Level 4,80,79,1,TMD pore,transmembrane_allosteric,M1-M2|M2;M2;M2|M1-M2,both,resting_like,uncertain,not tested (no cell with both ligands >= 2 models),acetate present elsewhere; no discriminating cell,True
+21,0.3838,Level 4,28,27,1,alpha9(+)/alpha10(-) ECD,vestibular_inter_subunit,ECD,both,resting_like,uncertain,1 cell(s) with both ligands,1 cell(s) with both,True
+7,0.371,Level 2,21,21,0,alpha9(+)/alpha10(-) ECD,vestibular_inter_subunit,ECD,both,resting_like,uncertain,2 cell(s) with both ligands,"acetate expected 2.9 models from its global share, observed 0",True
+35,0.3473,Level 4,29,27,2,TMD pore,transmembrane_allosteric,M2,both,resting_like,uncertain,not tested (no cell with both ligands >= 2 models),not applicable (fewer than 3 L-ascorbate models),True
+19,0.3421,Level 2,12,12,0,alpha9(+)/alpha10(-) ECD,vestibular_inter_subunit,ECD,both,resting_like,uncertain,1 cell(s) with both ligands,1 cell(s) with both,True
+17,0.3377,Level 2,9,9,0,alpha9(+)/alpha10(-) ECD,vestibular_inter_subunit,ECD,both,resting_like,uncertain,not tested (no cell with both ligands >= 2 models),not applicable (fewer than 3 L-ascorbate models),True
+25,0.3307,Level 4,31,15,16,alpha9(+)/alpha10(-) ECD,vestibular_inter_subunit,ECD;ECD|other,both,resting_like,uncertain,1 cell(s) with both ligands,acetate present elsewhere; no discriminating cell,True
+18,0.3235,Level 4,12,10,2,alpha9(+)/alpha10(-) ECD,vestibular_inter_subunit,ECD,both,resting_like,uncertain,not tested (no cell with both ligands >= 2 models),not applicable (fewer than 3 L-ascorbate models),True
+26,0.3174,Level 4,20,16,4,alpha9(+)/alpha10(-) ECD,vestibular_inter_subunit,ECD,both,resting_like,uncertain,1 cell(s) with both ligands,acetate present elsewhere; no discriminating cell,True
+38,0.3047,Level 4,16,14,2,TMD pore,transmembrane_allosteric,M2,both,resting_like,uncertain,not tested (no cell with both ligands >= 2 models),not applicable (fewer than 3 L-ascorbate models),True
+22,0.2972,Level 4,9,6,3,alpha9(+)/alpha10(-) ECD,vestibular_inter_subunit,ECD;ECD|other,both,resting_like,uncertain,not tested (no cell with both ligands >= 2 models),not applicable (fewer than 3 L-ascorbate models),True
+13,0.2895,Level 2,11,11,0,alpha9(+)/alpha10(-) ECD,vestibular_inter_subunit,ECD,both,resting_like,uncertain,not tested (no cell with both ligands >= 2 models),not applicable (fewer than 3 L-ascorbate models),True
+3,0.2673,Level 2,6,6,0,alpha9(+)/alpha10(-) ECD,vestibular_inter_subunit,ECD,both,resting_like,uncertain,not tested (no cell with both ligands >= 2 models),not applicable (fewer than 3 L-ascorbate models),True

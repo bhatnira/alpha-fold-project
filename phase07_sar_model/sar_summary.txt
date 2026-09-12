@@ -1,0 +1,43 @@
+STRUCTURAL SAR MODEL
+============================================================
+
+Rules derived from activity-structure correlations:
+
+REQUIRED (255 residues):
+  alpha10:175      Contact alpha10:175 is more frequent in active compounds
+  alpha10:105      Contact alpha10:105 is more frequent in active compounds
+  alpha9:176       Contact alpha9:176 is more frequent in active compounds
+  alpha10:103      Contact alpha10:103 is more frequent in active compounds
+  alpha10:216      Contact alpha10:216 is more frequent in active compounds
+  alpha9:146       Contact alpha9:146 is more frequent in active compounds
+  alpha9:84        Contact alpha9:84 is more frequent in active compounds
+  alpha9:224       Contact alpha9:224 is more frequent in active compounds
+  alpha9:82        Contact alpha9:82 is more frequent in active compounds
+  alpha10:223      Contact alpha10:223 is more frequent in active compounds
+
+STEREOSENSITIVE (44 residues):
+  alpha10:58       Contact alpha10:58 shows L-specific binding
+  alpha10:46       Contact alpha10:46 shows L-specific binding
+  alpha10:72       Contact alpha10:72 shows L-specific binding
+  alpha9:186       Contact alpha9:186 shows L-specific binding
+  alpha10:51       Contact alpha10:51 shows L-specific binding
+  alpha9:106       Contact alpha9:106 shows L-specific binding
+  alpha9:110       Contact alpha9:110 shows L-specific binding
+  alpha9:129       Contact alpha9:129 shows L-specific binding
+  alpha9:132       Contact alpha9:132 shows L-specific binding
+  alpha10:291      Contact alpha10:291 shows L-specific binding
+
+UNFAVORABLE (0 residues):
+
+SAR RULES SUMMARY:
+
+1. L-ascorbate binds preferentially to site 23 (top-ranked)
+2. Core residues W176, Y120, Y224 are essential for L-ascorbate
+3. D-ascorbate shows reduced binding (stereochemical discrimination)
+4. Acetate does NOT reproduce the full interaction pattern
+5. Ryanodine binds to a distinct site (site 34)
+6. O-ethyl ascorbate maintains activity (tolerates modification)
+
+HELD-OUT VALIDATION:
+  Discovery set used to derive rules above
+  Held-out set (site 39, 40) will test predictions

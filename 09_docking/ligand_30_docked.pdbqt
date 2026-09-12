@@ -1,0 +1,27 @@
+MODEL 1
+REMARK VINA RESULT:    -7.661      0.000      0.000
+REMARK INTER + INTRA:          -7.661
+REMARK INTER:                  -7.661
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+ROOT
+HETATM    1  C1  UNL     1      16.800 -10.573  19.634  1.00  0.00           C
+HETATM    2  O1  UNL     1      15.636 -11.326  19.943  1.00  0.00          OA
+HETATM    3  C2  UNL     1      17.270 -10.814  18.194  1.00  0.00           C
+HETATM    4  O2  UNL     1      18.420  -9.998  17.924  1.00  0.00          OA
+HETATM    5  C3  UNL     1      17.546 -12.304  17.913  1.00  0.00           C
+HETATM    6  O3  UNL     1      17.787 -12.510  16.498  1.00  0.00          OA
+HETATM    7  C4  UNL     1      18.665 -13.635  16.357  1.00  0.00           C
+HETATM    8  O4  UNL     1      18.028 -14.716  15.694  1.00  0.00          OA
+HETATM    9  C5  UNL     1      17.777 -15.718  16.694  1.00  0.00           C
+HETATM   10  O5  UNL     1      18.065 -15.167  17.997  1.00  0.00          OA
+HETATM   11  C6  UNL     1      19.018 -14.131  17.741  1.00  0.00           C
+HETATM   12  C7  UNL     1      18.767 -12.914  18.605  1.00  0.00           C
+HETATM   13  O6  UNL     1      19.909 -12.049  18.561  1.00  0.00          OA
+HETATM   14  C8  UNL     1      16.349 -16.341  16.592  1.00  0.00           C
+HETATM   15 CL1  UNL     1      16.144 -17.636  17.825  1.00  0.00           C
+HETATM   16 CL2  UNL     1      15.067 -15.112  16.851  1.00  0.00           C
+HETATM   17 CL3  UNL     1      16.103 -17.086  14.973  1.00  0.00           C
+ENDROOT
+TORSDOF 0
+ENDMDL

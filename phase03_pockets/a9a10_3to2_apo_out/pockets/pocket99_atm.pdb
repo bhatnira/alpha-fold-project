@@ -1,0 +1,45 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    99:
+HEADER 0  - Pocket Score                      : -0.1288
+HEADER 1  - Drug Score                        : 0.0246
+HEADER 2  - Number of alpha spheres           :    32
+HEADER 3  - Mean alpha-sphere radius          : 4.0870
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6610
+HEADER 5  - Mean B-factor of pocket residues  : 0.7791
+HEADER 6  - Hydrophobicity Score              : 64.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 222.6014
+HEADER 10 - Pocket volume (convex hull)       : 9.6267
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 25.0000
+HEADER 13 - Number of apolar alpha sphere     :    26
+HEADER 14 - Proportion of apolar alpha sphere : 0.8125
+ATOM  11518    O LEU C 473      -3.503 -24.140  17.338  0.72  5.36           O 0
+ATOM  10102  CD1 LEU C 298      -2.297 -18.524  19.281  0.00  0.00           C 0
+ATOM  11517    C LEU C 473      -2.749 -24.423  16.410  0.00  0.00           C 0
+ATOM  11523    N ILE C 474      -2.670 -23.690  15.301  0.00  0.00           N 0
+ATOM  11524   CA ILE C 474      -3.498 -22.497  15.101  0.00  0.00           C 0
+ATOM  11527   CB ILE C 474      -2.798 -21.464  14.190  0.00  0.00           C 0
+ATOM  11495    O MET C 470       0.065 -24.083  13.706  0.00  0.00           O 0
+ATOM  11497   CG MET C 470       4.626 -24.003  13.875  0.00  0.00           C 0
+ATOM  11521  CD1 LEU C 473       1.728 -25.991  17.988  0.00  0.00           C 0
+ATOM  11496   CB MET C 470       3.283 -24.002  13.131  0.00  0.00           C 0
+ATOM  11493   CA MET C 470       2.276 -25.001  13.696  0.00  0.00           C 0
+ATOM  11498   SD MET C 470       5.696 -22.589  13.519  0.00  0.00           S 0
+ATOM  10132  CD2 TYR C 302       1.015 -20.314  12.571  0.00  0.00           C 0
+ATOM  10161   CB ALA C 305       6.128 -19.085  15.100  0.00  0.00           C 0
+ATOM  10126   CA TYR C 302       1.989 -17.690  14.230  0.00  0.00           C 0
+ATOM  10129   CB TYR C 302       0.593 -18.121  13.762  0.00  0.00           C 0
+ATOM  10125    N TYR C 302       1.857 -16.739  15.335  0.00  0.00           N 0
+ATOM  11530  CD1 ILE C 474      -2.766 -18.930  13.760  0.00  0.00           C 0
+ATOM  11519   CB LEU C 473      -0.478 -25.289  17.047  0.00  0.00           C 0
+ATOM  10118    C LYS C 301       2.904 -16.305  16.033  0.00  0.00           C 0
+ATOM  10119    O LYS C 301       4.053 -16.695  15.838  0.36  4.29           O 0
+ATOM  10120   CB LYS C 301       2.126 -15.910  18.390  0.00  0.00           C 0
+ATOM  10099    O LEU C 298      -0.814 -16.312  16.615  0.46  1.07           O 0
+TER
+END

@@ -1,0 +1,48 @@
+# Heavy model outputs (too large for git / GitHub)
+**/results/
+**/af3_outputs/
+**/boltz2_outputs/
+**/predictions/
+
+# Boltz / AF3 caches
+.boltz/
+**/.boltz/
+
+# Scratch/home caches and environments
+.cache/
+.conda/
+.mamba/
+.venvs/
+.apptainer/
+.singularity/
+.npm/
+.nv/
+
+# Logs
+*.log
+slurm-*.out
+slurm-*.err
+**/logs/
+
+# Molecular dynamics scratch (no DCD data exist)
+md_100ns/
+md_pam/
+md/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Pickles / large binaries
+*.pt
+*.pth
+*.onnx
+*.npy
+*.npz
+*.tar
+*.gz
+
+# Misc
+*.zip
+.DS_Store

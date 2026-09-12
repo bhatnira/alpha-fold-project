@@ -1,0 +1,226 @@
+{
+  "potency_ranking": [
+    {
+      "rank": 1,
+      "id": 12,
+      "activity_uM": 0.1981,
+      "potentiation_pct": 150.0
+    },
+    {
+      "rank": 2,
+      "id": 25,
+      "activity_uM": 2.63,
+      "potentiation_pct": 180.0
+    },
+    {
+      "rank": 3,
+      "id": 24,
+      "activity_uM": 1202.0,
+      "potentiation_pct": 190.0
+    },
+    {
+      "rank": 4,
+      "id": 18,
+      "activity_uM": 1288.0,
+      "potentiation_pct": 500.0
+    },
+    {
+      "rank": 5,
+      "id": 2,
+      "activity_uM": 1316.0,
+      "potentiation_pct": 300.0
+    },
+    {
+      "rank": 6,
+      "id": 1,
+      "activity_uM": 1797.0,
+      "potentiation_pct": 286.0
+    },
+    {
+      "rank": 7,
+      "id": 3,
+      "activity_uM": 6077.0,
+      "potentiation_pct": 293.0
+    }
+  ],
+  "potentiation_ranking": [
+    {
+      "rank": 1,
+      "id": 18,
+      "activity_uM": 1288.0,
+      "potentiation_pct": 500.0
+    },
+    {
+      "rank": 2,
+      "id": 2,
+      "activity_uM": 1316.0,
+      "potentiation_pct": 300.0
+    },
+    {
+      "rank": 3,
+      "id": 3,
+      "activity_uM": 6077.0,
+      "potentiation_pct": 293.0
+    },
+    {
+      "rank": 4,
+      "id": 1,
+      "activity_uM": 1797.0,
+      "potentiation_pct": 286.0
+    },
+    {
+      "rank": 5,
+      "id": 24,
+      "activity_uM": 1202.0,
+      "potentiation_pct": 190.0
+    },
+    {
+      "rank": 6,
+      "id": 25,
+      "activity_uM": 2.63,
+      "potentiation_pct": 180.0
+    },
+    {
+      "rank": 7,
+      "id": 12,
+      "activity_uM": 0.1981,
+      "potentiation_pct": 150.0
+    }
+  ],
+  "sar_anchors": {
+    "strongest_active": {
+      "id": 12,
+      "activity_uM": 0.1981,
+      "smiles": "C(#C)COC1[C@@H]([C@@H]2OC(C)(C)OC2)OC(=O)C=1O",
+      "potentiation": 150.0
+    },
+    "second_strongest": {
+      "id": 25,
+      "activity_uM": 2.63,
+      "smiles": "C(Br)[C@H]([C@H]1OC(=O)C(O)=C1O)O",
+      "potentiation": 180.0
+    },
+    "weakest_active": {
+      "id": 3,
+      "activity_uM": 6077.0,
+      "smiles": "CC1(O[C@H]([C@H]2OC(=O)C(O)=C2O)CO1)C",
+      "potentiation": 293.0
+    },
+    "highly_potent": [
+      {
+        "id": 12,
+        "smiles_raw": "C(#C)COC1[C@@H]([C@@H]2OC(C)(C)OC2)OC(=O)C=1O",
+        "activity_uM": 0.1981,
+        "potentiation_pct": 150.0,
+        "activity_class": "highly_potent"
+      }
+    ],
+    "potent": [
+      {
+        "id": 25,
+        "smiles_raw": "C(Br)[C@H]([C@H]1OC(=O)C(O)=C1O)O",
+        "activity_uM": 2.63,
+        "potentiation_pct": 180.0,
+        "activity_class": "potent"
+      }
+    ],
+    "moderate": [
+      {
+        "id": 24,
+        "smiles_raw": "CCCOC1C(=O)O[C@H]([C@H](O)CO)C=1O",
+        "activity_uM": 1202.0,
+        "potentiation_pct": 190.0,
+        "activity_class": "moderate"
+      },
+      {
+        "id": 18,
+        "smiles_raw": "C1C=CC(COC2[C@@H]([C@H](O)CO)OC(=O)C=2O)=CC=1",
+        "activity_uM": 1288.0,
+        "potentiation_pct": 500.0,
+        "activity_class": "moderate"
+      },
+      {
+        "id": 2,
+        "smiles_raw": "C(O)C(C1OC(=O)C(O)=C1O)O",
+        "activity_uM": 1316.0,
+        "potentiation_pct": 300.0,
+        "activity_class": "moderate"
+      },
+      {
+        "id": 1,
+        "smiles_raw": "C1([C@@H]([C@H](O)CO)OC(=O)C=1O)O",
+        "activity_uM": 1797.0,
+        "potentiation_pct": 286.0,
+        "activity_class": "moderate"
+      }
+    ],
+    "weak": [
+      {
+        "id": 3,
+        "smiles_raw": "CC1(O[C@H]([C@H]2OC(=O)C(O)=C2O)CO1)C",
+        "activity_uM": 6077.0,
+        "potentiation_pct": 293.0,
+        "activity_class": "weak"
+      }
+    ]
+  },
+  "structural_observations": {
+    "active_smiles_lengths": [
+      45,
+      33,
+      33,
+      45,
+      24,
+      33,
+      37
+    ],
+    "inactive_smiles_lengths": [
+      37,
+      38,
+      49,
+      38,
+      32,
+      43,
+      43,
+      47,
+      39,
+      61,
+      37,
+      43,
+      45,
+      35,
+      35,
+      39,
+      33,
+      41,
+      40,
+      53,
+      32,
+      38,
+      57
+    ],
+    "avg_active_smiles_len": 35.714285714285715,
+    "avg_inactive_smiles_len": 41.52173913043478
+  },
+  "potency_potentiation_correlation": {
+    "spearman_rho": 0.6785714285714287,
+    "p_value": 0.0937502539598313,
+    "interpretation": "positive"
+  },
+  "activity_classes": {
+    "moderate": 4,
+    "weak": 1,
+    "inactive": 23,
+    "highly_potent": 1,
+    "potent": 1
+  },
+  "experimental_sar_hypothesis": {
+    "observation_1": "Potency spans 3+ orders of magnitude (0.2 to 6077 uM)",
+    "observation_2": "Potentiation ranges 150-500% and does NOT correlate with potency",
+    "observation_3": "The most potent compound (Cpd 12, 0.2 uM) has LOWEST potentiation (150%)",
+    "observation_4": "The highest potentiation compound (Cpd 18, 500%) has MODERATE potency (1288 uM)",
+    "observation_5": "23 of 30 compounds are completely inactive (0 activity, 0 potentiation)",
+    "observation_6": "Potency and potentiation appear INDEPENDENT - suggesting different structural determinants",
+    "key_prediction": "The binding site must accommodate compounds spanning ~30,000-fold potency range while allowing independent potentiation mechanisms"
+  }
+}

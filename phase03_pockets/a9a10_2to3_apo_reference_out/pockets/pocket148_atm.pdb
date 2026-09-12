@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   148:
+HEADER 0  - Pocket Score                      : -0.1981
+HEADER 1  - Drug Score                        : 0.0025
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.8912
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6136
+HEADER 5  - Mean B-factor of pocket residues  : 0.1944
+HEADER 6  - Hydrophobicity Score              : 6.6000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 353.1568
+HEADER 10 - Pocket volume (convex hull)       : 21.2779
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.6316
+ATOM   6868   CD LYS B 376      69.058 -10.075 -40.662  0.00  0.00           C 0
+ATOM   6831    O LYS B 372      66.002 -11.343 -38.059  0.57  3.21           O 0
+ATOM   6843  CG2 VAL B 373      67.601 -15.602 -36.656  0.00  0.00           C 0
+ATOM   6870   NZ LYS B 376      71.178  -9.392 -39.537  0.00  0.00           N 0
+ATOM   6838   CA VAL B 373      66.165 -14.120 -38.120  0.00  0.00           C 0
+ATOM   6832   CB LYS B 372      66.256 -10.991 -34.862  0.00  0.00           C 0
+ATOM   6811  CE1 HIS B 369      70.031 -14.758 -32.093  0.00  0.00           C 0
+ATOM   6834   CD LYS B 372      67.280  -9.518 -33.106  0.00  0.00           C 0
+ATOM   6809  ND1 HIS B 369      68.755 -15.069 -32.379  0.00  0.00           N 0
+ATOM   6830    C LYS B 372      65.631 -11.969 -37.074  0.00  0.00           C 0
+ATOM   6837    N VAL B 373      65.683 -13.288 -37.006  0.00  0.00           N 0
+ATOM   6842  CG1 VAL B 373      66.837 -16.468 -38.834  0.00  0.00           C 0
+ATOM   6840    O VAL B 373      65.597 -13.769 -40.416  0.62  5.36           O 0
+ATOM   6869   CE LYS B 376      69.753  -9.052 -39.756  0.00  0.00           C 0
+ATOM   6833   CG LYS B 372      66.102  -9.690 -34.068  0.00  0.00           C 0
+ATOM   6835   CE LYS B 372      67.161  -8.185 -32.355  0.00  0.00           C 0
+ATOM   6861   OG SER B 375      63.611  -9.305 -38.561  0.71  7.50           O 0
+ATOM   6867   CG LYS B 376      67.608  -9.672 -40.952  0.00  0.00           C 0
+TER
+END

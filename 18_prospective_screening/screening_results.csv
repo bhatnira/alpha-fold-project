@@ -1,0 +1,6 @@
+compound_id,smiles,pharmacophore_fit,mw,logP,hbd,hba,design_score,screening_score,passes_filter,filter_reasons,predicted_site,predicted_activity
+MOL_0005,NOC1=C(O)C(=O)O[C@@H]1[C@@H](O)CO,1.0,191.14,-2.08,4,7,0.799,0.906744,True,,Site 23,ACTIVE
+MOL_0012,O=C1O[C@H]([C@@H](O)CO)C(OC2COCCN2)=C1O,1.0,261.23,-2.0,4,8,0.776,0.875508,True,,Site 23,ACTIVE
+MOL_0011,O=C1O[C@H]([C@@H](O)CO)C(OC2CCNCC2)=C1O,1.0,259.26,-1.2,4,7,0.824,0.844296,True,,Site 23,ACTIVE
+MOL_0003,CCCOC1=C(O)C(=O)O[C@@H]1[C@@H](O)CO,0.667,218.2,-0.54,3,6,0.714,0.7011200000000001,True,,Site 23,ACTIVE
+MOL_0009,O=C1O[C@H]([C@@H](O)CO)C(Oc2ccccc2)=C1O,0.667,252.22,0.11,3,6,0.726,0.661512,True,,Site 23,ACTIVE

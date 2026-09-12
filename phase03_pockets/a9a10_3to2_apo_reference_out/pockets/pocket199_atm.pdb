@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   199:
+HEADER 0  - Pocket Score                      : -0.3567
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 4.1986
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5587
+HEADER 5  - Mean B-factor of pocket residues  : 0.2462
+HEADER 6  - Hydrophobicity Score              : 24.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 440.7455
+HEADER 10 - Pocket volume (convex hull)       : 46.9474
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.3913
+ATOM   2935   NE ARG A 367      25.355 -49.882 -28.126  0.69  3.28           N 0
+ATOM   3496   NZ LYS A 436      31.511 -50.538 -25.123  0.00  0.00           N 0
+ATOM   3495   CE LYS A 436      30.938 -49.223 -24.758  0.00  0.00           C 0
+ATOM   2938  NH2 ARG A 367      25.934 -48.403 -26.497  0.50  7.66           N 0
+ATOM   2933   CG ARG A 367      25.016 -51.772 -29.702  0.00  0.00           C 0
+ATOM   2961   CB LEU A 370      27.908 -56.317 -30.763  0.00  0.00           C 0
+ATOM   2963  CD1 LEU A 370      29.349 -54.706 -32.064  0.00  0.00           C 0
+ATOM   2964  CD2 LEU A 370      30.337 -56.829 -31.256  0.00  0.00           C 0
+ATOM  14627  NE2 HIS D 397      34.856 -52.748 -31.511  0.71  6.56           N 0
+ATOM   2999   OH TYR A 374      33.994 -58.300 -27.323  0.00  0.00           O 0
+ATOM  14625  CD2 HIS D 397      36.172 -52.725 -31.065  0.00  0.00           C 0
+ATOM   2997  CE2 TYR A 374      31.625 -58.328 -27.768  0.00  0.00           C 0
+ATOM   2998   CZ TYR A 374      32.727 -58.711 -26.979  0.00  0.00           C 0
+ATOM   2966   CA THR A 371      25.000 -58.040 -27.716  0.00  0.00           C 0
+ATOM   2970  OG1 THR A 371      24.103 -55.786 -27.545  0.00  0.00           O 0
+ATOM   2971  CG2 THR A 371      23.598 -57.224 -25.770  0.00  0.00           C 0
+ATOM   2992   CB TYR A 374      28.737 -60.035 -25.902  0.00  0.00           C 0
+ATOM   2931    O ARG A 367      24.469 -55.326 -30.020  0.00  0.00           O 0
+ATOM   2959    C LEU A 370      26.730 -58.127 -29.438  0.00  0.00           C 0
+ATOM   2965    N THR A 371      25.569 -57.644 -29.011  0.00  0.00           N 0
+ATOM   2960    O LEU A 370      27.369 -58.950 -28.788  0.00  0.00           O 0
+ATOM   2995  CD2 TYR A 374      30.332 -58.752 -27.412  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,5 @@
+site,interface,classification,states_present,n_states
+site23,alpha9(+)/alpha10(-) ECD,APO_ONLY,,0
+site25,alpha9(+)/alpha9(-) ECD,APO_ONLY,,0
+site34,M1-M2/M2 TM,APO_ONLY,,0
+site21,alpha10 ECD,APO_ONLY,,0

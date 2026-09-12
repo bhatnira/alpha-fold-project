@@ -1,0 +1,7 @@
+=== Job started on pax105 at Fri Sep  4 09:26:47 PM EDT 2026 ===
+SLURM job ID: 3280480
+GPU: 0
+
+=== Step 1: Verify CCD data and model weights ===
+CCD data missing or incomplete, re-downloading...
+Downloading mols.tar (~2.3GB)...

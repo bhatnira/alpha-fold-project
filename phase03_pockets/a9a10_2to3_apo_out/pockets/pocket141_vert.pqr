@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket   141:
+HEADER 0  - Pocket Score                      : -0.1858
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of V. Vertices             :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.2090
+HEADER 4  - Mean alpha-sphere SA              : 0.6331
+HEADER 5  - Mean B-factor                     : 0.4597
+HEADER 6  - Hydrophobicity Score              : -29.8333
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Volume Score                      : 3.6667
+HEADER 9  - Real volume (approximation)       : 204.0629
+HEADER 10 - Charge Score                      :    -1
+HEADER 11 - Local hydrophobic density Score   : 3.0000
+HEADER 12 - Number of apolar alpha sphere     :     4
+HEADER 13 - Proportion of apolar alpha sphere : 0.2500
+ATOM      1    O STP   141     -34.669   9.944  23.977    0.00     4.15
+ATOM      2    O STP   141     -34.502   9.517  24.229    0.00     4.14
+ATOM      3    O STP   141     -34.726   9.684  24.440    0.00     4.38
+ATOM      4    C STP   141     -34.017   8.646  26.735    0.00     4.59
+ATOM      5    C STP   141     -34.235   9.020  26.217    0.00     4.52
+ATOM      6    O STP   141     -34.747   9.705  24.540    0.00     4.42
+ATOM      7    C STP   141     -34.468   9.499  24.305    0.00     4.14
+ATOM      8    C STP   141     -34.127   9.162  24.602    0.00     3.87
+ATOM      9    O STP   141     -34.823   9.997  24.774    0.00     4.53
+ATOM     10    O STP   141     -32.515   8.276  26.856    0.00     3.61
+ATOM     11    O STP   141     -37.005  10.589  24.878    0.00     3.50
+ATOM     12    O STP   141     -34.828   9.998  24.790    0.00     4.54
+ATOM     13    O STP   141     -34.764   9.711  24.596    0.00     4.45
+ATOM     14    O STP   141     -34.478   9.231  26.204    0.00     4.69
+ATOM     15    O STP   141     -34.981   9.403  24.344    0.00     4.13
+ATOM     16    O STP   141     -35.280   8.899  24.106    0.00     3.69
+TER
+END

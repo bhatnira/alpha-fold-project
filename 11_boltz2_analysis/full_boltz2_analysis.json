@@ -1,0 +1,118 @@
+{
+  "total_models": 90,
+  "confidence_distributions": {
+    "confidence_score": {
+      "n": 90,
+      "mean": 0.7394005040327708,
+      "min": 0.723091721534729,
+      "max": 0.7512331604957581,
+      "median": 0.7404460310935974
+    },
+    "ptm": {
+      "n": 90,
+      "mean": 0.7164141197999319,
+      "min": 0.6951736807823181,
+      "max": 0.7311357259750366,
+      "median": 0.7171970009803772
+    },
+    "iptm": {
+      "n": 90,
+      "mean": 0.6983819921811422,
+      "min": 0.6771602630615234,
+      "max": 0.7129963636398315,
+      "median": 0.7003558278083801
+    },
+    "ligand_iptm": {
+      "n": 90,
+      "mean": 0.3989585200945536,
+      "min": 0.24369676411151886,
+      "max": 0.5167786478996277,
+      "median": 0.41982561349868774
+    },
+    "protein_iptm": {
+      "n": 90,
+      "mean": 0.7006694032086267,
+      "min": 0.6781418323516846,
+      "max": 0.7165558338165283,
+      "median": 0.7028419375419617
+    },
+    "complex_plddt": {
+      "n": 90,
+      "mean": 0.7496551222271389,
+      "min": 0.7317033410072327,
+      "max": 0.7621148824691772,
+      "median": 0.7500863671302795
+    }
+  },
+  "by_ligand": {
+    "ACETATE_ANION": {
+      "n_models": 18,
+      "mean_confidence": 0.7343383464548323,
+      "mean_ligand_iptm": 0.27831227084000904,
+      "seeds": [
+        "s101",
+        "s202",
+        "s303"
+      ]
+    },
+    "DASC_ANION": {
+      "n_models": 18,
+      "mean_confidence": 0.7384533849027421,
+      "mean_ligand_iptm": 0.4158789879745907,
+      "seeds": [
+        "s101",
+        "s202",
+        "s303"
+      ]
+    },
+    "DERIVATIVE_EXPERIMENTAL": {
+      "n_models": 18,
+      "mean_confidence": 0.7438804374800788,
+      "mean_ligand_iptm": 0.47131743364863926,
+      "seeds": [
+        "s101",
+        "s202",
+        "s303"
+      ]
+    },
+    "LASC_ANION": {
+      "n_models": 18,
+      "mean_confidence": 0.7376548151175181,
+      "mean_ligand_iptm": 0.40753893223073745,
+      "seeds": [
+        "s101",
+        "s202",
+        "s303"
+      ]
+    },
+    "LASC_NEUTRAL": {
+      "n_models": 18,
+      "mean_confidence": 0.7426755362086825,
+      "mean_ligand_iptm": 0.42174497577879166,
+      "seeds": [
+        "s101",
+        "s202",
+        "s303"
+      ]
+    }
+  },
+  "convergence_with_af3": {
+    "total_convergence_entries": 127,
+    "strong_convergence": 8,
+    "convergent_sites": [
+      "18",
+      "21",
+      "22",
+      "25",
+      "25",
+      "25",
+      "34",
+      "35"
+    ]
+  },
+  "sar_consistency": {
+    "active_mean_confidence": 0.7376548151175181,
+    "inactive_mean_confidence": 0.7363958656787872,
+    "separation": true
+  }
+}

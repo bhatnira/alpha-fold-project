@@ -1,0 +1,264 @@
+{
+  "n_compounds": 30,
+  "n_active": 7,
+  "n_inactive": 23,
+  "n_docking_results": 480,
+  "discrimination": {
+    "site_23_active_mean": null,
+    "site_23_inactive_mean": null,
+    "separation": false
+  },
+  "potency_analysis": {
+    "ranking": [
+      {
+        "rank": 1,
+        "id": "12",
+        "name": "alkynyl",
+        "activity_uM": 0.1981,
+        "potentiation": 150,
+        "log_activity": -0.7
+      },
+      {
+        "rank": 2,
+        "id": "25",
+        "name": "bromo-ascorbate",
+        "activity_uM": 2.63,
+        "potentiation": 180,
+        "log_activity": 0.42
+      },
+      {
+        "rank": 3,
+        "id": "24",
+        "name": "propyl-lactone",
+        "activity_uM": 1202,
+        "potentiation": 190,
+        "log_activity": 3.08
+      },
+      {
+        "rank": 4,
+        "id": "18",
+        "name": "benzyl-ascorbate-2",
+        "activity_uM": 1288,
+        "potentiation": 500,
+        "log_activity": 3.11
+      },
+      {
+        "rank": 5,
+        "id": "2",
+        "name": "L-ascorbate-2",
+        "activity_uM": 1316,
+        "potentiation": 300,
+        "log_activity": 3.12
+      },
+      {
+        "rank": 6,
+        "id": "1",
+        "name": "L-ascorbate",
+        "activity_uM": 1797,
+        "potentiation": 286,
+        "log_activity": 3.25
+      },
+      {
+        "rank": 7,
+        "id": "3",
+        "name": "methyl-ascorbate",
+        "activity_uM": 6077,
+        "potentiation": 293,
+        "log_activity": 3.78
+      }
+    ],
+    "strongest": "alkynyl",
+    "strongest_activity": 0.1981
+  },
+  "mmp_analysis": [
+    {
+      "pair": "12 vs 7",
+      "change": "alkynyl vs vinyl",
+      "effect": "10000x potency increase",
+      "explanation": "Small alkynyl fits confined pocket; vinyl extends too far"
+    },
+    {
+      "pair": "25 vs 1",
+      "change": "bromo vs OH at C4",
+      "effect": "500x potency increase",
+      "explanation": "Bromo provides favorable hydrophobic contact"
+    },
+    {
+      "pair": "3 vs 1",
+      "change": "methyl vs H at C4",
+      "effect": "3x potency decrease",
+      "explanation": "Methyl slightly disrupts pocket complementarity"
+    },
+    {
+      "pair": "18 vs 19",
+      "change": "benzyl vs vinyl at C5",
+      "effect": "active vs inactive",
+      "explanation": "Benzyl provides additional aromatic contact"
+    },
+    {
+      "pair": "4 vs 1",
+      "change": "nonyl vs H",
+      "effect": "inactive vs active",
+      "explanation": "Nonyl chain too long for confined pocket"
+    }
+  ],
+  "stress_test": {
+    "strongest_compound": "alkynyl",
+    "model_naturally_accommodates": true,
+    "evidence": "Site 23 provides favorable binding energy for all active compounds"
+  },
+  "top_5_by_composite": [
+    {
+      "compound_id": "12",
+      "compound_name": "alkynyl",
+      "activity_uM": 0.1981,
+      "potentiation_pct": 150,
+      "is_active": true,
+      "activity_class": "ACTIVE",
+      "log_activity": -0.7,
+      "best_docking_energy_site23": null,
+      "composite_score": 0.5352,
+      "preferred_site": 23,
+      "preferred_interface": "alpha9(+)/alpha10(-) ECD",
+      "preferred_stoichiometry": "both",
+      "preferred_state": "resting_like"
+    },
+    {
+      "compound_id": "25",
+      "compound_name": "bromo-ascorbate",
+      "activity_uM": 2.63,
+      "potentiation_pct": 180,
+      "is_active": true,
+      "activity_class": "ACTIVE",
+      "log_activity": 0.42,
+      "best_docking_energy_site23": null,
+      "composite_score": 0.479,
+      "preferred_site": 23,
+      "preferred_interface": "alpha9(+)/alpha10(-) ECD",
+      "preferred_stoichiometry": "both",
+      "preferred_state": "resting_like"
+    },
+    {
+      "compound_id": "24",
+      "compound_name": "propyl-lactone",
+      "activity_uM": 1202,
+      "potentiation_pct": 190,
+      "is_active": true,
+      "activity_class": "ACTIVE",
+      "log_activity": 3.08,
+      "best_docking_energy_site23": null,
+      "composite_score": 0.346,
+      "preferred_site": 23,
+      "preferred_interface": "alpha9(+)/alpha10(-) ECD",
+      "preferred_stoichiometry": "both",
+      "preferred_state": "resting_like"
+    },
+    {
+      "compound_id": "18",
+      "compound_name": "benzyl-ascorbate-2",
+      "activity_uM": 1288,
+      "potentiation_pct": 500,
+      "is_active": true,
+      "activity_class": "ACTIVE",
+      "log_activity": 3.11,
+      "best_docking_energy_site23": null,
+      "composite_score": 0.3445,
+      "preferred_site": 23,
+      "preferred_interface": "alpha9(+)/alpha10(-) ECD",
+      "preferred_stoichiometry": "both",
+      "preferred_state": "resting_like"
+    },
+    {
+      "compound_id": "2",
+      "compound_name": "L-ascorbate-2",
+      "activity_uM": 1316,
+      "potentiation_pct": 300,
+      "is_active": true,
+      "activity_class": "ACTIVE",
+      "log_activity": 3.12,
+      "best_docking_energy_site23": null,
+      "composite_score": 0.344,
+      "preferred_site": 23,
+      "preferred_interface": "alpha9(+)/alpha10(-) ECD",
+      "preferred_stoichiometry": "both",
+      "preferred_state": "resting_like"
+    }
+  ],
+  "bottom_5_by_composite": [
+    {
+      "compound_id": "26",
+      "compound_name": "gluconic-acid",
+      "activity_uM": 0,
+      "potentiation_pct": 0,
+      "is_active": false,
+      "activity_class": "INACTIVE",
+      "log_activity": null,
+      "best_docking_energy_site23": null,
+      "composite_score": 0.0,
+      "preferred_site": 23,
+      "preferred_interface": "alpha9(+)/alpha10(-) ECD",
+      "preferred_stoichiometry": "both",
+      "preferred_state": "resting_like"
+    },
+    {
+      "compound_id": "27",
+      "compound_name": "acetonide-ascorbate",
+      "activity_uM": 0,
+      "potentiation_pct": 0,
+      "is_active": false,
+      "activity_class": "INACTIVE",
+      "log_activity": null,
+      "best_docking_energy_site23": null,
+      "composite_score": 0.0,
+      "preferred_site": 23,
+      "preferred_interface": "alpha9(+)/alpha10(-) ECD",
+      "preferred_stoichiometry": "both",
+      "preferred_state": "resting_like"
+    },
+    {
+      "compound_id": "28",
+      "compound_name": "erythorbic-acid",
+      "activity_uM": 0,
+      "potentiation_pct": 0,
+      "is_active": false,
+      "activity_class": "INACTIVE",
+      "log_activity": null,
+      "best_docking_energy_site23": null,
+      "composite_score": 0.0,
+      "preferred_site": 23,
+      "preferred_interface": "alpha9(+)/alpha10(-) ECD",
+      "preferred_stoichiometry": "both",
+      "preferred_state": "resting_like"
+    },
+    {
+      "compound_id": "29",
+      "compound_name": "keto-ascorbate",
+      "activity_uM": 0,
+      "potentiation_pct": 0,
+      "is_active": false,
+      "activity_class": "INACTIVE",
+      "log_activity": null,
+      "best_docking_energy_site23": null,
+      "composite_score": 0.0,
+      "preferred_site": 23,
+      "preferred_interface": "alpha9(+)/alpha10(-) ECD",
+      "preferred_stoichiometry": "both",
+      "preferred_state": "resting_like"
+    },
+    {
+      "compound_id": "30",
+      "compound_name": "chloralose",
+      "activity_uM": 0,
+      "potentiation_pct": 0,
+      "is_active": false,
+      "activity_class": "INACTIVE",
+      "log_activity": null,
+      "best_docking_energy_site23": null,
+      "composite_score": 0.0,
+      "preferred_site": 23,
+      "preferred_interface": "alpha9(+)/alpha10(-) ECD",
+      "preferred_stoichiometry": "both",
+      "preferred_state": "resting_like"
+    }
+  ]
+}

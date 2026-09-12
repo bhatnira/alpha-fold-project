@@ -1,0 +1,17 @@
+{
+  "stereochemical_pairs": [
+    {
+      "pair": "ID 1 (L-ascorbate) vs ID 26 (D-ascorbate analog)",
+      "experimental": "L active, D inactive",
+      "computational": "Not distinguished by pipeline (F2 failure)",
+      "implication": "Pipeline cannot capture stereochemical discrimination"
+    }
+  ],
+  "stereochemically_sensitive_features": [
+    "HBD1: Hydroxyl group orientation at ring O1",
+    "HBA1: Carbonyl oxygen positioning",
+    "POL1: Hydroxymethyl group direction"
+  ],
+  "falsification_result": "F2 FAILED - D/L-ascorbate not distinguished",
+  "implication": "Any proposed binding mode must explain stereochemical selectivity"
+}
