@@ -45,5 +45,8 @@ __pycache__/
 
 # Misc
 *.zip
-.DS_Store*.out
+.DS_Store
+
+# Slurm logs
+*.out
 *.err
