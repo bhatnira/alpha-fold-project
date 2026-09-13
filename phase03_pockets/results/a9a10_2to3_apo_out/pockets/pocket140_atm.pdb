@@ -1,0 +1,59 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   140:
+HEADER 0  - Pocket Score                      : -0.1855
+HEADER 1  - Drug Score                        : 0.1262
+HEADER 2  - Number of alpha spheres           :    53
+HEADER 3  - Mean alpha-sphere radius          : 3.9459
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5630
+HEADER 5  - Mean B-factor of pocket residues  : 0.6577
+HEADER 6  - Hydrophobicity Score              : 23.4444
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.8889
+HEADER 9  - Pocket volume (Monte Carlo)       : 479.2174
+HEADER 10 - Pocket volume (convex hull)       : 62.3099
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 32.2286
+HEADER 13 - Number of apolar alpha sphere     :    35
+HEADER 14 - Proportion of apolar alpha sphere : 0.6604
+ATOM  17854  NE2 HIS E 409      32.510 -24.450 -32.392  0.00  0.00           N 0
+ATOM  17825  CE1 PHE E 406      39.073 -24.268 -36.445  0.00  0.00           C 0
+ATOM  17852  CD2 HIS E 409      32.919 -25.732 -32.726  0.00  0.00           C 0
+ATOM  17853  CE1 HIS E 409      32.347 -23.781 -33.535  0.00  0.00           C 0
+ATOM  17844   OG SER E 408      33.762 -31.770 -35.197  0.79  3.21           O 0
+ATOM  17875   CB ALA E 412      27.928 -28.783 -34.258  0.00  0.00           C 0
+ATOM  17843   CB SER E 408      32.790 -32.270 -36.094  0.00  0.00           C 0
+ATOM   3522   CE LYS A 439      34.488 -34.105 -32.027  0.00  0.00           C 0
+ATOM  17850   CG HIS E 409      32.994 -25.810 -34.098  0.00  0.00           C 0
+ATOM  17851  ND1 HIS E 409      32.627 -24.576 -34.579  0.71  2.19           N 0
+ATOM  17823  CD1 PHE E 406      38.222 -25.089 -37.202  0.00  0.00           C 0
+ATOM  17849   CB HIS E 409      33.365 -27.018 -34.913  0.00  0.00           C 0
+ATOM  17846   CA HIS E 409      32.131 -27.800 -35.383  0.00  0.00           C 0
+ATOM   3487  CD2 LEU A 435      41.133 -27.188 -32.086  0.00  0.00           C 0
+ATOM  17842    O SER E 408      30.502 -29.893 -36.236  0.65  4.29           O 0
+ATOM  17845    N HIS E 409      32.566 -29.051 -36.001  0.00  0.00           N 0
+ATOM  17841    C SER E 408      31.718 -30.003 -36.383  0.00  0.00           C 0
+ATOM   3511  ND1 HIS A 438      37.191 -27.001 -27.711  0.56  5.47           N 0
+ATOM   3543  ND2 ASN A 442      34.066 -27.452 -26.994  0.57  6.56           N 0
+ATOM   3519   CB LYS A 439      36.768 -32.377 -29.401  0.00  0.00           C 0
+ATOM  17814   CB THR E 405      38.318 -30.851 -34.515  0.00  0.00           C 0
+ATOM   3483    O LEU A 435      39.838 -30.884 -29.570  0.64  4.29           O 0
+ATOM   3513  CE1 HIS A 438      36.551 -25.890 -27.308  0.00  0.00           C 0
+ATOM   3515    N LYS A 439      37.638 -30.954 -27.603  0.00  0.00           N 0
+ATOM  17827   CZ PHE E 406      40.390 -24.671 -36.182  0.00  0.00           C 0
+ATOM  17824  CD2 PHE E 406      40.008 -26.715 -37.442  0.00  0.00           C 0
+ATOM  17826  CE2 PHE E 406      40.861 -25.895 -36.682  0.00  0.00           C 0
+ATOM  17822   CG PHE E 406      38.685 -26.319 -37.702  0.00  0.00           C 0
+ATOM  17815  OG1 THR E 405      39.480 -30.219 -34.951  0.00  0.00           O 0
+ATOM  17812    C THR E 405      36.666 -29.853 -36.136  0.00  0.00           C 0
+ATOM   3520   CG LYS A 439      35.507 -32.998 -30.024  0.00  0.00           C 0
+ATOM   3521   CD LYS A 439      35.790 -33.560 -31.423  0.00  0.00           C 0
+ATOM   3516   CA LYS A 439      36.458 -31.695 -28.058  0.00  0.00           C 0
+ATOM   3540   CB ASN A 442      33.170 -29.422 -25.912  0.00  0.00           C 0
+ATOM  17817    N PHE E 406      37.310 -29.114 -37.033  0.00  0.00           N 0
+ATOM  17813    O THR E 405      35.519 -29.595 -35.766  0.64  3.21           O 0
+ATOM  17818   CA PHE E 406      36.714 -27.921 -37.639  0.00  0.00           C 0
+TER
+END

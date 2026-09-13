@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    47:
+HEADER 0  - Pocket Score                      : -0.0590
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 4.0520
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5109
+HEADER 5  - Mean B-factor of pocket residues  : 0.6855
+HEADER 6  - Hydrophobicity Score              : 11.0000
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 4.0909
+HEADER 9  - Pocket volume (Monte Carlo)       : 347.7227
+HEADER 10 - Pocket volume (convex hull)       : 33.1566
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.2400
+ATOM   4458   CG ASN B  74      -4.091  14.873  10.609  0.00  0.00           C 0
+ATOM   4459  OD1 ASN B  74      -4.070  15.236   9.448  0.64  4.29           O 0
+ATOM   4460  ND2 ASN B  74      -4.475  13.652  10.910  0.00  0.00           N 0
+ATOM  11731  OD2 ASP D  68      -8.069  17.284   6.856  0.00  0.00           O 0
+ATOM  11728   CB ASP D  68      -7.659  19.285   8.060  0.00  0.00           C 0
+ATOM   4457   CB ASN B  74      -3.680  15.793  11.754  0.00  0.00           C 0
+ATOM  11722  CG2 ILE D  67      -8.048  20.630  12.271  0.00  0.00           C 0
+ATOM  11719    O ILE D  67      -5.446  20.925  10.065  0.68  2.14           O 0
+ATOM   4477  CD1 ILE B  76      -6.170  17.138  14.795  0.00  0.00           C 0
+ATOM  12406  NH2 ARG D 151     -14.228  16.796  11.978  0.00  0.00           N 0
+ATOM   5113   NZ LYS B 152     -11.240  13.687  18.507  0.00  0.00           N 0
+ATOM   4894  OD1 ASP B 124     -12.970  16.673  17.983  0.09  5.36           O 0
+ATOM   4886    O ALA B 123      -9.613  19.636  16.102  0.64  7.50           O 0
+ATOM   5111   CD LYS B 152      -9.276  15.088  19.083  0.00  0.00           C 0
+ATOM   4896    N ASP B 125     -13.725  19.154  16.968  0.42  1.09           N 0
+ATOM  12387  CG2 ILE D 149     -13.614  22.494  13.413  0.00  0.00           C 0
+ATOM   4900   CB ASP B 125     -15.468  19.017  15.303  0.00  0.00           C 0
+ATOM  11805  OG1 THR D  77     -11.843  20.308   8.309  0.62  4.29           O 0
+ATOM  12403   NE ARG D 151     -14.759  18.132  10.225  0.00  0.00           N 0
+ATOM  11806  CG2 THR D  77     -11.783  21.376  10.409  0.00  0.00           C 0
+TER
+END

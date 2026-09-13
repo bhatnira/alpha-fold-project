@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : 0.0347
+HEADER 1  - Drug Score                        : 0.0012
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.6421
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4541
+HEADER 5  - Mean B-factor of pocket residues  : 0.8060
+HEADER 6  - Hydrophobicity Score              : 70.5000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 84.7976
+HEADER 10 - Pocket volume (convex hull)       : 0.7337
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.8235
+ATOM   5900  CD1 ILE B 251      16.682  -2.334   2.068  0.00  0.00           C 0
+ATOM   6095   CB ALA B 278      15.004  -1.099  -1.536  0.00  0.00           C 0
+ATOM   5899  CG2 ILE B 251      18.921  -1.279   0.148  0.00  0.00           C 0
+ATOM   9858  CD2 LEU C 275      19.134  -6.251   1.067  0.00  0.00           C 0
+ATOM   9835  CG1 VAL C 272      18.573  -6.126  -4.575  0.00  0.00           C 0
+ATOM   6068   CA ILE B 275      18.536  -0.695  -4.177  0.00  0.00           C 0
+ATOM   5898  CG1 ILE B 251      18.164  -2.707   2.084  0.00  0.00           C 0
+ATOM   6072  CG1 ILE B 275      20.657  -1.990  -3.675  0.00  0.00           C 0
+ATOM   9833    O VAL C 272      16.398  -7.793  -2.914  0.00  0.00           O 0
+ATOM   9859    N LEU C 276      14.493  -7.197  -0.723  0.71  1.09           N 0
+ATOM   9863   CB LEU C 276      13.289  -6.037  -2.507  0.00  0.00           C 0
+ATOM   6063    O THR B 274      16.040  -1.560  -5.035  0.00  0.00           O 0
+ATOM   6066  CG2 THR B 274      16.035  -4.632  -6.198  0.00  0.00           C 0
+ATOM   9856   CG LEU C 275      17.763  -6.821   1.425  0.00  0.00           C 0
+TER
+END

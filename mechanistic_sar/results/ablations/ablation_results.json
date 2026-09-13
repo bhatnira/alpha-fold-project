@@ -1,0 +1,37 @@
+{
+  "full_model": {
+    "auroc": 0.64,
+    "spearman": 0.18835702012058297,
+    "rmse": 0.5866376666006868
+  },
+  "no_binding": {
+    "auroc": 0.55,
+    "spearman": 0.03655841057769414,
+    "rmse": 0.5799036718411396,
+    "delta_auroc": 0.08999999999999997,
+    "delta_spearman": 0.15179860954288882,
+    "features_removed": "binding",
+    "n_features_removed": 5,
+    "n_features_remaining": 6
+  },
+  "no_chemical": {
+    "auroc": 0.51,
+    "spearman": 0.007847762366302524,
+    "rmse": 0.4935594631522736,
+    "delta_auroc": 0.13,
+    "delta_spearman": 0.18050925775428045,
+    "features_removed": "chemical",
+    "n_features_removed": 6,
+    "n_features_remaining": 5
+  },
+  "only_binding": {
+    "auroc": 0.51,
+    "spearman": 0.007847762366302524,
+    "rmse": 0.4935594631522736
+  },
+  "only_chemical": {
+    "auroc": 0.55,
+    "spearman": 0.03655841057769414,
+    "rmse": 0.5799036718411396
+  }
+}

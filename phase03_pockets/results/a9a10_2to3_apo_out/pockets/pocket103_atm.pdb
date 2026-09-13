@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   103:
+HEADER 0  - Pocket Score                      : -0.1314
+HEADER 1  - Drug Score                        : 0.0127
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9481
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6394
+HEADER 5  - Mean B-factor of pocket residues  : 0.7756
+HEADER 6  - Hydrophobicity Score              : 67.0000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 325.8983
+HEADER 10 - Pocket volume (convex hull)       : 15.8287
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 14.5000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.9412
+ATOM  13627  CE2 PHE D 311       5.711   7.572 -27.488  0.00  0.00           C 0
+ATOM  13625  CD2 PHE D 311       6.901   7.435 -26.754  0.00  0.00           C 0
+ATOM  14605   CE MET D 437       9.826  14.037 -24.446  0.00  0.00           C 0
+ATOM  13595  CG2 THR D 307       4.709   9.346 -24.130  0.00  0.00           C 0
+ATOM  13597   CA MET D 308       9.441   9.216 -22.637  0.00  0.00           C 0
+ATOM  14604   SD MET D 437      11.529  13.719 -24.938  0.00  0.00           S 0
+ATOM  14578  CE1 PHE D 434      12.731   8.975 -25.806  0.00  0.00           C 0
+ATOM  13570   CA ALA D 304       5.423  12.996 -19.881  0.00  0.00           C 0
+ATOM  13593   CB THR D 307       4.937   9.502 -22.631  0.00  0.00           C 0
+ATOM  13594  OG1 THR D 307       3.665   9.564 -22.036  0.63  9.64           O 0
+ATOM  14580   CZ PHE D 434      13.059   8.472 -27.073  0.00  0.00           C 0
+ATOM  13623   CG PHE D 311       7.984   6.722 -27.283  0.00  0.00           C 0
+ATOM  13572    O ALA D 304       7.189  11.577 -20.704  0.45  3.21           O 0
+ATOM  13573   CB ALA D 304       5.762  14.488 -19.818  0.00  0.00           C 0
+ATOM  13622   CB PHE D 311       9.268   6.571 -26.501  0.00  0.00           C 0
+ATOM  13624  CD1 PHE D 311       7.871   6.147 -28.562  0.00  0.00           C 0
+ATOM  13596    N MET D 308       8.042   9.186 -22.210  0.68  1.09           N 0
+TER
+END

@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    62:
+HEADER 0  - Pocket Score                      : -0.0829
+HEADER 1  - Drug Score                        : 0.0019
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.6604
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3589
+HEADER 5  - Mean B-factor of pocket residues  : 0.4496
+HEADER 6  - Hydrophobicity Score              : 58.2857
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 178.2556
+HEADER 10 - Pocket volume (convex hull)       : 7.6496
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 16.0000
+HEADER 13 - Number of apolar alpha sphere     :    17
+HEADER 14 - Proportion of apolar alpha sphere : 0.8947
+ATOM   3371   CZ TYR A 421      57.928 -34.518 -42.204  0.00  0.00           C 0
+ATOM  17685   SG CYS E 388      62.275 -38.207 -43.702  0.00  0.00           S 0
+ATOM  17719  NE2 GLN E 392      57.534 -36.553 -46.749  0.00  0.00           N 0
+ATOM   3370  CE2 TYR A 421      58.375 -33.311 -42.767  0.00  0.00           C 0
+ATOM   3367  CD1 TYR A 421      59.770 -34.473 -40.612  0.00  0.00           C 0
+ATOM   3365   CB TYR A 421      61.433 -32.557 -40.609  0.00  0.00           C 0
+ATOM   3346   SG CYS A 418      65.786 -36.192 -39.679  0.00  0.00           S 0
+ATOM   3337  CE1 TYR A 417      63.776 -32.171 -45.115  0.00  0.00           C 0
+ATOM   3368  CD2 TYR A 421      59.520 -32.690 -42.250  0.00  0.00           C 0
+ATOM   3342   CA CYS A 418      65.803 -33.443 -40.008  0.00  0.00           C 0
+ATOM   3243  CD2 LEU A 404      65.081 -34.699 -48.111  0.00  0.00           C 0
+ATOM   3366   CG TYR A 421      60.223 -33.266 -41.172  0.00  0.00           C 0
+ATOM   3335  CD1 TYR A 417      64.966 -32.102 -44.371  0.00  0.00           C 0
+ATOM   3210  CD2 LEU A 400      67.602 -37.585 -43.782  0.00  0.00           C 0
+ATOM   3242  CD1 LEU A 404      66.891 -34.969 -46.453  0.00  0.00           C 0
+ATOM   3345   CB CYS A 418      66.737 -34.656 -39.911  0.00  0.00           C 0
+ATOM   3340   OH TYR A 417      62.135 -31.080 -46.496  0.70  6.43           O 0
+TER
+END

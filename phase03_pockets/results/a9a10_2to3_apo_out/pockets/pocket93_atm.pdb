@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    93:
+HEADER 0  - Pocket Score                      : -0.1114
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0562
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6493
+HEADER 5  - Mean B-factor of pocket residues  : 0.6340
+HEADER 6  - Hydrophobicity Score              : -0.2500
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 142.6041
+HEADER 10 - Pocket volume (convex hull)       : 1.0305
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0667
+ATOM  17860   CG ARG E 410      31.142 -25.054 -40.915  0.00  0.00           C 0
+ATOM  17831    O ARG E 407      32.000 -29.658 -39.394  0.00  0.00           O 0
+ATOM  17866    N ALA E 411      29.455 -28.112 -38.927  0.64  1.09           N 0
+ATOM  17861   CD ARG E 410      32.065 -24.923 -42.130  0.00  0.00           C 0
+ATOM  17859   CB ARG E 410      31.745 -26.044 -39.905  0.00  0.00           C 0
+ATOM  17858    O ARG E 410      28.553 -26.062 -39.055  0.57  2.14           O 0
+ATOM  17857    C ARG E 410      29.533 -26.781 -38.895  0.00  0.00           C 0
+ATOM  17833   CG ARG E 407      33.690 -31.192 -42.033  0.00  0.00           C 0
+ATOM  17870   CB ALA E 411      28.499 -30.319 -39.309  0.00  0.00           C 0
+ATOM  17891   CD ARG E 414      25.463 -25.779 -42.734  0.00  0.00           C 0
+ATOM  17894  NH1 ARG E 414      26.409 -26.484 -45.369  0.00  0.00           N 0
+ATOM  17862   NE ARG E 410      31.585 -23.886 -43.061  0.65  2.19           N 0
+ATOM  17867   CA ALA E 411      28.194 -28.833 -39.093  0.00  0.00           C 0
+TER
+END

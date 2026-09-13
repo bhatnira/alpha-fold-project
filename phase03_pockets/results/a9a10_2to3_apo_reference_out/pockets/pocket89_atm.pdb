@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    89:
+HEADER 0  - Pocket Score                      : -0.1092
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.9676
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6005
+HEADER 5  - Mean B-factor of pocket residues  : 0.6575
+HEADER 6  - Hydrophobicity Score              : 44.8571
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 3.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 402.0522
+HEADER 10 - Pocket volume (convex hull)       : 32.1436
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.6842
+ATOM  13076   CB ALA D 237       9.667  22.785   1.295  0.00  0.00           C 0
+ATOM   6213   CB GLU B 294       9.269  24.801   5.108  0.00  0.00           C 0
+ATOM   6217  OE2 GLU B 294       9.160  27.609   5.103  0.00  0.00           O 0
+ATOM   6215   CD GLU B 294       8.389  27.080   4.277  0.00  0.00           C 0
+ATOM   6214   CG GLU B 294       8.247  25.551   4.236  0.00  0.00           C 0
+ATOM   6216  OE1 GLU B 294       7.688  27.745   3.478  0.00  0.00           O 0
+ATOM  13099  CG1 VAL D 240      11.324  20.121  -4.577  0.00  0.00           C 0
+ATOM  14691   CB ALA D 449      10.767  24.053  -6.516  0.00  0.00           C 0
+ATOM  14690    O ALA D 449      11.098  26.715  -5.058  0.40  8.57           O 0
+ATOM  14699  CD2 LEU D 450      15.402  26.943  -6.231  0.00  0.00           C 0
+ATOM  13073   CA ALA D 237       9.062  22.055   0.091  0.00  0.00           C 0
+ATOM  13072    N ALA D 237       7.800  22.712  -0.266  0.63  1.09           N 0
+ATOM  13067    N ALA D 236       5.596  24.390  -0.919  0.50  2.19           N 0
+ATOM  13071   CB ALA D 236       6.106  23.707  -3.184  0.00  0.00           C 0
+ATOM  13106   SG CYS D 241      12.761  18.428   0.035  0.00  0.00           S 0
+ATOM  13100  CG2 VAL D 240       9.066  21.096  -4.659  0.00  0.00           C 0
+ATOM  13098   CB VAL D 240       9.958  20.119  -3.885  0.00  0.00           C 0
+ATOM  13075    O ALA D 237       9.713  19.760  -0.193  0.00  0.00           O 0
+TER
+END

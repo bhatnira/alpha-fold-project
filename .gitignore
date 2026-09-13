@@ -1,8 +1,7 @@
-# Heavy model outputs (too large for git / GitHub)
-**/results/
-**/af3_outputs/
-**/boltz2_outputs/
-**/predictions/
+# Heavy model outputs (too large for git / GitHub): the two full Boltz-2
+# result trees (~23 GB total). All smaller per-config outputs ARE tracked.
+/site_directed_cofolding/results/
+/cofolding_study/results/
 
 # Boltz / AF3 caches
 .boltz/
@@ -38,10 +37,6 @@ __pycache__/
 *.pt
 *.pth
 *.onnx
-*.npy
-*.npz
-*.tar
-*.gz
 
 # Misc
 *.zip

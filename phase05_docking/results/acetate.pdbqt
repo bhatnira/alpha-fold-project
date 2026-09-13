@@ -1,0 +1,11 @@
+REMARK  Generated from SMILES: CC(=O)[O-]
+ROOT
+ATOM      1 C 1  LIG A   1      -0.634  -0.022  -0.092  1.00  0.00     -0.02 C 
+ATOM      2 C 2  LIG A   1       0.869   0.036   0.123  1.00  0.00      0.04 C 
+ATOM      3 O 3  LIG A   1       1.364  -0.984   0.678  1.00  0.00     -0.55 OA
+ATOM      4 O 4  LIG A   1       1.430   1.092  -0.279  1.00  0.00     -0.55 OA
+ATOM      5 H 5  LIG A   1      -0.885  -0.877  -0.726  1.00  0.00      0.03 HD
+ATOM      6 H 6  LIG A   1      -1.003   0.888  -0.575  1.00  0.00      0.03 HD
+ATOM      7 H 7  LIG A   1      -1.142  -0.133   0.871  1.00  0.00      0.03 HD
+ENDROOT
+TORSDOF 1

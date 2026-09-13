@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    79:
+HEADER 0  - Pocket Score                      : -0.1059
+HEADER 1  - Drug Score                        : 0.0020
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.0174
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7178
+HEADER 5  - Mean B-factor of pocket residues  : 0.7854
+HEADER 6  - Hydrophobicity Score              : 60.7143
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 183.9527
+HEADER 10 - Pocket volume (convex hull)       : 3.0682
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.7647
+ATOM  13899    N TYR D 301      -5.213   2.159 -21.309  0.00  0.00           N 0
+ATOM  13894   CB LYS D 300      -8.290   2.225 -22.097  0.00  0.00           C 0
+ATOM  13873    O LEU D 297      -6.406   4.915 -21.011  0.00  0.00           O 0
+ATOM  13876  CD1 LEU D 297      -7.600   7.044 -23.835  0.00  0.00           C 0
+ATOM  14992   CB MET D 441       0.176   1.414 -26.821  0.00  0.00           C 0
+ATOM  13935   CB ALA D 304      -4.064  -1.707 -24.113  0.00  0.00           C 0
+ATOM  14993   CG MET D 441      -0.539   0.292 -27.576  0.00  0.00           C 0
+ATOM  14994   SD MET D 441      -0.988  -1.145 -26.569  0.00  0.00           S 0
+ATOM  13892    C LYS D 300      -6.092   1.174 -21.478  0.00  0.00           C 0
+ATOM  13893    O LYS D 300      -5.796   0.083 -21.960  0.52  3.21           O 0
+ATOM  14991    O MET D 441      -0.022   4.682 -26.340  0.00  0.00           O 0
+ATOM  14989   CA MET D 441       0.319   2.699 -27.638  0.00  0.00           C 0
+ATOM  15016  CD1 LEU D 444      -2.658   4.470 -30.500  0.00  0.00           C 0
+ATOM  15024  CG2 VAL D 445      -2.329   6.018 -23.977  0.00  0.00           C 0
+ATOM  13903   CB TYR D 301      -3.086   3.353 -21.496  0.00  0.00           C 0
+ATOM  13900   CA TYR D 301      -3.792   2.001 -21.620  0.00  0.00           C 0
+ATOM  15014   CB LEU D 444      -2.040   6.274 -28.879  0.00  0.00           C 0
+ATOM  13906  CD2 TYR D 301      -1.012   3.024 -22.906  0.00  0.00           C 0
+TER
+END

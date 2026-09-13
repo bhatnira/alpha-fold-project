@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : 0.0502
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.5599
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4594
+HEADER 5  - Mean B-factor of pocket residues  : 0.9083
+HEADER 6  - Hydrophobicity Score              : 24.2222
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.7778
+HEADER 9  - Pocket volume (Monte Carlo)       : 170.0741
+HEADER 10 - Pocket volume (convex hull)       : 9.1192
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM  12685    N GLY D 188     -15.445  44.721   9.315  0.62  2.19           N 0
+ATOM  12677    O ARG D 187     -16.110  46.676  10.147  0.48  3.21           O 0
+ATOM  12679   CG ARG D 187     -16.550  45.354  13.117  0.00  0.00           C 0
+ATOM  12686   CA GLY D 188     -14.319  45.214   8.528  0.00  0.00           C 0
+ATOM  11669  OE1 GLU D  60     -13.000  42.338  14.862  0.47  8.57           O 0
+ATOM  11657    O LEU D  59     -18.420  40.815  10.870  0.38  2.14           O 0
+ATOM  12674    N ARG D 187     -17.913  43.607  10.011  0.00  0.00           N 0
+ATOM  12671   CB PRO D 186     -18.167  42.155   6.955  0.00  0.00           C 0
+ATOM  12676    C ARG D 187     -16.243  45.461  10.051  0.00  0.00           C 0
+ATOM  12678   CB ARG D 187     -16.904  44.215  12.147  0.00  0.00           C 0
+ATOM  12697    O ALA D 190     -11.996  41.464   8.324  0.00  0.00           O 0
+ATOM  12708   CB SER D 192      -9.269  39.574  13.067  0.00  0.00           C 0
+ATOM  12704    N SER D 192     -10.125  39.097  10.809  0.71  2.19           N 0
+ATOM  12705   CA SER D 192      -8.916  39.318  11.603  0.00  0.00           C 0
+ATOM  12688    O GLY D 188     -15.273  44.000   6.667  0.68  3.21           O 0
+ATOM  11667   CG GLU D  60     -14.610  40.765  14.014  0.00  0.00           C 0
+ATOM  11663   CA GLU D  60     -16.652  39.756  12.796  0.00  0.00           C 0
+ATOM  13000  CE1 PHE D 228     -15.286  38.107   7.481  0.00  0.00           C 0
+ATOM  11671    N VAL D  61     -15.253  37.937  12.017  0.00  0.00           N 0
+TER
+END

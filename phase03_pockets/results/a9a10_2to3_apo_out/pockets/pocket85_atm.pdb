@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    85:
+HEADER 0  - Pocket Score                      : -0.1076
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.8229
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5232
+HEADER 5  - Mean B-factor of pocket residues  : 0.6799
+HEADER 6  - Hydrophobicity Score              : -19.6667
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 6.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 240.6592
+HEADER 10 - Pocket volume (convex hull)       : 16.1451
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1579
+ATOM  16296   CD ARG E 203     -22.155  16.872 -17.433  0.00  0.00           C 0
+ATOM  16299  NH1 ARG E 203     -21.865  17.642 -20.188  0.60  3.28           N 0
+ATOM  16557   NE ARG E 235     -17.564  17.604 -14.870  0.68  2.19           N 0
+ATOM  13486  OE1 GLU D 293     -15.001  17.457 -17.136  0.00  0.00           O 0
+ATOM  16555   CG ARG E 235     -16.966  15.205 -15.178  0.00  0.00           C 0
+ATOM  16560  NH2 ARG E 235     -18.564  19.630 -14.741  0.40  3.28           N 0
+ATOM  16298   CZ ARG E 203     -22.796  18.185 -19.455  0.00  0.00           C 0
+ATOM  16297   NE ARG E 203     -22.968  17.839 -18.188  0.54  2.19           N 0
+ATOM  16250  OE1 GLU E 198     -21.308  22.866 -14.412  0.00  0.00           O 0
+ATOM  16300  NH2 ARG E 203     -23.560  19.086 -19.992  0.00  0.00           N 0
+ATOM  16542    O ARG E 234     -18.170  11.103 -16.453  0.39  7.50           O 0
+ATOM  16294   CB ARG E 203     -21.688  15.875 -15.184  0.00  0.00           C 0
+ATOM  16535   NE ARG E 233     -21.362  10.921 -20.004  0.62  4.37           N 0
+ATOM  16534   CD ARG E 233     -22.235  11.513 -18.979  0.00  0.00           C 0
+ATOM  16537  NH1 ARG E 233     -22.461  11.739 -21.844  0.56  8.75           N 0
+ATOM  16536   CZ ARG E 233     -21.501  11.032 -21.316  0.00  0.00           C 0
+ATOM  16533   CG ARG E 233     -21.865  10.990 -17.592  0.00  0.00           C 0
+ATOM  16531    O ARG E 233     -20.842  12.479 -14.348  0.00  0.00           O 0
+TER
+END

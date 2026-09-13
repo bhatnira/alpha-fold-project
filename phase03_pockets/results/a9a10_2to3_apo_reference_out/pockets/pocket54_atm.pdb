@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    54:
+HEADER 0  - Pocket Score                      : -0.0716
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.8482
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4411
+HEADER 5  - Mean B-factor of pocket residues  : 0.6869
+HEADER 6  - Hydrophobicity Score              : -5.8889
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 215.7421
+HEADER 10 - Pocket volume (convex hull)       : 7.6111
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM   5760   NZ LYS B 234      16.658  11.604  25.563  0.65  8.75           N 0
+ATOM   7702    O ALA B 478      20.446   8.785  20.665  0.29  5.36           O 0
+ATOM   5759   CE LYS B 234      15.833  12.221  24.502  0.00  0.00           C 0
+ATOM   7712  OXT ASP B 479      22.779  11.047  23.083  0.00  0.00           O 0
+ATOM   5202   CB PHE B 164      17.118  12.273  17.136  0.00  0.00           C 0
+ATOM   7691    O ARG B 477      20.532  11.721  17.874  0.65  3.21           O 0
+ATOM   7707    O ASP B 479      23.101  11.956  21.110  0.00  0.00           O 0
+ATOM   7706    C ASP B 479      22.981  10.964  21.858  0.00  0.00           C 0
+ATOM   5204  CD1 PHE B 164      17.521   9.779  17.207  0.00  0.00           C 0
+ATOM   5788   OG SER B 237      15.928   7.398  19.277  0.44  4.29           O 0
+ATOM   5199   CA PHE B 164      15.604  12.325  17.388  0.00  0.00           C 0
+ATOM   5201    O PHE B 164      15.931  14.553  18.258  0.00  0.00           O 0
+ATOM   5200    C PHE B 164      15.132  13.708  17.853  0.00  0.00           C 0
+ATOM   5757   CG LYS B 234      13.553  13.185  24.090  0.00  0.00           C 0
+ATOM   5764    O ARG B 235      12.822  10.098  21.778  0.59  1.07           O 0
+ATOM   5223  OD1 ASN B 166      13.990  15.926  22.778  0.67  1.07           O 0
+ATOM   5224  ND2 ASN B 166      15.236  17.705  22.574  0.31  9.84           N 0
+ATOM   5212    O ASP B 165      12.348  14.487  20.117  0.00  0.00           O 0
+TER
+END

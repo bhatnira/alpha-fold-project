@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    58:
+HEADER 0  - Pocket Score                      : -0.0845
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.9957
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5578
+HEADER 5  - Mean B-factor of pocket residues  : 0.7904
+HEADER 6  - Hydrophobicity Score              : 29.2857
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 275.8394
+HEADER 10 - Pocket volume (convex hull)       : 12.7147
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.0833
+ATOM   5536    O VAL B 205       9.612  32.132  11.712  0.41  5.36           O 0
+ATOM   5533    N VAL B 205       8.555  29.442  11.087  0.00  0.00           N 0
+ATOM   5484  OE1 GLU B 199      11.889  27.778  18.062  0.00  0.00           O 0
+ATOM   5482   CG GLU B 199       9.601  27.074  17.930  0.00  0.00           C 0
+ATOM   5464  CD1 PHE B 197       6.029  29.837  16.199  0.00  0.00           C 0
+ATOM   5782  NH2 ARG B 236      11.739  24.859  14.292  0.29  7.66           N 0
+ATOM   5529   CG GLU B 204      12.177  26.438  10.800  0.00  0.00           C 0
+ATOM   5530   CD GLU B 204      13.645  26.543  10.351  0.00  0.00           C 0
+ATOM   5531  OE1 GLU B 204      14.472  25.754  10.857  0.00  0.00           O 0
+ATOM   5483   CD GLU B 199      11.115  26.796  18.007  0.00  0.00           C 0
+ATOM   5466  CE1 PHE B 197       6.107  28.822  15.232  0.00  0.00           C 0
+ATOM   5513    O TRP B 203       7.865  25.694  11.742  0.61  1.07           O 0
+ATOM   5528   CB GLU B 204      11.275  27.528  10.205  0.00  0.00           C 0
+ATOM   5548  CE1 HIS B 206      13.851  31.338   8.184  0.00  0.00           C 0
+ATOM   5549  NE2 HIS B 206      12.973  30.345   7.975  0.00  0.00           N 0
+ATOM   5532  OE2 GLU B 204      13.971  27.388   9.482  0.00  0.00           O 0
+ATOM   5525   CA GLU B 204       9.798  27.395  10.606  0.00  0.00           C 0
+TER
+END

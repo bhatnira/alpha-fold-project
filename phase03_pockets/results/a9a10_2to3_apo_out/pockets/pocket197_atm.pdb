@@ -1,0 +1,108 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   197:
+HEADER 0  - Pocket Score                      : -0.7256
+HEADER 1  - Drug Score                        : 0.0024
+HEADER 2  - Number of alpha spheres           :   120
+HEADER 3  - Mean alpha-sphere radius          : 4.1251
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5460
+HEADER 5  - Mean B-factor of pocket residues  : 0.2492
+HEADER 6  - Hydrophobicity Score              : 1.7826
+HEADER 7  - Polarity Score                    :    16
+HEADER 8  - Amino Acid based volume Score     : 4.4348
+HEADER 9  - Pocket volume (Monte Carlo)       : 1794.6770
+HEADER 10 - Pocket volume (convex hull)       : 876.7854
+HEADER 11 - Charge Score                      :     6
+HEADER 12 - Local hydrophobic density Score   : 23.2000
+HEADER 13 - Number of apolar alpha sphere     :    50
+HEADER 14 - Proportion of apolar alpha sphere : 0.4167
+ATOM   6935   CB ALA B 385      62.470 -11.572 -59.451  0.00  0.00           C 0
+ATOM   6904    O ASN B 381      61.823  -9.446 -56.058  0.61  2.14           O 0
+ATOM   6910   CA LEU B 382      59.650 -10.616 -54.835  0.00  0.00           C 0
+ATOM  10691  NH2 ARG C 387      63.762 -15.546 -57.905  0.56  7.66           N 0
+ATOM  10711   SG CYS C 390      65.354 -18.509 -48.093  0.00  0.00           S 0
+ATOM  10676    C PRO C 386      66.263 -21.078 -51.441  0.00  0.00           C 0
+ATOM  10679   CG PRO C 386      69.111 -19.686 -52.435  0.00  0.00           C 0
+ATOM  10678   CB PRO C 386      68.641 -20.240 -51.104  0.00  0.00           C 0
+ATOM  10682   CA ARG C 387      64.141 -20.557 -52.582  0.00  0.00           C 0
+ATOM  10686   CG ARG C 387      64.101 -18.912 -54.550  0.00  0.00           C 0
+ATOM  10710   CB CYS C 390      63.626 -19.053 -48.228  0.00  0.00           C 0
+ATOM  10690  NH1 ARG C 387      62.703 -17.410 -58.449  0.54  7.66           N 0
+ATOM   6916  CD2 LEU B 382      58.780 -13.730 -54.278  0.00  0.00           C 0
+ATOM  10722  NH2 ARG C 391      57.926 -19.797 -54.736  0.76  6.56           N 0
+ATOM  10688   NE ARG C 387      63.767 -17.278 -56.402  0.00  0.00           N 0
+ATOM   7236   CE LYS B 422      55.414 -19.398 -55.924  0.00  0.00           C 0
+ATOM   7270  NH2 ARG B 426      50.679 -15.049 -54.130  0.52  5.47           N 0
+ATOM   7237   NZ LYS B 422      55.533 -18.827 -57.289  0.00  0.00           N 0
+ATOM   6946  NH2 ARG B 386      52.214 -12.775 -58.593  0.00  0.00           N 0
+ATOM   6943   NE ARG B 386      54.125 -12.096 -59.651  0.55  5.47           N 0
+ATOM   6860   CB SER B 375      62.352  -9.442 -39.199  0.00  0.00           C 0
+ATOM   6824    O THR B 371      62.612 -11.600 -37.017  0.00  0.00           O 0
+ATOM   6827  CG2 THR B 371      59.783 -11.143 -35.116  0.00  0.00           C 0
+ATOM   6856    N SER B 375      62.671 -11.807 -39.874  0.72  1.09           N 0
+ATOM  10684    O ARG C 387      62.254 -21.281 -51.327  0.69  1.07           O 0
+ATOM  10708    C CYS C 390      61.840 -20.481 -47.211  0.00  0.00           C 0
+ATOM  10709    O CYS C 390      61.241 -20.001 -46.251  0.68  1.07           O 0
+ATOM  10717   CG ARG C 391      58.930 -20.919 -50.309  0.00  0.00           C 0
+ATOM  10712    N ARG C 391      61.179 -21.177 -48.125  0.00  0.00           N 0
+ATOM  10687   CD ARG C 387      63.444 -18.629 -55.910  0.00  0.00           C 0
+ATOM   6971  OD2 ASP B 389      62.749 -15.476 -61.479  0.68  1.07           O 0
+ATOM  10681    N ARG C 387      65.573 -20.897 -52.568  0.73  1.09           N 0
+ATOM   6922   CG LYS B 383      56.309  -6.404 -55.643  0.00  0.00           C 0
+ATOM   6944   CZ ARG B 386      52.855 -11.901 -59.308  0.00  0.00           C 0
+ATOM   6945  NH1 ARG B 386      52.199 -10.832 -59.680  0.00  0.00           N 0
+ATOM   6920    O LYS B 383      58.164  -8.017 -59.320  0.23  5.36           O 0
+ATOM   6942   CD ARG B 386      54.943 -11.213 -60.505  0.00  0.00           C 0
+ATOM  10713   CA ARG C 391      59.748 -21.500 -48.000  0.00  0.00           C 0
+ATOM  10745   CB ALA C 394      58.231 -18.952 -44.714  0.00  0.00           C 0
+ATOM   6913   CB LEU B 382      58.767 -11.254 -53.748  0.00  0.00           C 0
+ATOM   6911    C LEU B 382      58.814  -9.919 -55.922  0.00  0.00           C 0
+ATOM   6917    N LYS B 383      58.691  -8.591 -55.902  0.00  0.00           N 0
+ATOM   6941   CG ARG B 386      56.361 -11.756 -60.705  0.00  0.00           C 0
+ATOM   6968   CB ASP B 389      61.789 -15.394 -63.669  0.00  0.00           C 0
+ATOM   7004   CE LYS B 393      57.143 -19.428 -65.290  0.00  0.00           C 0
+ATOM   6918   CA LYS B 383      57.969  -7.849 -56.949  0.00  0.00           C 0
+ATOM   6912    O LEU B 382      58.264 -10.602 -56.791  0.57  7.50           O 0
+ATOM  10719   NE ARG C 391      58.137 -20.522 -52.604  0.77  4.37           N 0
+ATOM  10685   CB ARG C 387      63.653 -20.281 -54.012  0.00  0.00           C 0
+ATOM  10689   CZ ARG C 387      63.412 -16.754 -57.575  0.00  0.00           C 0
+ATOM   6937   CA ARG B 386      58.483 -11.508 -62.092  0.00  0.00           C 0
+ATOM   6934    O ALA B 385      61.198 -12.128 -62.166  0.78  1.07           O 0
+ATOM   6903    C ASN B 381      61.656  -9.211 -54.861  0.00  0.00           C 0
+ATOM   6905   CB ASN B 381      64.018  -8.811 -53.963  0.00  0.00           C 0
+ATOM   6857   CA SER B 375      62.408 -10.439 -40.355  0.00  0.00           C 0
+ATOM  10781  NE2 HIS C 398      54.238 -17.396 -43.026  0.88  3.28           N 0
+ATOM  10768  ND1 HIS C 397      57.295 -16.794 -38.203  0.34  2.19           N 0
+ATOM  10780  CE1 HIS C 398      53.889 -16.659 -41.966  0.00  0.00           C 0
+ATOM   6914   CG LEU B 382      59.272 -12.646 -53.314  0.00  0.00           C 0
+ATOM   6909    N LEU B 382      60.636  -9.735 -54.198  0.51  1.09           N 0
+ATOM   6847    O TYR B 374      62.120 -12.744 -41.803  0.52  7.50           O 0
+ATOM   7294  OE1 GLU B 429      52.647 -14.355 -45.396  0.39  6.43           O 0
+ATOM   6877  CD1 LEU B 377      62.442 -15.617 -44.205  0.00  0.00           C 0
+ATOM   6893  OE1 GLU B 379      56.143  -8.825 -45.571  0.00  0.00           O 0
+ATOM   7352   NZ LYS B 436      53.469 -11.089 -36.133  0.75  9.84           N 0
+ATOM  10770  CE1 HIS C 397      57.556 -15.926 -37.214  0.00  0.00           C 0
+ATOM   6939    O ARG B 386      58.346 -12.371 -64.293  0.67  6.43           O 0
+ATOM   6936    N ARG B 386      59.550 -10.874 -61.297  0.70  1.09           N 0
+ATOM   6882    O PRO B 378      62.243 -10.041 -49.554  0.00  0.00           O 0
+ATOM   6884   CG PRO B 378      65.436 -10.213 -48.892  0.00  0.00           C 0
+ATOM   6878  CD2 LEU B 377      63.981 -15.241 -46.112  0.00  0.00           C 0
+ATOM   6879    N PRO B 378      63.952 -10.468 -47.057  0.00  0.00           N 0
+ATOM   6885   CD PRO B 378      65.156 -11.027 -47.631  0.00  0.00           C 0
+ATOM   6874    O LEU B 377      62.232 -10.386 -45.630  0.48  6.43           O 0
+ATOM   6886    N GLU B 379      61.172  -8.838 -48.020  0.62  4.37           N 0
+ATOM   6887   CA GLU B 379      59.878  -8.834 -48.731  0.00  0.00           C 0
+ATOM   6915  CD1 LEU B 382      58.795 -12.988 -51.911  0.00  0.00           C 0
+ATOM   6891   CG GLU B 379      58.253  -8.841 -46.715  0.00  0.00           C 0
+ATOM   6848   CB TYR B 374      61.671 -15.050 -39.692  0.00  0.00           C 0
+ATOM   6933    C ALA B 385      60.838 -11.258 -61.375  0.00  0.00           C 0
+ATOM   6875   CB LEU B 377      62.788 -13.271 -45.075  0.00  0.00           C 0
+ATOM   6850  CD1 TYR B 374      62.106 -17.266 -40.830  0.00  0.00           C 0
+ATOM   6846    C TYR B 374      62.526 -12.870 -40.654  0.00  0.00           C 0
+ATOM  10742   CA ALA C 394      58.542 -19.666 -43.398  0.00  0.00           C 0
+ATOM  10744    O ALA C 394      56.659 -20.158 -41.978  0.00  0.00           O 0
+ATOM  10766   CB HIS C 397      58.321 -18.985 -39.048  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    56:
+HEADER 0  - Pocket Score                      : -0.0774
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9136
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5477
+HEADER 5  - Mean B-factor of pocket residues  : 0.7222
+HEADER 6  - Hydrophobicity Score              : 36.1667
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 2.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 260.6904
+HEADER 10 - Pocket volume (convex hull)       : 7.7787
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.6250
+ATOM  16954   CB VAL E 240       9.636  -5.077  20.098  0.00  0.00           C 0
+ATOM  16956  CG2 VAL E 240      10.323  -3.890  20.776  0.00  0.00           C 0
+ATOM  18547   CB ALA E 449      13.075  -4.678  23.492  0.00  0.00           C 0
+ATOM  16955  CG1 VAL E 240      10.648  -6.226  20.086  0.00  0.00           C 0
+ATOM  16923    N ALA E 236       6.531  -0.919  24.423  0.67  5.47           N 0
+ATOM  16928    N ALA E 237       6.176  -3.449  23.180  0.00  0.00           N 0
+ATOM  18546    O ALA E 449      12.275  -4.856  26.416  0.00  0.00           O 0
+ATOM  10072  OE1 GLU C 294       4.056  -3.620  28.793  0.57  6.43           O 0
+ATOM  16932   CB ALA E 237       5.233  -5.603  23.806  0.00  0.00           C 0
+ATOM  16927   CB ALA E 236       8.679  -0.984  23.319  0.00  0.00           C 0
+ATOM  16929   CA ALA E 237       6.048  -4.848  22.753  0.00  0.00           C 0
+ATOM  16962   SG CYS E 241       6.367  -8.971  19.653  0.00  0.00           S 0
+ATOM  16931    O ALA E 237       6.010  -5.773  20.538  0.00  0.00           O 0
+TER
+END

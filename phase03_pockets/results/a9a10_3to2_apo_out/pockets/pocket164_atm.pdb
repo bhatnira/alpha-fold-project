@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   164:
+HEADER 0  - Pocket Score                      : -0.2116
+HEADER 1  - Drug Score                        : 0.0208
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.8953
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5595
+HEADER 5  - Mean B-factor of pocket residues  : 0.6035
+HEADER 6  - Hydrophobicity Score              : 88.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 6.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 256.9597
+HEADER 10 - Pocket volume (convex hull)       : 14.5010
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 21.0000
+HEADER 13 - Number of apolar alpha sphere     :    22
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   7563  CZ3 TRP B 461      34.770   5.152 -12.077  0.00  0.00           C 0
+ATOM   7593  CE2 PHE B 464      29.568   4.874  -8.313  0.00  0.00           C 0
+ATOM   7564  CH2 TRP B 461      35.726   4.158 -11.837  0.00  0.00           C 0
+ATOM   7594   CZ PHE B 464      30.477   5.882  -7.963  0.00  0.00           C 0
+ATOM   7592  CE1 PHE B 464      31.006   6.728  -8.950  0.00  0.00           C 0
+ATOM   7550   CE MET B 460      33.045   0.566 -13.615  0.00  0.00           C 0
+ATOM   7589   CG PHE B 464      29.711   5.560 -10.647  0.00  0.00           C 0
+ATOM   7561  CE3 TRP B 461      34.101   5.217 -13.310  0.00  0.00           C 0
+ATOM   5972  CE2 TYR B 260      34.077  -3.297 -11.543  0.00  0.00           C 0
+ATOM   7562  CZ2 TRP B 461      36.031   3.218 -12.817  0.00  0.00           C 0
+ATOM   7591  CD2 PHE B 464      29.186   4.716  -9.651  0.00  0.00           C 0
+ATOM   7548   CG MET B 460      30.300   0.468 -13.891  0.00  0.00           C 0
+ATOM   7549   SD MET B 460      31.667  -0.554 -13.278  0.00  0.00           S 0
+ATOM   7590  CD1 PHE B 464      30.623   6.566 -10.290  0.00  0.00           C 0
+ATOM   5945  CD2 LEU B 257      29.105  -0.903  -8.629  0.00  0.00           C 0
+ATOM   5970  CD2 TYR B 260      32.734  -3.075 -11.880  0.00  0.00           C 0
+ATOM  17532  CD1 LEU E 318      33.660  -3.684  -5.976  0.00  0.00           C 0
+ATOM   5973   CZ TYR B 260      34.423  -4.416 -10.769  0.00  0.00           C 0
+ATOM   5974   OH TYR B 260      35.742  -4.646 -10.466  0.00  0.00           O 0
+TER
+END

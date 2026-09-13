@@ -1,0 +1,155 @@
+MODEL 1
+REMARK VINA RESULT:    -4.820      0.000      0.000
+REMARK INTER + INTRA:          -4.820
+REMARK INTER:                  -4.820
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK  Generated from SMILES: OC[C@H](O)[C@H]1OC(=O)C(O)=C1O
+ROOT
+ATOM      1 O 1  LIG A   1      -7.491  45.491  20.979  1.00  0.00     -0.39 OA
+ATOM      2 C 2  LIG A   1      -8.480  46.062  20.120  1.00  0.00      0.07 C 
+ATOM      3 C 3  LIG A   1      -9.771  45.245  20.224  1.00  0.00      0.12 C 
+ATOM      4 O 4  LIG A   1      -9.451  43.897  19.821  1.00  0.00     -0.39 OA
+ATOM      5 C 5  LIG A   1     -10.890  45.858  19.363  1.00  0.00      0.19 C 
+ATOM      6 O 6  LIG A   1     -10.495  45.920  17.976  1.00  0.00     -0.45 OA
+ATOM      7 C 7  LIG A   1     -11.366  45.195  17.221  1.00  0.00      0.38 C 
+ATOM      8 O 8  LIG A   1     -11.325  45.023  16.015  1.00  0.00     -0.24 OA
+ATOM      9 C 9  LIG A   1     -12.415  44.651  18.092  1.00  0.00      0.24 C 
+ATOM     10 O10  LIG A   1     -13.471  43.887  17.688  1.00  0.00     -0.50 OA
+ATOM     11 C11  LIG A   1     -12.131  45.046  19.326  1.00  0.00      0.19 C 
+ATOM     12 O12  LIG A   1     -12.848  44.764  20.454  1.00  0.00     -0.51 OA
+ATOM     13 H13  LIG A   1      -7.467  44.544  20.738  1.00  0.00      0.21 HD
+ATOM     14 H14  LIG A   1      -8.639  47.100  20.425  1.00  0.00      0.06 HD
+ATOM     15 H15  LIG A   1      -8.073  46.048  19.103  1.00  0.00      0.06 HD
+ATOM     16 H16  LIG A   1     -10.078  45.191  21.276  1.00  0.00      0.07 HD
+ATOM     17 H17  LIG A   1     -10.193  43.334  20.109  1.00  0.00      0.21 HD
+ATOM     18 H18  LIG A   1     -11.109  46.880  19.694  1.00  0.00      0.09 HD
+ATOM     19 H19  LIG A   1     -13.365  43.791  16.718  1.00  0.00      0.29 HD
+ATOM     20 H20  LIG A   1     -13.636  44.255  20.167  1.00  0.00      0.29 HD
+ENDROOT
+TORSDOF 1
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -3.559      3.302      4.571
+REMARK INTER + INTRA:          -3.559
+REMARK INTER:                  -3.559
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK  Generated from SMILES: OC[C@H](O)[C@H]1OC(=O)C(O)=C1O
+ROOT
+ATOM      1 O 1  LIG A   1      -3.588  43.558  21.541  1.00  0.00     -0.39 OA
+ATOM      2 C 2  LIG A   1      -4.270  44.632  20.891  1.00  0.00      0.07 C 
+ATOM      3 C 3  LIG A   1      -5.646  44.147  20.426  1.00  0.00      0.12 C 
+ATOM      4 O 4  LIG A   1      -5.421  43.050  19.516  1.00  0.00     -0.39 OA
+ATOM      5 C 5  LIG A   1      -6.449  45.287  19.773  1.00  0.00      0.19 C 
+ATOM      6 O 6  LIG A   1      -5.742  45.827  18.637  1.00  0.00     -0.45 OA
+ATOM      7 C 7  LIG A   1      -6.504  45.685  17.517  1.00  0.00      0.38 C 
+ATOM      8 O 8  LIG A   1      -6.212  46.020  16.383  1.00  0.00     -0.24 OA
+ATOM      9 C 9  LIG A   1      -7.787  45.074  17.886  1.00  0.00      0.24 C 
+ATOM     10 O10  LIG A   1      -8.813  44.793  17.032  1.00  0.00     -0.50 OA
+ATOM     11 C11  LIG A   1      -7.743  44.854  19.194  1.00  0.00      0.19 C 
+ATOM     12 O12  LIG A   1      -8.731  44.296  19.956  1.00  0.00     -0.51 OA
+ATOM     13 H13  LIG A   1      -3.633  42.814  20.908  1.00  0.00      0.21 HD
+ATOM     14 H14  LIG A   1      -4.358  45.460  21.601  1.00  0.00      0.06 HD
+ATOM     15 H15  LIG A   1      -3.647  44.949  20.048  1.00  0.00      0.06 HD
+ATOM     16 H16  LIG A   1      -6.191  43.733  21.285  1.00  0.00      0.07 HD
+ATOM     17 H17  LIG A   1      -6.276  42.594  19.408  1.00  0.00      0.21 HD
+ATOM     18 H18  LIG A   1      -6.602  46.103  20.490  1.00  0.00      0.09 HD
+ATOM     19 H19  LIG A   1      -8.501  45.085  16.149  1.00  0.00      0.29 HD
+ATOM     20 H20  LIG A   1      -9.491  44.134  19.358  1.00  0.00      0.29 HD
+ENDROOT
+TORSDOF 1
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -3.200      2.275      3.693
+REMARK INTER + INTRA:          -3.200
+REMARK INTER:                  -3.200
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK  Generated from SMILES: OC[C@H](O)[C@H]1OC(=O)C(O)=C1O
+ROOT
+ATOM      1 O 1  LIG A   1     -13.519  44.730  20.649  1.00  0.00     -0.39 OA
+ATOM      2 C 2  LIG A   1     -12.694  45.578  19.848  1.00  0.00      0.07 C 
+ATOM      3 C 3  LIG A   1     -12.793  45.139  18.383  1.00  0.00      0.12 C 
+ATOM      4 O 4  LIG A   1     -12.343  43.770  18.322  1.00  0.00     -0.39 OA
+ATOM      5 C 5  LIG A   1     -11.969  46.063  17.468  1.00  0.00      0.19 C 
+ATOM      6 O 6  LIG A   1     -10.579  46.062  17.856  1.00  0.00     -0.45 OA
+ATOM      7 C 7  LIG A   1      -9.815  45.627  16.815  1.00  0.00      0.38 C 
+ATOM      8 O 8  LIG A   1      -8.604  45.492  16.800  1.00  0.00     -0.24 OA
+ATOM      9 C 9  LIG A   1     -10.685  45.360  15.663  1.00  0.00      0.24 C 
+ATOM     10 O10  LIG A   1     -10.275  44.926  14.437  1.00  0.00     -0.50 OA
+ATOM     11 C11  LIG A   1     -11.926  45.620  16.053  1.00  0.00      0.19 C 
+ATOM     12 O12  LIG A   1     -13.057  45.505  15.293  1.00  0.00     -0.51 OA
+ATOM     13 H13  LIG A   1     -13.248  43.821  20.413  1.00  0.00      0.21 HD
+ATOM     14 H14  LIG A   1     -13.034  46.609  19.980  1.00  0.00      0.06 HD
+ATOM     15 H15  LIG A   1     -11.671  45.488  20.228  1.00  0.00      0.06 HD
+ATOM     16 H16  LIG A   1     -13.848  45.135  18.080  1.00  0.00      0.07 HD
+ATOM     17 H17  LIG A   1     -12.626  43.420  17.457  1.00  0.00      0.21 HD
+ATOM     18 H18  LIG A   1     -12.335  47.094  17.538  1.00  0.00      0.09 HD
+ATOM     19 H19  LIG A   1      -9.300  44.838  14.506  1.00  0.00      0.29 HD
+ATOM     20 H20  LIG A   1     -12.766  45.240  14.395  1.00  0.00      0.29 HD
+ENDROOT
+TORSDOF 1
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -3.155      3.583      5.831
+REMARK INTER + INTRA:          -3.155
+REMARK INTER:                  -3.155
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK  Generated from SMILES: OC[C@H](O)[C@H]1OC(=O)C(O)=C1O
+ROOT
+ATOM      1 O 1  LIG A   1      -3.588  42.626  17.297  1.00  0.00     -0.39 OA
+ATOM      2 C 2  LIG A   1      -4.491  43.697  17.574  1.00  0.00      0.07 C 
+ATOM      3 C 3  LIG A   1      -4.604  43.882  19.091  1.00  0.00      0.12 C 
+ATOM      4 O 4  LIG A   1      -5.094  42.637  19.631  1.00  0.00     -0.39 OA
+ATOM      5 C 5  LIG A   1      -5.521  45.068  19.441  1.00  0.00      0.19 C 
+ATOM      6 O 6  LIG A   1      -6.844  44.871  18.901  1.00  0.00     -0.45 OA
+ATOM      7 C 7  LIG A   1      -7.754  44.864  19.915  1.00  0.00      0.38 C 
+ATOM      8 O 8  LIG A   1      -8.959  44.709  19.819  1.00  0.00     -0.24 OA
+ATOM      9 C 9  LIG A   1      -7.056  45.104  21.184  1.00  0.00      0.24 C 
+ATOM     10 O10  LIG A   1      -7.641  45.183  22.414  1.00  0.00     -0.50 OA
+ATOM     11 C11  LIG A   1      -5.767  45.225  20.895  1.00  0.00      0.19 C 
+ATOM     12 O12  LIG A   1      -4.754  45.457  21.783  1.00  0.00     -0.51 OA
+ATOM     13 H13  LIG A   1      -3.912  41.878  17.838  1.00  0.00      0.21 HD
+ATOM     14 H14  LIG A   1      -4.110  44.600  17.089  1.00  0.00      0.06 HD
+ATOM     15 H15  LIG A   1      -5.455  43.432  17.126  1.00  0.00      0.06 HD
+ATOM     16 H16  LIG A   1      -3.601  44.031  19.510  1.00  0.00      0.07 HD
+ATOM     17 H17  LIG A   1      -4.942  42.670  20.594  1.00  0.00      0.21 HD
+ATOM     18 H18  LIG A   1      -5.121  45.996  19.016  1.00  0.00      0.09 HD
+ATOM     19 H19  LIG A   1      -8.599  45.045  22.254  1.00  0.00      0.29 HD
+ATOM     20 H20  LIG A   1      -5.171  45.563  22.664  1.00  0.00      0.29 HD
+ENDROOT
+TORSDOF 1
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -3.139      2.818      3.968
+REMARK INTER + INTRA:          -3.139
+REMARK INTER:                  -3.139
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK  Generated from SMILES: OC[C@H](O)[C@H]1OC(=O)C(O)=C1O
+ROOT
+ATOM      1 O 1  LIG A   1      -8.026  45.709  22.247  1.00  0.00     -0.39 OA
+ATOM      2 C 2  LIG A   1      -7.376  45.979  21.004  1.00  0.00      0.07 C 
+ATOM      3 C 3  LIG A   1      -8.314  45.607  19.852  1.00  0.00      0.12 C 
+ATOM      4 O 4  LIG A   1      -8.610  44.201  19.987  1.00  0.00     -0.39 OA
+ATOM      5 C 5  LIG A   1      -7.682  45.938  18.488  1.00  0.00      0.19 C 
+ATOM      6 O 6  LIG A   1      -6.436  45.231  18.314  1.00  0.00     -0.45 OA
+ATOM      7 C 7  LIG A   1      -6.516  44.429  17.216  1.00  0.00      0.38 C 
+ATOM      8 O 8  LIG A   1      -5.653  43.685  16.786  1.00  0.00     -0.24 OA
+ATOM      9 C 9  LIG A   1      -7.830  44.612  16.586  1.00  0.00      0.24 C 
+ATOM     10 O10  LIG A   1      -8.266  43.988  15.454  1.00  0.00     -0.50 OA
+ATOM     11 C11  LIG A   1      -8.491  45.491  17.328  1.00  0.00      0.19 C 
+ATOM     12 O12  LIG A   1      -9.757  45.953  17.104  1.00  0.00     -0.51 OA
+ATOM     13 H13  LIG A   1      -8.334  44.784  22.172  1.00  0.00      0.21 HD
+ATOM     14 H14  LIG A   1      -7.115  47.041  20.979  1.00  0.00      0.06 HD
+ATOM     15 H15  LIG A   1      -6.456  45.385  20.984  1.00  0.00      0.06 HD
+ATOM     16 H16  LIG A   1      -9.266  46.140  19.977  1.00  0.00      0.07 HD
+ATOM     17 H17  LIG A   1      -9.378  44.020  19.414  1.00  0.00      0.21 HD
+ATOM     18 H18  LIG A   1      -7.469  47.012  18.418  1.00  0.00      0.09 HD
+ATOM     19 H19  LIG A   1      -7.524  43.410  15.175  1.00  0.00      0.29 HD
+ATOM     20 H20  LIG A   1     -10.061  45.545  16.266  1.00  0.00      0.29 HD
+ENDROOT
+TORSDOF 1
+ENDMDL

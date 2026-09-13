@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   147:
+HEADER 0  - Pocket Score                      : -0.1801
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 4.0999
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5345
+HEADER 5  - Mean B-factor of pocket residues  : 0.2026
+HEADER 6  - Hydrophobicity Score              : -24.2500
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 321.0836
+HEADER 10 - Pocket volume (convex hull)       : 2.6028
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.4286
+ATOM  10841   OG SER C 391      74.010 -43.793 -12.777  0.78  6.43           O 0
+ATOM  10816   CG LYS C 388      72.178 -45.758  -8.700  0.00  0.00           C 0
+ATOM  10847   CG ARG C 392      72.159 -47.822 -15.489  0.00  0.00           C 0
+ATOM  10817   CD LYS C 388      72.089 -47.141  -8.034  0.00  0.00           C 0
+ATOM  10818   CE LYS C 388      73.333 -47.402  -7.167  0.00  0.00           C 0
+ATOM  10814    O LYS C 388      71.236 -44.686 -12.792  0.64  1.07           O 0
+ATOM  10815   CB LYS C 388      71.009 -45.535  -9.673  0.00  0.00           C 0
+ATOM  10848   CD ARG C 392      71.207 -48.896 -14.962  0.00  0.00           C 0
+ATOM  10851  NH1 ARG C 392      70.087 -51.352 -13.970  0.00  0.00           N 0
+ATOM  10852  NH2 ARG C 392      72.034 -52.411 -14.288  0.00  0.00           N 0
+ATOM  10850   CZ ARG C 392      71.339 -51.311 -14.357  0.00  0.00           C 0
+ATOM  10819   NZ LYS C 388      73.272 -48.708  -6.462  0.00  0.00           N 0
+ATOM  10849   NE ARG C 392      71.887 -50.196 -14.811  0.74  3.28           N 0
+ATOM  10826  OD1 ASP C 389      67.075 -46.405 -13.748  0.71  7.50           O 0
+ATOM  10813    C LYS C 388      70.536 -44.354 -11.846  0.00  0.00           C 0
+TER
+END

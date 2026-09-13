@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    82:
+HEADER 0  - Pocket Score                      : -0.1129
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.1381
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5421
+HEADER 5  - Mean B-factor of pocket residues  : 0.2138
+HEADER 6  - Hydrophobicity Score              : -14.6667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 300.5584
+HEADER 10 - Pocket volume (convex hull)       : 7.6636
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0667
+ATOM   3267    N LYS A 409      71.768 -58.812 -31.792  0.54  3.28           N 0
+ATOM   3308  OE2 GLU A 413      68.025 -51.738 -30.309  0.00  0.00           O 0
+ATOM  10965   SG CYS C 406      70.129 -50.706 -37.069  0.00  0.00           S 0
+ATOM   3264   CA GLY A 408      70.460 -59.656 -33.669  0.00  0.00           C 0
+ATOM   3276    N ASN A 410      70.622 -57.331 -29.431  0.67  2.19           N 0
+ATOM   3265    C GLY A 408      70.660 -59.476 -32.161  0.00  0.00           C 0
+ATOM   3279    O ASN A 410      67.636 -56.231 -28.525  0.33  6.43           O 0
+ATOM  10943    O ASP C 403      74.129 -51.657 -32.743  0.00  0.00           O 0
+ATOM   3271   CB LYS A 409      73.609 -57.931 -30.451  0.00  0.00           C 0
+ATOM   3266    O GLY A 408      69.821 -59.887 -31.361  0.35  1.07           O 0
+ATOM   3280   CB ASN A 410      70.300 -55.127 -28.375  0.00  0.00           C 0
+ATOM   3283  ND2 ASN A 410      72.082 -53.534 -27.971  0.69  5.47           N 0
+ATOM  10944   CB ASP C 403      75.123 -51.484 -29.833  0.00  0.00           C 0
+ATOM   3273   CD LYS A 409      76.009 -57.603 -31.038  0.00  0.00           C 0
+TER
+END

@@ -63,8 +63,8 @@ environment on the cluster that SiteAF3 can `import` from. SiteAF3 therefore nee
    current version (rename `.cached_ccd()` → `.Ccd()` in
    `./src/embeddings/embed_cond.py` and `./src/diffusion/run_cond_Diff.py`).
 2. Replace `<AF3_repo>/src/alphafold3/model/model.py` with the SiteAF3-patched
-   `./AF3_code/model.py` (already present in
-   `/cluster/home/nbhatt04/lean_pipeline/site_directed_cofolding/SiteAF3/AF3_code/model.py`).
+   `site_directed_cofolding/SiteAF3_patched_AF3_model.py` (already present in
+   `/cluster/home/nbhatt04/lean_pipeline/site_directed_cofolding/SiteAFsite_directed_cofolding/SiteAF3_patched_AF3_model.py`).
 3. Build the conda env:
    ```bash
    conda activate <new_env>

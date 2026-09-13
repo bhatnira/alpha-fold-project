@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   139:
+HEADER 0  - Pocket Score                      : -0.1754
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.7237
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6020
+HEADER 5  - Mean B-factor of pocket residues  : 0.1034
+HEADER 6  - Hydrophobicity Score              : -17.3333
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 126.3051
+HEADER 10 - Pocket volume (convex hull)       : 1.1127
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.2727
+ATOM   2889  CD2 HIS A 362      22.244 -50.514 -42.702  0.00  0.00           C 0
+ATOM   2882    N HIS A 362      21.251 -49.811 -39.120  0.86  1.09           N 0
+ATOM   2891  NE2 HIS A 362      21.957 -51.519 -43.628  0.00  0.00           N 0
+ATOM   2888  ND1 HIS A 362      22.891 -52.459 -41.882  0.56  5.47           N 0
+ATOM   2890  CE1 HIS A 362      22.377 -52.671 -43.097  0.00  0.00           C 0
+ATOM   2917  NH1 ARG A 365      18.034 -55.896 -41.267  0.63  7.66           N 0
+ATOM   2879   CB PRO A 361      17.980 -48.979 -39.055  0.00  0.00           C 0
+ATOM   2880   CG PRO A 361      18.261 -48.094 -40.264  0.00  0.00           C 0
+ATOM   2915   NE ARG A 365      17.797 -55.355 -39.045  0.56  5.47           N 0
+ATOM   2916   CZ ARG A 365      17.282 -55.727 -40.207  0.00  0.00           C 0
+ATOM   2918  NH2 ARG A 365      16.003 -55.941 -40.332  0.00  0.00           N 0
+ATOM   2887   CG HIS A 362      22.823 -51.105 -41.613  0.00  0.00           C 0
+ATOM   2877    C PRO A 361      20.201 -49.983 -38.299  0.00  0.00           C 0
+ATOM   2914   CD ARG A 365      19.221 -55.086 -38.775  0.00  0.00           C 0
+ATOM   2878    O PRO A 361      20.042 -50.998 -37.628  0.00  0.00           O 0
+TER
+END

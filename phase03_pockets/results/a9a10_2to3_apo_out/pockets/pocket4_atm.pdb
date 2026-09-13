@@ -1,0 +1,61 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.0909
+HEADER 1  - Drug Score                        : 0.8596
+HEADER 2  - Number of alpha spheres           :    60
+HEADER 3  - Mean alpha-sphere radius          : 3.9673
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5002
+HEADER 5  - Mean B-factor of pocket residues  : 0.6361
+HEADER 6  - Hydrophobicity Score              : 95.5000
+HEADER 7  - Polarity Score                    :     0
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 462.1158
+HEADER 10 - Pocket volume (convex hull)       : 77.2867
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 47.6333
+HEADER 13 - Number of apolar alpha sphere     :    60
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM  14301  CG2 ILE D 402      42.537 -24.848 -40.327  0.00  0.00           C 0
+ATOM  17826  CE2 PHE E 406      40.861 -25.895 -36.682  0.00  0.00           C 0
+ATOM  17795  CG2 ILE E 402      43.370 -28.593 -37.202  0.00  0.00           C 0
+ATOM  10807  CG2 ILE C 402      48.124 -22.876 -35.217  0.00  0.00           C 0
+ATOM   3458  CG2 ILE A 431      46.599 -27.244 -33.809  0.00  0.00           C 0
+ATOM  17796  CD1 ILE E 402      46.149 -29.843 -36.380  0.00  0.00           C 0
+ATOM  10838  CE2 PHE C 406      45.358 -23.775 -32.786  0.00  0.00           C 0
+ATOM  10753  CD2 LEU C 395      55.421 -26.270 -44.312  0.00  0.00           C 0
+ATOM  17741  CD2 LEU E 395      53.531 -33.088 -42.101  0.00  0.00           C 0
+ATOM   3430  CD1 ILE A 428      52.243 -29.800 -39.125  0.00  0.00           C 0
+ATOM  14247  CD2 LEU D 395      51.079 -31.652 -45.903  0.00  0.00           C 0
+ATOM   3396  CD2 LEU A 424      56.584 -29.375 -41.108  0.00  0.00           C 0
+ATOM  14246  CD1 LEU D 395      49.466 -32.445 -44.220  0.00  0.00           C 0
+ATOM  14245   CG LEU D 395      49.599 -31.861 -45.620  0.00  0.00           C 0
+ATOM  14282  CG2 VAL D 399      47.214 -28.063 -44.304  0.00  0.00           C 0
+ATOM  10839   CZ PHE C 406      44.046 -24.072 -32.385  0.00  0.00           C 0
+ATOM   7314  CG2 ILE B 431      45.417 -21.255 -39.142  0.00  0.00           C 0
+ATOM   7342  CD1 LEU B 435      45.855 -20.064 -35.203  0.00  0.00           C 0
+ATOM  14333   CZ PHE D 406      41.712 -21.178 -36.918  0.00  0.00           C 0
+ATOM  14332  CE2 PHE D 406      41.800 -21.891 -38.123  0.00  0.00           C 0
+ATOM  10788  CG2 VAL C 399      52.992 -25.098 -39.554  0.00  0.00           C 0
+ATOM   7286  CD1 ILE B 428      50.906 -25.263 -43.679  0.00  0.00           C 0
+ATOM   7252  CD2 LEU B 424      51.968 -27.852 -47.512  0.00  0.00           C 0
+ATOM  17776  CG2 VAL E 399      48.461 -31.620 -40.702  0.00  0.00           C 0
+ATOM  17775  CG1 VAL E 399      46.394 -31.313 -41.994  0.00  0.00           C 0
+ATOM  14302  CD1 ILE D 402      43.413 -27.871 -40.634  0.00  0.00           C 0
+ATOM  17827   CZ PHE E 406      40.390 -24.671 -36.182  0.00  0.00           C 0
+ATOM   3486  CD1 LEU A 435      42.558 -28.261 -33.789  0.00  0.00           C 0
+ATOM   7315  CD1 ILE B 431      45.053 -22.863 -41.856  0.00  0.00           C 0
+ATOM  14281  CG1 VAL D 399      46.761 -25.746 -45.002  0.00  0.00           C 0
+ATOM   3395  CD1 LEU A 424      55.804 -27.560 -39.633  0.00  0.00           C 0
+ATOM  10808  CD1 ILE C 402      48.993 -21.996 -38.121  0.00  0.00           C 0
+ATOM   3428  CG1 ILE A 428      51.868 -29.380 -37.704  0.00  0.00           C 0
+ATOM   3429  CG2 ILE A 428      50.151 -31.194 -37.303  0.00  0.00           C 0
+ATOM   7251  CD1 LEU B 424      49.596 -27.426 -47.001  0.00  0.00           C 0
+ATOM   7284  CG1 ILE B 428      49.776 -24.238 -43.573  0.00  0.00           C 0
+ATOM   7285  CG2 ILE B 428      50.946 -22.670 -41.972  0.00  0.00           C 0
+ATOM   3459  CD1 ILE A 431      49.487 -26.105 -34.465  0.00  0.00           C 0
+ATOM  10787  CG1 VAL C 399      53.246 -25.974 -37.265  0.00  0.00           C 0
+TER
+END

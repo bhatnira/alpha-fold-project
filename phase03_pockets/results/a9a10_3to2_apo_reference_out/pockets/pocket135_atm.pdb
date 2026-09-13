@@ -1,0 +1,47 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   135:
+HEADER 0  - Pocket Score                      : -0.1708
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    34
+HEADER 3  - Mean alpha-sphere radius          : 4.0993
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5221
+HEADER 5  - Mean B-factor of pocket residues  : 0.3443
+HEADER 6  - Hydrophobicity Score              : 13.2857
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 415.1671
+HEADER 10 - Pocket volume (convex hull)       : 34.4994
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.2059
+ATOM  14275   SG CYS D 349      19.870  -8.021 -41.657  0.00  0.00           S 0
+ATOM  14290   NE ARG D 351      26.203 -10.549 -39.049  0.50  5.47           N 0
+ATOM   6493  NH1 ARG B 331      27.756  -9.883 -42.772  0.67  9.84           N 0
+ATOM  14293  NH2 ARG D 351      27.172  -8.495 -39.286  0.62  7.66           N 0
+ATOM  14274   CB CYS D 349      20.144  -8.970 -40.135  0.00  0.00           C 0
+ATOM   6494  NH2 ARG B 331      26.725 -11.607 -43.743  0.00  0.00           N 0
+ATOM  14288   CG ARG D 351      24.855 -12.635 -39.058  0.00  0.00           C 0
+ATOM  14248   CA ARG D 346      17.759 -13.419 -43.836  0.00  0.00           C 0
+ATOM  14252   CG ARG D 346      18.772 -14.943 -45.602  0.00  0.00           C 0
+ATOM  14279    O VAL D 350      20.867 -15.020 -39.843  0.59  6.43           O 0
+ATOM  14250    O ARG D 346      17.871 -11.077 -43.510  0.49  4.29           O 0
+ATOM  14271   CA CYS D 349      19.662 -10.417 -40.307  0.00  0.00           C 0
+ATOM  14245    O ALA D 345      17.881 -13.550 -41.056  0.00  0.00           O 0
+ATOM  14272    C CYS D 349      20.216 -11.383 -39.234  0.00  0.00           C 0
+ATOM  14294    N GLU D 352      23.787 -17.026 -39.977  0.57  3.28           N 0
+ATOM  14273    O CYS D 349      21.271 -11.123 -38.642  0.00  0.00           O 0
+ATOM  14287   CB ARG D 351      24.828 -14.104 -38.600  0.00  0.00           C 0
+ATOM   6491   NE ARG B 331      27.967 -11.990 -41.862  0.00  0.00           N 0
+ATOM  14284   CA ARG D 351      23.549 -14.799 -39.072  0.00  0.00           C 0
+ATOM  14297    O GLU D 352      26.349 -18.038 -39.671  0.00  0.00           O 0
+ATOM  14298   CB GLU D 352      23.829 -19.089 -41.349  0.00  0.00           C 0
+ATOM  14299   CG GLU D 352      22.441 -18.809 -41.926  0.00  0.00           C 0
+ATOM  14302  OE2 GLU D 352      22.889 -20.262 -43.764  0.63  9.64           O 0
+ATOM  14300   CD GLU D 352      22.023 -19.737 -43.061  0.00  0.00           C 0
+ATOM  14254   NE ARG D 346      19.769 -16.284 -47.446  0.40  2.19           N 0
+TER
+END

@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   111:
+HEADER 0  - Pocket Score                      : -0.1431
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.7697
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5008
+HEADER 5  - Mean B-factor of pocket residues  : 0.7199
+HEADER 6  - Hydrophobicity Score              : -0.5000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 361.5997
+HEADER 10 - Pocket volume (convex hull)       : 40.5867
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.4167
+ATOM  16728   CB ARG E 212       3.354  29.267  35.621  0.00  0.00           C 0
+ATOM  16846  OG1 THR E 227       1.424  25.029  32.651  0.55  6.43           O 0
+ATOM  16708   CD ARG E 210       6.150  24.134  37.540  0.00  0.00           C 0
+ATOM  16705    O ARG E 210       1.402  24.936  37.026  0.00  0.00           O 0
+ATOM  16707   CG ARG E 210       4.815  24.301  38.259  0.00  0.00           C 0
+ATOM  16845   CB THR E 227       1.451  23.741  33.221  0.00  0.00           C 0
+ATOM  16847  CG2 THR E 227       1.832  22.776  32.106  0.00  0.00           C 0
+ATOM  16864  OG1 THR E 229       3.914  19.380  33.119  0.00  0.00           O 0
+ATOM  16706   CB ARG E 210       3.807  23.265  37.750  0.00  0.00           C 0
+ATOM  16711  NH1 ARG E 210       8.894  24.392  36.733  0.00  0.00           N 0
+ATOM  16732   CZ ARG E 212       3.928  30.098  31.337  0.00  0.00           C 0
+ATOM  16731   NE ARG E 212       3.798  30.044  32.658  0.00  0.00           N 0
+ATOM  16733  NH1 ARG E 212       5.094  29.940  30.748  0.00  0.00           N 0
+ATOM  16408  OG1 THR E 171       0.149  24.934  29.737  0.00  0.00           O 0
+ATOM  16734  NH2 ARG E 212       2.887  30.315  30.595  0.00  0.00           N 0
+ATOM  16730   CD ARG E 212       4.861  29.814  33.647  0.00  0.00           C 0
+ATOM  16710   CZ ARG E 210       8.430  25.134  37.700  0.00  0.00           C 0
+ATOM  16712  NH2 ARG E 210       9.236  25.972  38.282  0.00  0.00           N 0
+ATOM  16709   NE ARG E 210       7.163  25.046  38.087  0.71  4.37           N 0
+ATOM  16729   CG ARG E 212       4.405  30.232  35.053  0.00  0.00           C 0
+ATOM  16716    O ARG E 211       3.311  27.765  39.154  0.59  7.50           O 0
+TER
+END

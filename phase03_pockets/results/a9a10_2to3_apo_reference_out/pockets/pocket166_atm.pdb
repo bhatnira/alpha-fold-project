@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   166:
+HEADER 0  - Pocket Score                      : -0.2424
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.0310
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5881
+HEADER 5  - Mean B-factor of pocket residues  : 0.1241
+HEADER 6  - Hydrophobicity Score              : -27.5000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 287.0240
+HEADER 10 - Pocket volume (convex hull)       : 12.8779
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1765
+ATOM   7269  NH1 ARG B 426      49.574 -16.914 -54.609  0.29  8.75           N 0
+ATOM   7270  NH2 ARG B 426      50.679 -15.049 -54.130  0.52  5.47           N 0
+ATOM  14022    N GLU D 364      45.144 -16.087 -56.557  0.48  2.19           N 0
+ATOM  14016   CA PRO D 363      46.066 -16.036 -54.320  0.00  0.00           C 0
+ATOM   6946  NH2 ARG B 386      52.214 -12.775 -58.593  0.00  0.00           N 0
+ATOM  14025    O GLU D 364      46.154 -18.399 -57.866  0.54  3.21           O 0
+ATOM  14026   CB GLU D 364      44.727 -15.995 -58.987  0.00  0.00           C 0
+ATOM  14001   CB ARG D 361      44.315 -10.567 -53.693  0.00  0.00           C 0
+ATOM  14000    O ARG D 361      45.281 -12.958 -52.035  0.52  6.43           O 0
+ATOM  14011    O PRO D 362      43.860 -14.450 -54.408  0.47  3.21           O 0
+ATOM  14027   CG GLU D 364      43.953 -14.671 -59.098  0.00  0.00           C 0
+ATOM  14003   CD ARG D 361      44.054  -8.852 -55.500  0.00  0.00           C 0
+ATOM  14030  OE2 GLU D 364      45.304 -14.155 -61.020  0.00  0.00           O 0
+ATOM  14028   CD GLU D 364      44.275 -13.864 -60.365  0.00  0.00           C 0
+ATOM  14029  OE1 GLU D 364      43.529 -12.891 -60.623  0.00  0.00           O 0
+ATOM  14006  NH1 ARG D 361      44.261  -7.564 -58.063  0.00  0.00           N 0
+TER
+END

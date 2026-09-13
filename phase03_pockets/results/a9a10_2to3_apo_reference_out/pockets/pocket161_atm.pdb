@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   161:
+HEADER 0  - Pocket Score                      : -0.2291
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    27
+HEADER 3  - Mean alpha-sphere radius          : 3.8896
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5473
+HEADER 5  - Mean B-factor of pocket residues  : 0.6236
+HEADER 6  - Hydrophobicity Score              : 20.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 271.8809
+HEADER 10 - Pocket volume (convex hull)       : 18.3524
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM  14909  NH1 ARG E  28     -45.369  48.926  26.418  0.68  6.56           N 0
+ATOM  14895  OE2 GLU E  26     -47.362  48.994  20.945  0.48  5.36           O 0
+ATOM  14894  OE1 GLU E  26     -46.936  51.018  20.204  0.00  0.00           O 0
+ATOM  14908   CZ ARG E  28     -44.203  48.410  26.148  0.00  0.00           C 0
+ATOM  14907   NE ARG E  28     -44.058  47.455  25.241  0.68  3.28           N 0
+ATOM  14893   CD GLU E  26     -46.931  49.777  20.062  0.00  0.00           C 0
+ATOM  11583    O ALA D  49     -41.755  47.732  18.097  0.75  6.43           O 0
+ATOM  14891   CB GLU E  26     -46.113  47.675  18.860  0.00  0.00           C 0
+ATOM  14892   CG GLU E  26     -46.326  49.190  18.767  0.00  0.00           C 0
+ATOM  14905   CG ARG E  28     -44.600  45.742  23.546  0.00  0.00           C 0
+ATOM  11581   CA ALA D  49     -39.469  47.428  18.768  0.00  0.00           C 0
+ATOM  11584   CB ALA D  49     -38.898  48.783  19.195  0.00  0.00           C 0
+ATOM  14906   CD ARG E  28     -45.138  46.857  24.445  0.00  0.00           C 0
+ATOM  11926  CD1 TYR D  90     -39.331  44.121  24.305  0.00  0.00           C 0
+ATOM  11928  CE1 TYR D  90     -40.306  44.337  23.321  0.00  0.00           C 0
+ATOM  14910  NH2 ARG E  28     -43.164  48.862  26.794  0.00  0.00           N 0
+ATOM  11918    O ALA D  89     -36.030  46.978  24.216  0.53  7.50           O 0
+ATOM  11919   CB ALA D  89     -36.053  46.457  21.142  0.00  0.00           C 0
+ATOM  11931   OH TYR D  90     -41.091  43.970  21.086  0.61  1.07           O 0
+TER
+END

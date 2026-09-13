@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    87:
+HEADER 0  - Pocket Score                      : -0.1181
+HEADER 1  - Drug Score                        : 0.0043
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.1544
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5233
+HEADER 5  - Mean B-factor of pocket residues  : 0.5417
+HEADER 6  - Hydrophobicity Score              : 69.2500
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 213.1126
+HEADER 10 - Pocket volume (convex hull)       : 1.5718
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM  18303  CZ3 TRP E 419      41.606 -11.297  -9.791  0.00  0.00           C 0
+ATOM  18304  CH2 TRP E 419      42.617 -10.845 -10.644  0.00  0.00           C 0
+ATOM  17666  CZ2 TRP E 335      46.079  -6.542  -5.218  0.00  0.00           C 0
+ATOM  17648   CG PRO E 333      47.187  -9.152  -8.621  0.00  0.00           C 0
+ATOM  17649   CD PRO E 333      46.608 -10.361  -9.344  0.00  0.00           C 0
+ATOM  17673   CB ALA E 336      46.282 -10.802  -5.205  0.00  0.00           C 0
+ATOM  18332  CD2 LEU E 422      41.666 -12.238  -6.371  0.00  0.00           C 0
+ATOM  17704  CD1 LEU E 340      43.416 -10.442  -2.341  0.00  0.00           C 0
+ATOM  17668  CH2 TRP E 335      45.468  -6.806  -3.993  0.00  0.00           C 0
+ATOM  17565  CD2 LEU E 322      38.430  -9.832  -8.696  0.00  0.00           C 0
+ATOM  18362   SD MET E 426      38.205  -9.969  -3.273  0.00  0.00           S 0
+ATOM  18363   CE MET E 426      37.509  -8.505  -2.464  0.00  0.00           C 0
+ATOM  17564  CD1 LEU E 322      37.446 -10.122  -6.452  0.00  0.00           C 0
+TER
+END

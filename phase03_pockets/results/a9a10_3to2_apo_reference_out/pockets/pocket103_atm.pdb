@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   103:
+HEADER 0  - Pocket Score                      : -0.1322
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.2465
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5932
+HEADER 5  - Mean B-factor of pocket residues  : 0.2317
+HEADER 6  - Hydrophobicity Score              : 24.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 332.1076
+HEADER 10 - Pocket volume (convex hull)       : 9.7165
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   7352   NZ LYS B 436      44.752 -26.239 -38.124  0.00  0.00           N 0
+ATOM   6853  CE2 TYR B 374      50.087 -25.400 -44.598  0.00  0.00           C 0
+ATOM  18121  NE2 HIS E 397      51.305 -29.457 -37.485  0.59  5.47           N 0
+ATOM   6855   OH TYR B 374      49.599 -27.678 -45.219  0.00  0.00           O 0
+ATOM   6820  CD2 LEU B 370      52.506 -24.787 -41.526  0.00  0.00           C 0
+ATOM   6819  CD1 LEU B 370      52.272 -24.286 -39.112  0.00  0.00           C 0
+ATOM   6816    O LEU B 370      51.400 -21.215 -43.853  0.00  0.00           O 0
+ATOM   6848   CB TYR B 374      49.251 -22.089 -46.335  0.00  0.00           C 0
+ATOM   6851  CD2 TYR B 374      49.994 -24.027 -44.871  0.00  0.00           C 0
+ATOM   6822   CA THR B 371      50.116 -18.922 -43.046  0.00  0.00           C 0
+ATOM   6826  OG1 THR B 371      48.969 -18.382 -40.975  0.56  5.36           O 0
+ATOM   6827  CG2 THR B 371      48.084 -17.413 -42.913  0.00  0.00           C 0
+ATOM   6817   CB LEU B 370      51.920 -22.437 -40.793  0.00  0.00           C 0
+ATOM   6821    N THR B 371      51.062 -19.710 -42.246  0.00  0.00           N 0
+ATOM   6815    C LEU B 370      51.626 -20.812 -42.716  0.00  0.00           C 0
+ATOM   6789   CG ARG B 367      49.026 -20.248 -36.650  0.00  0.00           C 0
+ATOM   6787    O ARG B 367      50.957 -19.129 -39.525  0.00  0.00           O 0
+TER
+END

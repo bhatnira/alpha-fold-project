@@ -1,0 +1,50 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket   172:
+HEADER 0  - Pocket Score                      : -0.2359
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of V. Vertices             :    28
+HEADER 3  - Mean alpha-sphere radius          : 3.8911
+HEADER 4  - Mean alpha-sphere SA              : 0.4613
+HEADER 5  - Mean B-factor                     : 0.5760
+HEADER 6  - Hydrophobicity Score              : 2.5714
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Volume Score                      : 4.4286
+HEADER 9  - Real volume (approximation)       : 376.3938
+HEADER 10 - Charge Score                      :     2
+HEADER 11 - Local hydrophobic density Score   : 4.3333
+HEADER 12 - Number of apolar alpha sphere     :     6
+HEADER 13 - Proportion of apolar alpha sphere : 0.2143
+ATOM      1    C STP   172      40.148 -23.797 -38.140    0.00     4.35
+ATOM      2    C STP   172      41.454 -22.999 -36.371    0.00     3.76
+ATOM      3    O STP   172      43.435 -19.539 -30.429    0.00     4.22
+ATOM      4    O STP   172      43.000 -21.346 -31.822    0.00     3.80
+ATOM      5    C STP   172      40.322 -24.768 -38.392    0.00     3.91
+ATOM      6    O STP   172      41.052 -18.801 -34.537    0.00     4.41
+ATOM      7    O STP   172      41.672 -22.282 -33.513    0.00     3.56
+ATOM      8    O STP   172      41.645 -21.322 -32.160    0.00     3.63
+ATOM      9    O STP   172      41.950 -21.513 -32.517    0.00     3.83
+ATOM     10    O STP   172      42.003 -20.850 -32.206    0.00     4.04
+ATOM     11    O STP   172      40.137 -18.355 -34.722    0.00     4.30
+ATOM     12    C STP   172      43.044 -21.518 -31.868    0.00     3.75
+ATOM     13    O STP   172      41.750 -19.726 -33.048    0.00     3.95
+ATOM     14    O STP   172      41.466 -19.546 -33.489    0.00     4.02
+ATOM     15    O STP   172      41.991 -20.679 -32.203    0.00     4.08
+ATOM     16    O STP   172      40.013 -18.544 -34.303    0.00     3.94
+ATOM     17    O STP   172      42.085 -20.685 -32.088    0.00     4.10
+ATOM     18    O STP   172      42.121 -20.665 -32.058    0.00     4.11
+ATOM     19    O STP   172      42.650 -20.270 -31.221    0.00     4.12
+ATOM     20    C STP   172      42.628 -20.302 -31.251    0.00     4.12
+ATOM     21    O STP   172      41.716 -22.693 -33.651    0.00     3.60
+ATOM     22    O STP   172      41.622 -23.112 -35.023    0.00     3.51
+ATOM     23    O STP   172      39.741 -24.340 -37.169    0.00     3.68
+ATOM     24    O STP   172      42.080 -22.926 -33.035    0.00     3.75
+ATOM     25    O STP   172      41.771 -23.182 -32.796    0.00     3.40
+ATOM     26    O STP   172      42.594 -23.628 -33.109    0.00     3.76
+ATOM     27    O STP   172      42.375 -23.306 -33.019    0.00     3.75
+ATOM     28    C STP   172      42.238 -23.616 -32.836    0.00     3.51
+TER
+END

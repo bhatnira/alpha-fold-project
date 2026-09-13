@@ -1,0 +1,55 @@
+{
+  "paired_bootstrap": {
+    "basic_vs_augmented_auroc": {
+      "p_value": 0.5234,
+      "mean_diff": -0.29000000000000004,
+      "ci_lower": -0.71,
+      "ci_upper": 0.16999999999999998,
+      "significant_005": false,
+      "significant_001": false
+    }
+  },
+  "permutation_tests": {
+    "docking_score": {
+      "observed_correlation": 0.14877110684327516,
+      "p_value": 0.4218,
+      "mean_perm_correlation": 0.14761459169085525,
+      "std_perm_correlation": 0.11062320552193121,
+      "significant_005": false,
+      "significant_001": false
+    },
+    "boltz2_affinity": {
+      "observed_correlation": 0.20434262474582188,
+      "p_value": 0.2706,
+      "mean_perm_correlation": 0.14814552766491562,
+      "std_perm_correlation": 0.10899311112831675,
+      "significant_005": false,
+      "significant_001": false
+    },
+    "confidence_score": {
+      "observed_correlation": 0.06946426237824237,
+      "p_value": 0.7372,
+      "mean_perm_correlation": 0.15714249703545105,
+      "std_perm_correlation": 0.11548784145618439,
+      "significant_005": false,
+      "significant_001": false
+    }
+  },
+  "confidence_intervals": {
+    "full_model_auroc": {
+      "mean": 0.64,
+      "ci_lower": 0.64,
+      "ci_upper": 0.64
+    }
+  },
+  "effect_sizes": {
+    "remove_binding": {
+      "cohens_d": 0.0,
+      "delta_auroc": 0.08999999999999997
+    },
+    "remove_chemical": {
+      "cohens_d": 0.0,
+      "delta_auroc": 0.13
+    }
+  }
+}

@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : 0.0456
+HEADER 1  - Drug Score                        : 0.0021
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.5807
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3992
+HEADER 5  - Mean B-factor of pocket residues  : 0.7262
+HEADER 6  - Hydrophobicity Score              : 18.5455
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.0909
+HEADER 9  - Pocket volume (Monte Carlo)       : 124.6888
+HEADER 10 - Pocket volume (convex hull)       : 2.7695
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.4800
+ATOM   6159  CG1 VAL B 286      10.208  10.284   6.842  0.00  0.00           C 0
+ATOM   6157    O VAL B 286       7.098  10.532   6.496  0.00  0.00           O 0
+ATOM  13114  ND2 ASN D 242       7.655  14.329   2.068  0.58  5.47           N 0
+ATOM   6162   CA ALA B 287       6.481  11.048   3.846  0.00  0.00           C 0
+ATOM  13081   CB ALA D 238       6.576  18.615   2.465  0.00  0.00           C 0
+ATOM   6239   CD PRO B 297      11.411  15.709   6.999  0.00  0.00           C 0
+ATOM  13078   CA ALA D 238       7.713  18.721   1.448  0.00  0.00           C 0
+ATOM   6238   CG PRO B 297      11.414  14.288   7.557  0.00  0.00           C 0
+ATOM   6194    O PRO B 291       5.489  17.290   6.798  0.33  4.29           O 0
+ATOM   6206    O SER B 293       7.911  20.809   4.643  0.00  0.00           O 0
+ATOM   6221    O ASN B 295      10.620  19.149   7.649  0.47  1.07           O 0
+ATOM   6187   CB MET B 290       6.893  13.554   8.051  0.00  0.00           C 0
+ATOM  13113  OD1 ASN D 242       9.691  13.734   1.497  0.60  4.29           O 0
+ATOM   6227   CA VAL B 296      12.562  18.219   5.918  0.00  0.00           C 0
+ATOM   6232  CG2 VAL B 296      12.887  18.872   3.492  0.00  0.00           C 0
+ATOM  13105   CB CYS D 241      11.744  16.921  -0.036  0.00  0.00           C 0
+ATOM   6231  CG1 VAL B 296      13.626  16.632   4.256  0.00  0.00           C 0
+TER
+END

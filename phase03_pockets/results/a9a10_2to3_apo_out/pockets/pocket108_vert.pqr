@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket   108:
+HEADER 0  - Pocket Score                      : -0.1414
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of V. Vertices             :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.0027
+HEADER 4  - Mean alpha-sphere SA              : 0.5661
+HEADER 5  - Mean B-factor                     : 0.5726
+HEADER 6  - Hydrophobicity Score              : -4.5000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Volume Score                      : 3.3333
+HEADER 9  - Real volume (approximation)       : 288.9442
+HEADER 10 - Charge Score                      :     2
+HEADER 11 - Local hydrophobic density Score   : 7.0000
+HEADER 12 - Number of apolar alpha sphere     :     8
+HEADER 13 - Proportion of apolar alpha sphere : 0.4706
+ATOM      1    O STP   108      29.197 -24.986 -33.072    0.00     3.40
+ATOM      2    O STP   108      29.195 -25.020 -33.032    0.00     3.42
+ATOM      3    O STP   108      28.432 -24.780 -31.957    0.00     4.11
+ATOM      4    O STP   108      28.744 -24.717 -32.474    0.00     3.78
+ATOM      5    O STP   108      29.144 -24.952 -32.985    0.00     3.45
+ATOM      6    C STP   108      28.519 -23.359 -31.963    0.00     4.16
+ATOM      7    C STP   108      29.180 -21.575 -32.063    0.00     4.13
+ATOM      8    O STP   108      29.990 -26.828 -29.230    0.00     4.69
+ATOM      9    C STP   108      29.316 -26.458 -31.476    0.00     3.88
+ATOM     10    O STP   108      29.450 -26.132 -32.561    0.00     3.50
+ATOM     11    O STP   108      28.790 -25.628 -32.111    0.00     3.91
+ATOM     12    O STP   108      29.115 -25.786 -32.542    0.00     3.65
+ATOM     13    C STP   108      26.785 -24.352 -32.121    0.00     3.68
+ATOM     14    C STP   108      28.079 -23.760 -31.429    0.00     4.59
+ATOM     15    C STP   108      28.133 -23.479 -31.532    0.00     4.56
+ATOM     16    C STP   108      28.126 -23.472 -31.541    0.00     4.56
+ATOM     17    C STP   108      28.135 -23.472 -31.533    0.00     4.56
+TER
+END

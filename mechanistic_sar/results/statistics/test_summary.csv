@@ -1,0 +1,5 @@
+test,metric,value,p_value,significant
+paired_bootstrap,basic_vs_augmented_auroc,-0.29000000000000004,0.5234,False
+permutation,docking_score,0.14877110684327516,0.4218,False
+permutation,boltz2_affinity,0.20434262474582188,0.2706,False
+permutation,confidence_score,0.06946426237824237,0.7372,False

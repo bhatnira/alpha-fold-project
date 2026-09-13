@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    60:
+HEADER 0  - Pocket Score                      : -0.0876
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8207
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5565
+HEADER 5  - Mean B-factor of pocket residues  : 0.8640
+HEADER 6  - Hydrophobicity Score              : -15.6667
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 110.9844
+HEADER 10 - Pocket volume (convex hull)       : 0.7932
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.5333
+ATOM   5369  OD2 ASP B 184      -9.927  53.505   8.351  0.53  9.64           O 0
+ATOM   5368  OD1 ASP B 184     -10.241  51.492   7.605  0.67  2.14           O 0
+ATOM   5603  CG1 VAL B 214      -9.795  51.506   0.858  0.00  0.00           C 0
+ATOM   5604  CG2 VAL B 214      -7.941  50.983   2.408  0.00  0.00           C 0
+ATOM   5589   NZ LYS B 212      -7.656  51.580   7.238  0.70  3.28           N 0
+ATOM   5667   CG PRO B 223     -14.196  53.639   1.551  0.00  0.00           C 0
+ATOM   5685   CB PRO B 225     -10.644  48.817   4.930  0.00  0.00           C 0
+ATOM   5686   CG PRO B 225     -12.085  48.976   5.398  0.00  0.00           C 0
+ATOM   5335   CA GLY B 180     -14.842  51.530   4.995  0.00  0.00           C 0
+ATOM   5687   CD PRO B 225     -12.901  48.882   4.108  0.00  0.00           C 0
+ATOM   5337    O GLY B 180     -14.569  53.517   6.285  0.67  5.36           O 0
+ATOM   5666   CB PRO B 223     -13.260  52.768   0.717  0.00  0.00           C 0
+ATOM   5367   CG ASP B 184     -10.617  52.470   8.290  0.00  0.00           C 0
+TER
+END

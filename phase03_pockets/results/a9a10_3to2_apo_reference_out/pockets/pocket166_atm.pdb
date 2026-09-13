@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   166:
+HEADER 0  - Pocket Score                      : -0.2156
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.1823
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6111
+HEADER 5  - Mean B-factor of pocket residues  : 0.6060
+HEADER 6  - Hydrophobicity Score              : -14.6667
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 363.7538
+HEADER 10 - Pocket volume (convex hull)       : 6.2117
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.5294
+ATOM  11151  OE2 GLU C 429      53.734 -41.215 -20.420  0.76  5.36           O 0
+ATOM  11123   NE ARG C 426      57.663 -36.413 -21.735  0.73  7.66           N 0
+ATOM  10861   NZ LYS C 393      64.362 -41.464 -18.179  0.00  0.00           N 0
+ATOM   3360  NE2 GLN A 420      59.841 -45.792 -24.835  0.43  8.75           N 0
+ATOM  11125  NH1 ARG C 426      59.655 -35.567 -22.526  0.57  6.56           N 0
+ATOM  11122   CD ARG C 426      57.040 -36.660 -23.048  0.00  0.00           C 0
+ATOM  11089   CB LYS C 422      59.807 -40.840 -27.466  0.00  0.00           C 0
+ATOM  11091   CD LYS C 422      61.954 -41.709 -26.482  0.00  0.00           C 0
+ATOM  11088    O LYS C 422      56.749 -39.918 -26.662  0.73  7.50           O 0
+ATOM  11090   CG LYS C 422      60.539 -42.078 -26.931  0.00  0.00           C 0
+ATOM  11124   CZ ARG C 426      58.887 -35.948 -21.532  0.00  0.00           C 0
+ATOM  11120   CB ARG C 426      55.371 -38.047 -24.269  0.00  0.00           C 0
+ATOM  11121   CG ARG C 426      55.714 -37.416 -22.915  0.00  0.00           C 0
+ATOM  11115  CG2 THR C 425      54.081 -43.809 -25.058  0.00  0.00           C 0
+ATOM  11113   CB THR C 425      54.529 -42.876 -26.179  0.00  0.00           C 0
+ATOM  11086   CA LYS C 422      58.368 -41.161 -27.890  0.00  0.00           C 0
+ATOM  11116    N ARG C 426      54.129 -39.879 -25.276  0.00  0.00           N 0
+ATOM  11117   CA ARG C 426      54.067 -38.855 -24.226  0.00  0.00           C 0
+TER
+END

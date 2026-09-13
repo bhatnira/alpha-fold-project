@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket    84:
+HEADER 0  - Pocket Score                      : -0.1055
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of V. Vertices             :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.9258
+HEADER 4  - Mean alpha-sphere SA              : 0.5788
+HEADER 5  - Mean B-factor                     : 0.5734
+HEADER 6  - Hydrophobicity Score              : -1.2222
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Volume Score                      : 4.2222
+HEADER 9  - Real volume (approximation)       : 241.6256
+HEADER 10 - Charge Score                      :     1
+HEADER 11 - Local hydrophobic density Score   : 0.0000
+HEADER 12 - Number of apolar alpha sphere     :     0
+HEADER 13 - Proportion of apolar alpha sphere : 0.0000
+ATOM      1    O STP    84     -12.122  46.109  19.133    0.00     4.53
+ATOM      2    O STP    84     -12.797  44.698  17.695    0.00     3.69
+ATOM      3    O STP    84     -11.030  46.216  19.442    0.00     4.32
+ATOM      4    O STP    84     -12.196  45.713  17.019    0.00     4.09
+ATOM      5    O STP    84     -11.842  46.502  17.242    0.00     4.55
+ATOM      6    O STP    84     -15.334  45.672  21.205    0.00     3.82
+ATOM      7    O STP    84     -14.012  45.512  20.889    0.00     3.59
+ATOM      8    O STP    84     -14.223  45.827  20.678    0.00     3.80
+ATOM      9    O STP    84     -13.090  45.837  19.846    0.00     4.02
+ATOM     10    O STP    84     -10.518  45.834  19.727    0.00     4.00
+ATOM     11    O STP    84     -10.583  45.697  19.751    0.00     3.91
+ATOM     12    O STP    84     -16.031  45.299  20.989    0.00     3.59
+ATOM     13    O STP    84     -11.647  45.046  19.628    0.00     3.68
+ATOM     14    O STP    84     -12.166  46.040  19.142    0.00     4.50
+ATOM     15    O STP    84     -12.859  45.822  19.643    0.00     4.11
+ATOM     16    O STP    84     -12.541  45.427  18.373    0.00     4.06
+ATOM     17    O STP    84     -12.965  45.229  18.544    0.00     3.76
+ATOM     18    O STP    84     -12.808  44.685  17.727    0.00     3.69
+ATOM     19    O STP    84     -12.789  44.479  17.692    0.00     3.56
+ATOM     20    O STP    84     -12.925  44.626  17.769    0.00     3.61
+ATOM     21    O STP    84     -13.070  44.771  18.086    0.00     3.55
+TER
+END

@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    78:
+HEADER 0  - Pocket Score                      : -0.1024
+HEADER 1  - Drug Score                        : 0.0013
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9918
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7314
+HEADER 5  - Mean B-factor of pocket residues  : 0.7915
+HEADER 6  - Hydrophobicity Score              : 60.7143
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 183.6798
+HEADER 10 - Pocket volume (convex hull)       : 3.5701
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.7647
+ATOM  10036    C LYS C 300      14.076 -10.768  14.599  0.00  0.00           C 0
+ATOM  10043    N TYR C 301      13.165 -11.671  14.239  0.00  0.00           N 0
+ATOM  10037    O LYS C 300      15.199 -10.713  14.103  0.47  5.36           O 0
+ATOM  10038   CB LYS C 300      13.786 -10.343  17.061  0.00  0.00           C 0
+ATOM  11168  CG2 VAL C 445      11.636 -16.960  14.738  0.00  0.00           C 0
+ATOM  10047   CB TYR C 301      12.242 -13.654  13.134  0.00  0.00           C 0
+ATOM  10044   CA TYR C 301      13.402 -12.649  13.175  0.00  0.00           C 0
+ATOM  10050  CD2 TYR C 301      13.280 -15.609  11.905  0.00  0.00           C 0
+ATOM  10017    O LEU C 297      10.914 -12.059  16.252  0.00  0.00           O 0
+ATOM  10020  CD1 LEU C 297      11.113 -14.176  19.257  0.00  0.00           C 0
+ATOM  11137   CG MET C 441      18.221 -17.511  12.541  0.00  0.00           C 0
+ATOM  11138   SD MET C 441      18.685 -15.892  11.876  0.00  0.00           S 0
+ATOM  10079   CB ALA C 304      17.848 -12.238  12.867  0.00  0.00           C 0
+ATOM  11136   CB MET C 441      16.848 -18.018  12.094  0.00  0.00           C 0
+ATOM  11135    O MET C 441      14.045 -19.206  13.407  0.86  1.07           O 0
+ATOM  11133   CA MET C 441      16.377 -19.252  12.867  0.00  0.00           C 0
+ATOM  11160  CD1 LEU C 444      16.998 -20.254  17.249  0.00  0.00           C 0
+ATOM  11158   CB LEU C 444      14.546 -20.454  16.787  0.00  0.00           C 0
+TER
+END

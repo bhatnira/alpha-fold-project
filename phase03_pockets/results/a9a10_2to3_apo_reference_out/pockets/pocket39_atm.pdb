@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    39:
+HEADER 0  - Pocket Score                      : -0.0448
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    32
+HEADER 3  - Mean alpha-sphere radius          : 3.8357
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4604
+HEADER 5  - Mean B-factor of pocket residues  : 0.8281
+HEADER 6  - Hydrophobicity Score              : 18.3000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 224.3845
+HEADER 10 - Pocket volume (convex hull)       : 15.3916
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM  15399  OG1 THR E  87     -52.358  24.785   4.809  0.54  6.43           O 0
+ATOM  15398   CB THR E  87     -52.668  24.381   6.127  0.00  0.00           C 0
+ATOM  15110  NE2 GLN E  53     -58.504  19.878   5.340  0.00  0.00           N 0
+ATOM  15133  ND2 ASN E  56     -54.283  18.391   0.997  0.20  8.75           N 0
+ATOM  15397    O THR E  87     -52.141  22.558   8.488  0.70  1.07           O 0
+ATOM  15400  CG2 THR E  87     -53.568  25.464   6.709  0.00  0.00           C 0
+ATOM  15444  NH2 ARG E  92     -56.983  26.332   8.085  0.00  0.00           N 0
+ATOM  15413   CB ALA E  89     -56.481  23.497  11.687  0.00  0.00           C 0
+ATOM  15126    N ASN E  56     -52.117  17.871   3.724  0.00  0.00           N 0
+ATOM  15130   CB ASN E  56     -51.902  18.614   1.387  0.00  0.00           C 0
+ATOM  15114    O THR E  54     -55.376  16.667   4.385  0.44  3.21           O 0
+ATOM  15409    N ALA E  89     -54.165  24.168  11.416  0.00  0.00           N 0
+ATOM  15129    O ASN E  56     -49.912  19.766   3.361  0.57  5.36           O 0
+ATOM  15124  CD1 LEU E  55     -52.195  19.497   7.495  0.00  0.00           C 0
+ATOM  15394    N THR E  87     -50.453  23.282   6.253  0.67  1.09           N 0
+ATOM  15063    O PRO E  47     -54.036  21.007  11.533  0.41  1.07           O 0
+ATOM  15072  CG1 VAL E  48     -55.189  17.688   9.738  0.00  0.00           C 0
+ATOM  15109  OE1 GLN E  53     -59.296  19.496   7.335  0.92  4.29           O 0
+ATOM  15108   CD GLN E  53     -58.873  19.047   6.291  0.00  0.00           C 0
+ATOM  15074    N ALA E  49     -58.322  20.338  11.563  0.59  1.09           N 0
+ATOM  15078   CB ALA E  49     -60.233  21.816  11.289  0.00  0.00           C 0
+ATOM  15068   CA VAL E  48     -56.170  19.213  11.480  0.00  0.00           C 0
+TER
+END

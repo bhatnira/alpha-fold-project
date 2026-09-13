@@ -1,0 +1,187 @@
+{
+  "permutation_importance": {
+    "docking_score": 0.3260869565217395,
+    "boltz2_probability": 0.32608695652173886,
+    "logp": 0.2826086956521738,
+    "mw": 0.06521739130434782,
+    "hbd": 0.0,
+    "hba": 0.0,
+    "n_rings": 0.0,
+    "tpsa": 0.0,
+    "boltz2_affinity": 0.0,
+    "confidence_score": 0.0,
+    "iptm": 0.0
+  },
+  "base_auroc": 0.8757763975155279,
+  "correlations": {
+    "mw": {
+      "pearson_r": -0.25634656606642886,
+      "p_value": 0.1715052222145993,
+      "abs_r": 0.25634656606642886
+    },
+    "logp": {
+      "pearson_r": -0.21155507391791,
+      "p_value": 0.2617523221548715,
+      "abs_r": 0.21155507391791
+    },
+    "hbd": {
+      "pearson_r": -0.17622684421256035,
+      "p_value": 0.351574912525684,
+      "abs_r": 0.17622684421256035
+    },
+    "hba": {
+      "pearson_r": -0.10244389988519645,
+      "p_value": 0.590103056332628,
+      "abs_r": 0.10244389988519645
+    },
+    "n_rings": {
+      "pearson_r": -0.28695099603221746,
+      "p_value": 0.1241831183829521,
+      "abs_r": 0.28695099603221746
+    },
+    "tpsa": {
+      "pearson_r": -0.16637886353936568,
+      "p_value": 0.37955326500899006,
+      "abs_r": 0.16637886353936568
+    },
+    "docking_score": {
+      "pearson_r": 0.14877110684327505,
+      "p_value": 0.432682450574364,
+      "abs_r": 0.14877110684327505
+    },
+    "boltz2_affinity": {
+      "pearson_r": 0.20434262474582174,
+      "p_value": 0.27874063542902644,
+      "abs_r": 0.20434262474582174
+    },
+    "boltz2_probability": {
+      "pearson_r": 0.14356888568882564,
+      "p_value": 0.4491220301079494,
+      "abs_r": 0.14356888568882564
+    },
+    "confidence_score": {
+      "pearson_r": 0.06946426237824231,
+      "p_value": 0.7153012401797539,
+      "abs_r": 0.06946426237824231
+    },
+    "iptm": {
+      "pearson_r": 0.06746250718880137,
+      "p_value": 0.7231812365127259,
+      "abs_r": 0.06746250718880137
+    }
+  },
+  "importance_ranking": [
+    {
+      "feature": "docking_score",
+      "importance": 0.3260869565217395
+    },
+    {
+      "feature": "boltz2_probability",
+      "importance": 0.32608695652173886
+    },
+    {
+      "feature": "logp",
+      "importance": 0.2826086956521738
+    },
+    {
+      "feature": "mw",
+      "importance": 0.06521739130434782
+    },
+    {
+      "feature": "hbd",
+      "importance": 0.0
+    },
+    {
+      "feature": "hba",
+      "importance": 0.0
+    },
+    {
+      "feature": "n_rings",
+      "importance": 0.0
+    },
+    {
+      "feature": "tpsa",
+      "importance": 0.0
+    },
+    {
+      "feature": "boltz2_affinity",
+      "importance": 0.0
+    },
+    {
+      "feature": "confidence_score",
+      "importance": 0.0
+    },
+    {
+      "feature": "iptm",
+      "importance": 0.0
+    }
+  ],
+  "correlation_ranking": [
+    {
+      "feature": "n_rings",
+      "pearson_r": -0.28695099603221746,
+      "p_value": 0.1241831183829521,
+      "abs_r": 0.28695099603221746
+    },
+    {
+      "feature": "mw",
+      "pearson_r": -0.25634656606642886,
+      "p_value": 0.1715052222145993,
+      "abs_r": 0.25634656606642886
+    },
+    {
+      "feature": "logp",
+      "pearson_r": -0.21155507391791,
+      "p_value": 0.2617523221548715,
+      "abs_r": 0.21155507391791
+    },
+    {
+      "feature": "boltz2_affinity",
+      "pearson_r": 0.20434262474582174,
+      "p_value": 0.27874063542902644,
+      "abs_r": 0.20434262474582174
+    },
+    {
+      "feature": "hbd",
+      "pearson_r": -0.17622684421256035,
+      "p_value": 0.351574912525684,
+      "abs_r": 0.17622684421256035
+    },
+    {
+      "feature": "tpsa",
+      "pearson_r": -0.16637886353936568,
+      "p_value": 0.37955326500899006,
+      "abs_r": 0.16637886353936568
+    },
+    {
+      "feature": "docking_score",
+      "pearson_r": 0.14877110684327505,
+      "p_value": 0.432682450574364,
+      "abs_r": 0.14877110684327505
+    },
+    {
+      "feature": "boltz2_probability",
+      "pearson_r": 0.14356888568882564,
+      "p_value": 0.4491220301079494,
+      "abs_r": 0.14356888568882564
+    },
+    {
+      "feature": "hba",
+      "pearson_r": -0.10244389988519645,
+      "p_value": 0.590103056332628,
+      "abs_r": 0.10244389988519645
+    },
+    {
+      "feature": "confidence_score",
+      "pearson_r": 0.06946426237824231,
+      "p_value": 0.7153012401797539,
+      "abs_r": 0.06946426237824231
+    },
+    {
+      "feature": "iptm",
+      "pearson_r": 0.06746250718880137,
+      "p_value": 0.7231812365127259,
+      "abs_r": 0.06746250718880137
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    33:
+HEADER 0  - Pocket Score                      : -0.0374
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9438
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5970
+HEADER 5  - Mean B-factor of pocket residues  : 0.7252
+HEADER 6  - Hydrophobicity Score              : -10.2500
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 4.2500
+HEADER 9  - Pocket volume (Monte Carlo)       : 212.4902
+HEADER 10 - Pocket volume (convex hull)       : 5.5949
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   7702    O ALA B 478      20.446   8.785  20.665  0.29  5.36           O 0
+ATOM   5788   OG SER B 237      15.928   7.398  19.277  0.44  4.29           O 0
+ATOM   5760   NZ LYS B 234      16.658  11.604  25.563  0.65  8.75           N 0
+ATOM   5759   CE LYS B 234      15.833  12.221  24.502  0.00  0.00           C 0
+ATOM   5531  OE1 GLU B 204      13.138   8.144  27.457  0.70  6.43           O 0
+ATOM   5783    N SER B 237      13.296   7.122  20.261  0.00  0.00           N 0
+ATOM   5773   CA ARG B 236      11.829   7.477  22.174  0.00  0.00           C 0
+ATOM   5793   CB SER B 238      14.117   2.294  20.559  0.00  0.00           C 0
+ATOM   5789    N SER B 238      13.835   4.468  19.448  0.62  1.09           N 0
+ATOM   9992  OE1 GLU C 293      12.641   3.775  25.691  0.00  0.00           O 0
+ATOM   5777   CG ARG B 236      10.846   6.968  24.488  0.00  0.00           C 0
+ATOM   5794   OG SER B 238      12.869   2.496  21.182  0.00  0.00           O 0
+ATOM   5776   CB ARG B 236      11.073   6.469  23.046  0.00  0.00           C 0
+ATOM   5764    O ARG B 235      12.822  10.098  21.778  0.59  1.07           O 0
+ATOM   5532  OE2 GLU B 204      13.326  10.328  27.411  0.74  4.29           O 0
+TER
+END

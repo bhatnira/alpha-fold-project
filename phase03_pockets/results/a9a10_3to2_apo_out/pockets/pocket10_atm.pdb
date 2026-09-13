@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : 0.0317
+HEADER 1  - Drug Score                        : 0.0014
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.6529
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5308
+HEADER 5  - Mean B-factor of pocket residues  : 0.8145
+HEADER 6  - Hydrophobicity Score              : -12.6667
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.7778
+HEADER 9  - Pocket volume (Monte Carlo)       : 186.6080
+HEADER 10 - Pocket volume (convex hull)       : 1.7839
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.5294
+ATOM  12000  OD1 ASN D  56     -39.930  38.534  -9.724  0.00  0.00           O 0
+ATOM  11983   CB THR D  54     -44.473  36.773  -7.957  0.00  0.00           C 0
+ATOM  12001  ND2 ASN D  56     -40.694  40.428  -8.931  0.53  8.75           N 0
+ATOM  13028  NH2 ARG D 185     -40.064  37.690 -13.207  0.00  0.00           N 0
+ATOM  11985  CG2 THR D  54     -43.335  35.764  -7.948  0.00  0.00           C 0
+ATOM  13010  OD2 ASP D 183     -39.771  35.531 -11.636  0.53  3.21           O 0
+ATOM  11984  OG1 THR D  54     -45.570  36.140  -8.566  0.55  7.50           O 0
+ATOM  12975    O GLY D 179     -43.900  32.684  -9.108  0.72  7.50           O 0
+ATOM  13310   CB PRO D 222     -44.422  27.996 -12.572  0.00  0.00           C 0
+ATOM  13311   CG PRO D 222     -45.336  29.021 -11.902  0.00  0.00           C 0
+ATOM  13229  NH2 ARG D 211     -39.219  32.626 -13.415  0.36  5.47           N 0
+ATOM  13246  CG1 VAL D 213     -41.404  27.999 -14.368  0.00  0.00           C 0
+ATOM  12973   CA GLY D 179     -43.240  30.435  -8.653  0.00  0.00           C 0
+ATOM  13008   CG ASP D 183     -39.580  34.659 -10.760  0.00  0.00           C 0
+ATOM  13329   CB PRO D 224     -38.583  29.774 -10.745  0.00  0.00           C 0
+ATOM  13330   CG PRO D 224     -39.452  29.998  -9.510  0.00  0.00           C 0
+ATOM  13331   CD PRO D 224     -40.351  28.761  -9.467  0.00  0.00           C 0
+TER
+END
