@@ -1,0 +1,1026 @@
+{
+  "n_sar": 30,
+  "active_ids": [
+    1,
+    2,
+    3,
+    12,
+    18,
+    24,
+    25
+  ],
+  "mmp_rules": [
+    "Small substituents at C5 maintain activity",
+    "Extended chains at C5 eliminate activity",
+    "Bromo at C4 increases potency",
+    "Alkynyl at C5 dramatically increases potency"
+  ],
+  "n_mmp_records": 4,
+  "thresholds": {
+    "explained_dCF_min": 0.2,
+    "partial_dCF_min": 0.1
+  },
+  "pairs": [
+    {
+      "pair": "12 vs 7",
+      "cpd_a": 12,
+      "cpd_b": 7,
+      "more_active_partner": 12,
+      "change": "alkynyl vs vinyl at C5",
+      "effect_claim": "10000x potency (active vs inactive)",
+      "activity_a_uM": 0.1981,
+      "activity_b_uM": 0.0,
+      "activity_ratio_a_over_b": null,
+      "status": "explained",
+      "site_results": [
+        {
+          "site": 5,
+          "n_models_active": 6,
+          "n_models_weaker": 6,
+          "n_defining_residues": 0,
+          "defining_residues": {},
+          "partial_residues": {
+            "alpha10.439": 0.167,
+            "alpha9.4": 0.167,
+            "alpha9.131": 0.167,
+            "alpha9.243": 0.167,
+            "alpha9.65": 0.167,
+            "alpha9.6": 0.167,
+            "alpha9.148": 0.167,
+            "alpha10.437": 0.167,
+            "alpha10.313": 0.167,
+            "alpha10.428": 0.167,
+            "alpha10.347": 0.167,
+            "alpha9.132": 0.167,
+            "alpha10.312": 0.167,
+            "alpha10.309": 0.167,
+            "alpha9.114": 0.167,
+            "alpha9.82": 0.167,
+            "alpha10.304": 0.167,
+            "alpha9.238": 0.167,
+            "alpha10.343": 0.167,
+            "alpha9.215": 0.167,
+            "alpha9.3": 0.167,
+            "alpha9.110": 0.167,
+            "alpha9.239": 0.167,
+            "alpha9.130": 0.167,
+            "alpha10.308": 0.167,
+            "alpha10.305": 0.167,
+            "alpha9.5": 0.167,
+            "alpha9.8": 0.167,
+            "alpha9.109": 0.167,
+            "alpha9.133": 0.167,
+            "alpha9.242": 0.167,
+            "alpha10.402": 0.167,
+            "alpha10.344": 0.167,
+            "alpha9.252": 0.167,
+            "alpha9.176": 0.167,
+            "alpha10.435": 0.167,
+            "alpha9.129": 0.167,
+            "alpha9.217": 0.167,
+            "alpha9.145": 0.167,
+            "alpha9.120": 0.167,
+            "alpha9.224": 0.167,
+            "alpha9.255": 0.167
+          }
+        },
+        {
+          "site": 21,
+          "n_models_active": 6,
+          "n_models_weaker": 6,
+          "n_defining_residues": 3,
+          "defining_residues": {
+            "alpha10.432": 0.333,
+            "alpha10.435": 0.5,
+            "alpha10.440": 0.333
+          },
+          "partial_residues": {
+            "alpha10.439": 0.167,
+            "alpha10.323": 0.167,
+            "alpha10.239": 0.167,
+            "alpha10.247": 0.167,
+            "alpha10.340": 0.167,
+            "alpha9.259": 0.167,
+            "alpha10.437": 0.167,
+            "alpha10.427": 0.167,
+            "alpha10.243": 0.167,
+            "alpha10.436": 0.167,
+            "alpha9.261": 0.167,
+            "alpha10.244": 0.167,
+            "alpha10.309": 0.167,
+            "alpha9.462": 0.167,
+            "alpha10.322": 0.167,
+            "alpha10.424": 0.167,
+            "alpha10.330": 0.167,
+            "alpha10.305": 0.167,
+            "alpha10.318": 0.167,
+            "alpha10.445": 0.167,
+            "alpha10.163": 0.167,
+            "alpha10.386": 0.167,
+            "alpha10.258": 0.167,
+            "alpha9.459": 0.167,
+            "alpha9.255": 0.167,
+            "alpha9.458": 0.167,
+            "alpha9.258": 0.167
+          }
+        },
+        {
+          "site": 23,
+          "n_models_active": 6,
+          "n_models_weaker": 6,
+          "n_defining_residues": 10,
+          "defining_residues": {
+            "alpha9.65": 0.333,
+            "alpha9.66": 0.333,
+            "alpha9.148": 0.333,
+            "alpha9.82": 0.333,
+            "alpha9.215": 0.333,
+            "alpha9.176": 0.5,
+            "alpha9.120": 0.5,
+            "alpha9.175": 0.333,
+            "alpha9.224": 0.5,
+            "alpha9.80": 0.333
+          },
+          "partial_residues": {
+            "alpha10.311": 0.167,
+            "alpha10.1": 0.167,
+            "alpha9.179": 0.167,
+            "alpha10.126": 0.167,
+            "alpha9.150": 0.167,
+            "alpha10.125": 0.167,
+            "alpha10.146": 0.167,
+            "alpha10.145": 0.167,
+            "alpha10.147": 0.167,
+            "alpha10.121": 0.167,
+            "alpha9.225": 0.167,
+            "alpha10.130": 0.167,
+            "alpha10.84": 0.167,
+            "alpha10.105": 0.167,
+            "alpha9.177": 0.167,
+            "alpha10.148": 0.167,
+            "alpha10.404": 0.167,
+            "alpha10.135": 0.167,
+            "alpha10.143": 0.167,
+            "alpha10.172": 0.167,
+            "alpha10.307": 0.167,
+            "alpha9.5": 0.167,
+            "alpha9.178": 0.167,
+            "alpha10.81": 0.167,
+            "alpha10.127": 0.167,
+            "alpha10.370": 0.167,
+            "alpha10.133": 0.167,
+            "alpha10.129": 0.167,
+            "alpha10.117": 0.167,
+            "alpha9.217": 0.167,
+            "alpha10.128": 0.167,
+            "alpha10.116": 0.167,
+            "alpha10.82": 0.167,
+            "alpha10.408": 0.167,
+            "alpha9.119": 0.167
+          }
+        }
+      ],
+      "defining_residues_sorted": [
+        [
+          "alpha10.435",
+          0.5
+        ],
+        [
+          "alpha9.176",
+          0.5
+        ],
+        [
+          "alpha9.120",
+          0.5
+        ],
+        [
+          "alpha9.224",
+          0.5
+        ],
+        [
+          "alpha10.432",
+          0.333
+        ],
+        [
+          "alpha10.440",
+          0.333
+        ],
+        [
+          "alpha9.65",
+          0.333
+        ],
+        [
+          "alpha9.66",
+          0.333
+        ],
+        [
+          "alpha9.148",
+          0.333
+        ],
+        [
+          "alpha9.82",
+          0.333
+        ],
+        [
+          "alpha9.215",
+          0.333
+        ],
+        [
+          "alpha9.175",
+          0.333
+        ],
+        [
+          "alpha9.80",
+          0.333
+        ]
+      ],
+      "reason": "Multiple residues are distinctly contacted by the more-active partner at the same candidate site (dCF>=0.20), consistent with 'alkynyl vs vinyl at C5' altering pocket contacts."
+    },
+    {
+      "pair": "25 vs 1",
+      "cpd_a": 25,
+      "cpd_b": 1,
+      "more_active_partner": 25,
+      "change": "bromo vs OH at C4",
+      "effect_claim": "500x potency increase (both active)",
+      "activity_a_uM": 2.63,
+      "activity_b_uM": 1797.0,
+      "activity_ratio_a_over_b": 0.0014635503617139677,
+      "status": "explained",
+      "site_results": [
+        {
+          "site": 5,
+          "n_models_active": 6,
+          "n_models_weaker": 6,
+          "n_defining_residues": 0,
+          "defining_residues": {},
+          "partial_residues": {
+            "alpha10.346": 0.167,
+            "alpha9.461": 0.167,
+            "alpha9.415": 0.167,
+            "alpha9.150": 0.167,
+            "alpha9.65": 0.167,
+            "alpha10.356": 0.167,
+            "alpha10.146": 0.167,
+            "alpha10.145": 0.167,
+            "alpha9.404": 0.167,
+            "alpha9.172": 0.167,
+            "alpha9.422": 0.167,
+            "alpha10.147": 0.167,
+            "alpha9.149": 0.167,
+            "alpha9.426": 0.167,
+            "alpha10.431": 0.167,
+            "alpha10.347": 0.167,
+            "alpha9.360": 0.167,
+            "alpha10.131": 0.167,
+            "alpha10.350": 0.167,
+            "alpha10.343": 0.167,
+            "alpha9.215": 0.167,
+            "alpha9.419": 0.167,
+            "alpha9.81": 0.167,
+            "alpha9.460": 0.167,
+            "alpha9.403": 0.167,
+            "alpha9.178": 0.167,
+            "alpha10.81": 0.167,
+            "alpha10.370": 0.167,
+            "alpha10.132": 0.167,
+            "alpha9.344": 0.167,
+            "alpha10.133": 0.167,
+            "alpha9.347": 0.167,
+            "alpha9.217": 0.167,
+            "alpha9.361": 0.167,
+            "alpha10.357": 0.167,
+            "alpha9.80": 0.167,
+            "alpha9.423": 0.167
+          }
+        },
+        {
+          "site": 21,
+          "n_models_active": 6,
+          "n_models_weaker": 6,
+          "n_defining_residues": 4,
+          "defining_residues": {
+            "alpha9.260": 0.333,
+            "alpha10.322": 0.333,
+            "alpha10.318": 0.333,
+            "alpha9.256": 0.333
+          },
+          "partial_residues": {
+            "alpha10.323": 0.167,
+            "alpha10.336": 0.167,
+            "alpha10.269": 0.167,
+            "alpha9.253": 0.167,
+            "alpha9.345": 0.167,
+            "alpha10.340": 0.167,
+            "alpha9.259": 0.167,
+            "alpha9.277": 0.167,
+            "alpha9.317": 0.167,
+            "alpha9.318": 0.167,
+            "alpha9.257": 0.167,
+            "alpha9.366": 0.167,
+            "alpha9.314": 0.167,
+            "alpha10.273": 0.167,
+            "alpha9.370": 0.167,
+            "alpha9.177": 0.167,
+            "alpha10.330": 0.167,
+            "alpha10.337": 0.167,
+            "alpha9.369": 0.167,
+            "alpha10.335": 0.167,
+            "alpha9.274": 0.167,
+            "alpha9.342": 0.167,
+            "alpha10.315": 0.167,
+            "alpha9.176": 0.167,
+            "alpha9.270": 0.167,
+            "alpha9.271": 0.167,
+            "alpha9.217": 0.167,
+            "alpha9.120": 0.167,
+            "alpha9.175": 0.167,
+            "alpha9.224": 0.167,
+            "alpha9.365": 0.167,
+            "alpha10.314": 0.167,
+            "alpha9.464": 0.167,
+            "alpha9.454": 0.167,
+            "alpha9.255": 0.167,
+            "alpha9.458": 0.167,
+            "alpha10.339": 0.167
+          }
+        },
+        {
+          "site": 23,
+          "n_models_active": 6,
+          "n_models_weaker": 6,
+          "n_defining_residues": 3,
+          "defining_residues": {
+            "alpha9.335": 0.333,
+            "alpha9.336": 0.333,
+            "alpha9.339": 0.333
+          },
+          "partial_residues": {
+            "alpha9.382": 0.167,
+            "alpha10.429": 0.167,
+            "alpha9.461": 0.167,
+            "alpha10.178": 0.167,
+            "alpha9.269": 0.167,
+            "alpha9.343": 0.167,
+            "alpha9.334": 0.167,
+            "alpha10.398": 0.167,
+            "alpha10.250": 0.167,
+            "alpha9.266": 0.167,
+            "alpha9.273": 0.167,
+            "alpha9.399": 0.167,
+            "alpha10.179": 0.167,
+            "alpha9.133": 0.167,
+            "alpha9.104": 0.167,
+            "alpha10.52": 0.167,
+            "alpha10.402": 0.167,
+            "alpha10.51": 0.167,
+            "alpha10.431": 0.167,
+            "alpha10.313": 0.167,
+            "alpha10.430": 0.167,
+            "alpha10.435": 0.167,
+            "alpha10.312": 0.167,
+            "alpha10.309": 0.167,
+            "alpha10.46": 0.167,
+            "alpha9.147": 0.167,
+            "alpha10.433": 0.167,
+            "alpha10.432": 0.167,
+            "alpha10.405": 0.167,
+            "alpha9.177": 0.167,
+            "alpha10.407": 0.167,
+            "alpha9.105": 0.167,
+            "alpha9.130": 0.167,
+            "alpha9.340": 0.167
+          }
+        }
+      ],
+      "defining_residues_sorted": [
+        [
+          "alpha9.260",
+          0.333
+        ],
+        [
+          "alpha10.322",
+          0.333
+        ],
+        [
+          "alpha10.318",
+          0.333
+        ],
+        [
+          "alpha9.256",
+          0.333
+        ],
+        [
+          "alpha9.335",
+          0.333
+        ],
+        [
+          "alpha9.336",
+          0.333
+        ],
+        [
+          "alpha9.339",
+          0.333
+        ]
+      ],
+      "reason": "Multiple residues are distinctly contacted by the more-active partner at the same candidate site (dCF>=0.20), consistent with 'bromo vs OH at C4' altering pocket contacts."
+    },
+    {
+      "pair": "18 vs 19",
+      "cpd_a": 18,
+      "cpd_b": 19,
+      "more_active_partner": 18,
+      "change": "benzyloxymethyl vs allyloxy at C5",
+      "effect_claim": "active vs inactive",
+      "activity_a_uM": 1288.0,
+      "activity_b_uM": 0.0,
+      "activity_ratio_a_over_b": null,
+      "status": "explained",
+      "site_results": [
+        {
+          "site": 5,
+          "n_models_active": 6,
+          "n_models_weaker": 6,
+          "n_defining_residues": 7,
+          "defining_residues": {
+            "alpha9.82": 0.333,
+            "alpha9.215": 0.333,
+            "alpha9.146": 0.333,
+            "alpha9.176": 0.333,
+            "alpha9.217": 0.333,
+            "alpha9.120": 0.333,
+            "alpha9.224": 0.333
+          },
+          "partial_residues": {
+            "alpha9.235": 0.167,
+            "alpha9.166": 0.167,
+            "alpha9.253": 0.167,
+            "alpha9.305": 0.167,
+            "alpha9.84": 0.167,
+            "alpha9.148": 0.167,
+            "alpha10.437": 0.167,
+            "alpha9.260": 0.167,
+            "alpha9.351": 0.167,
+            "alpha9.354": 0.167,
+            "alpha9.132": 0.167,
+            "alpha9.163": 0.167,
+            "alpha10.391": 0.167,
+            "alpha9.177": 0.167,
+            "alpha9.165": 0.167,
+            "alpha9.240": 0.167,
+            "alpha9.256": 0.167,
+            "alpha9.417": 0.167,
+            "alpha9.133": 0.167,
+            "alpha9.63": 0.167,
+            "alpha9.410": 0.167,
+            "alpha10.395": 0.167,
+            "alpha9.175": 0.167,
+            "alpha10.392": 0.167,
+            "alpha9.464": 0.167,
+            "alpha10.301": 0.167,
+            "alpha9.61": 0.167,
+            "alpha10.440": 0.167,
+            "alpha9.245": 0.167,
+            "alpha9.147": 0.167
+          }
+        },
+        {
+          "site": 21,
+          "n_models_active": 6,
+          "n_models_weaker": 6,
+          "n_defining_residues": 7,
+          "defining_residues": {
+            "alpha10.175": 0.333,
+            "alpha9.82": 0.333,
+            "alpha9.146": 0.333,
+            "alpha9.133": 0.333,
+            "alpha10.223": 0.333,
+            "alpha10.119": 0.333,
+            "alpha9.224": 0.333
+          },
+          "partial_residues": {
+            "alpha10.311": 0.167,
+            "alpha9.131": 0.167,
+            "alpha9.84": 0.167,
+            "alpha9.148": 0.167,
+            "alpha10.437": 0.167,
+            "alpha10.134": 0.167,
+            "alpha10.430": 0.167,
+            "alpha10.105": 0.167,
+            "alpha9.177": 0.167,
+            "alpha9.215": 0.167,
+            "alpha10.222": 0.167,
+            "alpha10.143": 0.167,
+            "alpha10.135": 0.167,
+            "alpha9.83": 0.167,
+            "alpha10.308": 0.167,
+            "alpha10.144": 0.167,
+            "alpha10.177": 0.167,
+            "alpha10.429": 0.167,
+            "alpha10.178": 0.167,
+            "alpha10.370": 0.167,
+            "alpha9.63": 0.167,
+            "alpha10.174": 0.167,
+            "alpha9.61": 0.167,
+            "alpha9.188": 0.167,
+            "alpha9.217": 0.167,
+            "alpha9.175": 0.167,
+            "alpha10.433": 0.167,
+            "alpha10.221": 0.167,
+            "alpha10.426": 0.167,
+            "alpha10.176": 0.167
+          }
+        },
+        {
+          "site": 23,
+          "n_models_active": 6,
+          "n_models_weaker": 6,
+          "n_defining_residues": 9,
+          "defining_residues": {
+            "alpha9.150": 0.333,
+            "alpha9.148": 0.667,
+            "alpha9.82": 0.833,
+            "alpha9.215": 0.333,
+            "alpha9.146": 0.333,
+            "alpha9.176": 0.5,
+            "alpha9.120": 0.333,
+            "alpha9.224": 0.333,
+            "alpha9.80": 0.333
+          },
+          "partial_residues": {
+            "alpha9.121": 0.167,
+            "alpha9.126": 0.167,
+            "alpha9.131": 0.167,
+            "alpha9.65": 0.167,
+            "alpha9.404": 0.167,
+            "alpha9.149": 0.167,
+            "alpha9.196": 0.167,
+            "alpha9.147": 0.167,
+            "alpha9.122": 0.167,
+            "alpha10.224": 0.167,
+            "alpha10.120": 0.167,
+            "alpha9.226": 0.167,
+            "alpha10.375": 0.167,
+            "alpha10.212": 0.167,
+            "alpha9.133": 0.167,
+            "alpha9.406": 0.167,
+            "alpha9.63": 0.167,
+            "alpha10.371": 0.167,
+            "alpha10.225": 0.167,
+            "alpha10.223": 0.167,
+            "alpha10.119": 0.167,
+            "alpha9.119": 0.167
+          }
+        }
+      ],
+      "defining_residues_sorted": [
+        [
+          "alpha9.148",
+          0.667
+        ],
+        [
+          "alpha9.82",
+          0.333
+        ],
+        [
+          "alpha9.215",
+          0.333
+        ],
+        [
+          "alpha9.146",
+          0.333
+        ],
+        [
+          "alpha9.176",
+          0.333
+        ],
+        [
+          "alpha9.217",
+          0.333
+        ],
+        [
+          "alpha9.120",
+          0.333
+        ],
+        [
+          "alpha9.224",
+          0.333
+        ],
+        [
+          "alpha10.175",
+          0.333
+        ],
+        [
+          "alpha9.133",
+          0.333
+        ],
+        [
+          "alpha10.223",
+          0.333
+        ],
+        [
+          "alpha10.119",
+          0.333
+        ],
+        [
+          "alpha9.150",
+          0.333
+        ],
+        [
+          "alpha9.80",
+          0.333
+        ]
+      ],
+      "reason": "Multiple residues are distinctly contacted by the more-active partner at the same candidate site (dCF>=0.20), consistent with 'benzyloxymethyl vs allyloxy at C5' altering pocket contacts."
+    },
+    {
+      "pair": "3 vs 1",
+      "cpd_a": 3,
+      "cpd_b": 1,
+      "more_active_partner": 1,
+      "change": "gem-dimethyl acetonide vs diol",
+      "effect_claim": "3x potency decrease",
+      "activity_a_uM": 6077.0,
+      "activity_b_uM": 1797.0,
+      "activity_ratio_a_over_b": 3.3817473567056204,
+      "status": "explained",
+      "site_results": [
+        {
+          "site": 5,
+          "n_models_active": 6,
+          "n_models_weaker": 6,
+          "n_defining_residues": 2,
+          "defining_residues": {
+            "alpha9.146": 0.333,
+            "alpha9.457": 0.333
+          },
+          "partial_residues": {
+            "alpha9.460": 0.167,
+            "alpha9.131": 0.167,
+            "alpha9.133": 0.167,
+            "alpha9.204": 0.167,
+            "alpha9.148": 0.167,
+            "alpha9.136": 0.167,
+            "alpha9.268": 0.167,
+            "alpha9.453": 0.167,
+            "alpha9.176": 0.167,
+            "alpha10.431": 0.167,
+            "alpha10.427": 0.167,
+            "alpha9.196": 0.167,
+            "alpha10.428": 0.167,
+            "alpha9.237": 0.167,
+            "alpha9.132": 0.167,
+            "alpha9.134": 0.167,
+            "alpha9.478": 0.167,
+            "alpha9.234": 0.167,
+            "alpha9.164": 0.167,
+            "alpha9.145": 0.167,
+            "alpha9.120": 0.167,
+            "alpha9.206": 0.167,
+            "alpha9.224": 0.167,
+            "alpha9.82": 0.167,
+            "alpha10.424": 0.167,
+            "alpha9.477": 0.167,
+            "alpha9.147": 0.167
+          }
+        },
+        {
+          "site": 21,
+          "n_models_active": 6,
+          "n_models_weaker": 6,
+          "n_defining_residues": 1,
+          "defining_residues": {
+            "alpha9.457": 0.333
+          },
+          "partial_residues": {
+            "alpha10.380": 0.167,
+            "alpha9.235": 0.167,
+            "alpha9.398": 0.167,
+            "alpha10.175": 0.167,
+            "alpha9.418": 0.167,
+            "alpha10.216": 0.167,
+            "alpha10.390": 0.167,
+            "alpha9.393": 0.167,
+            "alpha9.196": 0.167,
+            "alpha9.193": 0.167,
+            "alpha10.428": 0.167,
+            "alpha9.352": 0.167,
+            "alpha9.396": 0.167,
+            "alpha9.390": 0.167,
+            "alpha9.206": 0.167,
+            "alpha9.73": 0.167,
+            "alpha10.381": 0.167,
+            "alpha9.391": 0.167,
+            "alpha10.432": 0.167,
+            "alpha9.236": 0.167,
+            "alpha10.379": 0.167,
+            "alpha9.367": 0.167,
+            "alpha10.361": 0.167,
+            "alpha9.460": 0.167,
+            "alpha10.429": 0.167,
+            "alpha9.146": 0.167,
+            "alpha9.240": 0.167,
+            "alpha9.409": 0.167,
+            "alpha9.417": 0.167,
+            "alpha9.204": 0.167,
+            "alpha9.394": 0.167,
+            "alpha9.357": 0.167,
+            "alpha9.63": 0.167,
+            "alpha9.237": 0.167,
+            "alpha10.387": 0.167,
+            "alpha9.234": 0.167,
+            "alpha9.164": 0.167,
+            "alpha9.395": 0.167,
+            "alpha10.119": 0.167,
+            "alpha9.349": 0.167,
+            "alpha9.190": 0.167,
+            "alpha9.350": 0.167,
+            "alpha10.360": 0.167,
+            "alpha9.392": 0.167
+          }
+        },
+        {
+          "site": 23,
+          "n_models_active": 6,
+          "n_models_weaker": 6,
+          "n_defining_residues": 3,
+          "defining_residues": {
+            "alpha9.206": 0.333,
+            "alpha9.161": 0.333,
+            "alpha9.234": 0.333
+          },
+          "partial_residues": {
+            "alpha10.376": 0.167,
+            "alpha9.179": 0.167,
+            "alpha9.166": 0.167,
+            "alpha10.364": 0.167,
+            "alpha10.145": 0.167,
+            "alpha9.148": 0.167,
+            "alpha9.228": 0.167,
+            "alpha9.168": 0.167,
+            "alpha10.378": 0.167,
+            "alpha9.82": 0.167,
+            "alpha10.214": 0.167,
+            "alpha10.143": 0.167,
+            "alpha10.377": 0.167,
+            "alpha9.146": 0.167,
+            "alpha10.81": 0.167,
+            "alpha9.213": 0.167,
+            "alpha9.232": 0.167,
+            "alpha10.83": 0.167,
+            "alpha10.187": 0.167,
+            "alpha9.230": 0.167,
+            "alpha9.164": 0.167,
+            "alpha10.223": 0.167,
+            "alpha9.211": 0.167,
+            "alpha9.170": 0.167
+          }
+        }
+      ],
+      "defining_residues_sorted": [
+        [
+          "alpha9.146",
+          0.333
+        ],
+        [
+          "alpha9.457",
+          0.333
+        ],
+        [
+          "alpha9.206",
+          0.333
+        ],
+        [
+          "alpha9.161",
+          0.333
+        ],
+        [
+          "alpha9.234",
+          0.333
+        ]
+      ],
+      "reason": "Multiple residues are distinctly contacted by the more-active partner at the same candidate site (dCF>=0.20), consistent with 'gem-dimethyl acetonide vs diol' altering pocket contacts."
+    },
+    {
+      "pair": "24 vs 20",
+      "cpd_a": 24,
+      "cpd_b": 20,
+      "more_active_partner": 24,
+      "change": "3-O-propyl vs 5-O-butyl",
+      "effect_claim": "active vs inactive",
+      "activity_a_uM": 1202.0,
+      "activity_b_uM": 0.0,
+      "activity_ratio_a_over_b": null,
+      "status": "explained",
+      "site_results": [
+        {
+          "site": 5,
+          "n_models_active": 6,
+          "n_models_weaker": 6,
+          "n_defining_residues": 1,
+          "defining_residues": {
+            "alpha9.460": 0.333
+          },
+          "partial_residues": {
+            "alpha9.235": 0.167,
+            "alpha9.388": 0.167,
+            "alpha9.377": 0.167,
+            "alpha9.461": 0.167,
+            "alpha9.166": 0.167,
+            "alpha10.64": 0.167,
+            "alpha10.145": 0.167,
+            "alpha9.373": 0.167,
+            "alpha10.62": 0.167,
+            "alpha9.168": 0.167,
+            "alpha9.354": 0.167,
+            "alpha10.428": 0.167,
+            "alpha9.413": 0.167,
+            "alpha9.352": 0.167,
+            "alpha9.396": 0.167,
+            "alpha9.353": 0.167,
+            "alpha9.158": 0.167,
+            "alpha9.414": 0.167,
+            "alpha9.177": 0.167,
+            "alpha9.167": 0.167,
+            "alpha9.374": 0.167,
+            "alpha9.165": 0.167,
+            "alpha10.143": 0.167,
+            "alpha9.146": 0.167,
+            "alpha10.81": 0.167,
+            "alpha9.161": 0.167,
+            "alpha9.417": 0.167,
+            "alpha9.133": 0.167,
+            "alpha9.232": 0.167,
+            "alpha10.83": 0.167,
+            "alpha10.187": 0.167,
+            "alpha9.176": 0.167,
+            "alpha9.237": 0.167,
+            "alpha9.410": 0.167,
+            "alpha9.385": 0.167,
+            "alpha9.457": 0.167,
+            "alpha9.134": 0.167,
+            "alpha9.106": 0.167,
+            "alpha9.120": 0.167,
+            "alpha9.175": 0.167,
+            "alpha9.224": 0.167,
+            "alpha9.464": 0.167,
+            "alpha9.156": 0.167
+          }
+        },
+        {
+          "site": 21,
+          "n_models_active": 6,
+          "n_models_weaker": 6,
+          "n_defining_residues": 3,
+          "defining_residues": {
+            "alpha9.121": 0.333,
+            "alpha9.460": 0.333,
+            "alpha9.457": 0.333
+          },
+          "partial_residues": {
+            "alpha10.1": 0.167,
+            "alpha9.235": 0.167,
+            "alpha9.461": 0.167,
+            "alpha10.126": 0.167,
+            "alpha9.166": 0.167,
+            "alpha10.149": 0.167,
+            "alpha9.362": 0.167,
+            "alpha9.65": 0.167,
+            "alpha10.125": 0.167,
+            "alpha9.299": 0.167,
+            "alpha9.159": 0.167,
+            "alpha9.172": 0.167,
+            "alpha9.453": 0.167,
+            "alpha10.121": 0.167,
+            "alpha10.431": 0.167,
+            "alpha10.428": 0.167,
+            "alpha9.413": 0.167,
+            "alpha9.360": 0.167,
+            "alpha10.130": 0.167,
+            "alpha9.363": 0.167,
+            "alpha9.470": 0.167,
+            "alpha9.366": 0.167,
+            "alpha9.122": 0.167,
+            "alpha9.370": 0.167,
+            "alpha9.226": 0.167,
+            "alpha9.367": 0.167,
+            "alpha9.165": 0.167,
+            "alpha9.477": 0.167,
+            "alpha10.129": 0.167,
+            "alpha9.237": 0.167,
+            "alpha10.435": 0.167,
+            "alpha9.411": 0.167,
+            "alpha10.128": 0.167,
+            "alpha9.234": 0.167,
+            "alpha9.164": 0.167,
+            "alpha9.128": 0.167,
+            "alpha9.170": 0.167,
+            "alpha9.464": 0.167,
+            "alpha9.198": 0.167,
+            "alpha9.119": 0.167,
+            "alpha9.350": 0.167,
+            "alpha10.424": 0.167,
+            "alpha9.392": 0.167,
+            "alpha9.163": 0.167
+          }
+        },
+        {
+          "site": 23,
+          "n_models_active": 6,
+          "n_models_weaker": 6,
+          "n_defining_residues": 4,
+          "defining_residues": {
+            "alpha9.82": 0.333,
+            "alpha10.308": 0.333,
+            "alpha9.460": 0.333,
+            "alpha9.217": 0.333
+          },
+          "partial_residues": {
+            "alpha10.311": 0.167,
+            "alpha9.131": 0.167,
+            "alpha10.319": 0.167,
+            "alpha9.150": 0.167,
+            "alpha9.253": 0.167,
+            "alpha9.65": 0.167,
+            "alpha9.273": 0.167,
+            "alpha10.333": 0.167,
+            "alpha9.333": 0.167,
+            "alpha10.340": 0.167,
+            "alpha9.148": 0.167,
+            "alpha10.394": 0.167,
+            "alpha9.259": 0.167,
+            "alpha10.332": 0.167,
+            "alpha9.149": 0.167,
+            "alpha10.428": 0.167,
+            "alpha9.318": 0.167,
+            "alpha9.321": 0.167,
+            "alpha10.331": 0.167,
+            "alpha9.177": 0.167,
+            "alpha10.337": 0.167,
+            "alpha9.215": 0.167,
+            "alpha9.369": 0.167,
+            "alpha9.330": 0.167,
+            "alpha9.81": 0.167,
+            "alpha10.305": 0.167,
+            "alpha9.265": 0.167,
+            "alpha9.325": 0.167,
+            "alpha9.178": 0.167,
+            "alpha9.269": 0.167,
+            "alpha9.146": 0.167,
+            "alpha9.322": 0.167,
+            "alpha10.398": 0.167,
+            "alpha10.315": 0.167,
+            "alpha9.331": 0.167,
+            "alpha9.266": 0.167,
+            "alpha9.133": 0.167,
+            "alpha9.372": 0.167,
+            "alpha9.332": 0.167,
+            "alpha10.402": 0.167,
+            "alpha9.176": 0.167,
+            "alpha9.270": 0.167,
+            "alpha10.341": 0.167,
+            "alpha9.457": 0.167,
+            "alpha9.120": 0.167,
+            "alpha9.80": 0.167,
+            "alpha9.224": 0.167,
+            "alpha9.464": 0.167,
+            "alpha9.250": 0.167,
+            "alpha10.406": 0.167,
+            "alpha9.267": 0.167
+          }
+        }
+      ],
+      "defining_residues_sorted": [
+        [
+          "alpha9.460",
+          0.333
+        ],
+        [
+          "alpha9.121",
+          0.333
+        ],
+        [
+          "alpha9.457",
+          0.333
+        ],
+        [
+          "alpha9.82",
+          0.333
+        ],
+        [
+          "alpha10.308",
+          0.333
+        ],
+        [
+          "alpha9.217",
+          0.333
+        ]
+      ],
+      "reason": "Multiple residues are distinctly contacted by the more-active partner at the same candidate site (dCF>=0.20), consistent with '3-O-propyl vs 5-O-butyl' altering pocket contacts."
+    }
+  ],
+  "remarks": [
+    "Residue-level assignments are pose-derived hypotheses for mutagenesis (large model-to-model pose spread -> treat as low-to-moderate confidence).",
+    "A 'defining' residue is contacted by the more-active partner at least 20 percentage-points more often than by the weaker partner at the same candidate site (EXPLAINED_CF=0.20)."
+  ]
+}

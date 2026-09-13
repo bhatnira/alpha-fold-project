@@ -1,0 +1,136 @@
+{
+  "audit_time": "2026-09-13T05:31:58.023238",
+  "summary_note": "Do not count multiple analyses of the same structure as independent evidence.",
+  "layers": [
+    {
+      "layer": "AF3 cofolding (existing)",
+      "evidence_type": "receptor_structural / ligand_pose",
+      "n": 468,
+      "supports": "Receptor architecture; recurring ligand regions across conditions",
+      "does_not_support": "Affinity / potency; validated residue-level interface mapping",
+      "independence": "Independent method (AlphaFold3)",
+      "correlated": "Multiple models of the same run are seeds, not independent observations",
+      "caveat": "No experimental bound structure exists to benchmark pose accuracy"
+    },
+    {
+      "layer": "Boltz-2 cofolding (existing outputs)",
+      "evidence_type": "receptor_structural / ligand_pose",
+      "n": 90,
+      "supports": "Independent cofolding corroboration of regions identified by AF3",
+      "does_not_support": "Affinity (old runs used alpha10 monomer input)",
+      "independence": "Independent method (Boltz-2)",
+      "correlated": "MSA derived from same sequence database",
+      "caveat": "Pre-correction runs on alpha10 monomer are INVALID (FALLACIES_AUDIT C7)"
+    },
+    {
+      "layer": "Boltz-2 site-directed state_models",
+      "evidence_type": "receptor_structural",
+      "n": 4,
+      "supports": "Ligand-conditioned placement at candidate sites; residue contacts; pose reproducibility",
+      "does_not_support": "Absolute affinity (no affinity_*.json emitted in this run)",
+      "independence": "Boltz-2 seed series",
+      "correlated": "Same receptor model family used across compounds",
+      "caveat": ""
+    },
+    {
+      "layer": "Boltz-2 site-directed ach_states",
+      "evidence_type": "receptor_structural",
+      "n": 2,
+      "supports": "Ligand-conditioned placement at candidate sites; residue contacts; pose reproducibility",
+      "does_not_support": "Absolute affinity (no affinity_*.json emitted in this run)",
+      "independence": "Boltz-2 seed series",
+      "correlated": "Same receptor model family used across compounds",
+      "caveat": ""
+    },
+    {
+      "layer": "Boltz-2 site-directed binary",
+      "evidence_type": "receptor_ligand_interaction",
+      "n": 80,
+      "supports": "Ligand-conditioned placement at candidate sites; residue contacts; pose reproducibility",
+      "does_not_support": "Absolute affinity (no affinity_*.json emitted in this run)",
+      "independence": "Boltz-2 ligand-conditioned",
+      "correlated": "Same receptor model family used across compounds",
+      "caveat": ""
+    },
+    {
+      "layer": "Boltz-2 site-directed ternary",
+      "evidence_type": "receptor_ligand_interaction",
+      "n": 80,
+      "supports": "Ligand-conditioned placement at candidate sites; residue contacts; pose reproducibility",
+      "does_not_support": "Absolute affinity (no affinity_*.json emitted in this run)",
+      "independence": "Boltz-2 ligand-conditioned w/ ACh",
+      "correlated": "Same receptor model family used across compounds",
+      "caveat": ""
+    },
+    {
+      "layer": "Boltz-2 site-directed full_panel",
+      "evidence_type": "receptor_ligand_interaction",
+      "n": 180,
+      "supports": "Ligand-conditioned placement at candidate sites; residue contacts; pose reproducibility",
+      "does_not_support": "Absolute affinity (no affinity_*.json emitted in this run)",
+      "independence": "Boltz-2 ligand-conditioned 30-cpd panel",
+      "correlated": "Same receptor model family used across compounds",
+      "caveat": "run in progress (180/180 complete at audit time)"
+    },
+    {
+      "layer": "Molecular docking (existing)",
+      "evidence_type": "binding_site / ligand_pose",
+      "n": 30,
+      "supports": "Orthogonal pocket-occupancy evidence at candidate sites; ligand pose library",
+      "does_not_support": "SAR ranking alone (scores are relative, not affinity)",
+      "independence": "Independent method (AutoDock family)",
+      "correlated": "Docking input receptor models derive from the AF3/Boltz-2 ensemble",
+      "caveat": ""
+    },
+    {
+      "layer": "Interaction fingerprints (existing)",
+      "evidence_type": "receptor_ligand_interaction",
+      "n": 2,
+      "supports": "Residue contact frequencies from prior analyses",
+      "does_not_support": "",
+      "independence": "Same structures re-analyzed -> correlated",
+      "correlated": "Derived from the same predicted complexes",
+      "caveat": "Partly stale; recomputed on fresh full_panel data in step 05"
+    },
+    {
+      "layer": "Experimental SAR (existing)",
+      "evidence_type": "experimental_sar",
+      "n": 30,
+      "supports": "Activity labels, potency, stereochemical series, % potentiation",
+      "does_not_support": "Binding-site location (no spatial information in SAR alone)",
+      "independence": "Independent (experimental)",
+      "correlated": "n/a",
+      "caveat": "30-compound panel: 7 active / 23 inactive"
+    },
+    {
+      "layer": "Boltz-2 affinity prediction",
+      "evidence_type": "affinity",
+      "n": 0,
+      "supports": "Nothing in the current run (no affinity_*.json emitted)",
+      "does_not_support": "Affinity ranking",
+      "independence": "n/a",
+      "correlated": "n/a",
+      "caveat": "Earlier affinity 'proxy' matrix was circular; affinity layer is ABSENT until a corrected run exists"
+    },
+    {
+      "layer": "XAI",
+      "evidence_type": "explainability",
+      "n": 0,
+      "supports": "No valid XAI feature importances exist",
+      "does_not_support": "Ligand-fragment attributions",
+      "independence": "n/a",
+      "correlated": "n/a",
+      "caveat": "Prior XAI permutation importances were computed on an overfit model; not usable (FALLACIES_AUDIT)"
+    },
+    {
+      "layer": "Activity-cliff / MMP (existing)",
+      "evidence_type": "activity_cliff",
+      "n": 4,
+      "supports": "Matched-pair SAR rules: 12vs7 (alkynyl), 25vs1 (Br), 18vs19 (benzyl vs vinyl), 3vs1",
+      "does_not_support": "Structural mechanism of the cliff",
+      "independence": "Independent (experimental + computational)",
+      "correlated": "n/a",
+      "caveat": "Used as an SAR challenge layer, not as structural evidence"
+    }
+  ]
+}

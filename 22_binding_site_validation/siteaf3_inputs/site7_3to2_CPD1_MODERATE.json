@@ -1,0 +1,30 @@
+{
+  "name": "siteaf3_site7_3to2_CPD1_MODERATE",
+  "receptor": [
+    {
+      "rec_struct_path": "/cluster/home/nbhatt04/lean_pipeline/09_docking/receptor_3to2.pdb",
+      "fixed_chain_id": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "hotspot_path": "/cluster/home/nbhatt04/lean_pipeline/phase2_siteaf3_validation/hotspot_pocket_pdbs/site7_3to2_hotspot.pdb",
+      "pocket_path": "/cluster/home/nbhatt04/lean_pipeline/phase2_siteaf3_validation/hotspot_pocket_pdbs/site7_3to2_pocket.pdb"
+    }
+  ],
+  "ligand": [
+    {
+      "small_molecule": {
+        "id": "LIG",
+        "smiles": "C1([C@@H]([C@H](O)CO)OC(=O)C=1O)O"
+      }
+    }
+  ],
+  "modelSeeds": [
+    42,
+    123,
+    456
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "n_bound_models": 540,
+  "mean_pocket_ca_std_A": 44.0,
+  "n_residues_gt_2A_span": 2337,
+  "n_residues_gt_4A_span": 2337,
+  "top_span_residues": [
+    {
+      "residue": "B.380",
+      "ca_std_A": 94.419
+    },
+    {
+      "residue": "B.378",
+      "ca_std_A": 93.525
+    },
+    {
+      "residue": "B.379",
+      "ca_std_A": 93.493
+    },
+    {
+      "residue": "B.381",
+      "ca_std_A": 90.772
+    },
+    {
+      "residue": "B.377",
+      "ca_std_A": 90.18
+    },
+    {
+      "residue": "C.380",
+      "ca_std_A": 89.663
+    },
+    {
+      "residue": "B.376",
+      "ca_std_A": 89.053
+    },
+    {
+      "residue": "C.379",
+      "ca_std_A": 88.823
+    },
+    {
+      "residue": "C.378",
+      "ca_std_A": 88.812
+    },
+    {
+      "residue": "A.380",
+      "ca_std_A": 88.541
+    },
+    {
+      "residue": "B.375",
+      "ca_std_A": 88.292
+    },
+    {
+      "residue": "B.382",
+      "ca_std_A": 88.041
+    },
+    {
+      "residue": "A.378",
+      "ca_std_A": 87.369
+    },
+    {
+      "residue": "A.379",
+      "ca_std_A": 87.041
+    },
+    {
+      "residue": "B.383",
+      "ca_std_A": 86.872
+    },
+    {
+      "residue": "C.381",
+      "ca_std_A": 86.614
+    },
+    {
+      "residue": "B.374",
+      "ca_std_A": 85.995
+    },
+    {
+      "residue": "B.384",
+      "ca_std_A": 85.84
+    },
+    {
+      "residue": "C.377",
+      "ca_std_A": 85.44
+    },
+    {
+      "residue": "A.381",
+      "ca_std_A": 85.323
+    },
+    {
+      "residue": "D.374",
+      "ca_std_A": 84.721
+    },
+    {
+      "residue": "C.382",
+      "ca_std_A": 84.62
+    },
+    {
+      "residue": "C.376",
+      "ca_std_A": 84.386
+    },
+    {
+      "residue": "A.377",
+      "ca_std_A": 84.075
+    },
+    {
+      "residue": "C.383",
+      "ca_std_A": 83.945
+    }
+  ],
+  "classification": [
+    "mean CA std span 44.00 A; residues>2A: 2337; >4A: 2337",
+    "Classification: flexible/transient-like (moderate CA variance in bound ensemble)",
+    "No induced-fit claim (no apo->holo transition modeled)",
+    "WARNING: high ensemble variance limits pocket-precision claims"
+  ]
+}

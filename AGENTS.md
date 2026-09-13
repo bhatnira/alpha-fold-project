@@ -46,3 +46,18 @@ Read this note fully at the start of every session. Full detail: `FALLACIES_AUDI
 - GPU wall-clock ceiling is 2 days; each cofolding step requests ≤23 h, affinity tasks 4 h.
 - Do NOT mark items fixed until re-verified. Do NOT treat the flaws above as accomplishments/gains.
 - This file + FALLACIES_AUDIT.md are standing records; keep them accurate when work changes anything.
+
+## Validation module (22_binding_site_validation) — 2026-09-13
+- Scripts 01-14 fixed + verified end-to-end (ran on live partial panel; all pass, incl. a tuple-key
+  JSON bug fixed in 09). Interim classification: **B. Structurally supported (SiteAF3 pending)**.
+- SiteAF3 (04_siteaf3_submit.sh) RESOLVED for DB/weights 2026-09-13: cluster **already hosts a full
+  shared AF3 install** — DBs `/cluster/tufts/biocontainers/datasets/alphafold3/20241219/public_databases`
+  (~630 GB), weights same dir `/models/af3.bin.zst`. NO download / NO TB quota needed. Only remaining
+  SiteAF3 blocker = the AF3 python env itself (see `SITEAF3_AF3_SETUP.md` in this dir). Use env vars
+  SITEAF3_MODEL_DIR / SITEAF3_DB_DIR / SITEAF3_AF3_ENV / SITEAF3_OUTPUT_DIR when submitting.
+  Default output = `/cluster/scratch/nbhatt04/siteaf3_results`. Do NOT use the old defaults
+  `/cluster/home/nbhatt04/models` or `/cluster/home/nbhatt04/public_databases`.
+  Build AF3 env in `/cluster/scratch/nbhatt04/conda`, NOT home.
+- Final full-panel re-run auto-fires on `afterok:3633143` via `sbatch --dependency=afterok:3633143
+  submit_validation.sh` (job 3645926 submitted 2026-09-13). Post-array, full_panel = 180 conditions;
+  report tier-1 = 5 residues (alpha9.120/176/224/82/175), discordant-inactive = 23 cpds/126 conditions.

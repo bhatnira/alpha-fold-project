@@ -1,0 +1,161 @@
+{
+  "layers": [
+    {
+      "layer": "AF3 cofolding",
+      "result": "181 contacting residues; 14 map to site-23 pocket",
+      "supports_site": true,
+      "strength": "low-medium",
+      "independent": false,
+      "note": "Unbiased cofolding; weak direct support for site-23 residues."
+    },
+    {
+      "layer": "Boltz-2 cofolding",
+      "result": "site 23 recurrence 92.2% of modeled conditions",
+      "supports_site": true,
+      "strength": "medium",
+      "independent": false,
+      "note": "Ligand-conditioned; 92% self-recurrence but site definitions overlap in the ECD vestibule -> partly circular (see 02 hit_distribution)."
+    },
+    {
+      "layer": "Boltz-2 affinity",
+      "result": "ABSENT (0 affinity_*.json)",
+      "supports_site": null,
+      "strength": "none",
+      "independent": true,
+      "note": "Affinity layer never produced; prior proxy invalidated (FALLACIES_AUDIT)."
+    },
+    {
+      "layer": "SiteAF3",
+      "result": "NOT RUN (results/siteaf3 empty)",
+      "supports_site": null,
+      "strength": "pending",
+      "independent": true,
+      "note": "80 configs prepared; run gated on AF3 env/weights + sdcofold completion."
+    },
+    {
+      "layer": "SiteAF3 vs AF3/Boltz convergence",
+      "result": "pending",
+      "supports_site": null,
+      "strength": "pending",
+      "independent": true,
+      "note": ""
+    },
+    {
+      "layer": "Stoichiometry comparison",
+      "result": "both 2to3 and 3to2 modeled; site-23 recurrence stable across both",
+      "supports_site": true,
+      "strength": "medium",
+      "independent": false,
+      "note": "Site persists in both stoichiometries (see 02 stoichiometry_convergence)."
+    },
+    {
+      "layer": "Pocket quality",
+      "result": "pocket occupancy 0.741",
+      "supports_site": true,
+      "strength": "medium",
+      "independent": false,
+      "note": "Occupancy = ligand atoms within 6 A of any CA; gross filter only."
+    },
+    {
+      "layer": "Pose QC",
+      "result": "clash-free 0.659",
+      "supports_site": false,
+      "strength": "medium",
+      "independent": false,
+      "note": "Intra-model quality only; says nothing about the site itself."
+    },
+    {
+      "layer": "Pharmacophore QC",
+      "result": "cpd-12 pharmacophore centroid spread 39.443 A",
+      "supports_site": false,
+      "strength": "low",
+      "independent": false,
+      "note": "Large spread => weak pose convergence; limits residue-level claims."
+    },
+    {
+      "layer": "Allosteric plasticity",
+      "result": "mean CA span 44.0 A",
+      "supports_site": null,
+      "strength": "low",
+      "independent": false,
+      "note": "High ensemble variance; classification flexible/transient-like, precision limited."
+    },
+    {
+      "layer": "Experimental SAR",
+      "result": "30 compounds; 7 active",
+      "supports_site": null,
+      "strength": "high",
+      "independent": true,
+      "note": "Ground-truth challenge layer; supports the site only via the SAR-to-structure mapping below."
+    },
+    {
+      "layer": "Active-compound explanation",
+      "result": "active compounds contact site-23 residues in 90% of models",
+      "supports_site": true,
+      "strength": "medium",
+      "independent": false,
+      "note": "Actives do form site-23-classified poses."
+    },
+    {
+      "layer": "Inactive-compound challenge",
+      "result": "136/138 inactive-model conditions are discordant (>=50% of models contact site-23)",
+      "supports_site": false,
+      "strength": "low",
+      "independent": false,
+      "note": "Discordant inactive poses weaken active/inactive discrimination unless the pocket can explain them."
+    },
+    {
+      "layer": "Activity cliffs",
+      "result": "5 explained / 0 partial / 5 total pairs",
+      "supports_site": true,
+      "strength": "medium",
+      "independent": true,
+      "note": "See outputs/09 for defining residues per cliff pair."
+    },
+    {
+      "layer": "XAI",
+      "result": "existing XAI invalidated (FALLACIES_AUDIT)",
+      "supports_site": null,
+      "strength": "none",
+      "independent": true,
+      "note": "Not usable as evidence."
+    },
+    {
+      "layer": "Residue convergence",
+      "result": "Tier1=6, Tier2=50",
+      "supports_site": true,
+      "strength": "medium",
+      "independent": false,
+      "note": "Tier-1 residues now require 2 structural methods + SAR dCF + pocket membership (see outputs/10)."
+    },
+    {
+      "layer": "Competing-site analysis",
+      "result": "only the favored-site panel is complete (sites 34/7 not modeled)",
+      "supports_site": null,
+      "strength": "pending",
+      "independent": true,
+      "note": "Head-to-head site competition (SiteAF3) pending."
+    }
+  ],
+  "n_support": 7,
+  "n_contradict": 3,
+  "n_neutral_pending": 7,
+  "md_decision": {
+    "necessary": false,
+    "open_questions": [
+      "High receptor-conformation variance in the Boltz-2 ensemble (ca std 44.0 A) leaves the pocket-open/closed state unresolved.",
+      "SiteAF3 layer not yet run; three-method convergence incomplete."
+    ],
+    "decision": "MD deferred: pending SiteAF3 results and tighter residue prioritization.",
+    "rationale": [
+      "No experimental structure to benchmark MD against.",
+      "Primary actionable output (mutagenesis residue list) is decided by structural+SAR convergence, not by MD.",
+      "MD would not alter residue prioritization unless a specific pocket-open/closed or cryptic-pocket question can be posed."
+    ],
+    "deferred_reason": [
+      "High receptor-conformation variance in the Boltz-2 ensemble (ca std 44.0 A) leaves the pocket-open/closed state unresolved.",
+      "SiteAF3 layer not yet run; three-method convergence incomplete."
+    ]
+  },
+  "note": "Layers are NOT summed as independent observations; AF3/Boltz-2/SiteAF3 share MSA-derived information; read the independence column."
+}

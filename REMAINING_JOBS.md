@@ -2,7 +2,7 @@
 
 **Created:** September 6, 2026
 **Master Prompt Reference:** PNAS 2521048122 site-directed cofolding + α9α10 PAM discovery
-**Last Updated:** September 10, 2026 (stale entries corrected per FALLACIES_AUDIT.md)
+**Last Updated:** September 13, 2026 (validation module 22_binding_site_validation scripts 01-14 fixed + ready to run)
 
 ---
 
@@ -85,6 +85,29 @@
 | 3327732 | a9a10_md100 | (ended) | time out | MD simulation (ach 2to3) — TIMED OUT, no DCD |
 | 3332533 | boltz2_cofold | pax105 | 22h | Boltz-2 cofolding study |
 | 3327734 | a9a10_md100 | — | — | MD simulation (queued, never ran); 0 DCD exist |
+
+## ACTIVE SLURM JOBS (as of Sep 13, 2026)
+
+| Job ID | Name | Purpose |
+|--------|------|---------|
+| 3633143 | sdcofold (Boltz-2 step3) | full_panel array (180 YAMLs, %2) — still RUNNING; validation run candidates to `afterok:3633143` |
+
+## VALIDATION MODULE (22_binding_site_validation) — READY
+
+All 14 scripts fixed (2026-09-13) and smoke-tested against live data; the seven rewritten
+scripts (05,06,09,10,11,13,14) were de-risked by a trial run — all pass, including a fixed
+tuple-key JSON bug in 09. Current interim classification: **B. Structurally supported (SiteAF3 pending)**.
+
+**Run AFTER 3633143 completes:**
+```bash
+cd /cluster/home/nbhatt04/lean_pipeline/22_binding_site_validation
+sbatch --dependency=afterok:3633143 submit_validation.sh
+```
+- STEP 1 = CPU analysis (`run_all.sh`, scripts 01-14, ~10-15 min). Regenerates all
+  `outputs/*.json` + `outputs/14_validation_report.md` on the FINAL 180-condition panel.
+- STEP 2 = SiteAF3 GPU array (80 configs). Gated on `SITEAF3_AF3_ENV`/`SITEAF3_MODEL_DIR`.
+  **NOT configured** — AF3 conda env + model weights + MSA DBs are absent on this account,
+  so STEP 2 prints a WARN and exits; report stays at class B until SiteAF3 runs.
 
 ### Queued: Site-Directed Cofolding (starts Sep 9)
 
